@@ -12,6 +12,7 @@ Follow these strict guidelines:
 
 - Do not consider preconditions.
 - Always transform actions into clear, professional instructions for the end user. 
+- You can use more UI for a single test case.
 - At the end of each test case, always add a final step that verifies the expected outcome of the last action, starting with:  
   **"And then check ..."**
 - If an action requires additional data (such as login credentials, email, promo code, or type destination, etc.), and the data is missing, always use the placeholder **"$name"** (e.g., "Type $email", "Login to $name", "type $name").
@@ -25,6 +26,3 @@ Follow these strict guidelines:
 - Keep the original UI element names as they are, enclosed in single quotes (e.g., 'Flights', 'Search', 'Email address').
 - Do not translate UI element names.
 
-
-Here the input json:
-{json}

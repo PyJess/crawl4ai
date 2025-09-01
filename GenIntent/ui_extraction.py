@@ -6,6 +6,7 @@ from langchain_openai import ChatOpenAI
 
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 async def main():
 
     
@@ -26,21 +27,27 @@ async def main():
         result = await crawler.arun(url="https://www.ryanair.com/en/en", config=run_config)
 
         if result.success:
-            cleaned = result.html
+            url= result.url
+            print(f"Successfully crawled {url}")
+            html = result.html
+            html= "The html of this url:"+ url + "is this:" + html
             #print(cleaned)  # Contiene il DOM completo utile per estrazione UI
 
         with open("system_prompt.txt", "r") as f:
             system_prompt = f.read()
+
+        with open("user_prompt_ui.txt", "r") as f:
+            user_prompt = f.read()
 
         with open("schema_ui.json", "r") as f:
             schema = json.load(f)
 
 
         gpt = ChatOpenAI(model="gpt-4.1", temperature=0.1).with_structured_output(schema, strict=True)
-        system_prompt = system_prompt.replace("{html}", cleaned)
 
         messages = [
-            {"role": "system", "content": system_prompt}]
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt.replace("{html}", html)}]
         
         response = await a_invoke_model(gpt, messages)
         print(response)

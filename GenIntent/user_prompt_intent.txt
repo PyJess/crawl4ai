@@ -1,0 +1,4 @@
+Here you find the json with all the UIs of the analyzed page:
+{json}
+
+From this json, extract all the possible test cases.

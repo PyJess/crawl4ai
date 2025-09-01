@@ -7,22 +7,24 @@
       "properties": {
         "url": { "type": "string" },
         "title": { "type": "string" },
+        "parent_url": {"type": "string"},
         "components": {
           "type": "array",
           "items": {
             "type": "object",
             "properties": {
               "type": { "type": "string", "enum": ["button", "input", "select", "checkbox", "link"] },
-              "text": { "type": ["string", "null"] },
-              "input_type": { "type": ["string", "null"] },
-              "placeholder": { "type": ["string", "null"] },
-              "id": { "type": ["string", "null"] },
-              "class": { "type": ["string", "null"] },
-              "name": { "type": ["string", "null"] },
+              "text": { "type": "string" },
+              "input_type": { "type": "string" },
+              "placeholder": { "type": "string" },
+              "id": { "type": "string" },
+              "description": { "type": "string" },
+              "class": { "type": "string" },
+              "name": { "type": "string" },
               "xpath": { "type": "string" },
               "enabled": { "type": "boolean" },
               "visible": { "type": "boolean" },
-              "value": { "type": ["string", "null"] },
+              "value": { "type": "string" },
               "options": {
                 "type": "array",
                 "items": {
@@ -35,18 +37,18 @@
                 }
               },
               "checked": { "type": "boolean" },
-              "label": { "type": ["string", "null"] },
-              "href": { "type": ["string", "null"] }
+              "label": { "type": "string" },
+              "href": { "type": "string" }
             },
             "required": [
-              "type", "text", "input_type", "placeholder", "id", "class",
+              "type", "text", "input_type", "placeholder", "id", "description", "class",
               "name", "xpath", "enabled", "visible",
               "value", "options", "checked", "label", "href"
             ]
           }
         }
       },
-      "required": ["url", "title", "components"]
+      "required": ["url", "title","parent_url", "components"]
     }
   },
   "required": ["page"]

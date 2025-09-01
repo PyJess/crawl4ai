@@ -11,7 +11,3 @@ Your task:
   * state: JSON object capturing disabled, checked, expanded, visible statuses (true or false)
   * hierarchy: string breadcrumb indicating its place in the DOM tree
 
-
-Here the HTML:
-
-{html}
