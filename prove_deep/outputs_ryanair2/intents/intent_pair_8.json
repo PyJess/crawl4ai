@@ -1,0 +1,88 @@
+[
+  {
+    "test_case_name": "Navigate to 'investor.ryanair.com' Cookie Policy from Parent Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'investor.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'investor.ryanair.com' cookie policy child page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQ from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'investor.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'FAQ' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees Information from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'investor.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Fees' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'investor.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'investor.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "test_case_name": "Access FAQ page from Cookie Policy",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees information from Cookie Policy",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open www.ryanair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the www.ryanair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open help.ryanair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the help.ryanair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open careers.ryanair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the careers.ryanair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open corporate.ryanair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corporate.ryanair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open investor.ryanair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'investor.ryanair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the investor.ryanair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open buzzair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the buzzair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open onlineform.buzzair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.buzzair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the onlineform.buzzair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open onlineform.ryanair.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the onlineform.ryanair.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open warsawaviation.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the warsawaviation.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open b737trassessments.com cookie policy details",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the b737trassessments.com cookie policy details are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookiepedia for cookie management information",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'http://www.cookiepedia.co.uk/index.php?title=How_to_Manage_Cookies' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookiepedia page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access AboutCookies.org for cookie information",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'http://www.aboutcookies.org/' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the AboutCookies.org page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Mozilla Firefox\u00ae support for cookie deletion",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Mozilla Firefox\u00ae' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Mozilla Firefox\u00ae support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Microsoft\u00ae Internet Explorer support for cookie management",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Microsoft\u00ae Internet Explorer' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Microsoft\u00ae Internet Explorer support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Google Chrome\u2122 support for cookie management",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Google Chrome\u2122' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Google Chrome\u2122 support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Safari\u00ae support for cookie management",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Safari\u00ae' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Safari\u00ae support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access YourOnlineChoices for online advertising preferences",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'http://www.youronlinechoices.eu/' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the YourOnlineChoices page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General terms & conditions of carriage from footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies policy from footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie preferences modal from footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy",
+    "intents": [
+      {
+        "intent": "Click 'Cookie preferences' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie preferences modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,414 @@
+[
+  {
+    "test_case_name": "Accept all cookies and access the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Business section page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Cookie Policy from the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and close the cookie banner in the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Chiudi' button to close the cookie banner",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site from the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Corporate' link in the external navigation",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external site is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar and perform a search in the Business section (desktop)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Search' button to open the search bar",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the search field in the Business section (desktop)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Search' button to open the search bar",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search field",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login and authenticate in the Business section (desktop)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is authenticated and redirected appropriately",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login and select 'Mantieni L'accesso' in the Business section (desktop)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is authenticated and the session is persistent",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery from guest login in the Business section (desktop)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Recupera Password' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration from guest login in the Business section (desktop)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Registrati' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'ACCEDI' button to access Inbiz",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login and authenticate in the Business section (mobile)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button with class 'customBtn greenBackground col-sm-24 col-xs-24' to log in as a guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is authenticated and redirected appropriately",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration from guest login in the Business section (mobile)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'REGISTRATI' button to access registration",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery from guest login in the Business section (mobile)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Recupera Password' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search in the Business section (mobile)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the mobile search form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the search field in the Business section (mobile)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for Solution-Loan Lavoro in the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' button for Solution-Loan Lavoro",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Solution-Loan Lavoro page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for Made in Italy in the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' button for Made in Italy",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Made in Italy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri micropagamenti' in the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Scopri micropagamenti' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the micropayments information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri la Polizza' in the Business section",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Scopri la Polizza' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Polizza Collettiva Malattie Gravi page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

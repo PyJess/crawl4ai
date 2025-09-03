@@ -1,0 +1,416 @@
+[
+  {
+    "test_case_name": "Apply a promo code after entering departure and destination",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Apply promo code'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the promo code application process is initiated or a promo code input is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for flights with one way trip selection",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'One way'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for one way flights are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for flights with return trip selection",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Return trip'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for return flights are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQs from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'FAQs'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Assistance section from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Assistance'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assistance page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the market switcher from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Open market switcher'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market switcher modal or dropdown is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'myRyanair Portal'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal page or login prompt is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Log in from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Log in'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form or authentication prompt is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'My Bookings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Bookings page or login prompt is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate through notifications using carousel controls",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Open previous notification'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Open next notification'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the carousel displays the correct notification content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read more about bag sizers and gate bag fees",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Read more' (with href 'https://www.ryanair.com/ie/en/lp/travel-extras/bag-sizers-and-gate-bag-fees-explained')",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the bag sizers and gate bag fees information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read more about external travel information (atcruinedourholiday.com)",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Read more' (with href 'https://www.atcruinedourholiday.com/')",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external site atcruinedourholiday.com is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Southern Sardinia from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Discover Southern Sardinia'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Sardinia tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Milan and Bergamo from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Milan and Bergamo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bergamo tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Bergamo\u2019s Citt\u00e0 Alta from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Explore Bergamo\u2019s Citt\u00e0 Alta'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Citt\u00e0 Alta tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Experience winter in Prague from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Experience winter in Prague'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prague travel guide page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Visit Beziers Cap d\u2019Agde South of France from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Visit Beziers Cap d\u2019Agde South of France'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Beziers Cap d\u2019Agde tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the guide to Gdansk from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Our guide to Gdansk'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gdansk flights or guide page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Bergamo and more from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Discover Bergamo and more'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Milan Bergamo Airport information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Pyrenees & Lourdes from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Pyrenees & Lourdes'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Pyrenees holiday page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Travel to sunny Carcassonne, France from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Travel to sunny Carcassonne, France'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carcassonne tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Welcome to southwestern France from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Welcome to southwestern France'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Toulouse airport or region information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Welcome to the Loire Valley from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Welcome to the Loire Valley!'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Loire Valley tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Provence from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Provence, where the sun shines 300 days a year'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Provence tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Change cookie settings from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie settings modal or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'No, thanks'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that cookies are rejected and the cookie popup is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept cookies from the terms and conditions page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+    "intents": [
+      {
+        "intent": "Click 'Yes, I agree'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that cookies are accepted and the cookie popup is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "test_case_name": "Accept all cookies from the parent page and verify on the child page",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent is reflected or not requested again on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies via 'Pi\u00f9 opzioni' on the parent page and verify on the child page",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options or preferences are maintained on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login on the parent page and attempt login on the child page (desktop)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $password in the 'Password' input field on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' on the child page",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest login attempt is processed on the child page",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login on the parent page and attempt login on the child page (mobile)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field on the child page (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $password in the 'Password' input field on the child page (mobile)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' on the child page (mobile)",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest login attempt is processed on the child page (mobile)",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration from the parent page and complete registration on the child page (desktop)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Registrati' on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the registration process is initiated on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration from the parent page and complete registration on the child page (mobile)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'REGISTRATI' on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the registration process is initiated on the child page (mobile)",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate password recovery from the parent page and continue on the child page (desktop)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Recupera Password' on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate password recovery from the parent page and continue on the child page (mobile)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Recupera password' on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the child page (mobile)",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search from the parent page and verify search field on the child page (desktop)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' input field on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' on the parent page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field 'Cosa posso fare per te oggi?' is available and ready for input on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search from the parent page and verify search field on the child page (mobile)",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' input field on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' on the parent page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field 'Cerca' is available and ready for input on the child page (mobile)",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' from the parent page and verify on the child page",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Navigate to the child page 'Carte: conversione valutaria - Intesa Sanpaolo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Parla con noi' on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' module is accessible on the child page",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

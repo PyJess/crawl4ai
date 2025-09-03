@@ -1,0 +1,374 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (banner)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (banner)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link (desktop) to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the complaint submission form via 'Scrivi ed invia il reclamo' link",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scrivi ed invia il reclamo' link to open the complaint submission form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the complaint submission form page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 2023 complaint management report via 'Intesa Sanpaolo -\u00a0Rendiconto attivit\u00e0 di gestione dei reclami 2023' link",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Intesa Sanpaolo -\u00a0Rendiconto attivit\u00e0 di gestione dei reclami 2023' link to download the report",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the conciliation procedure access form via 'Compila e inoltra la domanda di accesso alla procedura di conciliazione' link",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Compila e inoltra la domanda di accesso alla procedura di conciliazione' link to download the form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 2023 complaint management report via 'Apri la Rendiconto attivit\u00e0 di gestione dei reclami 2023' link",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Apri la Rendiconto attivit\u00e0 di gestione dei reclami 2023' link to download the report",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Privacy - Cookie policy' link",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy - Cookie policy' link to view the privacy and cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search using the 'Cosa posso fare per te oggi?' input and search button",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search using the reset button",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search using the 'Cerca' input and search button",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Parla con noi' page via header link",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button (desktop)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login using the 'Accesso clienti' button (desktop)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Scopri il conto' page via header link (desktop)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Scopri il conto' page via header link (mobile)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login using the 'ACCESSO CLIENTI' button (mobile)",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button to open the client login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab in the menu",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to switch to the 'Tutti i Prodotti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' tab in the menu",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i giorni' button to switch to the 'Tutti i giorni' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' tab in the menu",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti della Vita' button to switch to the 'Momenti della Vita' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the home page via 'Home' breadcrumb link",
+    "references": "reclami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

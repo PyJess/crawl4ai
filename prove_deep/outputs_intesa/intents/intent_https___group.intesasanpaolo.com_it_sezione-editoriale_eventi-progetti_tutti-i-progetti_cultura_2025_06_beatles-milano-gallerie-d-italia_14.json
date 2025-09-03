@@ -1,0 +1,486 @@
+[
+  {
+    "test_case_name": "Accept all cookies via the cookie banner",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'ACCONSENTO' link to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie preferences from the cookie banner",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'PI\u00d9 OPZIONI' link to open cookie preferences",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner without accepting cookies",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d.' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed without accepting cookies",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the main content using accessibility button",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the menu using accessibility button",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the footer using accessibility button",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar from the header",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button described as 'Open search' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cerca' is displayed and focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the header search bar",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button described as 'Open search' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button described as 'Header search submit'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results page or section is displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the mobile menu from the header",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button described as 'Open mobile menu' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the homepage using the breadcrumb link",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Homepage' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Eventi e Progetti' using the breadcrumb link",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Eventi e Progetti' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Eventi e Progetti' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Tutti i progetti' using the breadcrumb link",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i progetti' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i progetti' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the exhibition site via the main call-to-action",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the exhibition site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the exhibition site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Load more images in the gallery",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Carica altre immagini' button to load more images",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that additional images are displayed in the gallery",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the image gallery modal",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Close (Esc)' to close the gallery modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the gallery modal is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Share an image from the gallery",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Share' in the gallery modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the share options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle fullscreen mode in the gallery",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Toggle fullscreen' in the gallery modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the gallery enters or exits fullscreen mode",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Zoom in or out on an image in the gallery",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Zoom in/out' in the gallery modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the image is zoomed in or out accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the previous image in the gallery",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Previous (arrow left)' in the gallery modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the previous image is displayed in the gallery",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the next image in the gallery",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Next (arrow right)' in the gallery modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the next image is displayed in the gallery",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Rauschenberg exhibition via card link",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the link 'Arte contemporanea in mostra a Milano: Rauschenberg e gli Anni Sessanta'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Rauschenberg exhibition page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Jess T. Dugan exhibition via card link",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the link 'Jess T. Dugan alle Gallerie d\u2019Italia di Milano'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Jess T. Dugan exhibition page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the JR exhibition via card link",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the link '\"Chi sei, Napoli?\" la mostra di JR alle Gallerie d'Italia '",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the JR exhibition page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch the website language to English",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'EN' link in the language switcher",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the website language changes to English",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the contact page from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Contatti' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access notifications from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Notifiche' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the notifications section or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the newsletter registration page from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Newsletter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the newsletter registration page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Intesa Sanpaolo On Air' from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Intesa Sanpaolo On Air' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Intesa Sanpaolo On Air' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Grattacieli sostenibili' from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Grattacieli sostenibili' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Grattacieli sostenibili' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access social media information from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Social media' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the social media information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Persone e Famiglie' from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Business' section from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Corporate' section from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Storico UBI Banca' from the footer",
+    "references": "https://group.intesasanpaolo.com/it/sezione-editoriale/eventi-progetti/tutti-i-progetti/cultura/2025/06/beatles-milano-gallerie-d-italia",
+    "intents": [
+      {
+        "intent": "Click the 'Storico UBI Banca' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Storico UBI Banca' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

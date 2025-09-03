@@ -1,0 +1,776 @@
+[
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Accept All Cookies on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open Cookie Policy Options on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie policy options are displayed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Skip to Main Content",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Skip to Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Skip to Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Corporate' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Gruppo' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Careers' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'News' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'News'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Club Azionisti' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Finanza Insieme' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Quick Training' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Business' Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Business' main menu page is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Exclusive' Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Exclusive'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' main menu page is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open Client Login Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open Search Functionality",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input is displayed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Parla con noi' Header Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' and Open 'Scopri il conto' Header Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is opened from the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Query on 'Persone e Famiglie' Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query on the 'Persone e Famiglie' page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on 'Persone e Famiglie' Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Query on 'Persone e Famiglie' Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query on the 'Persone e Famiglie' page (mobile view).",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on 'Persone e Famiglie' Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared on the 'Persone e Famiglie' page (mobile view).",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on 'Persone e Famiglie' Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the 'Persone e Famiglie' page (desktop view).",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' and Login as Guest on 'Persone e Famiglie' Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is set to be persistent on the 'Persone e Famiglie' page (desktop view).",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login on 'Persone e Famiglie' Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the 'Persone e Famiglie' page (desktop view).",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login on 'Persone e Famiglie' Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration process is initiated on the 'Persone e Famiglie' page (desktop view).",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on 'Persone e Famiglie' Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the 'Persone e Famiglie' page (mobile view).",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login on 'Persone e Famiglie' Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration process is initiated on the 'Persone e Famiglie' page (mobile view).",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login on 'Persone e Famiglie' Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the 'Persone e Famiglie' page (mobile view).",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' from Mobile Section on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is opened from the mobile section on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Modal from Mobile Section on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCESSO CLIENTI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed from the mobile section on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' from Mobile Section on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is opened from the mobile section on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Tutti i Prodotti'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Tutti i giorni'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Momenti della Vita'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri isybank' from Hero Slider on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri isybank'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Scopri isybank' external website is opened from the hero slider on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri come' from Hero Slider on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri come'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Scopri come' page is opened from the hero slider on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Confronta i conti' from Hero Slider on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Confronta i conti'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Confronta i conti' page is opened from the hero slider on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' (Reward ATP) from Hero Slider on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Reward ATP' page is opened from the hero slider on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' (Eurizon Market Selection) from Hero Slider on 'Persone e Famiglie'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Eurizon Market Selection' page is opened from the hero slider on the 'Persone e Famiglie' page.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

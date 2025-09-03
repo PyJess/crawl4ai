@@ -1,0 +1,558 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options (desktop) from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (desktop) on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies (desktop) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop) on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate site from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo site from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers site from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News site from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie section from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business section from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive section from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button (desktop) on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button on the Settore condomini page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'btn-reset-search' button on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button (mobile) on the Settore condomini page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to guest area (desktop) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' on the Settore condomini page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Settore condomini page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in to the guest area",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' during guest area login (desktop) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest area (desktop) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register from guest area (desktop) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to guest area (mobile) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' on the Settore condomini page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' (mobile) on the Settore condomini page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in to the guest area",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register from guest area (mobile) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest area (mobile) on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via breadcrumb on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to main site from disclaimer on the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaolo.com' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main Intesa Sanpaolo website is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile from the Settore condomini page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' on the Settore condomini page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

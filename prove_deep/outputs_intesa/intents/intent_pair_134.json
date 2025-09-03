@@ -1,0 +1,614 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (mobile) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on the 'Fai acquisti' page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Manage cookie options via 'Pi\u00f9 opzioni' link on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to manage cookie options (mobile) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options management page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies (desktop) on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on the 'Fai acquisti' page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to open the external Corporate site from the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to open the external Gruppo site from the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to open the external Careers site from the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to open the external News site from the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' external link from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to open the Club Azionisti page from the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to open the external Finanza Insieme site from the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' external link from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to open the Quick Training page from the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' main menu from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the main menu on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' main menu from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' main menu from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link in the main menu on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search bar using 'Search' button on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from the header on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from the header on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field (desktop) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search (desktop) on the 'Fai acquisti' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the reset search button (desktop) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field (mobile) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search (mobile) on the 'Fai acquisti' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to guest area (desktop) on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (desktop) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field (desktop) on the 'Fai acquisti' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login to the guest area (desktop) on the 'Fai acquisti' page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in to the guest area",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' during guest login (desktop) on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox (desktop) during guest login on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password (desktop) from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link (desktop) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user (desktop) from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link (desktop) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to guest area (mobile) on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (mobile) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field (mobile) on the 'Fai acquisti' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login to the guest area (mobile) on the 'Fai acquisti' page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in to the guest area",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user (mobile) from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button (mobile) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password (mobile) from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link (mobile) on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' security information from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access security information on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Gestione Notifiche' service from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Gestione Notifiche' link to access the notification management service on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the notification management service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Emergenza carte' service from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Emergenza carte' link to access the card emergency service on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card emergency service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Prevenzione frodi' service from the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Prevenzione frodi' link to access the fraud prevention service on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the fraud prevention service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to main site from the footer on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'www.intesasanpaolo.com' link in the footer on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Facebook' social media from the footer on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Facebook' link in the footer on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Youtube' social media from the footer on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Youtube' link in the footer on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Twitter' social media from the footer on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Twitter' link in the footer on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'LinkedIn' social media from the footer on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'LinkedIn' link in the footer on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Instagram' social media from the footer on the 'Fai acquisti' page",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Instagram' link in the footer on the 'Fai acquisti' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from parent to 'Fai acquisti' page via 'Tutti i giorni' tab",
+    "references": "intesasanpaolo.com_fai-acquisti",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i giorni' button in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Fai acquisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

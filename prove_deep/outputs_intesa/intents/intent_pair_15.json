@@ -1,0 +1,622 @@
+[
+  {
+    "test_case_name": "Access Careers Page from Parent Site and Accept Cookies",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' link on the child page to accept cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page from Parent Site and View Cookie Options",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' link on the child page to view cookie options",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page from Parent Site and Close Cookie Banner",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with id 'js-cookie-banner-close' on the child page to close the cookie banner",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Skip to Content Accessibility Feature",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Skip to Menu Accessibility Feature",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Men\u00f9' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Skip to Footer Accessibility Feature",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Perform a Search",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with class 'header-navbar-btn-search' on the child page to open the search bar",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' input on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click button with class 'btn-search' to submit the search on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the child page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Open Mobile Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with class 'header-navbar-btn-toggler' on the child page to open the mobile menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Navigate to Sidebar Menu Item 'Perch\u00e9 Intesa Sanpaolo'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Perch\u00e9 Intesa Sanpaolo' link in the sidebar menu on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Navigate to Sidebar Menu Item 'Posizioni aperte'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Posizioni aperte' link in the sidebar menu on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Posizioni aperte' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Navigate to Sidebar Menu Item 'International Graduate Program'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'International Graduate Program' link in the sidebar menu on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'International Graduate Program' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Navigate to Sidebar Menu Item 'Percorsi in evidenza'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Percorsi in evidenza' link in the sidebar menu on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Percorsi in evidenza' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Navigate to Sidebar Menu Item 'FAQ e contatti'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'FAQ e contatti' link in the sidebar menu on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'FAQ e contatti' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Hero Carousel CTA 'Scopri i nostri percorsi'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri i nostri percorsi' link in the hero carousel on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Percorsi in evidenza' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Hero Carousel CTA 'Candidati ora'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Candidati ora' link in the hero carousel on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'lavorare-nella-consulenza-finanziaria' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Hero Carousel CTA 'Scopri di pi\u00f9' (Perch\u00e9 Intesa Sanpaolo)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' link in the hero carousel on the child page (href='/it/careers/perche-intesa-sanpaolo')",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Hero Carousel CTA 'Scopri di pi\u00f9' (Welfare e benefit)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' link in the hero carousel on the child page (href='/it/careers/perche-intesa-sanpaolo/welfare-e-benefit')",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Welfare e benefit' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card 'Students and Graduates'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Students and Graduates' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'students-and-graduates' positions page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card CTA 'Scopri le posizioni aperte' (Students and Graduates)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri le posizioni aperte' link for Students and Graduates on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'students-and-graduates' positions page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card 'Experienced'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Experienced' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'experienced' positions page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card CTA 'Scopri le posizioni aperte' (Experienced)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri le posizioni aperte' link for Experienced on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'experienced' positions page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Banner CTA 'SCOPRI COME CANDIDARTI'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI COME CANDIDARTI' link in the banner on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the selection process page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card 'Perch\u00e9 Intesa Sanpaolo'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Perch\u00e9 Intesa Sanpaolo' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card CTA 'Approfondisci' (Perch\u00e9 Intesa Sanpaolo)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Approfondisci' link for Perch\u00e9 Intesa Sanpaolo on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card 'Welfare e benefit'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Welfare e benefit' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Welfare e benefit' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Card CTA 'Approfondisci' (Welfare e benefit)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Approfondisci' link for Welfare e benefit on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Welfare e benefit' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Hero Text CTA 'International Graduate Program'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'International Graduate Program' link in the hero text on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'International Graduate Program' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Hero Text CTA 'Approfondisci' (International Graduate Program)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Approfondisci' link for International Graduate Program in the hero text on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'International Graduate Program' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Open Event Card 'Bocconi Investment Banking Days'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Bocconi Investment Banking Days' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the external event page for 'Bocconi Investment Banking Days' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Open Event Article 'LUISS Banking & Finance Days'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'LUISS Banking & Finance Days' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the external event page for 'LUISS Banking & Finance Days' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Open Event Article 'Universidade Nova de Lisboa Career Fair'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Universidade Nova de Lisboa Career Fair' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the external event page for 'Universidade Nova de Lisboa Career Fair' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Open Event Article 'HEC International Finance Fair'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'HEC International Finance Fair' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the external event page for 'HEC International Finance Fair' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Hero Text CTA 'Approfondisci' (Presenza Internazionale)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Approfondisci' link for Presenza Internazionale in the hero text on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Presenza Internazionale' external page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers Page and Use Top Employer Section Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri cosa rende speciale il nostro team' link in the Top Employer section on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

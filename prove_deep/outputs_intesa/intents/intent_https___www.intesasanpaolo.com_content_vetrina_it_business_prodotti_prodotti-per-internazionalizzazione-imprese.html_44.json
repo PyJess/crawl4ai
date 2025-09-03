@@ -1,0 +1,592 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Corporate' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to open the external Corporate page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Gruppo' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to open the external Gruppo page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Careers' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to open the external Careers page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'News' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to open the external News page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Club Azionisti' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to open the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Finanza Insieme' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to open the external Finanza Insieme page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Quick Training' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to open the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to switch to the 'Tutti i Prodotti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Settori' button to switch to the 'Settori' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti' button to switch to the 'Momenti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Servizi digitali' button to switch to the 'Servizi digitali' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the desktop search bar",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca' button (desktop) to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search bar",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is empty",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page from header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using 'Menu' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the login modal using 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the mobile search bar",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca' button (mobile) to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking via 'ACCEDI ALLA TUA BANCA ONLINE' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI ALLA TUA BANCA ONLINE' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login via 'ENTRA COME OSPITE' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA COME OSPITE' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest with email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest login password via 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' checkbox during guest login",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable the keep me logged in option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is checked",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Start guest registration via 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Start guest registration via 'REGISTRATI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button (mobile) to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn about online safety via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to learn about online safety",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online safety information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Cash Pooling Internazionale' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Cash Pooling Internazionale' to view product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cash Pooling Internazionale' product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Copertura rischi e garanzie' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Copertura rischi e garanzie' to view product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Copertura rischi e garanzie' product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Recupero Crediti Internazionali' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Recupero Crediti Internazionali' to view product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Recupero Crediti Internazionali' product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Modulo Estero' product details via 'VAI SU INBIZ' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'VAI SU INBIZ' link for 'Modulo Estero' to view product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Modulo Estero' product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Rete Internazionale del Gruppo Intesa Sanpaolo' service details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Rete Internazionale del Gruppo Intesa Sanpaolo' to view service details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Rete Internazionale del Gruppo Intesa Sanpaolo' service details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Incontri con gli specialisti' service details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Incontri con gli specialisti' to view service details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incontri con gli specialisti' service details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Business Strategy' service details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Business Strategy' to view service details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business Strategy' service details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Incoming Italia' service details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Incoming Italia' to view service details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incoming Italia' service details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

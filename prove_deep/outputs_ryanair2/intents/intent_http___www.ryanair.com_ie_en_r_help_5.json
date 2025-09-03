@@ -1,0 +1,384 @@
+[
+  {
+    "test_case_name": "Search for Information Using the Help Centre Search Bar",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Type '$name' into the input with placeholder 'I am looking for\u2026'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with value 'Search'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results relevant to '$name' are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Travel Agent Bookings Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Travel Agent Bookings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Travel Agent Bookings category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cancelled, Delayed and Rescheduled Flights Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Cancelled, Delayed and Rescheduled Flights'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cancelled, Delayed and Rescheduled Flights category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Booking Changes Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Booking Changes'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Booking Changes category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Check-In & Travel Documents Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Check-In & Travel Documents'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Check-In & Travel Documents category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Travelling With Children Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Travelling With Children'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Travelling With Children category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Bag Rules Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Bag Rules'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bag Rules category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Refunds Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Refunds'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Refunds category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Seat Rules Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Seat Rules'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Seat Rules category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Special Assistance Category from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Special Assistance'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Special Assistance category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Terms of Use'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'General terms & conditions of carriage'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies Policy from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Cookies'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Contact us'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Cookie Preferences'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Preferences modal or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'My Bookings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Bookings page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'myRyanair Portal'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Log in Page from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Log in'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Account from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'My account'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My account page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Wallet from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'My wallet'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My wallet page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Manage My Bookings from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'Manage my bookings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Manage my bookings page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Support Cases from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'My support cases'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My support cases page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Home from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'myRyanair home'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQs from Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the link 'FAQs'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle Navigation Menu in Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the button 'Toggle navigation menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is toggled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Change Language or Region in Help Centre",
+    "references": "http://www.ryanair.com/ie/en/r/help",
+    "intents": [
+      {
+        "intent": "Click the button 'Ireland (English)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the language or region selection options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,508 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy - Cookie policy from the cookie banner on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Corporate' link from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Gruppo' link from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Careers' link from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'News' link from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Club Azionisti' page from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Finanza Insieme' link from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Quick Training' page from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri il conto' from the header on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest using the mobile registration button on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login accordion on mobile on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login section expands",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login accordion on mobile on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login section expands",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF file from the first news item on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Download PDF file' for the first news item",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF file from the second news item on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Download PDF file' for the second news item",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Return to the home page using the breadcrumb on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close modal dialog on the 'Tutte le notizie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Close' on the modal dialog",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal dialog is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

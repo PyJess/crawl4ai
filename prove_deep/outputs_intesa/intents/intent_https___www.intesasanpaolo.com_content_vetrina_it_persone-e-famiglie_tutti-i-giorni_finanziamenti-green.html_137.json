@@ -1,0 +1,514 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open the cookie options page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner via close button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the close button to dismiss the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login area via 'Accesso clienti' button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login area",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search via 'Search' button",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using desktop search field",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search query (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the reset button to clear the desktop search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cosa posso fare per te oggi?' search input field is empty",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using mobile search field",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search query (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login area via 'ACCESSO CLIENTI' button (mobile)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button to open the client login area (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login area is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open account discovery via 'Scopri il conto' link (header)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header to view account options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open account discovery via 'Scopri il conto' button (mobile)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' button on mobile to view account options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account options page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user (desktop) with remember me option",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable remember me",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user (desktop) without remember me option",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to initiate password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest user via 'Registrati' link (desktop)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the guest user registration process (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user (mobile)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest user via 'REGISTRATI' button (mobile)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the guest user registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to initiate password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to For Funding site via 'sito di For Funding' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'sito di For Funding' link to visit the For Funding website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the For Funding website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Facile.it via 'Scopri su Facile.it' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri su Facile.it' link to visit Facile.it",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facile.it website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View XME Prestito Diretto offer via 'Scopri l'offerta' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri l'offerta' link to view the XME Prestito Diretto offer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the offer details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Facile.it via 'Facile.it' link in info section",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Facile.it' link in the info section to visit Facile.it",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facile.it website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Facebook via 'Profilo ufficiale Facebook' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Facebook' link in the footer to visit the official Facebook profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Youtube via 'Profilo ufficiale Youtube' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Youtube' link in the footer to visit the official Youtube profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Twitter via 'Profilo ufficiale Twitter' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Twitter' link in the footer to visit the official Twitter profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to LinkedIn via 'Profilo ufficiale LinkedIn' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale LinkedIn' link in the footer to visit the official LinkedIn profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Instagram via 'Profilo ufficiale Instagram' link",
+    "references": "finanziamenti-green.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Instagram' link in the footer to visit the official Instagram profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

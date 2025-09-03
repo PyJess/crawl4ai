@@ -1,0 +1,190 @@
+[
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and initiate chat",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Let's Chat' link on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the chat interface or chat article is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and search for information",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'I am looking for\u2026' search input on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Search' button on the Contact Us page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and open Queries/Feedback form",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Queries/Feedback' link on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Queries/Feedback Form' link on the Contact Us page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Queries/Feedback Form page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and view All Countries Contact Details",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'All Countries Contact Details' link on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the All Countries Contact Details article is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and expand Contact Us accordion",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact Us' button (accordion toggle) on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact Us accordion section expands to show its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and expand Call Us - International accordion",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Call Us - International' button (accordion toggle) on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Call Us - International accordion section expands to show its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and expand Call Us - International (English) accordion",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Call Us - International (English)' button (accordion toggle) on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Call Us - International (English) accordion section expands to show its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and expand Queries/Feedback accordion",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Queries/Feedback' button (accordion toggle) on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Queries/Feedback accordion section expands to show its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and open Call Us - Ireland article",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Call Us - Ireland' link on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Call Us - Ireland article is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us page from Cookie Policy and open myRyanair Portal login",
+    "references": "ryanair.com_cookie-policy_and_contact-us",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'myRyanair Portal' link on the Contact Us page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal login page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

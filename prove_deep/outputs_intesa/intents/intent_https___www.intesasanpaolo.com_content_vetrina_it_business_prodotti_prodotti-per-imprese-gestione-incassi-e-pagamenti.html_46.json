@@ -1,0 +1,456 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to open the cookie options page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to open the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click the close button to dismiss the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search field (desktop) and perform a search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Search' to open the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search button to submit the search (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field (desktop) after entering a query",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the reset search button (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search field (mobile) and perform a search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply 'RICHIEDI ONLINE' filter and apply filters",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI ONLINE' checkbox to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'RICHIEDI ONLINE'",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Digifattura' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link to view details about Digifattura",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Digifattura product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'MyBank' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link to view details about MyBank",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the MyBank product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Ordinativo Informatico' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link to view details about Ordinativo Informatico",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Ordinativo Informatico product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Solution PA' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link to view details about Solution PA",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Solution PA product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Crediti di firma' product details via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link to view details about Crediti di firma",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Crediti di firma product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Tesoreria aziendale via 'VAI SU INBIZ' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'VAI SU INBIZ' link to access Inbiz Tesoreria aziendale",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz Tesoreria aziendale page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer login via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the customer login section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' support page via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header to access support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section via top navigation link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link in the top navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section via top navigation link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Business' link in the top navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section via top navigation link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link in the top navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' section via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to access the Club Azionisti section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' section via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-imprese-gestione-incassi-e-pagamenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to access the Quick Training section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the Sicurezza Digitale page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy options from the cookie banner on the Sicurezza Digitale page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner on the Sicurezza Digitale page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri come fare' for digital security guidance",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital security guidance page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about phishing, vishing, and smishing frauds",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Frodi online: phishing, vishing e smishing on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the phishing, vishing, and smishing fraud information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information on how to defend against phishing banking fraud",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Come difendersi dal phishing bancario on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the phishing banking fraud defense page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information on how to defend against online fraud",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Come difendersi dalle frodi online on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online fraud defense page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about malware",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Il Malware on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the malware information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about money mule fraud",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Il Muling on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the money mule fraud information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about romance scams",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Le truffe sentimentali on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the romance scams information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about business scams",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Le truffe alle aziende on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the business scams information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about investment scams",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - La truffa dell\u2019investimento on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the investment scams information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about online purchase scams",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Le truffe sugli acquisti online on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online purchase scams information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about cookies and site data",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Non essere goloso dei cookie! on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookies and site data information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about cyberbullying on social networks",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Social network: vittima o complice del cyberbullismo? on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cyberbullying information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about password entropy",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Quanta entropia ha la tua password on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password entropy information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access information about bank initiatives for cyber security",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Le iniziative della banca' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the bank initiatives for cyber security page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Watch the cyber security awareness video",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Guarda il video' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cyber security awareness video page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from the homepage to Sicurezza Digitale via 'Persone e Famiglie' menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sicurezza digitale' in the 'Persone e Famiglie' section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Sicurezza Digitale page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for digital security topics on Sicurezza Digitale page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' on the Sicurezza Digitale page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for digital security topics on Sicurezza Digitale page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the Sicurezza Digitale page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the mobile search form on the Sicurezza Digitale page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

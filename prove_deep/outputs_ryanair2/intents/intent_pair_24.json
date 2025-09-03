@@ -1,0 +1,190 @@
+[
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and search for flights",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Departure' input with placeholder 'Departure' on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Destination' input with placeholder 'Destination' on the 'Contact Us' page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'Search' button on the 'Contact Us' page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the entered departure and destination",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and apply a promo code",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Apply promo code' button on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the promo code input or confirmation is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and switch trip type to One way",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'One way' radio button on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the trip type is set to 'One way'",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and open next notification",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Open next notification' button on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the next notification is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and open previous notification",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Open previous notification' button on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the previous notification is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and access Help centre",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Help centre' link on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Help centre page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and access Flight info",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Flight info' link on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flight info page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and read more about bag sizers and gate bag fees",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Read more' link with href 'https://www.ryanair.com/ie/en/lp/travel-extras/bag-sizers-and-gate-bag-fees-explained' on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the bag sizers and gate bag fees information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and read more about ATC ruined our holiday",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Read more' link with href 'https://www.atcruinedourholiday.com/' on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the ATC ruined our holiday page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Contact Us and access special assistance",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Assistance' link on the 'Contact Us' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the special assistance page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

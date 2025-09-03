@@ -1,0 +1,618 @@
+[
+  {
+    "test_case_name": "Accept All Cookies from Cookie Banner",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy via 'Pi\u00f9 opzioni' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view the cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies from Desktop Cookie Banner",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu Using Accessibility Button",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' External Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Persone e Famiglie' Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' to open the main menu for Persone e Famiglie",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Business' Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' to open the main menu for Business",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Exclusive' Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' to open the main menu for Exclusive",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the client login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Functionality",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search functionality",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Account Information via 'Scopri il conto' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' to view account information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to reset the desktop search",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox 'Mantieni L'accesso' to keep the session active",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest dashboard is displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest on mobile",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest dashboard is displayed on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to start the guest registration process on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' to start the password recovery process on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Account Information via 'Scopri il conto' Link on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' to view account information on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Modal on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' to open the client login modal on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Link on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' to contact support on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' to switch to the 'Tutti i Prodotti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' to switch to the 'Tutti i giorni' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' to switch to the 'Momenti della Vita' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Online Security Information",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Client Login Tab on Mobile",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' to access the client login tab on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login tab is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login Tab on Mobile",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' to access the guest login tab on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login tab is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Previous News in Slider",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Previous' to navigate to the previous news in the slider",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the previous news item is displayed in the slider",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Next News in Slider",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Next' to navigate to the next news in the slider",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the next news item is displayed in the slider",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

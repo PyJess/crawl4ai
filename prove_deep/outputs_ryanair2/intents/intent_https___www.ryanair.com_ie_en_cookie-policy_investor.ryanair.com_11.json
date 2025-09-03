@@ -1,0 +1,128 @@
+[
+  {
+    "test_case_name": "Access the FAQ section from the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Fees information from the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the Contact us page from the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Return to the homepage using the 'Ryanair logo' link",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Ryanair logo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Click the first legal footer link in the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the first legal footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Click the second legal footer link in the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the second legal footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Click the third legal footer link in the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the third legal footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Click the fourth legal footer link in the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the fourth legal footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Click the fifth legal footer link in the investor cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the fifth legal footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

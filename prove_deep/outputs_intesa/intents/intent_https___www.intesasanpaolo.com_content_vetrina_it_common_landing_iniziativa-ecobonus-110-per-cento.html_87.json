@@ -1,0 +1,414 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click '' (Chiudi cookie banner)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login area via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login area is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search via 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed and focused.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login via 'ACCEDI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest with email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest with 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password via 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Upload documents to Intesa Sanpaolo via 'Carica i documenti' button (first block)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Carica i documenti' (Intesa Sanpaolo)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo document upload page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Upload documents to Deloitte via 'Carica i documenti' button (first block)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Carica i documenti' (Deloitte)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Deloitte document upload page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View important communication via 'Scopri di pi\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the important communication section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View all interventions via 'Scopri tutti gli interventi' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri tutti gli interventi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the interventions page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View private/condomini/enti offer via 'Scopri l'offerta' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'offerta' (privati/condomini/enti)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the offer page for privati/condomini/enti is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View companies offer via 'Scopri l'offerta' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'offerta' (aziende)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the offer page for aziende is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Upload documents to Intesa Sanpaolo via 'Carica i documenti' button (second block)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Carica i documenti' (Intesa Sanpaolo, secondo blocco)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo document upload page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Upload documents to Deloitte via 'Carica i documenti' button (second block)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Carica i documenti' (Deloitte, secondo blocco)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Deloitte document upload page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF for privati/condomini/enti via 'Scarica le specifiche complete di chi pu\u00f2 usufruirne' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scarica le specifiche complete di chi pu\u00f2 usufruirne' (privati/condomini/enti)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF for privati/condomini/enti is downloaded or displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF for aziende via 'Scarica le specifiche complete di chi pu\u00f2 usufruirne' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/iniziativa-ecobonus-110-per-cento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scarica le specifiche complete di chi pu\u00f2 usufruirne' (aziende)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF for aziende is downloaded or displayed.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

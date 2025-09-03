@@ -1,0 +1,484 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link in the external navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' website opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link in the external navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' website opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link in the external navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' website opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link in the external navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' website opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link in the external navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link in the external navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' website opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link in the external navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to view all products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Settori' button to view sector-specific products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti' button to view products by moments",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Servizi digitali' button to view digital services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term on the internationalization products page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search input on the internationalization products page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'btn-reset-search' button to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term on the internationalization products page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login and submit credentials on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA COME OSPITE' button to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest login is processed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a guest from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start guest registration",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a guest using the 'REGISTRATI' button on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start guest registration",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login on the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable keep me logged in",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from the internationalization products page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Cash Pooling Internazionale' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Cash Pooling Internazionale'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cash Pooling Internazionale' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Copertura rischi e garanzie' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Copertura rischi e garanzie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Copertura rischi e garanzie' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Recupero Crediti Internazionali' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Recupero Crediti Internazionali'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Recupero Crediti Internazionali' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Modulo Estero' via 'VAI SU INBIZ' link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'VAI SU INBIZ' link for 'Modulo Estero'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Modulo Estero' page on INBIZ is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Rete Internazionale del Gruppo Intesa Sanpaolo' service",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Rete Internazionale del Gruppo Intesa Sanpaolo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Rete Internazionale del Gruppo Intesa Sanpaolo' service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Incontri con gli specialisti' service",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Incontri con gli specialisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incontri con gli specialisti' service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Business Strategy' service",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Business Strategy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business Strategy' service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Incoming Italia' service",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Incoming Italia'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incoming Italia' service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

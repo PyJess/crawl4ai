@@ -1,0 +1,154 @@
+[
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and accept cookies",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Yes, I agree' button on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that cookie preferences are accepted and the cookie popup is dismissed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and reject cookies",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'No, thanks' button on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that cookie preferences are rejected and the cookie popup is dismissed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and view cookie settings",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'View cookie settings' button on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie settings panel is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and swipe carousel forward",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Swipe carousel forward' button on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the carousel advances to the next item",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and select 'One way' trip type",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'One way' button on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that 'One way' trip type is selected",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and select 'Return trip' trip type",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Return trip' button on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that 'Return trip' trip type is selected",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and search for flights",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure' input on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination' input on the Cookies page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search' button on the Cookies page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the flight search results are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Cookies page and apply a promo code",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Apply promo code' button on the Cookies page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the promo code input or confirmation is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

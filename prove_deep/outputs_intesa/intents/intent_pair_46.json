@@ -1,0 +1,444 @@
+[
+  {
+    "test_case_name": "Apply Online and Promotion Filters for POS Solutions",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox 'RICHIEDI ONLINE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the checkbox 'IN PROMOZIONE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button 'APPLICA FILTRI'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the POS solutions list is filtered by both 'RICHIEDI ONLINE' and 'IN PROMOZIONE'",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for POS Solutions Using Desktop Search Field",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button 'Cerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for POS solutions are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for POS Solutions Using Mobile Search Field",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for POS solutions are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the POS Solutions page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest with Remember Me Option on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox 'Mantieni L'accesso'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is set to be remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'ACCEDI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the button 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the button 'Chiudi cookie banner'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to SoftPOS Product Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for SoftPOS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SoftPOS product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to POS Mobile Product Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for POS Mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Mobile product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Nexi SmartPOS Mini with Printer Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for Nexi SmartPOS Mini con stampante",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS Mini with printer product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to POS Portatile Product Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for POS Portatile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Portatile product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Nexi SmartPOS Mini Telefono Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for Nexi SmartPOS Mini Telefono",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS Mini Telefono product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Nexi SmartPOS Product Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for Nexi SmartPOS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Nexi SmartPOS Cassa Plus Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for Nexi SmartPOS Cassa +",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS Cassa Plus product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to POS Cordless Plus Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for POS Cordless +",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Cordless Plus product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to POS Fisso con PIN Pad Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for POS Fisso con PIN Pad",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Fisso con PIN Pad product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to POS Virtuale XPay Web Details from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI DI PI\u00d9' for POS Virtuale XPay Web",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Virtuale XPay Web product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Additional POS Services from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI I SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the additional POS services page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read More about POS Tax Credit from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'LEGGI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS tax credit information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start Bancomat Pay E-commerce PDF from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'QUICK START BANCOMAT PAY E-COMMERCE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bancomat Pay E-commerce PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start Bancomat Pay POS Fisici PDF from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'QUICK START BANCOMAT PAY POS FISICI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bancomat Pay POS Fisici PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Link on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support or contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Branches via 'PARLA CON NOI' Link in Footer on POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'PARLA CON NOI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch search or contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Micropayments Product from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'SCOPRI MICROPAGAMENTI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Micropayments product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Online Security Information from POS Solutions Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the link 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

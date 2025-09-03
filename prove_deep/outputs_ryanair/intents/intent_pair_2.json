@@ -1,0 +1,484 @@
+[
+  {
+    "test_case_name": "Access Cookie Policy via 'View cookie settings' and verify presence of 'Cookie preferences' button",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cookie preferences' button is visible on the cookie policy page.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'FAQ' from Cookie Policy page and verify FAQ page loads",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'FAQ'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Fees' from Cookie Policy page and verify Fees page loads",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Fees'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Fees page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Contact us' from Cookie Policy page and verify Contact page loads",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'www.ryanair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'www.ryanair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the www.ryanair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'help.ryanair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'help.ryanair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the help.ryanair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'careers.ryanair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'careers.ryanair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the careers.ryanair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'corporate.ryanair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the corporate.ryanair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'investor.ryanair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'investor.ryanair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the investor.ryanair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'buzzair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'buzzair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the buzzair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'onlineform.buzzair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'onlineform.buzzair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the onlineform.buzzair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'onlineform.ryanair.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the onlineform.ryanair.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'warsawaviation.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'warsawaviation.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the warsawaviation.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'b737trassessments.com' link from Cookie Policy and verify navigation",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'b737trassessments.com'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the b737trassessments.com cookie policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external link 'http://www.cookiepedia.co.uk/index.php?title=How_to_Manage_Cookies' from Cookie Policy",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'http://www.cookiepedia.co.uk/index.php?title=How_to_Manage_Cookies'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the external site 'cookiepedia.co.uk' is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external link 'http://www.aboutcookies.org/' from Cookie Policy",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'http://www.aboutcookies.org/'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the external site 'aboutcookies.org' is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access browser help link 'Mozilla Firefox\u00ae' from Cookie Policy",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Mozilla Firefox\u00ae'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Mozilla Firefox support page is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access browser help link 'Microsoft\u00ae Internet Explorer' from Cookie Policy",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Microsoft\u00ae Internet Explorer'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Microsoft Internet Explorer support page is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access browser help link 'Google Chrome\u2122' from Cookie Policy",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Google Chrome\u2122'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Google Chrome support page is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access browser help link 'Safari\u00ae' from Cookie Policy",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Safari\u00ae'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Safari support page is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external link 'http://www.youronlinechoices.eu/' from Cookie Policy",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'http://www.youronlinechoices.eu/'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the external site 'youronlinechoices.eu' is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'General terms & conditions of carriage' from Cookie Policy footer",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click ' General terms & conditions of carriage '",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Terms of Use' from Cookie Policy footer",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click ' Terms of Use '",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Privacy Policy' from Cookie Policy footer",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click ' Privacy Policy '",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cookies' from Cookie Policy footer",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click ' Cookies '",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookies policy section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Contact us' from Cookie Policy footer",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click ' Contact us '",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Cookie preferences' from Cookie Policy footer and verify preferences modal",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

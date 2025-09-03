@@ -1,0 +1,410 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Business Digital Platforms Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Business Digital Platforms Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view cookie options",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business Digital Platforms Tab 'Settori'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Settori' tab on the Business Digital Platforms page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the content for the 'Settori' tab is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Service on Business Digital Platforms Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search' to open the search bar",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Service on Business Digital Platforms Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on Business Digital Platforms Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Password' field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit guest login",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on Business Digital Platforms Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ENTRA COME OSPITE' to open the guest login tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $name into the 'Password' field",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit guest login",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a New Guest User on Business Digital Platforms Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' to start guest registration",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration form or process is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a New Guest User on Business Digital Platforms Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ENTRA COME OSPITE' to open the guest login tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'REGISTRATI' to start guest registration",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the registration form or process is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Business Digital Platforms Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' to start password recovery",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Business Digital Platforms Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ENTRA COME OSPITE' to open the guest login tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Recupera password' to start password recovery",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $name into the 'Password' field",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit guest login",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in with the 'Mantieni L'accesso' option enabled",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Guest Login (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ENTRA COME OSPITE' to open the guest login tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Type $name into the 'Password' field",
+        "intent_id": "5"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit guest login",
+        "intent_id": "6"
+      },
+      {
+        "intent": "And then check that the guest user is logged in with the 'Mantieni L'accesso' option enabled",
+        "intent_id": "7"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Piattaforme Digitali per lo sviluppo del business' from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Piattaforme' to access digital platforms for business development",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Piattaforme Digitali per lo sviluppo del business' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Corporate Information Atoka' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Piattaforme' to access digital platforms for business development",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Corporate Information Atoka' to view product details",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Corporate Information Atoka product page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Greentrade' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Piattaforme' to access digital platforms for business development",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Greentrade' to view product details",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Greentrade product page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' CTA for Corporate Information Atoka",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Piattaforme' to access digital platforms for business development",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to view more about Corporate Information Atoka",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Corporate Information Atoka product page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'VAI SU INBIZ' CTA for Greentrade",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Piattaforme' to access digital platforms for business development",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'VAI SU INBIZ' to access Greentrade on Inbiz",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Greentrade page on Inbiz is displayed",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify banner closure on Comunicati Stampa page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the Comunicati Stampa page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from Comunicati Stampa page and verify navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to access cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from Comunicati Stampa page and verify menu visibility",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is visible on the Comunicati Stampa page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client area from Comunicati Stampa page and verify login form visibility",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the client area",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form is displayed on the Comunicati Stampa page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search on Comunicati Stampa page and verify results",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click search button with class 'btn-search' (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Comunicati Stampa page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on Comunicati Stampa page and verify field is cleared",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click reset button with class 'btn-reset-search' (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search input field is cleared on the Comunicati Stampa page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search on Comunicati Stampa page and verify results",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search button with class 'btn-search' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Comunicati Stampa page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset mobile search field on Comunicati Stampa page and verify field is cleared",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click reset button with class 'btn-reset-search' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared on the Comunicati Stampa page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from Comunicati Stampa page and verify contact page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Comunicati Stampa page and verify account information page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select a bank from 'selBanca' dropdown on Comunicati Stampa page and verify filter application",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'selBanca' select field to open the dropdown",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Select $name from the dropdown options",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the press releases are filtered by the selected bank",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand 'Anno' accordion filter on Comunicati Stampa page and verify year options",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Anno' button to expand the year filter accordion",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the year filter options are visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Vai al sito del Gruppo Intesa Sanpaolo' from Comunicati Stampa page and verify external site",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Vai al sito del Gruppo Intesa Sanpaolo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external Gruppo Intesa Sanpaolo site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb on Comunicati Stampa page and verify homepage",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Comunicati Stampa page (desktop) and verify access",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit login (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Comunicati Stampa page (mobile) and verify access",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit login (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from Comunicati Stampa page (desktop) and verify recovery page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from Comunicati Stampa page (mobile) and verify recovery page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest from Comunicati Stampa page (desktop) and verify registration page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest from Comunicati Stampa page (mobile) and verify registration page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle 'Mantieni L'accesso' checkbox during guest login on Comunicati Stampa page and verify state",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox during guest login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to social media links from Comunicati Stampa page and verify external pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Youtube from Comunicati Stampa page and verify external page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Twitter from Comunicati Stampa page and verify external page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to LinkedIn from Comunicati Stampa page and verify external page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Instagram from Comunicati Stampa page and verify external page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

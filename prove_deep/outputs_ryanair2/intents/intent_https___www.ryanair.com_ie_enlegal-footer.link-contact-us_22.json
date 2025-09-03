@@ -1,0 +1,808 @@
+[
+  {
+    "test_case_name": "Search for a flight using departure and destination fields",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Type '$name' into the 'Departure' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type '$name' into the 'Destination' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Search' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the entered departure and destination",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch trip type from return to one way",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'One way' radio button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the trip type is set to one way",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch trip type from one way to return",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Return trip' radio button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the trip type is set to return",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply a promo code during flight search",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Apply promo code' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the promo code input or confirmation is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to FAQs page via link",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'FAQs' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Assistance page via link",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Assistance' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assistance page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings section",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'My Bookings' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Bookings section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open market switcher to change region or language",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Open market switcher' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market switcher modal or dropdown is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'myRyanair Portal' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal page or login prompt is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open previous notification in notification carousel",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Open previous notification' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the previous notification is displayed in the carousel",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open next notification in notification carousel",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Open next notification' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the next notification is displayed in the carousel",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read more about ATC ruined our holiday",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Read more' link with href 'https://www.atcruinedourholiday.com/'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the ATC ruined our holiday page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read more about bag sizers and gate bag fees",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Read more' link with href 'https://www.ryanair.com/ie/en/lp/travel-extras/bag-sizers-and-gate-bag-fees-explained'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the bag sizers and gate bag fees page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Help centre from useful info section",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Help centre' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Help centre page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flight info from useful info section",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flight info' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flight info page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Say YES! to Zadar tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Say YES! to Zadar' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Zadar tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Krakow Airport website",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Krakow Airport' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Krakow Airport website is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Milan Bergamo BGY airport website",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Milan Bergamo BGY' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Milan Bergamo BGY airport website is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Discover Loire Valley tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Discover Loire Valley' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Loire Valley tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Visit Gothenburg tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Visit Gothenburg' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gothenburg tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Lublin City Break tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Lublin City Break' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Lublin City Break tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access #KRKtravelchallenge blog",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the '#KRKtravelchallenge' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the KRKtravelchallenge blog is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Discover Bergamo and more tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Discover Bergamo and more' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Discover Bergamo and more tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Visit Bergamo tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Visit Bergamo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Visit Bergamo tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Bergamo Airport website",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Bergamo Airport' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bergamo Airport website is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Discover Aveyron tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Discover Aveyron' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Aveyron tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Visit Podkarpackie tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Visit Podkarpackie' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Podkarpackie tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Citybreak in Pozna\u0144 tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Citybreak in Pozna\u0144' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Citybreak in Pozna\u0144 tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Pyrenees & Lourdes tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Pyrenees & Lourdes' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Pyrenees & Lourdes tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Discover Toulouse tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Discover Toulouse' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Discover Toulouse tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Discover Southern Sardinia tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Discover Southern Sardinia' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Southern Sardinia tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fly to Gdansk! tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Fly to Gdansk!' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gdansk tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Enjoy provence tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Enjoy provence' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Provence tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Visit Wroclaw tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Visit Wroclaw' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Wroclaw tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Visit Budapest flights page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Visit Budapest' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Budapest flights page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Szczecin airport website",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Szczecin' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Szczecin airport website is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Katowice Airport website",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Katowice Airport' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Katowice Airport website is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Travel to Carcassonne tourism page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Travel to Carcassonne' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carcassonne tourism page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Beziers Airport website",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Beziers Airport\u0000a0' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Beziers Airport website is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees information page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inflight receipts portal",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Inflight receipts' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inflight receipts portal is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Israeli class action document",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Israeli class action' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Israeli class action document is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Refund Hub page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Refund Hub' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Refund Hub page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Travel Agent Bookings page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Travel Agent Bookings' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Travel Agent Bookings page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access About us corporate page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'About us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the About us corporate page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Investor relations page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Investor relations' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Investor relations page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Group Travel information page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Group Travel' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Group Travel information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Media centre news page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Media centre' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Media centre news page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Amsterdam page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Amsterdam' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Amsterdam page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Lanzarote page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Lanzarote' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Lanzarote page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Malaga page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Malaga' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Malaga page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Liverpool page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Liverpool' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Liverpool page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Paris page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Paris' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Paris page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Alicante page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Alicante' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Alicante page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Birmingham page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Birmingham' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Birmingham page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Tenerife page",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Tenerife' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Tenerife page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

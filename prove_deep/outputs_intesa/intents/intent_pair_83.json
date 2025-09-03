@@ -1,0 +1,284 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Promotion Page After Navigating from Main Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Acconsento' button on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the promotion page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options on Promotion Page After Navigating from Main Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Dismiss Cookie Banner on Promotion Page After Navigating from Main Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the promotion page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Promotion Page Using Desktop Search After Navigating from Main Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button on the promotion page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the promotion page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field on Promotion Page After Navigating from Main Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-reset-search' button on the promotion page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared on the promotion page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Promotion Page Using Mobile Search After Navigating from Main Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' input field on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button on the promotion page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the promotion page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI DI PI\u00d9' Ricoveri e Interventi Section from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Ricoveri e Interventi on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Ricoveri e Interventi section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI DI PI\u00d9' Malattie Gravi+ Section from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Malattie Gravi+ on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Malattie Gravi+ section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI DI PI\u00d9' Infortuni+ Section from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Infortuni+ on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Infortuni+ section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI DI PI\u00d9' Copertura Casa Fabbricato+ Section from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Copertura Casa Fabbricato+ on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Copertura Casa Fabbricato+ section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI XME PROTEZIONE' from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'SCOPRI XME PROTEZIONE' link on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the XME Protezione page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'PAGINA DEDICATA DI XME PROTEZIONE' from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'PAGINA DEDICATA DI XME PROTEZIONE' link on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the dedicated XME Protezione page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Intesa Sanpaolo Protezione Website from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'www.intesasanpaoloprotezione.com' link on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Protezione website is opened in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Intesa Sanpaolo Main Website from Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'www.intesasanpaolo.com' link on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo main website is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb on Promotion Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link on the main page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Home' link in the breadcrumb on the promotion page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the home landing page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

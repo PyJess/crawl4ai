@@ -1,0 +1,450 @@
+[
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept cookies (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept cookies (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner via Close Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options via 'Pi\u00f9 opzioni' Link (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access additional cookie options (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options via 'Pi\u00f9 opzioni' Link (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access additional cookie options (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Content Using 'Passa al Contenuto' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using 'Passa al Men\u00f9' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using 'Passa al Pi\u00e8 di pagina' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login via 'Accesso clienti' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the customer login page or modal.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Hamburger Menu via 'Menu' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the hamburger menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search via 'Search' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search input or modal.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' Page via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' Page via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Trova la tua carta' Page via Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'TROVA LA TUA CARTA' link to access the card finder page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card finder page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for XME Credit Icon",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Credit Icon.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Credit Icon product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for XME Credit Card",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Credit Card.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Credit Card product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta di Credito Exclusive",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta di Credito Exclusive.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta di Credito Exclusive product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for XME Debit Card",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Debit Card.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Debit Card product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta di Debito Exclusive",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta di Debito Exclusive.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta di Debito Exclusive product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for XME Card Plus",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Card Plus.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Card Plus product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Superflash",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Superflash.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Superflash product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash nominativa",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash nominativa.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash nominativa product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Pensione",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Pensione.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Pensione product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio La Statale",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio La Statale.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio La Statale product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio Universit\u00e0 di Siena",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Siena.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Siena product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio NABA",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio NABA.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio NABA product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio ERDIS",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio ERDIS.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio ERDIS product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio Universit\u00e0 di Camerino",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Camerino.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Camerino product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio Politecnico di Bari",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Politecnico di Bari.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Politecnico di Bari product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio Universit\u00e0 di Bari",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Bari.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Bari product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio Universit\u00e0 di Bergamo",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Bergamo.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Bergamo product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Carta Flash Up Studio Universit\u00e0 di Padova",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/carte.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Padova.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Padova product page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

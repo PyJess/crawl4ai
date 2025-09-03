@@ -1,0 +1,142 @@
+[
+  {
+    "test_case_name": "Access the FAQ page from the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Fees information from the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Contact us page from the header on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the GTCC page from the footer on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'GTCC' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General Terms & Conditions of Carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the General terms & conditions of carriage from the footer on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General Terms & Conditions of Carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Terms of Use from the footer on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Privacy Policy from the footer on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Cookies policy from the footer on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Contact us page from the footer on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the Cookie preferences modal from the footer on the child cookie policy page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie preferences' button in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie preferences modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

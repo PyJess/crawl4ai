@@ -1,0 +1,584 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Banner Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and all cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi banner cookie' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Banner (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link in the cookie banner to access cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Banner (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link in the desktop cookie banner to access cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies via Desktop Banner Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button in the desktop cookie banner to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop cookie banner is dismissed and all cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate Site from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo Site from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers Site from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Site from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie from Main Menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business from Main Menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive from Main Menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button in the desktop search section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is focused or the search panel is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Content Using Desktop Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click submit search button in the desktop search section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click reset search button in the desktop search section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Content Using Mobile Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click submit search button in the mobile search section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to Guest Area (Desktop) with Remember Me",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to enable remember me",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to login to guest area",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in to the guest area",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to Guest Area (Desktop) without Remember Me",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to login to guest area",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in to the guest area",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Area (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link in the guest area (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register for Guest Area (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link in the guest area (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to Guest Area (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field (if present)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field (if present)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to login to guest area (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in to the guest area",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register for Guest Area (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button in the guest area (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Area (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link in the guest area (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Main Site from Disclaimer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaolo.com' link in the disclaimer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main Intesa Sanpaolo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Facebook Profile from Footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Youtube Profile from Footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Twitter Profile from Footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official LinkedIn Profile from Footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Instagram Profile from Footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/condomini.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

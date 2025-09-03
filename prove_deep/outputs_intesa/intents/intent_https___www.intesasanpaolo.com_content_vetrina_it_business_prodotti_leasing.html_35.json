@@ -1,0 +1,450 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Chiudi banner cookie' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search section using the 'Search' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input or section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the customer login section using the 'Accesso clienti' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the customer login section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the mobile products menu using the 'Tutti i prodotti' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i prodotti' button to open the mobile products menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile products menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply product filters using the 'APPLICA FILTRI' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply product filters",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product filters are applied and the filtered results are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Attempt to remove all filters using the disabled 'RIMUOVI TUTTI FILTRI' button",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'RIMUOVI TUTTI FILTRI' button to attempt to remove all filters",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that no action occurs because the button is disabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Leasing Strumentale' details page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Leasing Strumentale' link to go to the Leasing Strumentale details page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Leasing Strumentale details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Leasing Veicoli' details page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Leasing Veicoli' link to go to the Leasing Veicoli details page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Leasing Veicoli details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Leasing Immobiliare' details page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Leasing Immobiliare' link to go to the Leasing Immobiliare details page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Leasing Immobiliare details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Leasenergy' details page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Leasenergy' link to go to the Leasenergy details page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Leasenergy details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Leasing Nautico' details page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Leasing Nautico' link to go to the Leasing Nautico details page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Leasing Nautico details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Beni Strumentali \u2013 Nuova Sabatini Leasing' details page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Beni Strumentali \u2013 Nuova Sabatini Leasing' link to go to the Beni Strumentali \u2013 Nuova Sabatini Leasing details page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Beni Strumentali \u2013 Nuova Sabatini Leasing details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' support page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to go to the support page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to go to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external site",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to go to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external site",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to go to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external site",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to go to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to go to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external site",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to go to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' page",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to go to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link to go to the Persone e Famiglie section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link to go to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link to go to the Exclusive section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb",
+    "references": "leasing.json",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb to return to the Business home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

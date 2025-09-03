@@ -1,0 +1,546 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies from the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies from the desktop cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop cookie banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy from the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu (desktop) using 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button labeled 'Tutti i Prodotti' to open the main menu (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the desktop view.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carta di credito Exclusive' from menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Carta di credito Exclusive' link in the menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carta di credito Exclusive' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutuo Exclusive' from menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Mutuo Exclusive' link in the menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutuo Exclusive' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestito Exclusive' from menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Prestito Exclusive' link in the menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestito Exclusive' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Valore Insieme Exclusive' from menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Valore Insieme Exclusive' link in the menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Valore Insieme Exclusive' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search bar (desktop) using 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on desktop.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search input on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input on desktop.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is cleared.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on mobile.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name on mobile.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu (mobile) using 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button in the mobile view to open the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile main menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel (desktop) using 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the login panel on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed on desktop.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel (mobile) using 'ACCESSO CLIENTI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button to open the login panel on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user with 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to keep the session active.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form.",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and the session is maintained.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user without 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in without session persistence.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password using 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link in the login panel.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user using 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link in the login panel.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process is initiated.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' contact page from header link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header to access the contact page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' contact page from mobile link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the mobile menu to access the contact page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Scopri di pi\u00f9' document (viaggi)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link with id 'vt1fb4cf310c46c4a8d6e4508d51a3c2133bba8b4f548066986a370fb4ff642848' to download the viaggi document.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'carta-credito-exclusive-assicurazione-viaggi.pdf' document is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Scopri di pi\u00f9' document (assicurazioni)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link with id 'vtec596babb435836b84c46e6da0db02fa833bd5b06dd6c66ba0b3073039553d5c' to download the assicurazioni document.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'carta-credito-exclusive-assicurazione-animali-domestici.pdf' document is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri For funding' external project",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri For funding' link to access the external project page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the For Funding project page is displayed in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Fast-Track aeroporti' Mastercard Reserved info",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Fast-Track aeroporti' link to access the Mastercard Reserved Fast-Track information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Mastercard Reserved Fast-Track page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'For Funding' info link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'For Funding' link to access the For Funding information page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the For Funding information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Facebook profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Facebook' link in the footer to access the official Facebook profile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Facebook profile is displayed in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Youtube profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Youtube' link in the footer to access the official Youtube profile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Youtube profile is displayed in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Twitter profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Twitter' link in the footer to access the official Twitter profile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Twitter profile is displayed in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official LinkedIn profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale LinkedIn' link in the footer to access the official LinkedIn profile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo LinkedIn profile is displayed in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Instagram profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/landing.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Instagram' link in the footer to access the official Instagram profile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Instagram profile is displayed in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

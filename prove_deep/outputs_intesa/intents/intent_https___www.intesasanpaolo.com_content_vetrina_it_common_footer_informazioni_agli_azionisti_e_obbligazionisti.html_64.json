@@ -1,0 +1,436 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed (desktop)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using 'Chiudi cookie banner' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to go to the cookie options page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed (desktop)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Apri ricerca' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search functionality",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input or panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open burger menu using 'Menu' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the burger menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the burger menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer access using 'Accesso clienti' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the customer access section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer access section or login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select a bank from 'Selettore banca' dropdown",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Selettore banca' dropdown to open the list of banks",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the list of available banks is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter by year using 'Anno' button",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Anno' button to filter information by year",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the information is filtered by the selected year",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to navigate to the external Corporate website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the external Gruppo website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to navigate to the external Careers website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'News' link to navigate to the external News website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to navigate to the external Finanza Insieme website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' menu link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link to navigate to the Persone e Famiglie section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' menu link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' link to navigate to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' menu link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link to navigate to the Exclusive section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' header link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link to navigate to the Parla con noi page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Parla con noi page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Vai al sito del Gruppo Intesa Sanpaolo' link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Vai al sito del Gruppo Intesa Sanpaolo' link to navigate to the external group website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the group website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' breadcrumb link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Facebook' social media link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link to navigate to the official Facebook profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Youtube' social media link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link to navigate to the official Youtube profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Twitter' social media link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link to navigate to the official Twitter profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'LinkedIn' social media link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link to navigate to the official LinkedIn profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Instagram' social media link",
+    "references": "informazioni_agli_azionisti_e_obbligazionisti.json",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link to navigate to the official Instagram profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

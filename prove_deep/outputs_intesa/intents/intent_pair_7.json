@@ -1,0 +1,316 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify on sustainability policy page",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies via 'PI\u00d9 OPZIONI' and verify on sustainability policy page",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences options are displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with id 'js-cookie-banner-close' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Etica del business' tab from parent to child page",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Etica del business' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Etica del business' section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e assicurazioni (SFDR*)' tab from parent to child page",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Investimenti e assicurazioni (SFDR*)' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e assicurazioni (SFDR*)' section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Credito e settori sensibili' tab from parent to child page",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Credito e settori sensibili' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Credito e settori sensibili' section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Diritti Umani' tab from parent to child page",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Diritti Umani' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Diritti Umani' section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Ambiente' tab from parent to child page",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Ambiente' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Ambiente' section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Codice Etico' PDF from sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PDF' for 'Codice Etico' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Codice Etico' PDF is downloaded or opened in a new tab.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Codice Interno di Comportamento di Gruppo' PDF from sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PDF' for 'Codice Interno di Comportamento di Gruppo' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Codice Interno di Comportamento di Gruppo' PDF is downloaded or opened in a new tab.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Linee Guida Anticorruzione' PDF from sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PDF' for 'Linee Guida Anticorruzione' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Linee Guida Anticorruzione' PDF is downloaded or opened in a new tab.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Policy Salute e Sicurezza' PDF from sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PDF' for 'Policy Salute e Sicurezza' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Policy Salute e Sicurezza' PDF is downloaded or opened in a new tab.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Principi di Sicurezza dell' informazione' PDF from sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PDF' for 'Principi di Sicurezza dell' informazione' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Principi di Sicurezza dell' informazione' PDF is downloaded or opened in a new tab.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open header search and perform a search on sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'header-navbar-btn-search' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' and data-name 'search-button' on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the child page.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open header menu on sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'header-navbar-btn-toggler' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the header menu is expanded on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Contatti' from footer on sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contatti' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Contatti' page or section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Newsletter' from footer on sustainability policy page after navigation",
+    "references": "input_json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Newsletter' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Newsletter' registration page or section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

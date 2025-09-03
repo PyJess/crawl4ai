@@ -1,0 +1,610 @@
+[
+  {
+    "test_case_name": "Navigate from Cookie Policy to Terms of Use and verify Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Plan section from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Plan' link in the main navigation of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Plan section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'My Bookings' link in the main navigation of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the My Bookings section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Hotels from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Hotels' link in the main navigation of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Hotels page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Car hire from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Car hire' link in the main navigation of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Car hire page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Sign up from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sign up' link in the header user menu of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Sign up form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Log in from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Log in' link in the header user menu of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Log in form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Help from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Help' link in the header user menu of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Help section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online check-in from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Online check-in' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Online check-in page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Travel Updates from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Travel Updates' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Travel Updates page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Help Centre from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Help Centre' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Help Centre page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inflight shopping receipts from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Inflight shopping receipts' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Inflight shopping receipts page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access View booking history from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'View booking history' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the booking history is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Advertise with us from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Advertise with us' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Advertise with us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Careers' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Careers page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Corporate website from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate website' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Corporate website is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Media Centre from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Media Centre' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Media Centre page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Investor Relations from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Investor Relations' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Investor Relations page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Registered address from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registered address' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Registered address page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Charities from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Charities' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Charities page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Environment from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Environment' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Environment page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Amsterdam from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Amsterdam' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Amsterdam page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Lanzarote from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Lanzarote' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Lanzarote page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Malaga from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Malaga' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Malaga page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Liverpool from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Liverpool' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Liverpool page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Paris from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Paris' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Paris page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Alicante from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Alicante' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Alicante page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Birmingham from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Birmingham' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Birmingham page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Tenerife from Terms of Use page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Tenerife' link in the footer of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flights to Tenerife page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from Terms of Use page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use' link in the legal list of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General terms & conditions of carriage from Terms of Use page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage' link in the legal list of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy policy from Terms of Use page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy policy' link in the legal list of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies from Terms of Use page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies' link in the legal list of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookies page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact us from Terms of Use page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer of the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link in the legal list of the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

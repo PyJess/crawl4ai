@@ -1,0 +1,214 @@
+[
+  {
+    "test_case_name": "Open Cookie Policy from Cookie Banner (Parent to Child)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link in the cookie banner on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cookies' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies from Cookie Policy Page (Child)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button on the 'Cookies' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Customize Cookie Preferences and Confirm (Child)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link on the 'Cookies' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accetto' radio button for cookie di profilazione (prima parte)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Accetta tutti i cookie di terze parti' radio button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Conferma' button for cookie di terze parti",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the banner is dismissed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Deny All Third-Party Cookies and Confirm (Child)",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Nega il consenso a tutti i cookie di terze parti' radio button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Conferma' button for cookie di terze parti",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all third-party cookies are denied and the preferences are saved",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest and Remember Access from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Online Security Information from Cookie Policy Page",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

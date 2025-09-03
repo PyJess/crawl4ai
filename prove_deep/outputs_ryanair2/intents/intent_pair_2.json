@@ -1,0 +1,574 @@
+[
+  {
+    "test_case_name": "Access Cookie Policy and Open Cookie Preferences",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cookie preferences' button on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Privacy Policy from Footer",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Privacy Policy' link in the footer on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit General Terms & Conditions of Carriage",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link in the footer on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Terms of Use from Footer",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Terms of Use' link in the footer on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Cookies Page from Footer",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cookies' link in the footer on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Cookies page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Contact Us from Footer",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Contact us' link in the footer on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit FAQ from Header",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'FAQ' link in the header on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Fees from Header",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Fees' link in the header on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Fees page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Contact Us from Header",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Contact us' link in the header on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit www.ryanair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'www.ryanair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the www.ryanair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit help.ryanair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'help.ryanair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the help.ryanair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit careers.ryanair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'careers.ryanair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the careers.ryanair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit corporate.ryanair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'corporate.ryanair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the corporate.ryanair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit investor.ryanair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'investor.ryanair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the investor.ryanair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit buzzair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'buzzair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the buzzair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit onlineform.buzzair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'onlineform.buzzair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the onlineform.buzzair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit onlineform.ryanair.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'onlineform.ryanair.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the onlineform.ryanair.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit warsawaviation.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'warsawaviation.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the warsawaviation.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit b737trassessments.com Section Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'b737trassessments.com' link in the section on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the b737trassessments.com section page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit How to Manage Cookies External Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'http://www.cookiepedia.co.uk/index.php?title=How_to_Manage_Cookies' link on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the external How to Manage Cookies page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit About Cookies External Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'http://www.aboutcookies.org/' link on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the external About Cookies page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Mozilla Firefox\u00ae Support Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mozilla Firefox\u00ae' link on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Mozilla Firefox\u00ae support page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Microsoft\u00ae Internet Explorer Support Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Microsoft\u00ae Internet Explorer' link on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Microsoft\u00ae Internet Explorer support page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Google Chrome\u2122 Support Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Google Chrome\u2122' link on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Google Chrome\u2122 support page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Safari\u00ae Support Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Safari\u00ae' link on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Safari\u00ae support page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy and Visit Your Online Choices External Link",
+    "references": "ryanair.com.json",
+    "intents": [
+      {
+        "intent": "Click the 'View cookie settings' button on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page with cookie policy is displayed.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'http://www.youronlinechoices.eu/' link on the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Your Online Choices page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

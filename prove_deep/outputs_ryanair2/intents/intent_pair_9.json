@@ -1,0 +1,110 @@
+[
+  {
+    "test_case_name": "Navigate from 'help.ryanair.com' link on Cookie Policy page and access Cookie preferences on child page",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookie preferences dialog or page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'help.ryanair.com' link and verify 'General terms & conditions of carriage' link on child page",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed from the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'help.ryanair.com' link and verify 'Terms of Use' link on child page",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed from the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'help.ryanair.com' link and verify 'Privacy Policy' link on child page",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed from the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'help.ryanair.com' link and verify 'Cookies' link on child page",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is displayed from the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'help.ryanair.com' link and verify 'Contact us' link on child page",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed from the child page.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

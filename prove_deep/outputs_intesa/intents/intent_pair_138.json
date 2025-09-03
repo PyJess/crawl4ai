@@ -1,0 +1,460 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy options from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view privacy and cookie policy options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button on the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using accessibility button on the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button on the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' link from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' link from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search on the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat support from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to open chat support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to view account information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link to navigate to the Persone e Famiglie section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link to navigate to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link to navigate to the Exclusive section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search on the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on desktop from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login on desktop from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable the option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest user on desktop from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user on desktop from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on mobile from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user on mobile",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user on mobile from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the registration process on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest user on mobile from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to start password recovery on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to home via breadcrumb from the 'Proteggi chi ami' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

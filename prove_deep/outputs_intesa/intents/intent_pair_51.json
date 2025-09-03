@@ -1,0 +1,782 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to access the Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' to open the external corporate website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' to open the external group website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' to open the external careers website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' to open the external news website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' external link from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' to open the external Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' to open the external Finanza Insieme website",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' external link from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' to open the external Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' to display all products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Settori' to display sector-specific content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti' to display moments content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali' to display digital services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the desktop search field on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for desktop",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search field on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the reset search button for desktop",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the mobile search field on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for mobile",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login panel (desktop) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the client login panel (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login panel (mobile) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' to open the client login panel (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu (desktop) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu (mobile) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support using 'Parla con noi' from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' to access the support page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' to access Inbiz login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to login as guest (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login (desktop) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login (desktop) on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest (desktop) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (mobile) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to login as guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest (mobile) from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to start the guest registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login (mobile) on the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' to start the password recovery process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti correnti aziendali' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Conti correnti aziendali' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti correnti aziendali' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Incassi e pagamenti' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Incassi e pagamenti' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incassi e pagamenti' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Protezione e welfare' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Protezione e welfare' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Protezione e welfare' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanziamenti per liquidit\u00e0' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanziamenti per liquidit\u00e0' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanziamenti per liquidit\u00e0' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Soluzioni POS' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Soluzioni POS' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Soluzioni POS' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanziamenti per investimenti' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanziamenti per investimenti' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanziamenti per investimenti' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Estero e internazionalizzazione' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Estero e internazionalizzazione' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Estero e internazionalizzazione' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Copertura rischi' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Copertura rischi' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Copertura rischi' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Factoring e Confirming' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Factoring e Confirming' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring e Confirming' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Leasing' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Leasing' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Leasing' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gestione liquidit\u00e0 aziendale' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gestione liquidit\u00e0 aziendale' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gestione liquidit\u00e0 aziendale' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Suite Loan' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Suite Loan' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Suite Loan' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'S-Loan' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'S-Loan' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'S-Loan' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Crescita Impresa' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Crescita Impresa' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Crescita Impresa' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Anticipo prenotazioni alberghiere' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Anticipo prenotazioni alberghiere' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Anticipo prenotazioni alberghiere' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Anticipo transato POS fisico e POS virtuale' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Anticipo transato POS fisico e POS virtuale' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Anticipo transato POS fisico e POS virtuale' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Programma CresciBusiness' page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Programma CresciBusiness' to view the program details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Programma CresciBusiness' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Noleggio beni strumentali' page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Noleggio beni strumentali' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Noleggio beni strumentali' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'POS Virtuale XPay Web' product page from the tourism business page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'POS\u00a0Virtuale XPay\u00a0Web' to view the product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'POS\u00a0Virtuale XPay\u00a0Web' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

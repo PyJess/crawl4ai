@@ -1,0 +1,382 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view more cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using accessibility button on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search panel on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Scopri il conto' page from the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to view account information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the client login from the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support using 'Parla con noi' link on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'IN PROMOZIONE' on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'IN PROMOZIONE' checkbox to filter products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products marked as 'IN PROMOZIONE' are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'UNDER 36' on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'UNDER 36' checkbox to filter products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products marked as 'UNDER 36' are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'SOLUZIONE DOMANI' on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONE DOMANI' checkbox to filter products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products marked as 'SOLUZIONE DOMANI' are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'RICHIEDI UN PREVENTIVO' on the Mutui page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI UN PREVENTIVO' checkbox to filter products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products marked as 'RICHIEDI UN PREVENTIVO' are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Fondo di Garanzia Prima Casa Consap' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Fondo di Garanzia Prima Casa Consap'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Fondo di Garanzia Prima Casa Consap' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo in Tasca' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo in Tasca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo in Tasca' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Offerta Green Mutuo Domus' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Offerta Green Mutuo Domus'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Offerta Green Mutuo Domus' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per acquistare casa' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per acquistare casa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per acquistare casa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'MutuoUp per acquistare casa' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'MutuoUp per acquistare casa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'MutuoUp per acquistare casa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per ristrutturare casa' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per ristrutturare casa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per ristrutturare casa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Giovani' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Giovani'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Giovani' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per la surroga' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per la surroga'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per la surroga' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per il rifinanziamento' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per il rifinanziamento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per il rifinanziamento' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per le spese e gli investimenti' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per le spese e gli investimenti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per le spese e gli investimenti' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Soluzione Domani' product",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Soluzione Domani'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Soluzione Domani' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Iniziativa ABI' banner offer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI COME' link for the 'Iniziativa ABI' banner offer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the initiative details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

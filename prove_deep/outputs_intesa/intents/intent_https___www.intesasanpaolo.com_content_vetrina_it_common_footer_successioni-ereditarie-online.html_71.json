@@ -1,0 +1,542 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are set to allow all cookies",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to open the cookie options page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to open the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are set to allow all cookies",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu using 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the mobile navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access using 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the client access section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate chat using 'Parla con noi' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link to open the chat or contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat or contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) with 'E-mail' and 'Password' fields and 'ENTRA' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to attempt guest login (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) with 'Mantieni L'accesso' checkbox selected",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to keep the session active",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to attempt guest login (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and the session is set to be persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to initiate password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to start the guest registration process (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using 'Cosa posso fare per te oggi?' input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search button with class 'btn-search' to perform the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click reset button with class 'btn-reset-search' to clear the search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using 'Cerca' input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search button with class 'btn-search' to perform the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (mobile) with 'ENTRA' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field (if visible on mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field (if visible on mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to attempt guest login (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (mobile) with 'REGISTRATI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to start the guest registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to initiate password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' security guide",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access the online security guide",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'In breve' section using anchor link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'In breve' link to navigate to the 'In breve' section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the 'In breve' section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Come aprire la pratica' section using anchor link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Come aprire la pratica' link to navigate to the respective section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the 'Come aprire la pratica' section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Guida alle Successioni' section using anchor link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Guida alle Successioni' link to navigate to the respective section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the 'Guida alle Successioni' section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access successioni online via 'ENTRA' link (CTA)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' link to access the successioni online service",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the successioni online service is opened or a login prompt is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open My Key information via 'APRI IL MY KEY' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'APRI IL MY KEY' link to open the My Key information page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Key information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open My Key online via 'PUOI APRIRLO ONLINE.' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'PUOI APRIRLO ONLINE.' link to open the My Key online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Key online page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download successioni guide via 'SCARICA LA GUIDA' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA LA GUIDA' link to download the successioni guide PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF guide is downloaded or opened in the browser",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to home via 'Home' breadcrumb link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Facebook profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' link in the footer to open the official Facebook profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Youtube profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' link in the footer to open the official Youtube profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Twitter profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' link in the footer to open the official Twitter profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official LinkedIn profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' link in the footer to open the official LinkedIn profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Instagram profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/successioni-ereditarie-online.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' link in the footer to open the official Instagram profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

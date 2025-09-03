@@ -1,0 +1,546 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'ACCONSENTO' link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'ACCONSENTO'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options via 'PI\u00d9 OPZIONI' link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with id 'js-cookie-banner-close'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search input from header",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with description 'Open search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cerca' is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the search input and submit button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with description 'Open search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with description 'Submit search'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and close the main menu using the menu toggler",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with description 'Open/close main menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed or hidden accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access notifications via 'NOTIFICHE' button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'NOTIFICHE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the notifications area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open user area dropdown via 'AREA UTENTE' button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the user area dropdown is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login to user area via 'Accedi' button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Accedi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form or user area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Logout from user area via 'Logout' button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Logout'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the user is logged out and redirected appropriately",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access user contacts via 'Contatti' link in user area",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contatti'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the contacts page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access reserved initiatives via 'Iniziative riservate ' link in user area",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Iniziative riservate '",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the reserved initiatives page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access user profile via 'Il mio profilo' link in user area",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Il mio profilo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user profile page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch language to English via 'EN' link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'EN'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the website language switches to English",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'CHI SIAMO' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'CHI SIAMO'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CHI SIAMO' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'INVESTOR RELATIONS' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'INVESTOR RELATIONS'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'INVESTOR RELATIONS' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'GOVERNANCE' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'GOVERNANCE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'GOVERNANCE' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SOSTENIBILIT\u00c0' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'SOSTENIBILIT\u00c0'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SOSTENIBILIT\u00c0' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'NEWSROOM' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'NEWSROOM'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'NEWSROOM' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SOCIALE' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'SOCIALE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SOCIALE' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'RESEARCH' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'RESEARCH'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'RESEARCH' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'CAREERS' section from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'CAREERS'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CAREERS' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'PRODOTTI E SERVIZI' dropdown from main menu",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'PRODOTTI E SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'PRODOTTI E SERVIZI' dropdown is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Persone e Famiglie' from 'PRODOTTI E SERVIZI' dropdown",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'PRODOTTI E SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Business' from 'PRODOTTI E SERVIZI' dropdown",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'PRODOTTI E SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Business' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Corporate' from 'PRODOTTI E SERVIZI' dropdown",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'PRODOTTI E SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Corporate' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Presenza Internazionale' from 'PRODOTTI E SERVIZI' dropdown",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'PRODOTTI E SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Presenza Internazionale'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Presenza Internazionale' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'App Intesa Sanpaolo Mobile' from 'PRODOTTI E SERVIZI' dropdown",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'PRODOTTI E SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'App Intesa Sanpaolo Mobile'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'App Intesa Sanpaolo Mobile' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' event link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the events page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'ASCOLTA I PODCAST' link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'ASCOLTA I PODCAST'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the podcast page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'APPROFONDISCI' link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'APPROFONDISCI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CHI SIAMO' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' careers link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the careers editorial page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Leggi altri comunicati' link",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Leggi altri comunicati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the press releases page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://group.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

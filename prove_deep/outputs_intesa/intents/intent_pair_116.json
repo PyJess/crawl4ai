@@ -1,0 +1,560 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options from Cookie Banner on Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view cookie policy options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy or cookie policy options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' to view all products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' to view daily products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' to view life moments products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti e salvadanai' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Conti e salvadanai' to view account and savings products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutui' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Mutui' to view mortgage products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e Risparmio' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Investimenti e Risparmio' to view investment and savings products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' to view card products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Assicurazioni' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' to view insurance products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti' to view loan products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Pagamenti digitali' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pagamenti digitali' to view digital payment products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Previdenza' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Previdenza' to view pension plans",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Modal from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Modal from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Query on Consulenza Patrimoniale Valore Insieme Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the query",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search on Consulenza Patrimoniale Valore Insieme Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the reset search button to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Query on Consulenza Patrimoniale Valore Insieme Page (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the query",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Consulenza Patrimoniale Valore Insieme Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to attempt login",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Guest Login (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable keep me logged in",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' to start the registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Consulenza Patrimoniale Valore Insieme Page (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to attempt login",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to start the registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply 'SOLUZIONE DOMANI' Filter in Sticky Bar (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONE DOMANI' checkbox to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'APPLICA FILTRI' to apply the selected filter",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'SOLUZIONE DOMANI'",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Product Details for 'GP Linea Dedicata'",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'GP Linea Dedicata'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'GP Linea Dedicata' is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Product Details for 'Portafogli di Fondi Best Expertise'",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Portafogli di Fondi Best Expertise'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Portafogli di Fondi Best Expertise' is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Product Details for 'Patrimonio Pro Dublin Branch'",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Patrimonio Pro Dublin Branch'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Patrimonio Pro Dublin Branch' is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Product Details for 'Eurizon Multimanager Trend'",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Eurizon Multimanager Trend'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Eurizon Multimanager Trend' is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Product Details for 'Eurizon GP Multimanager Exclusive'",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Eurizon GP Multimanager Exclusive'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Eurizon GP Multimanager Exclusive' is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start PDF for Consulenza Patrimoniale Valore Insieme",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA QUICK START' to download the Quick Start PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Soluzione Domani' Details from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Soluzione Domani'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Soluzione Domani' details page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security Information from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' from Consulenza Patrimoniale Valore Insieme Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Parent to Consulenza Patrimoniale Valore Insieme Page via 'Persone e Famiglie' Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Consulenza Evoluta' in the submenu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Consulenza Patrimoniale Valore Insieme page is loaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Parent to Consulenza Patrimoniale Valore Insieme Page via 'Tutti i Prodotti' Tab",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Tutti i Prodotti' tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Consulenza Evoluta' in the product list",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Consulenza Patrimoniale Valore Insieme page is loaded",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

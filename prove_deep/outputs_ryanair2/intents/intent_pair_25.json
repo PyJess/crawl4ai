@@ -1,0 +1,276 @@
+[
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and verify Terms page loads",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use, select 'One way' trip, and verify selection",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'One way' radio button on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'One way' trip option is selected",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use, select 'Return trip', and verify selection",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Return trip' radio button on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Return trip' option is selected",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use, enter departure and destination, and search for flights",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Departure' input field on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Destination' input field on the Terms of Use page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'Search' button on the Terms of Use page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed based on the entered departure and destination",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and apply a promo code",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Apply promo code' button on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the promo code application process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access the Help centre",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Help centre' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Help centre page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access Flight info",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Flight info' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Flight info page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and read more about bag sizers and gate bag fees",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Read more' link with href 'https://www.ryanair.com/ie/en/lp/travel-extras/bag-sizers-and-gate-bag-fees-explained' on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the bag sizers and gate bag fees information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and read more about ATC ruined our holiday",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Read more' link with href 'https://www.atcruinedourholiday.com/' on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the ATC ruined our holiday information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access Say YES! to Zadar",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Say YES! to Zadar' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Say YES! to Zadar page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access Krakow Airport information",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Krakow Airport' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Krakow Airport information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access Milan Bergamo BGY information",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Milan Bergamo BGY' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Milan Bergamo BGY information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access Discover Loire Valley",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Discover Loire Valley' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Discover Loire Valley page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access Visit Gothenburg",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Visit Gothenburg' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Visit Gothenburg page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Privacy Policy to Terms of Use and access Lublin City Break",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Lublin City Break' link on the Terms of Use page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Lublin City Break page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

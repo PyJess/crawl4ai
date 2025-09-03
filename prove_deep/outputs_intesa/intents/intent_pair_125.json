@@ -1,0 +1,612 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy from Cookie Banner on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy/cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti e salvadanai' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Conti e salvadanai' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutui' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mutui' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e Risparmio' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Investimenti e Risparmio' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Assicurazioni' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Consulenza Evoluta' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Consulenza Evoluta' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Pagamenti digitali' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pagamenti digitali' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Previdenza' from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Previdenza' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Pension Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on Pension Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Pension Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Pension Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Pension Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login on Pension Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the client login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login on Pension Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' to open the client login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Pension Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' in the header (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Pension Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' in the header (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' from Pension Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' from Pension Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Calculate Pension via Main CTA on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'CALCOLA LA TUA PENSIONE' (main CTA)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the pension calculator page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Calculate Pension via Sticky CTA on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'CALCOLA LA TUA PENSIONE' (sticky CTA)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the pension calculator page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Collective Subscription for Pension Fund",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI IL MIO DOMANI - ADESIONE COLLETTIVA'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the collective subscription information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start PDF for Pension Fund",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA QUICK START'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Start PDF is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'PARLA CON NOI' CTA on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'PARLA CON NOI' CTA",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Insurance App from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI L'APP'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the insurance app information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Android App from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP ANDROID'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Google Play Store page for the app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download iOS App from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP IOS'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the App Store page for the app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Huawei App from Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP HUAWEI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Huawei AppGallery page for the app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Facebook Profile from Pension Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Youtube Profile from Pension Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Twitter Profile from Pension Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open LinkedIn Profile from Pension Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Instagram Profile from Pension Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Pension Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

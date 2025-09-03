@@ -1,0 +1,564 @@
+[
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button in the cookie banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button in the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button in the desktop cookie banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button in the desktop cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via the 'Pi\u00f9 opzioni' link in the cookie banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link in the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via the 'Pi\u00f9 opzioni' link in the desktop cookie banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link in the desktop cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using the 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using the 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Corporate' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Gruppo' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Careers' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'News' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Club Azionisti' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Finanza Insieme' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Quick Training' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to the 'Tutti i Prodotti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to the 'Settori' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Settori' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to the 'Momenti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to the 'Servizi digitali' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Servizi digitali' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search using the 'Cosa posso fare per te oggi?' input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search using the 'Reset ricerca (desktop)' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Parla con noi' page via the header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the login panel using the 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search using the 'Cerca' input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login tab on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI ALLA TUA BANCA ONLINE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login tab on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA COME OSPITE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Complete guest login with email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password using the 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest registration using the 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Circolante Impresa' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Circolante Impresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Circolante Impresa product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Anticipo fatture Italia ed estero' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Anticipo fatture Italia ed estero",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo fatture Italia ed estero product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Apertura di Credito in Conto Corrente' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Apertura di Credito in Conto Corrente",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apertura di Credito in Conto Corrente product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Smobilizzo crediti di Portafoglio' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Smobilizzo crediti di Portafoglio",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smobilizzo crediti di Portafoglio product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Anticipo transato POS' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Anticipo transato POS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo transato POS product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Recupero Crediti internazionali' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Recupero Crediti internazionali",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Recupero Crediti internazionali product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Cambiale agraria' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Cambiale agraria",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cambiale agraria product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Anticipo prenotazioni alberghiere' using the 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Anticipo prenotazioni alberghiere",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo prenotazioni alberghiere product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover all updates using the 'SCOPRI TUTTI GLI AGGIORNAMENTI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Migliorare-la-gestione-della-mia-liquidita.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI TUTTI GLI AGGIORNAMENTI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Scenario e Mercati updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

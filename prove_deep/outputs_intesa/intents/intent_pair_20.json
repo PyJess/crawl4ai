@@ -1,0 +1,416 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Business Needs Page via Parent Menu Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' to accept all cookies on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options from Business Needs Section via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to open the cookie policy on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Business Needs Page via Desktop Search",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search input on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Business Needs Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search input on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-reset-search' button to clear the search input on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search input is empty",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' search input on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the mobile search on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $name in the 'Password' input on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the login form on the child page",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Recupera Password' to initiate password recovery on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the password recovery process is started",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Registrati' to start the registration process on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Maintain Login Session on Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Conto BusinessInsieme' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Conto BusinessInsieme product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access POS Solutions Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Soluzioni POS' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Soluzioni POS product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Nexi Business Platform Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Nexi Business' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Nexi Business platform page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Debit Plus Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Carta Debit Plus' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Carta Debit Plus product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Credit Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Carta Credit' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Carta Credit product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Prepaid Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Carta Prepaid' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Carta Prepaid product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Conto Impresa Pi\u00f9 Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Conto Impresa Pi\u00f9' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Conto Impresa Pi\u00f9 product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access MyBank Product Details from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'MyBank' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the MyBank product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Portale Inbiz Information from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Portale Inbiz' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Portale Inbiz information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Tesoreria Aziendale Information from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Tesoreria aziendale' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Tesoreria aziendale information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Servizi Aggiuntivi per i POS Information from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Servizi aggiuntivi per i POS' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Servizi aggiuntivi per i POS information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Sicurezza Online Information from Business Needs Page via Parent Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri come fare' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Sicurezza online information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

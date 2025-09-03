@@ -1,0 +1,712 @@
+[
+  {
+    "test_case_name": "Access Privacy Policy from Cookie Banner on Home Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner of the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Privacy - Intesa Sanpaolo' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from Cookie Banner (desktop) on Home Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the desktop cookie banner of the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Privacy - Intesa Sanpaolo' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed on the privacy policy page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies (desktop) on Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the desktop cookie banner of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed on the privacy policy page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed on the privacy policy page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Cookie Policy from Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Cookie Policy (desktop) from Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the desktop cookie banner of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use Accessibility Skip to Content on Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use Accessibility Skip to Menu on Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use Accessibility Skip to Footer on Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Privacy Policy Page (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Privacy Policy Page (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the mobile version of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login on Privacy Policy Page (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login on Privacy Policy Page (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the mobile version of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search on Privacy Policy Page (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search on Privacy Policy Page (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the mobile version of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Privacy Policy Page (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on the privacy policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search on Privacy Policy Page (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Privacy Policy Page (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on mobile",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search on Privacy Policy Page (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Privacy Policy Page (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'E-mail' in the guest login form on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Password' in the guest login form on the privacy policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' in the guest login form on the privacy policy page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives a login response",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Privacy Policy Page (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'E-mail' in the guest login form on the mobile version of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Password' in the guest login form on the mobile version of the privacy policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' in the guest login form on the mobile version of the privacy policy page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives a login response on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option in Guest Login (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' in the guest login form on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option in Guest Login (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' in the guest login form on the mobile version of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' in the guest login form on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' in the guest login form on the mobile version of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Login Form (desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' in the guest login form on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Login Form (mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' in the guest login form on the mobile version of the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Home from Breadcrumb on Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb navigation on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Informativa Privacy Clienti from Privacy Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Informativa Privacy Clienti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa Consensi Iniziative Commerciali PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa e consensi per iniziative commerciali Clienti Prospect' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa_consensi_iniziative_commerciali_clienti_prospect.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Control Room Sicurezza Fisica PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Control Room Sicurezza Fisica' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'ISP-Control-Room-Sicurezza-Fisica.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Codice di Condotta Informativa PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Codice di Condotta - Informativa' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'codice-condotta-informativa.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa Firma Grafometrica PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa firma grafometrica' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'Informativa-ISP-firma-grafometrica.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Focus i tuoi diritti PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Focus: i tuoi diritti' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'focus-sui-diritti.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Modello esercizio diritti PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Modello esercizio diritti in materia di protezione dei dati personali' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'intesa-sanpaolo-modello-esercizio-diritti-in-materia-di-protezione-dei-dati-personali.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Anagrafe Unica Welfare PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Anagrafe Unica Welfare' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-auw.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa sistemi di videosorveglianza PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa sistemi di videosorveglianza' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-videosorveglianza.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Privacy Information Notice video surveillance systems - English PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Information Notice video surveillance systems - English' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-videosorveglianza-en.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa videosorveglianza tedesco PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informationsschreiben zum schutz personenbezogener daten die \u00fcber videoger\u00e4te gesammelt wurden (video\u00fcberwachung) \u2013 De\u00fctsche version' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-videosorveglianza-de.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Operazione societaria tra Intesa Sanpaolo S.p.A. e Isybank S.p.A PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Operazione societaria tra Intesa Sanpaolo S.p.A. e Isybank S.p.A' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'operazione-societaria-tra-isp-e-isybank.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Registrazione delle comunicazioni nell\u2019ambito della prestazione di attivit\u00e0 e servizi di investimento PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Registrazione delle comunicazioni nell\u2019ambito della prestazione di attivit\u00e0 e servizi di investimento' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-protezione-dati-personali-registrazione-servizi-investimento.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa privacy Careers PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa privacy Careers' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-candidati-isp.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Privacy Information Notice Careers - English version PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Information Notice Careers - English version' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-candidati-isp-en.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa privacy per i visitatori PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa privacy per i visitatori' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-visitatori-estesa.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa sulla protezione dei dati personali per l\u2019utilizzo dell\u2019App PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa sulla protezione dei dati personali per l\u2019utilizzo dell\u2019App' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'supplemento-informativa-app-isp.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Personal data protection policy for the use of the App - English version PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Personal data protection policy for the use of the App - English version' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'supplemento-informativa-app-isp-eng.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa sulla protezione dei dati personali di atleti con contratto di Testimonial/Ambassador PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa sulla protezione dei dati personali di atleti con contratto di Testimonial/Ambassador' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-protezione-dati-personali-atleti-con-contratto-testimonial-ambassador.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Informativa sulla protezione dei dati personali di atleti e staff trattati in articoli, foto e video pubblicati sul sito internet Intesa Sanpaolo PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Informativa sulla protezione dei dati personali di atleti e staff trattati in articoli, foto e video pubblicati sul sito internet Intesa Sanpaolo' on the privacy policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF 'informativa-protezione-dati-personali-atleti-e-staff-in-articoli-foto-video.pdf' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

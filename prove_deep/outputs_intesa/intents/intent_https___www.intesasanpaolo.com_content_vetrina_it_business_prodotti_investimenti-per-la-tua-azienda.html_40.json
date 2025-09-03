@@ -1,0 +1,332 @@
+[
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button (desktop)",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the cookie options page via 'Pi\u00f9 opzioni' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the cookie options page via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using the 'Passa al Contenuto' button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using the 'Passa al Men\u00f9' button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar using the 'Search' button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the desktop search input",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search input",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the mobile search input",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the mobile search form to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply product filters on mobile",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply product filters on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product list is updated according to the applied filters",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client access panel using the 'Accesso clienti' button",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client access panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Parla con noi' page from the header",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Fondi per le imprese' details via 'SCOPRI DI PI\u00d9' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Fondi per le imprese",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fondi per le imprese details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Eurizon Next 2.0' details via 'SCOPRI DI PI\u00d9' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Eurizon Next 2.0",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Eurizon Next 2.0 details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Eurizon GP Collection' details via 'SCOPRI DI PI\u00d9' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Eurizon GP Collection",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Eurizon GP Collection details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'GP Linea Dedicata' details via 'SCOPRI DI PI\u00d9' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for GP Linea Dedicata",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the GP Linea Dedicata details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Patrimonio Aziende Insurance' details via 'SCOPRI DI PI\u00d9' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Patrimonio Aziende Insurance",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Patrimonio Aziende Insurance details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Certificates' details via 'SCOPRI DI PI\u00d9' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Certificates",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Certificates details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to all market updates via 'SCOPRI TUTTI GLI AGGIORNAMENTI' link",
+    "references": "investimenti-per-la-tua-azienda.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI TUTTI GLI AGGIORNAMENTI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

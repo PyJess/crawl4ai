@@ -1,0 +1,636 @@
+[
+  {
+    "test_case_name": "Accept all cookies on mobile",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies on desktop",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie management options on mobile",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie management page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie management options on desktop",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie management page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi banner cookie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using accessibility button",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login panel",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using burger button",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field on desktop",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from desktop",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from mobile",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password on desktop",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password on mobile",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user on desktop",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user on mobile",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option on desktop login",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Factoring per le Imprese' product page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Factoring per le Imprese'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring per le Imprese' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Factoring per le Imprese' product page using CTA",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring per le Imprese' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Factoring indiretto (Reverse Factoring)' product page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Factoring indiretto (Reverse Factoring)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring indiretto (Reverse Factoring)' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Factoring indiretto (Reverse Factoring)' product page using CTA",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring indiretto (Reverse Factoring)' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Factoring per l'Export e per l'Import' product page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Factoring per l'Export e per l'Import'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring per l'Export e per l'Import' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Factoring per l'Export e per l'Import' product page using CTA",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring per l'Export e per l'Import' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Confirming' product page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Confirming'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Confirming' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Confirming' product page using CTA",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'VAI SU INBIZ'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Confirming' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external site",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external site",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external site",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external site",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' main menu page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' main menu page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' main menu page",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'www.intesasanpaolo.com' from footer",
+    "references": "factoring-e-confirming.json",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaolo.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies on the digital identity page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Digital Identity Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open cookie options on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Digital Identity Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open cookie options on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' Section from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' Section from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' Section from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link in the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the login panel.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Call to Action 'Scopri il conto' from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' button to view account information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information or related landing page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Chat or Contact from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' button to open the chat or contact section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat or contact section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search panel.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search query.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed based on the entered query.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the reset search button to clear the search input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the mobile search query.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed based on the entered query.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and redirected appropriately.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable the option.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest.",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest with the 'Mantieni L'accesso' option enabled.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Desktop) on Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to initiate password recovery.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Digital Identity Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the guest registration process.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form or process is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest on mobile.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and redirected appropriately.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Digital Identity Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the guest registration process on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form or process is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Mobile) on Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to initiate password recovery on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or form is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Security Information from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view security information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Digital Identity Management from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gestisci identit\u00e0 digitale' link to manage digital identity.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital identity management page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy - Cookie policy' link to view the cookie policy.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer from Digital Identity Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

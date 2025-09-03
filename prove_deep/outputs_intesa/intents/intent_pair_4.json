@@ -1,0 +1,16 @@
+[
+  {
+    "test_case_name": "Open PDF Document from Parent Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document 'informativa-ivass-rapporti-affari.pdf' is opened or downloaded successfully",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

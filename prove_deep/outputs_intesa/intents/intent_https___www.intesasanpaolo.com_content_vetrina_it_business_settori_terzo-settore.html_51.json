@@ -1,0 +1,668 @@
+[
+  {
+    "test_case_name": "Accept all cookies via main banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via desktop banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link in main banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link in desktop banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat support via 'Parla con noi' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact the bank",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support or contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login area via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the login area",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the reset button with class 'btn-reset-search' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop with remember me option",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable remember me",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop without remember me option",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to recover password (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to register as guest (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile via 'REGISTRATI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to register as guest (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to recover password (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access SoftPOS promotion via 'SCOPRI LA PROMOZIONE' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI LA PROMOZIONE' link to view the SoftPOS promotion",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SoftPOS promotion page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Crescita Impresa product via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Crescita Impresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Crescita Impresa product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access S-Loan Progetti Green product via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for S-Loan Progetti Green",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan Progetti Green product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access S-Loan product via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for S-Loan",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access D-loan product via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for D-loan",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the D-loan product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Finanziamento Enti Religiosi product via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Finanziamento Enti Religiosi",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanziamento Enti Religiosi product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access PNRR solutions via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Intesa Sanpaolo per il PNRR",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PNRR solutions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Comunit\u00e0 Energetiche Rinnovabili (CER) via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Comunit\u00e0 Energetiche Rinnovabili (CER)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the CER page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access BusinessInsieme account conventions via 'SCOPRI LE CONVENZIONI DI CONTO BUSINESSINSIEME' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI LE CONVENZIONI DI CONTO BUSINESSINSIEME' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the BusinessInsieme account conventions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Credit product via 'CARTA CREDIT' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'CARTA CREDIT' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Credit product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Prepaid product via 'CARTA PREPAID' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'CARTA PREPAID' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Prepaid product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Debit Plus product via 'CARTA DEBIT PLUS' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'CARTA DEBIT PLUS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Debit Plus product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz portal via 'INBIZ' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'INBIZ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz portal page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Key Business via 'MY KEY BUSINESS' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'MY KEY BUSINESS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Key Business page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access POS solutions via 'SOLUZIONI POS' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONI POS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS solutions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access social impact evaluation via 'IL PROGETTO E IL METODO' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'IL PROGETTO E IL METODO' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the social impact evaluation page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access impact evaluation report via 'VAI AL REPORT DI VALUTAZIONE DELL'IMPATTO' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'VAI AL REPORT DI VALUTAZIONE DELL'IMPATTO' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the impact evaluation report page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access PASS initiative via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Iniziativa PASS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PASS initiative page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Bando Autoambulanze 2024 via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Bando Autoambulanze 2024",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bando Autoambulanze 2024 page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Futuro aggiunto 2025 via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Futuro aggiunto 2025",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Futuro aggiunto 2025 page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Osservatorio su Finanza e Terzo Settore via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Osservatorio su Finanza e Terzo Settore",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Osservatorio su Finanza e Terzo Settore page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Osservatorio della Filantropia via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Osservatorio della Filantropia",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Osservatorio della Filantropia page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Questionario RIM ex-ante via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Questionario RIM ex-ante",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Questionario RIM ex-ante page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access For Funding platform via 'VAI SU FOR FUNDING' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'VAI SU FOR FUNDING' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the For Funding platform page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access main site via 'www.intesasanpaolo.com' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/settori/terzo-settore.html",
+    "intents": [
+      {
+        "intent": "Click the 'www.intesasanpaolo.com' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main site page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

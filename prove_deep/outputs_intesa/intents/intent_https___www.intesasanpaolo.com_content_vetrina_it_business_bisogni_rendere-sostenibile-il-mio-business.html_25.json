@@ -1,0 +1,512 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies via Desktop Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Desktop Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'chiudi' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Field and Perform Desktop Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to submit the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search input field is empty",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Modal",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI' button to access Inbiz (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI' button to access Inbiz (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Guest Login on Desktop with Remember Me",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable remember me",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and session is remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Guest Login on Desktop without Remember Me",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start guest registration",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Guest Login on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start guest registration (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to start password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' Page from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' Security Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FCS Green New Deal Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for FCS Green New Deal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FCS Green New Deal information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access S-Loan Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for S-Loan",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access S-Loan Progetti Green Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for S-Loan Progetti Green",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan Progetti Green information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Energia Impresa Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Energia Impresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Energia Impresa information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Welfare Hub Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Welfare Hub",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Welfare Hub information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Economia Circolare Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link for Economia Circolare",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Economia Circolare information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Sostenibilit\u00e0 Aziendale Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'INVESTI IN SOSTENIBILIT\u00c0' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Sostenibilit\u00e0 Aziendale information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Laboratorio ESG Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il Laboratorio ESG' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Laboratorio ESG information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Circular Economy Innovation Center Solution",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/rendere-sostenibile-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Innovare il modello di business nel segno dell'Economia Circolare \n\nScopri di pi\u00f9' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Innovation Center solution page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

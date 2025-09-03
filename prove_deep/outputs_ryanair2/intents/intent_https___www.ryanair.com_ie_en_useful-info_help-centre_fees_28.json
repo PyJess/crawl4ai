@@ -1,0 +1,394 @@
+[
+  {
+    "test_case_name": "Navigate to Help Centre via breadcrumb link",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Help Centre' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Help Centre page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Jump to Optional Fees section using Table link",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Table - Optional fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the Optional fees section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online check-in from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Online check-in' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Online check-in page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Travel Updates from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Travel Updates' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Travel Updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Help Centre from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Help Centre' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Help Centre page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inflight shopping receipts from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Inflight shopping receipts' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inflight shopping receipts page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access View booking history from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'View booking history' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the booking history page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Advertise with us from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Advertise with us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Advertise with us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Careers from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Corporate website from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate website' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Media Centre from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Media Centre' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Media Centre page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Investor Relations from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Investor Relations' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Investor Relations page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Registered address from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registered address' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Registered address page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Charities from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Charities' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Charities page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Environment from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Environment' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Environment page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Amsterdam from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Amsterdam' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Amsterdam page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Lanzarote from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Lanzarote' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Lanzarote page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Malaga from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Malaga' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Malaga page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Liverpool from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Liverpool' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Liverpool page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Paris from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Paris' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Paris page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Alicante from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Alicante' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Alicante page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Birmingham from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Birmingham' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Birmingham page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flights to Tenerife from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Tenerife' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Tenerife page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General terms & conditions of carriage from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy policy from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy policy' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies policy from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact us from footer",
+    "references": "fees.json",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

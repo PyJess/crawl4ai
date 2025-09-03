@@ -1,0 +1,250 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify banner closure on emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the emergency card block page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the emergency card block page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scegli le carte che desideri bloccare' from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scegli le carte che desideri bloccare' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login page for card blocking is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access card FAQ from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Leggi le domande frequenti' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access floating FAQ from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Domande frequenti' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the floating FAQ section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'TI RICHIAMIAMO NOI' (call me back) from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'TI RICHIAMIAMO NOI' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the call me back request interface is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security advice from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security advice page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search on emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' on the emergency card block page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the emergency card block page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field with placeholder 'Cosa posso fare per te oggi?' is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search on emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the mobile search form on the emergency card block page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access login guest flow from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the input with placeholder 'E-mail' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the input with placeholder 'Password' on the emergency card block page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox 'Mantieni L'accesso' on the emergency card block page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the emergency card block page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery interface is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration interface is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb on emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy - Cookie policy from emergency card block page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy - Cookie policy' on the emergency card block page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

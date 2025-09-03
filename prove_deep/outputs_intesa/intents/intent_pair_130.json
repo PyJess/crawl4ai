@@ -1,0 +1,824 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the digital payments page to accept all cookies.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Cookie Policy from Digital Payments Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link under the mobile cookie banner on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Cookie Policy from Digital Payments Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link under the desktop cookie banner on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on Digital Payments Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the desktop cookie banner on the digital payments page to accept all cookies.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate External Link from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link in the external navigation menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external website is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo External Link from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link in the external navigation menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external website is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers External Link from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link in the external navigation menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external website is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News External Link from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link in the external navigation menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external website is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link in the external navigation menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link in the external navigation menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link in the external navigation menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to switch to the corresponding tab on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i giorni' button to switch to the corresponding tab on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti della Vita' button to switch to the corresponding tab on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti e salvadanai' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Conti e salvadanai' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutui' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mutui' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e Risparmio' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Investimenti e Risparmio' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Carte' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Assicurazioni' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Assicurazioni' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Consulenza Evoluta' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Consulenza Evoluta' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Prestiti' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Pagamenti digitali' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pagamenti digitali' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Previdenza' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Previdenza' link in the menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?' on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on the digital payments page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is cleared.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca' on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the mobile search form to submit the search on the digital payments page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Digital Payments Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu on the digital payments page (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login Modal on Digital Payments Page (Header)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button in the header to open the customer login modal on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from Digital Payments Page (Header)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Digital Payments Page (Header)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the main menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link in the main menu on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Digital Payments Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' on the digital payments page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button with class 'loginBtn' to log in as a guest on the digital payments page (desktop).",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option on Digital Payments Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' with id 'rememberMe2' on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Digital Payments Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start the password recovery process on the digital payments page (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Digital Payments Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the registration process on the digital payments page (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Digital Payments Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' on the digital payments page (if present).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' on the digital payments page (if present).",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button with class 'customBtn greenBackground col-sm-24 col-xs-24' to log in as a guest on the digital payments page (mobile).",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Digital Payments Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to start the password recovery process on the digital payments page (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Digital Payments Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the registration process on the digital payments page (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Digital Payments Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the mobile section on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login Modal on Digital Payments Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button in the mobile section to open the customer login modal on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from Digital Payments Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the mobile section on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri di pi\u00f9' Wallet e Wearable from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link with id 'vtee3ae5915e9f933a388dfaaa94aeda34e8bca7da072524cbecfcd73d86d6cafc' to learn more about Wallet e wearable on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Wallet e wearable information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri di pi\u00f9' BANCOMAT Pay from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link with id 'vt7784ec1b38d3fce94c2d7558851e13f81508e8c5ccc7d33c7cceae5bc2300472' to learn more about BANCOMAT Pay on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the BANCOMAT Pay information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI L'APP INTESA SANPAOLO MOBILE' from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI L'APP INTESA SANPAOLO MOBILE' link with id 'vt5b8e8491305c790777b28d8fb9b1efc55681b2f54122e6d6ca82415065204307' on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Mobile app information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Guida ai Servizi' PDF from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Guida ai Servizi' link with id 'vt-1511443610342' to download the PDF on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document is downloaded or opened in a new tab.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Main Website from Digital Payments Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'www.intesasanpaolo.com' link with id 'vt-1596039993492' on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main Intesa Sanpaolo website is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Facebook from Digital Payments Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Facebook' link with id 'vt0f7018cf9a0fb5cad733569698cc774c0abf09944b4d06b449e12ba34df5cb5b' in the footer on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Facebook page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Youtube from Digital Payments Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Youtube' link with id 'vt114518cc5ec772f69db19df27bac3fd6bd5bfdff42cf35d6d88fa7fabd854e18' in the footer on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Youtube channel is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Twitter from Digital Payments Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Twitter' link with id 'vt97dd95e9162aec9b41e6f6df206c2f98d66f7ded37ca2081a58a80f16a5a257c' in the footer on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Twitter page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to LinkedIn from Digital Payments Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'LinkedIn' link with id 'vt83fa082c4908b58bdd78aad775a00a9093c235459ad9c8208af45270b85d2a05' in the footer on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo LinkedIn page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Instagram from Digital Payments Page Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Instagram' link with id 'vt53ce14d53044789935c3d77facbf801967941f9728e4a0d22f9394df617877f4' in the footer on the digital payments page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Instagram page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

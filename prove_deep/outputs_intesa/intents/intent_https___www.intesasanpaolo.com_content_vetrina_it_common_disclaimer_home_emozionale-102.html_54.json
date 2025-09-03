@@ -1,0 +1,44 @@
+[
+  {
+    "test_case_name": "Verify navigation to 'www\u2004eurizoncapital.com' from disclaimer page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/disclaimer/home/emozionale-102.html",
+    "intents": [
+      {
+        "intent": "Click the link 'www\u2004eurizoncapital.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.eurizoncapital.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify navigation to 'www.intesasanpaoloprotezione.com' from disclaimer page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/disclaimer/home/emozionale-102.html",
+    "intents": [
+      {
+        "intent": "Click the link 'www.intesasanpaoloprotezione.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.intesasanpaoloprotezione.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify navigation using the second occurrence of 'www\u2004eurizoncapital.com' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/disclaimer/home/emozionale-102.html",
+    "intents": [
+      {
+        "intent": "Click the second occurrence of the link 'www\u2004eurizoncapital.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.eurizoncapital.com/'",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

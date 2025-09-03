@@ -1,0 +1,514 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the family page to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the family page to view cookie policy options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti e salvadanai' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Conti e salvadanai' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutui' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mutui' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e Risparmio' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Investimenti e Risparmio' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Assicurazioni' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Consulenza Evoluta' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Consulenza Evoluta' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Pagamenti digitali' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pagamenti digitali' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Previdenza' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Previdenza' in the menu on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' product page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' tab on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' tab on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' tab on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search on the family page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search on the family page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login Desktop on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button for guest login on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login Mobile on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button for guest login on mobile on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Registration Mobile on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button for registration on mobile on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Registration Desktop on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link for registration on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password Desktop on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to recover password on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password Mobile on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to recover password on mobile on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle 'Mantieni L'accesso' Checkbox on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the checkbox state is toggled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accordion Login Online Mobile on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button in the accordion on mobile on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login section is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accordion Guest Login Mobile on Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button in the accordion on mobile on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login section is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri il conto' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' Security Information from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access security information on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Servizio SMS' Information from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Servizio SMS\u00a0' link to access SMS service information on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SMS service information page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Social Media Links from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' link in the footer on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile opens in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Youtube Social Media from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' link in the footer on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile opens in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Twitter Social Media from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' link in the footer on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile opens in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access LinkedIn Social Media from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' link in the footer on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile opens in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Instagram Social Media from Family Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' link in the footer on the family page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile opens in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

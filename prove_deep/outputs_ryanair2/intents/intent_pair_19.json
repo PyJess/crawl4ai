@@ -1,0 +1,578 @@
+[
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Search Flights on 404 Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search flights' button on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user is redirected to the flight search page or receives appropriate feedback",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Book a Room on 404 Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Book a Room' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user is redirected to the room booking site",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Hire a Car on 404 Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Hire a Car' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user is redirected to the car hire site",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Open Sign Up Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sign up' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the sign up modal or page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Open Log In Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Log in' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the log in modal or page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Help Section",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Help' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the help section or page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Online Check-in",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Online check-in' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the online check-in page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Travel Updates",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Travel Updates' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the travel updates page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Help Centre",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Help Centre' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the help centre page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Inflight Shopping Receipts",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Inflight shopping receipts' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the inflight shopping receipts page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and View Booking History",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'View booking history' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the booking history page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Advertise With Us",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Advertise with us' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the advertise with us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Careers",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Careers' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the careers page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Corporate Website",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate website' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the corporate website is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Media Centre",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Media Centre' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the media centre page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Investor Relations",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Investor Relations' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the investor relations page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Registered Address",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registered address' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registered address page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Charities",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Charities' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the charities page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Environment",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Environment' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the environment page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Amsterdam",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Amsterdam' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Amsterdam page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Lanzarote",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Lanzarote' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Lanzarote page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Malaga",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Malaga' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Malaga page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Liverpool",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Liverpool' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Liverpool page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Paris",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Paris' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Paris page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Alicante",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Alicante' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Alicante page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Birmingham",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Birmingham' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Birmingham page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Flights to Tenerife",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Flights to Tenerife' link on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the flights to Tenerife page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Terms of Use from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use' link in the footer on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the terms of use page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access General Terms & Conditions of Carriage from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage' link in the footer on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the general terms & conditions of carriage page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Privacy Policy from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy policy' link in the footer on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the privacy policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Cookies Policy from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies' link in the footer on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookies policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Contact Us and Access Contact Us from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link in the footer on the Contact Us 404 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the contact us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

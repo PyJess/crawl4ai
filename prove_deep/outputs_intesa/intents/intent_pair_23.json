@@ -1,0 +1,596 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate External Link from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo External Link from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers External Link from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News External Link from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' Tab on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Settori' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' Tab on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' Tab on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Desktop Search Functionality on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)' on the business development page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Mobile Search Functionality on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)' on the business development page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Chat Support from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Guest Login with Remember Me on Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Password' field on the business development page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox on the business development page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the business development page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and the session is remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login from Business Development Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Crescita Impresa",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Crescita Impresa on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Crescita Impresa product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about S-Loan",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for S-Loan on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Riequilibrio Impresa",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Riequilibrio Impresa on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Riequilibrio Impresa product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Capitale Impresa",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Capitale Impresa on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Capitale Impresa product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Neoimpresa",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Neoimpresa on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Neoimpresa product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Finanziamento Business Gemma",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Finanziamento Business Gemma on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanziamento Business Gemma product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Microcredito",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Microcredito on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Microcredito product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Servizi per migliorare il posizionamento commerciale",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for Servizi per migliorare il posizionamento commerciale on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the business development services page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Crescita Agri",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Crescita Agri on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Crescita Agri product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View All Updates on Scenario e Mercati",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI GLI AGGIORNAMENTI' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Scenario e Mercati updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Polizza Business Sempre",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Polizza Business Sempre' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Business Sempre product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Programma Sviluppo Filiere",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Programma Sviluppo Filiere' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Programma Sviluppo Filiere page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Company Property",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Cerchi un immobile per la tua azienda?' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the company property search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Participate in Resto al Sud Initiative",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Resto al Sud' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Resto al Sud initiative page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Finanziamenti BEI",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanziamenti BEI' on the business development page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanziamenti BEI product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

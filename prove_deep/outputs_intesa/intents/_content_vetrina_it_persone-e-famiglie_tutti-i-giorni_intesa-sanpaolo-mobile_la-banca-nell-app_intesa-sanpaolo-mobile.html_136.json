@@ -1,0 +1,682 @@
+[
+  {
+    "test_case_name": "Accept Cookies on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (Accetta cookie mobile) button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (Accetta cookie desktop) button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (Pi\u00f9 opzioni cookie mobile) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (Pi\u00f9 opzioni cookie desktop) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Content Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Submit search desktop' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Reset search desktop' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Submit search mobile' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' (Open main menu) button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' (Open mobile menu) button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' (Login guest desktop) button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' (Login guest mobile) button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option During Login",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Forgot Password on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Forgot Password on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Registration Page on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Registration Page on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri il conto' from Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' (CTA header) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account discovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri il conto' from Mobile Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' (CTA mobile) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account discovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scarica l\u2019App Intesa Sanpaolo Mobile' from Main Section",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE' link (main section)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the app download page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scarica l\u2019App Intesa Sanpaolo Mobile' from Bottom Section",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE' link (bottom section)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the app download page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'PROVA A VINCERE' Reward Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'PROVA A VINCERE' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the reward hub page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' Grafica Esigenze Modal",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' (grafica esigenze) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the grafica esigenze modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' Sotto Controllo Modal",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' (sotto controllo) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the sotto controllo modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' Tanti Servizi Modal",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' (tanti servizi) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the tanti servizi modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri Smart Save' Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri Smart Save' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smart Save page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri SpensieRata' Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri SpensieRata' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SpensieRata page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri XME Prestito Diretto' Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri XME Prestito Diretto' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Diretto page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri l'app' Investo Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'app' (Investo) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Investo app page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri l'app' Assicurazioni Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'app' (Assicurazioni) link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assicurazioni app page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI TUTTI I RICONOSCIMENTI' Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI I RICONOSCIMENTI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the recognitions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' Contact Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Corporate' External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Gruppo' External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Careers' External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'News' External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Club Azionisti' Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Finanza Insieme' External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Quick Training' Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Persone e Famiglie' Main Menu Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Business' Main Menu Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Business' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Exclusive' Main Menu Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile/la-banca-nell-app/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

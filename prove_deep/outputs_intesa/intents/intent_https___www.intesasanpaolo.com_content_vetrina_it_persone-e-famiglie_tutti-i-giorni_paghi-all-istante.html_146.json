@@ -1,0 +1,662 @@
+[
+  {
+    "test_case_name": "Accept all cookies on mobile",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies on desktop",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie management options on mobile",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie management page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie management options on desktop",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie management page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to content using accessibility button",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main content section is focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using accessibility button",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the menu section is focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the footer section is focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Corporate' external link",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Gruppo' external link",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Careers' external link",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'News' external link",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Club Azionisti' link",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Finanza Insieme' external link",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Quick Training' link",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' tab",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' tab",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' CTA",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access client login from header",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat support from header",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open menu from header",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search from header",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login tab on mobile",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login tab on mobile",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password on desktop",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option for guest login",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest registration link on desktop",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access BANCOMAT Pay information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the BANCOMAT Pay information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access smartphone payment information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the smartphone payment information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access public transport contactless ticket information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the public transport contactless ticket information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Samsung Pay information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Samsung Pay information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Apple Pay information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apple Pay information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Bonifico e giroconto online information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bonifico e giroconto online information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Bollettini online information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bollettini online information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Promemoria information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Promemoria information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Ricarica online cellulare e carte prepagate information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Ricarica online cellulare e carte prepagate information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Money Transfer Western Union information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Money Transfer Western Union information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Telepass Family information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Telepass Family information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Servizio SMS information",
+    "references": "paghi-all-istante.json",
+    "intents": [
+      {
+        "intent": "Click 'Servizio SMS'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Servizio SMS information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

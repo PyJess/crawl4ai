@@ -1,0 +1,128 @@
+[
+  {
+    "test_case_name": "Navigate to 'onlineform.ryanair.com' Cookie Policy and Expand 'Cookies used' Panel",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookies used' expansion panel is displayed on the 'onlineform.ryanair.com' cookie policy page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cookie preferences' from 'onlineform.ryanair.com' Cookie Policy Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed on the 'onlineform.ryanair.com' cookie policy page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify 'General terms & conditions of carriage' Link from 'onlineform.ryanair.com' Cookie Policy Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'General terms & conditions of carriage' page is opened from the 'onlineform.ryanair.com' cookie policy page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify 'Terms of Use' Link from 'onlineform.ryanair.com' Cookie Policy Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Terms of Use' page is opened from the 'onlineform.ryanair.com' cookie policy page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify 'Privacy Policy' Link from 'onlineform.ryanair.com' Cookie Policy Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Privacy Policy' page is opened from the 'onlineform.ryanair.com' cookie policy page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify 'Cookies' Link from 'onlineform.ryanair.com' Cookie Policy Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookies' page is opened from the 'onlineform.ryanair.com' cookie policy page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify 'Contact us' Link from 'onlineform.ryanair.com' Cookie Policy Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Contact us' page is opened from the 'onlineform.ryanair.com' cookie policy page.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

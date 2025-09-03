@@ -1,0 +1,124 @@
+[
+  {
+    "test_case_name": "Access guest login with email and password on desktop",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into input with placeholder 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into input with placeholder 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest login process is initiated and the user is redirected or receives feedback.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login with email and password on mobile",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into input with placeholder 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into input with placeholder 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest login process is initiated and the user is redirected or receives feedback.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from desktop login",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed for new guest users.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from mobile login",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed for new guest users.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from desktop guest login",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from mobile guest login",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' during guest login on desktop",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click checkbox 'Mantieni L'accesso'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled for the session.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

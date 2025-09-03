@@ -1,0 +1,318 @@
+[
+  {
+    "test_case_name": "Search for Flights with Return Trip Option",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Return trip'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Departure'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in 'Destination'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for return flights are displayed.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Flights with One Way Option",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'One way'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Departure'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in 'Destination'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for one way flights are displayed.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply Promo Code During Flight Search",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Type $name in 'Departure'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Destination'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Apply promo code'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the promo code input or confirmation is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Subscribe to Newsletter with Email Address",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Type $email in 'Email address'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sign me up!'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that a subscription confirmation message is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Change Cookie Preferences from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Cookie preferences'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies via Cookie Popup",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Yes, I agree'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie popup is dismissed and preferences are saved.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject Cookies via Cookie Popup",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'No, thanks'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie popup is dismissed and preferences are not saved.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Cookie Settings from Cookie Popup",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie settings modal or page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Previous Notification in Red Line Section",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Open previous notification'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the previous notification is displayed in the red line section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Next Notification in Red Line Section",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Open next notification'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the next notification is displayed in the red line section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Market Using Language Selector",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Open market switcher'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market switcher or language selection options are displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'myRyanair Portal'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'My Bookings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Bookings page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQs from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'FAQs'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Assistance from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Assistance'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assistance page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Help Centre from Useful Info Section",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Help centre'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Help Centre page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Flight Info from Useful Info Section",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Flight info'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flight Info page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies Policy from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Cookies'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies Policy page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Footer",
+    "references": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Contact us'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is opened.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

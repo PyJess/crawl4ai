@@ -1,0 +1,202 @@
+[
+  {
+    "test_case_name": "Search for flights with return trip selected",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'flights'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Return trip'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the search results for a return trip are displayed",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for flights with one way trip selected",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'flights'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'One way'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the search results for a one way trip are displayed",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for car hire",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'Car Hire'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the car hire search results are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for hotels",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'hotels'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the hotel search results are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for gift cards",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'Gift cards'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the gift cards page or section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply a promo code",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'Apply promo code'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the promo code input or confirmation is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Subscribe to newsletter with email address",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'Email address'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sign me up!'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that a subscription confirmation message is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie settings from popup",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie settings modal or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies from popup",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'No, thanks'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie popup is dismissed and cookies are not accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept cookies from popup",
+    "references": "ryanair.com_page.json",
+    "intents": [
+      {
+        "intent": "Click 'Yes, I agree'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie popup is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

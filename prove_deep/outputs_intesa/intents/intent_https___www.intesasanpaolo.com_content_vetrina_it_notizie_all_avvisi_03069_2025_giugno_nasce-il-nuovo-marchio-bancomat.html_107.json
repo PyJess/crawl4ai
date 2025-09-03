@@ -1,0 +1,778 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (banner)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy (banner)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search field (desktop) and perform a search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Search' to open the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field (desktop) after entering a query",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search field (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the mobile search field",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cerca' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access client login panel via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as user on desktop with 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable stay signed in",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the dashboard",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as user on desktop without 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the dashboard",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password on desktop via 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account on desktop via 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as user on mobile via 'ACCEDI ALLA TUA BANCA ONLINE' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI ALLA TUA BANCA ONLINE' button to select user login tab (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password' (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form (mobile)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the dashboard",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile via 'ENTRA COME OSPITE' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA COME OSPITE' button to select guest login tab (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form or area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password on mobile via 'Recupera password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account on mobile via 'REGISTRATI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' via mobile menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the mobile menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section via main menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section via main menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section via main menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' via external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link in the external navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' via external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link in the external navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' via external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link in the external navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' via external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link in the external navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' via external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link in the external navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' via external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link in the external navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' via external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link in the external navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i Prodotti' menu (Persone e Famiglie) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button with id 'menu-2' to open the menu (Persone e Famiglie) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i giorni' menu (Persone e Famiglie) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i giorni' button with id 'menu-3' to open the menu (Persone e Famiglie) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Momenti della Vita' menu (Persone e Famiglie) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti della Vita' button with id 'menu-4' to open the menu (Persone e Famiglie) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i Prodotti' menu (Business) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button with id 'menu-1' to open the menu (Business) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Settori' menu (Business) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Settori' button with id 'menu-2' to open the menu (Business) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Momenti' menu (Business) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti' button with id 'menu-3' to open the menu (Business) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Servizi digitali' menu (Business) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Servizi digitali' button with id 'menu-9' to open the menu (Business) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i Prodotti' menu (Exclusive) on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button with id 'menu-1' and title 'Tutti i Prodotti' to open the menu (Exclusive) on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' menu is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'VAI A Persone e Famiglie' via mobile menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'VAI A Persone e Famiglie' link in the mobile menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'VAI A Business' via mobile menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'VAI A Business' link in the mobile menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'VAI A Exclusive' via mobile menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'VAI A Exclusive' link in the mobile menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Facebook profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Facebook' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Youtube profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Youtube' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Twitter profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Twitter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official LinkedIn profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale LinkedIn' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Instagram profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2025/giugno/nasce-il-nuovo-marchio-bancomat.html",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Instagram' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

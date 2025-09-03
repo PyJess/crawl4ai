@@ -1,0 +1,604 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (banner)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies from the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies from the desktop cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop cookie banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (banner)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy from the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the Privacy - Cookie policy from the desktop cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the close button to dismiss the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to content using 'Passa al Contenuto' button",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open burger menu via 'Menu' button",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the burger menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the burger menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login modal via 'Accesso clienti' button",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the login modal.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search modal via 'Search' button",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search modal.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search input and submit",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search submit button to perform the search on desktop.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the reset search button to clear the desktop search input.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cosa posso fare per te oggi?' input field is empty.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search input and submit",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search submit button to perform the search on mobile.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop with email and password",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest on desktop.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the appropriate page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during desktop login",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable the keep me logged in option.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is selected.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start the password recovery process on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account via 'Registrati' link (desktop)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the registration process on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile with email and password",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest on mobile.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the appropriate page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account via 'REGISTRATI' button (mobile)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the registration process on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to start the password recovery process on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply filter 'SOLUZIONE DOMANI' and confirm on mobile",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONE DOMANI' checkbox to select the filter.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters on mobile.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'SOLUZIONE DOMANI'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access product details for 'GP Linea Dedicata' via 'SCOPRI DI PI\u00d9' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'GP Linea Dedicata' to view product details.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'GP Linea Dedicata' is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access product details for 'Portafogli di Fondi Best Expertise' via 'SCOPRI DI PI\u00d9' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Portafogli di Fondi Best Expertise' to view product details.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Portafogli di Fondi Best Expertise' is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access product details for 'Patrimonio Pro Dublin Branch' via 'SCOPRI DI PI\u00d9' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Patrimonio Pro Dublin Branch' to view product details.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Patrimonio Pro Dublin Branch' is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access product details for 'Eurizon Multimanager Trend' via 'SCOPRI DI PI\u00d9' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Eurizon Multimanager Trend' to view product details.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Eurizon Multimanager Trend' is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access product details for 'Eurizon GP Multimanager Exclusive' via 'SCOPRI DI PI\u00d9' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Eurizon GP Multimanager Exclusive' to view product details.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Eurizon GP Multimanager Exclusive' is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start PDF via 'SCARICA QUICK START' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCARICA QUICK START' link to download the Quick Start PDF.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Start PDF is downloaded successfully.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Soluzione Domani' details via 'SCOPRI DI PI\u00d9' link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Soluzione Domani' to view details.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the details page for 'Soluzione Domani' is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti e salvadanai' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Conti e salvadanai' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutui' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Mutui' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e Risparmio' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Investimenti e Risparmio' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Carte' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Assicurazioni' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Assicurazioni' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Consulenza Evoluta' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Consulenza Evoluta' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Prestiti' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Pagamenti digitali' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pagamenti digitali' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Previdenza' from menu",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Previdenza' link in the menu to navigate to the relevant page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' via CTA link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to access the account comparison page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account comparison page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' CTA link",
+    "references": "consulenza-patrimoniale-valore-insieme.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact support.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

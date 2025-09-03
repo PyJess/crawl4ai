@@ -1,0 +1,354 @@
+[
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button in the cookie banner",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button for all cookies",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via the 'Pi\u00f9 opzioni' link in the cookie banner",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via the 'Pi\u00f9 opzioni' link in the desktop cookie banner",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link in the desktop cookie banner to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button in the desktop cookie banner",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button in the desktop cookie banner to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the desktop cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using the 'Passa al Contenuto' button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using the 'Passa al Men\u00f9' button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open or close the burger menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed or hidden accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the login modal using the 'Accesso clienti' button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open or close the login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login modal is displayed or hidden accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search modal using the 'Search' button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open or close the search modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search modal is displayed or hidden accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate a desktop search using the 'Cosa posso fare per te oggi?' input and search button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for desktop search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search using the reset button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the reset button for desktop search",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate a mobile search using the 'Cerca' input and search button",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for mobile search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select a different plan in the first account dropdown (mobile)",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the dropdown for 'dropdownOffer_1' and select 'XME Conto Gold'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the first account plan is set to 'XME Conto Gold'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select a different plan in the second account dropdown (mobile)",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the dropdown for 'dropdownOffer_2' and select 'XME Conto Platinum'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the second account plan is set to 'XME Conto Platinum'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the XME Conto Silver details page using the 'SCOPRI XME CONTO SILVER' link",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI XME CONTO SILVER' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Conto Silver details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the XME Conto Gold details page using the 'SCOPRI XME CONTO GOLD' link",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI XME CONTO GOLD' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Conto Gold details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the XME Conto Platinum details page using the 'SCOPRI XME CONTO PLATINUM' link",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI XME CONTO PLATINUM' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Conto Platinum details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the My Key details page using the 'SCOPRI MY KEY' link",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI MY KEY' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Key details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as a guest using the desktop login form",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni l'accesso' option during guest login",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable the option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password using the 'Recupera Password' link",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account using the 'Registrati' link",
+    "references": "confronta-conti-corrente.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

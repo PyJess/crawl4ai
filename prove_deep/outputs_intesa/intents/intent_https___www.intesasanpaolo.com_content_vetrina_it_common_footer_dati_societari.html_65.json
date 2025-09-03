@@ -1,0 +1,412 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to cookie options page via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to cookie options page via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access panel via 'Accesso clienti' button",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel via 'Search' button",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' page via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external site via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external site via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external site via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'News' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' page via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external site via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' page via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' page via menu link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' page via menu link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' page via menu link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select 'Intesa Sanpaolo' from 'Selezionare un'azienda' dropdown",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Selezionare un'azienda' dropdown",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Intesa Sanpaolo' option",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the company information for 'Intesa Sanpaolo' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Home' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Home' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to official Facebook profile via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to official Youtube profile via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to official Twitter profile via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to official LinkedIn profile via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to official Instagram profile via link",
+    "references": "dati_societari.json",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

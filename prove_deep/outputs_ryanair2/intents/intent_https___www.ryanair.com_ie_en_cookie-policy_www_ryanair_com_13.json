@@ -1,0 +1,296 @@
+[
+  {
+    "test_case_name": "Expand Strictly Necessary Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button for Strictly Necessary Cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Strictly Necessary Cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Expedia.com Accommodation Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button for Expedia.com \u2013 accommodation via Ryanair Rooms",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Expedia.com accommodation cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Booking.com Transport Limited Car Hire Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button for Booking.com Transport Limited \u2013 car hire services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the car hire cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Elavon Payment Services Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button for Elavon - Payment services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Elavon payment services cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Performance Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button for Performance Cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Performance Cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Functional Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button for Functional cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Functional cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Pixel Tracking Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button for Pixel Tracking Cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Pixel Tracking Cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Expedia Privacy Policy Link",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link for Expedia",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Expedia Privacy Policy page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Expedia Cookie Policy Link",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie Policy' link for Expedia",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Expedia Cookie Policy page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Car Hire Privacy Policy Link",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link for Car Hire",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Car Hire Privacy Policy page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Car Hire Cookie Policy Link",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie Policy' link for Car Hire",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Car Hire Cookie Policy page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open General Terms & Conditions of Carriage from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Terms of Use from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Privacy Policy from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookies Link from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies Policy page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Contact Us from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences Dialog from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie preferences' button in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie preferences dialog or panel appears",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open FAQ Link from Header",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Fees Link from Header",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Contact Us Link from Header",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Homepage via Ryanair Logo",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+    "intents": [
+      {
+        "intent": "Click the 'Ryanair logo' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage loads",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

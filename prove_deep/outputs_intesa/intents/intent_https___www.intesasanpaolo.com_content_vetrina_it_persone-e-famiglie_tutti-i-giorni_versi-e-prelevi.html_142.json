@@ -1,0 +1,488 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy via 'Pi\u00f9 opzioni' Link (Banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy via 'Pi\u00f9 opzioni' Link (Desktop Banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies via Desktop Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the desktop cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click button with id 'cookie-chiudi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Desktop Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Type $name into input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with class 'btn-search' in desktop search form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click button with class 'btn-reset-search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Mobile Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Type $name into input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with class 'btn-search' in mobile search form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Type $email into input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on desktop",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Desktop Login",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click checkbox labeled 'Mantieni L'accesso'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password via Desktop Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User via Desktop Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Type $email into input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User via Mobile Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password via Mobile Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Security Information via Desktop Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Security Information via Mobile Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access GeoControl Information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'Prevenzione frodi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the GeoControl information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Ci trovi ovunque' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'CI TROVI OVUNQUE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Ci trovi ovunque' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cerca filiali, ATM e punti vendita Mooney' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'CERCA FILIALI, ATM E PUNTI VENDITA ABILITATI MOONEY'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search page for branches, ATMs, and Mooney points is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Guida ai servizi' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'GUIDA AI SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Guida ai servizi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Domande Frequenti' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'DOMANDE FREQUENTI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Blocca la tua carta' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'BLOCCA LA TUA CARTA'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card blocking emergency page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Disconoscimento' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'DISCONOSCIMENTO'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the disavowal page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri la filiale digitale' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI LA FILIALE DIGITALE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital branch guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Sicurezza' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'SICUREZZA'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Successioni' Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/versi-e-prelevi.html",
+    "intents": [
+      {
+        "intent": "Click 'SUCCESSIONI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online succession page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

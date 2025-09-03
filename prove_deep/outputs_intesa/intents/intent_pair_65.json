@@ -1,0 +1,402 @@
+[
+  {
+    "test_case_name": "Accept All Cookies and Verify Banner Disappearance on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Child Page and Verify Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to access cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' External Link from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' in the external links section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' External Link from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' in the external links section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' External Link from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' in the external links section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' External Link from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' in the external links section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' Internal Link from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' in the external links section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' External Link from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' in the external links section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' Internal Link from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' in the external links section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' Section from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' Section from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' Section from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Field and Perform Desktop Search on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Company from 'Seleziona azienda' Dropdown on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Selezionare un'azienda' dropdown",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Select 'Intesa Sanpaolo ' from the dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the company selection is applied",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login and Authenticate on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is authenticated as a guest",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' in the guest login section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Login Section on Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' in the guest login section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header or mobile section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Official Facebook Profile from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' in the social media section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Official Youtube Profile from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' in the social media section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Official Twitter Profile from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' in the social media section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Official LinkedIn Profile from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' in the social media section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Official Instagram Profile from Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' in the social media section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

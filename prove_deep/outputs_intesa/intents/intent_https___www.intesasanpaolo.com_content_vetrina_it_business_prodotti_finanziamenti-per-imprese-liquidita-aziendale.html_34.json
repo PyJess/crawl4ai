@@ -1,0 +1,518 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Banner",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy via 'Pi\u00f9 opzioni' Link",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view the Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy via 'Pi\u00f9 opzioni' Button (Desktop)",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view the Privacy - Cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies via Desktop Banner",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using 'Passa al Contenuto'",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using 'Passa al Men\u00f9'",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using 'Passa al Pi\u00e8 di pagina'",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu via 'Menu' Button",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search via 'Search' Button",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Desktop Search Query",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Submit search' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Query",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Reset search' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login via 'ACCEDI' Link",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' to access Inbiz login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable keep me logged in",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to login as guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as guest",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password as Guest on Desktop",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' to recover password as guest",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Desktop",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' to register as guest",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Mobile Search Query",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Submit mobile search' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to login as guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Mobile",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to register as guest (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password as Guest on Mobile",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' to recover password as guest (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Mobile Sticky Bar Menu",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i prodotti' to open the mobile sticky bar menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile sticky bar menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply Product Filters on Mobile",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'APPLICA FILTRI' to apply product filters on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product filters are applied",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Circolante Impresa' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Circolante Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Circolante Impresa product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Anticipo fatture Italia ed estero' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Anticipo fatture Italia ed estero'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo fatture Italia ed estero product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Smobilizzo crediti di Portafoglio' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Smobilizzo crediti di Portafoglio'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smobilizzo crediti di Portafoglio product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Anticipo transato POS fisico e POS virtuale' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Anticipo transato POS fisico e POS virtuale'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo transato POS fisico e POS virtuale product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Apertura di Credito in Conto Corrente' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Apertura di Credito in Conto Corrente'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apertura di Credito in Conto Corrente product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Tutto 5x1.000 Quote' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Tutto 5x1.000 Quote'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Tutto 5x1.000 Quote product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Tandem' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Tandem'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Tandem product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Finanziamento per anticipo contributi' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Finanziamento per anticipo contributi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanziamento per anticipo contributi product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Apertura di credito in conto - Agricoltura' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Apertura di credito in conto - Agricoltura'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apertura di credito in conto - Agricoltura product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cambiale agraria' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Cambiale agraria'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cambiale agraria product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Prestiti Agrari di Gestione' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Prestiti Agrari di Gestione'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prestiti Agrari di Gestione product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Pegno rotativo su prodotti agroalimentari DOP e vini DOC o DOCG' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Pegno rotativo su prodotti agroalimentari DOP e vini DOC o DOCG'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Pegno rotativo su prodotti agroalimentari DOP e vini DOC o DOCG product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Anticipo prenotazioni alberghiere' Product Details",
+    "references": "intesasanpaolo.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Anticipo prenotazioni alberghiere'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo prenotazioni alberghiere product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

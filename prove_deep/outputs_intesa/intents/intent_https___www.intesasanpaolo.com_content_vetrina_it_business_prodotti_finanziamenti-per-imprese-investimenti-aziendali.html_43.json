@@ -1,0 +1,704 @@
+[
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button (desktop)",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from the main banner",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from the desktop banner",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using the 'Passa al Contenuto' button",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using the 'Passa al Men\u00f9' button",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the desktop search bar",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search bar after entering a term",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the mobile search bar",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu on desktop",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login on desktop",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu on mobile",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login on mobile",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button to open the client login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Parla con noi' page from desktop",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to access the contact page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Parla con noi' page from mobile",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to access the contact page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply the 'FINANZA AGEVOLATA' filter and apply filters",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'FINANZA AGEVOLATA' checkbox to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'FINANZA AGEVOLATA'",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Sviluppo ZES e ZLS'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Sviluppo ZES e ZLS'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Sviluppo ZES e ZLS' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Crescita Impresa'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Crescita Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Crescita Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Finanziamenti con fondi BEI'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamenti con fondi BEI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamenti con fondi BEI' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Beni Strumentali \u2013 Nuova Sabatini'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Beni Strumentali \u2013 Nuova Sabatini'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Beni Strumentali \u2013 Nuova Sabatini' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Finanziamento Enti Religiosi'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Enti Religiosi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Enti Religiosi' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'S-Loan'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'S-Loan'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'S-Loan' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Energia Impresa'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Energia Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Energia Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'FRI Specializzazione Intelligente'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'FRI Specializzazione Intelligente'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'FRI Specializzazione Intelligente' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'FCS Green New Deal'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'FCS Green New Deal'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'FCS Green New Deal' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'S-Loan Progetti Green'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'S-Loan Progetti Green'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'S-Loan Progetti Green' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Solution-Loan Lavoro'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Solution-Loan Lavoro'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Solution-Loan Lavoro' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Finanziamento con garanzia SACE Growth'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento con garanzia SACE Growth'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento con garanzia SACE Growth' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Riequilibrio Impresa'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Riequilibrio Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Riequilibrio Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'D-loan'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'D-loan'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'D-loan' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Suite Loan'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Suite Loan'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Suite Loan' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Consulenza R&S e Finanziamenti Europei'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Consulenza R&S e Finanziamenti Europei'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Consulenza R&S e Finanziamenti Europei' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Nova +'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Nova +'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Nova +' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Capitale Impresa'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Capitale Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Capitale Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Finanziamento Microcredito Imprenditoriale'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Microcredito Imprenditoriale'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Microcredito Imprenditoriale' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Neoimpresa'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Neoimpresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Neoimpresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Convertibile Impresa'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Convertibile Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Convertibile Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Finanziamento Business Gemma'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Business Gemma'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Business Gemma' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Crescita Agri'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Crescita Agri'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Crescita Agri' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the product details for 'Finanziamento Condominio'",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Condominio'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Condominio' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the external 'Corporate' site",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to access the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the external 'Gruppo' site",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to access the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the external 'Careers' site",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to access the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the external 'News' site",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to access the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Club Azionisti' page",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to access the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the external 'Finanza Insieme' site",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to access the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Quick Training' page",
+    "references": "finanziamenti-per-imprese-investimenti-aziendali.json",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to access the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie policy options from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to open the cookie policy options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie policy options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate external site from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo external site from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers external site from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers' to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News external site from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'News' to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme external site from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie section from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' to navigate to the Persone e Famiglie section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business section from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' to navigate to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive section from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' to navigate to the Exclusive section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Search' to open the search functionality",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open menu burger on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the client login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Type $name in the input field with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click the button to reset the search (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Type $name in the input field with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Type $email in the input field with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the input field with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as guest (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login (desktop) on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable the option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password (desktop) on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (desktop) on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (mobile) on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Type $email in the input field with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the input field with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (mobile) on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to start the guest registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password (mobile) on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' to start the password recovery process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via breadcrumb on Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download BBSW PDF from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Scarica il file' to download the BBSW PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the BBSW PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download BIBOR PDF from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Scarica il file' to download the BIBOR PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the BIBOR PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download BUBOR PDF from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Scarica il file' to download the BUBOR PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the BUBOR PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download CIBOR PDF from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Scarica il file' to download the CIBOR PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the CIBOR PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' from Piani di Sostituzione page",
+    "references": "piani-di-sostituzione.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' to open the contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Acconsento' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo Intesa Sanpaolo Site from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Vai al sito del Gruppo Intesa Sanpaolo' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Gruppo Intesa Sanpaolo website is opened in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter Information by Year on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Anno' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the information is filtered by year on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Bank from Dropdown on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the select field with id 'selBanca' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the bank selection dropdown is expanded on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Accesso clienti' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the customer login modal or section is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Menu' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button labeled 'Search' on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Parla con noi from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Parla con noi' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Home' link in the breadcrumb on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Accessibility Skip to Content on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Passa al Contenuto' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Accessibility Skip to Menu on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Accessibility Skip to Footer on Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Social Media Profile Facebook from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Facebook' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Social Media Profile Youtube from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Youtube' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Social Media Profile Twitter from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Twitter' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Social Media Profile LinkedIn from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'LinkedIn' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Social Media Profile Instagram from Informazioni Azionisti Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Instagram' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

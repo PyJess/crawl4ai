@@ -1,0 +1,564 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the Club Azionisti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies and open cookie options on Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on the Club Azionisti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the Club Azionisti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search on Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' on the Club Azionisti page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Club Azionisti page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the Club Azionisti page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared on the Club Azionisti page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search on Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the mobile search form on the Club Azionisti page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Club Azionisti page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu on Club Azionisti page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Menu' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the Club Azionisti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu on Club Azionisti page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Menu' in the mobile section on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the Club Azionisti page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login on Club Azionisti page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the client login form is displayed on the Club Azionisti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login on Club Azionisti page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCESSO CLIENTI' in the mobile section on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the client login form is displayed on the Club Azionisti page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Club Azionisti page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the input with placeholder 'E-mail' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in the input with placeholder 'Password' on the Club Azionisti page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Club Azionisti page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the Club Azionisti page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Club Azionisti page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the input with placeholder 'E-mail' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in the input with placeholder 'Password' on the Club Azionisti page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Club Azionisti page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the Club Azionisti page (mobile)",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' during guest login on Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the input with placeholder 'E-mail' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in the input with placeholder 'Password' on the Club Azionisti page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' on the Club Azionisti page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Club Azionisti page",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent on the Club Azionisti page",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login form on Club Azionisti page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the Club Azionisti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user on Club Azionisti page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on the Club Azionisti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user on Club Azionisti page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'REGISTRATI' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on the Club Azionisti page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login form on Club Azionisti page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera password' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the Club Azionisti page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Termini e Condizioni' PDF from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scarica i Termini e Condizioni di Partecipazione al \"Club Azionisti Intesa Sanpaolo\"' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Offerta Bonifici SEPA e Assegni bancari' PDF from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Offerta Bonifici SEPA e Assegni bancari' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Offerta XME Prestito' PDF from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Offerta XME Prestito' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Offerta Mutui con finalit\u00e0 Acquisto abitazione sia a tasso fisso sia a tasso variabile con \"Loan to Value\" fino all\u201980%' PDF from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Offerta Mutui con finalit\u00e0 Acquisto abitazione sia a tasso fisso sia a tasso variabile con \"Loan to Value\" fino all\u201980%' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Offerta Fido Pi\u00f9 - APC Apertura di credito in conto corrente a revoca' PDF from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Offerta Fido Pi\u00f9 - APC Apertura di credito in conto corrente a revoca' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Intesa Sanpaolo website from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'www.intesasanpaolo.com' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo website is opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Eurizon Capital website from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'www.eurizoncapital.it' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Eurizon Capital website is opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Intesa Sanpaolo Protezione website from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'www.intesasanpaoloprotezione.com' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Protezione website is opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCEDI' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened in a new tab",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login tab on Club Azionisti page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed on the Club Azionisti page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login tab on Club Azionisti page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ENTRA COME OSPITE' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed on the Club Azionisti page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from Club Azionisti page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri come fare' on the Club Azionisti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

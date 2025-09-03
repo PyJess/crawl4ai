@@ -1,0 +1,142 @@
+[
+  {
+    "test_case_name": "Navigate from 'b737trassessments.com' link on Cookie Policy page to its dedicated cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page for 'b737trassessments.com' cookie policy is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'GTCC' link from the b737trassessments.com cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'GTCC' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'GTCC' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'General terms & conditions of carriage' from the b737trassessments.com cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'General terms & conditions of carriage' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Terms of Use' from the b737trassessments.com cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Terms of Use' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Privacy Policy' from the b737trassessments.com cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Privacy Policy' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Cookies' from the b737trassessments.com cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookies' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Contact us' from the b737trassessments.com cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Contact us' page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Cookie preferences' dialog from the b737trassessments.com cookie policy page",
+    "references": "cookie-policy.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookie preferences' dialog or page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

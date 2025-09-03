@@ -1,0 +1,558 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to open the external corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to open the external group site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to open the external careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link to open the external news site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to access the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to open the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to access the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using 'Cosa posso fare per te oggi?' input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search submit button (desktop) to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click search reset button (desktop) to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input 'Cosa posso fare per te oggi?' is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access chat via 'Parla con noi' link in header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header to access chat support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel using 'Accesso clienti' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the login panel (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using 'Cerca' input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search submit button (mobile) to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel using 'ACCESSO CLIENTI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button to open the login panel (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login via 'ACCEDI ALLA TUA BANCA ONLINE' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button to access online banking login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login via 'ENTRA COME OSPITE' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to access guest login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as client on desktop with 'E-mail' and 'Password'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit login (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the client dashboard",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to start password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni l'accesso' checkbox during login (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to enable stay signed in option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is checked",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration via 'Registrati' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to access the registration page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as client on mobile with 'E-mail' and 'Password'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit login (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the client dashboard",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to start password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration via 'REGISTRATI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to access the registration page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access online security information (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access online security information (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'In breve' section using sticky anchor link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'In breve' link to navigate to the In breve section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the In breve section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri con noi' section using sticky anchor link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri con noi' link to navigate to the Scopri con noi section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the Scopri con noi section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access webinar information via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link to access webinar information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the webinar information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' via CTA link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'PARLA CON NOI' link to access the contact page via CTA",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to home via 'Home' breadcrumb link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/landing/filiale-digitale-guida.html",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb to return to the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

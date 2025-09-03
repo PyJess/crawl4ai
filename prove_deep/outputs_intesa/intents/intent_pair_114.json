@@ -1,0 +1,520 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view more cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner on the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Corporate' external site from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to open the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Gruppo' external site from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to open the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Careers' external site from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to open the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'News' external site from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to open the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Club Azionisti' page from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to open the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Finanza Insieme' external site from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to open the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Quick Training' page from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to open the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Persone e Famiglie' section from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link to open the Persone e Famiglie section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Business' section from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link to open the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Exclusive' section from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link to open the Exclusive section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login modal from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search functionality from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search functionality",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Scopri il conto' page from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to view account information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Credit Icon' card from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Credit Icon",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Credit Icon card details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Credit Card' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Credit Card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Credit Card details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta di Credito Exclusive' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta di Credito Exclusive",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta di Credito Exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Debit Card' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Debit Card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Debit Card details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta di Debito Exclusive' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta di Debito Exclusive",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta di Debito Exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Card Plus' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Card Plus",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Card Plus details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Superflash' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Superflash",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Superflash details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash nominativa' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash nominativa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash nominativa details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Pensione' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Pensione",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Pensione details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio La Statale' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio La Statale",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio La Statale details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio Universit\u00e0 di Siena' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Siena",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Siena details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio NABA' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio NABA",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio NABA details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio ERDIS' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio ERDIS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio ERDIS details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio Universit\u00e0 di Camerino' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Camerino",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Camerino details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio Politecnico di Bari' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Politecnico di Bari",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Politecnico di Bari details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio Universit\u00e0 di Bari' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Bari",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Bari details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio Universit\u00e0 di Bergamo' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Bergamo",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Bergamo details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Carta Flash Up Studio Universit\u00e0 di Padova' from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Carta Flash Up Studio Universit\u00e0 di Padova",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Flash Up Studio Universit\u00e0 di Padova details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Find your card using the 'TROVA LA TUA CARTA' link from the 'Carte di Credito, di Debito e Carte Prepagate' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'TROVA LA TUA CARTA' link to find your card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card finder page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

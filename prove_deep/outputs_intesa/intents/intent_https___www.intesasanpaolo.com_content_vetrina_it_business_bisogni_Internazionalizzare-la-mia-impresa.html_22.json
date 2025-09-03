@@ -1,0 +1,732 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button in cookie banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button in the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop version)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button (desktop version) to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to access privacy and cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link (desktop version)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop version) to access privacy and cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel using 'Accesso clienti' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the login panel (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel using 'Search' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search panel (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search submit button (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search using reset button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click reset search button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using mobile search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search submit button (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login panel and perform login (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button to open guest login panel (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni l'accesso' option during guest login (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button to open guest login panel (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login (desktop)",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and the session is persistent",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a guest via 'Registrati' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform guest login on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a guest via 'REGISTRATI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' page via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' page via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download brochure via 'Scarica ora' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Scarica ora' link to download the brochure",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the brochure PDF is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external site via 'Corporate' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to access the external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external site via 'Gruppo' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to access the external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external site via 'Careers' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to access the external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external site via 'News' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link to access the external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Club Azionisti' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access external site via 'Finanza Insieme' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to access the external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Quick Training' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri come fare' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri la nostra rete estera' page via CTA link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri la nostra rete estera' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri la nostra rete estera' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI L'ACCORDO' page via CTA link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI L'ACCORDO' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SCOPRI L'ACCORDO' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Business Strategy' page via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Business Strategy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business Strategy' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Recupero Crediti internazionali' page via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Recupero Crediti internazionali",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Recupero Crediti internazionali' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Inbiz GreenTrade' via 'VAI SU INBIZ' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'VAI SU INBIZ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Inbiz GreenTrade' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cash Pooling Internazionale' page via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Cash Pooling Internazionale",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cash Pooling Internazionale' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Incontri con gli specialisti' page via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Incontri con gli specialisti",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incontri con gli specialisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Rete Internazionale del Gruppo ISP' page via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Rete Internazionale del Gruppo ISP",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Rete Internazionale del Gruppo ISP' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Copertura rischi e garanzie' page via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Copertura rischi e garanzie",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Copertura rischi e garanzie' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Incoming Italia' page via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Incoming Italia",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incoming Italia' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Modulo Estero' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Modulo Estero' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Modulo Estero' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scenario e Mercati' page via 'SCOPRI TUTTI GLI AGGIORNAMENTI' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI GLI AGGIORNAMENTI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scenario e Mercati' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access main site via 'www.intesasanpaolo.com' footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaolo.com' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Facebook page via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Youtube page via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Twitter page via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access LinkedIn page via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Instagram page via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,614 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the family financial management page to accept all cookies.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the family financial management page to view cookie policy options.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy or cookie policy options are displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the family financial management page to skip to the main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the family financial management page to skip to the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the family financial management page to skip to the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Corporate External Link from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the family financial management page to open the external corporate site.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external corporate website is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Group External Link from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the family financial management page to open the external group site.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external group website is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Careers External Link from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the family financial management page to open the external careers site.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external careers website is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open News External Link from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the family financial management page to open the external news site.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external news website is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Club Azionisti Link from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the family financial management page to open the Club Azionisti page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Finanza Insieme External Link from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the family financial management page to open the external Finanza Insieme site.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external Finanza Insieme website is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Quick Training Link from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the family financial management page to open the Quick Training page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie Section from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the family financial management page to navigate to the Persone e Famiglie section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business Section from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the family financial management page to navigate to the Business section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive Section from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the family financial management page to navigate to the Exclusive section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu (Burger) on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the family financial management page to open the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login Area from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the family financial management page to open the customer login area.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login area is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Functionality on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the family financial management page to open the search functionality.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed and ready for input.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Parla con noi Page from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the family financial management page to open the Parla con noi page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Parla con noi page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Scopri il conto Page from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the family financial management page to open the Scopri il conto page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Scopri il conto page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input field on the family financial management page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button on the family financial management page to submit the search.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results relevant to $name are displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button on the family financial management page to clear the search input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input field on the family financial management page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button on the family financial management page to submit the search.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results relevant to $name are displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Mobile Search on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button on the family financial management page to clear the search input field.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Guest Login on Desktop from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field on the family financial management page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field on the family financial management page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button on the family financial management page to log in as a guest.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option During Guest Login on Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the family financial management page to enable the remember me option.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the remember me option is enabled for guest login.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login on Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the family financial management page to initiate password recovery.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the recovery form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the family financial management page to start the guest registration process.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form or process is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Guest Login on Mobile from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field on the family financial management page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field on the family financial management page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button on the family financial management page to log in as a guest on mobile.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the family financial management page to initiate password recovery on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the recovery form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Mobile from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button on the family financial management page to start the guest registration process on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form or process is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Product Catalog from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Vai a tutti i prodotti' on the family financial management page to navigate to the product catalog.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product catalog page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Online Security Information from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the family financial management page to view information about online security.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Frequently Asked Questions from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Domande frequenti' on the family financial management page to open the frequently asked questions section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the frequently asked questions section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Continue Call Me Back Floating Action on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'CONTINUA' button on the family financial management page to continue the call me back floating action.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the call me back process continues or the next step is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Cancel Call Me Back Floating Action on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'ANNULLA' button on the family financial management page to cancel the call me back floating action.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the call me back process is cancelled or the floating action is dismissed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb on Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' on the family financial management page breadcrumb to return to the home section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information About Living Together from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Andare a vivere insieme' on the family financial management page to view more information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the detailed information about living together is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information About Getting Married from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Sposarsi' on the family financial management page to view more information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the detailed information about getting married is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information About Planning Children's Future from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Pianificare il futuro dei figli' on the family financial management page to view more information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the detailed information about planning children's future is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information About Optimizing Income and Expenses from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Ottimizzare entrate e uscite' on the family financial management page to view more information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the detailed information about optimizing income and expenses is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information About Bank Accounts Guide from Family Financial Management Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Guida ai Conti' on the family financial management page to view more information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the detailed information about bank accounts guide is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

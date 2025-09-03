@@ -1,0 +1,514 @@
+[
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options via 'Pi\u00f9 opzioni' Link (Mobile)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options via 'Pi\u00f9 opzioni' Link (Desktop)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link (desktop) to view cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button (Desktop)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button (desktop) to accept cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner via Close Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content via 'Passa al Contenuto' Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu via 'Passa al Men\u00f9' Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer via 'Passa al Pi\u00e8 di pagina' Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' Section via Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to navigate to the Corporate section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' Section via Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Gruppo section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' Section via Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to navigate to the Careers section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' Section via Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to navigate to the News section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' Section via Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to navigate to the Club Azionisti section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' Section via Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to navigate to the Finanza Insieme section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' Section via Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to navigate to the Quick Training section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' via Main Menu Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' via Main Menu Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' via Main Menu Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login via 'Accesso clienti' Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Hamburger Menu via 'Menu' Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the hamburger menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the hamburger menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search via 'Search' Button",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' via CTA Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to view account options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account comparison page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' via Header Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate Online Investment via 'INIZIA A INVESTIRE ONLINE' Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'INIZIA A INVESTIRE ONLINE' link to start online investment",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online investment process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate Investment via 'INIZIA A INVESTIRE' Sticky CTA Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'INIZIA A INVESTIRE' link in the sticky CTA",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the investment process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI COME' via Strip CTA Link",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI COME' link in the strip CTA",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the investment services contract page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search and Submit",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Input",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search and Submit",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest via 'ENTRA' Button (Desktop)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA' button to login as guest (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password via 'Recupera Password' Link (Desktop)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to recover password (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Checkbox",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable keep me logged in",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is checked",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest via 'Registrati' Link (Desktop)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to register as guest (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest via 'ENTRA' Button (Mobile)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA' button to login as guest (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password via 'Recupera password' Link (Mobile)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to recover password (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest via 'REGISTRATI' Button (Mobile)",
+    "references": "eurizon-market-selection.json",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to register as guest (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

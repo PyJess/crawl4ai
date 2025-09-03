@@ -1,0 +1,502 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' to accept all cookies on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy Options on Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to access the Privacy - Cookie policy on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to close the cookie banner on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate External Link from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate' external link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Corporate external website is opened from the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Area from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the client login area on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the client login area is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search button for desktop on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field on Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the reset search button for desktop on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' search field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search button for mobile on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Mobile Search Field on Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' search field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the reset search button for desktop on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' field for guest login on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' field for guest login on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit guest login on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the child page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' field for guest login on the child page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' field for guest login on the child page (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit guest login on the child page (mobile)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the child page (mobile)",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Desktop from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' to register as a guest on the child page (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed on the child page (desktop)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Mobile from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'REGISTRATI' to register as a guest on the child page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed on the child page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Desktop from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' to recover the guest password on the child page (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the child page (desktop)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Mobile from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera password' to recover the guest password on the child page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the child page (mobile)",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option on Guest Login from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled for guest login on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access POS Virtuale XPay Web Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to view details about POS Virtuale XPay Web on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the POS Virtuale XPay Web details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Amazon and Alibaba Showcase Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to view details about Amazon and Alibaba showcase on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Amazon and Alibaba showcase details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Social Media Advertising Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to view details about social media advertising on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the social media advertising details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cyber Security Risk Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to view details about Cyber Security Risk on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cyber Security Risk details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Digital Presence Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to view details about digital presence on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the digital presence details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Match-Making Platforms Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to view details about match-making platforms on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the match-making platforms details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Digifattura Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to view details about Digifattura on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Digifattura details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access POS Mobile Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to view details about POS Mobile on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the POS Mobile details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Portale Inbiz Details from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Portale Inbiz' to view details about Portale Inbiz on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Portale Inbiz details page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Additional POS Services from Business Digitalization Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Servizi aggiuntivi per i POS' to view additional POS services on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the additional POS services page is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

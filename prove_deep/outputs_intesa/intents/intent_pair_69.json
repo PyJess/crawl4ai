@@ -1,0 +1,244 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify banner closure on branch search page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the branch search page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from parent to child and verify navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on the branch search page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to branch search via 'Scopri il conto' and verify page load",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search on branch search page and verify results",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' field on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button on the branch search page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the branch search page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on branch search page and verify field is cleared",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' field on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button on the branch search page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cosa posso fare per te oggi?' field is cleared on the branch search page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search on branch search page and verify results",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' field on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button on the branch search page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the branch search page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on branch search page with remember me option and verify login",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' field on the branch search page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the branch search page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the branch search page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on the branch search page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login on branch search page and verify recovery page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on the branch search page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new guest user on branch search page and verify registration page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on the branch search page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile on branch search page and verify login",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' field on the branch search page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the branch search page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on the branch search page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new guest user on mobile on branch search page and verify registration page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on the branch search page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login on mobile on branch search page and verify recovery page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on the branch search page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from branch search page and verify navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to home from branch search page and verify home page is displayed",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and close cookie banner on branch search page and verify closure",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'cookie-chiudi' button on the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the branch search page",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

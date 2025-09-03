@@ -1,0 +1,16 @@
+[
+  {
+    "test_case_name": "Access 'General terms & conditions of carriage' link and verify 404 Not Found page",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the '404 Not Found' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

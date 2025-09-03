@@ -1,0 +1,646 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy - Cookie policy from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login area from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login area",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the desktop search field on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search field on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is empty",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the mobile search field on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on the Terzo Settore page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login on the Terzo Settore page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable the option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from the guest login form on the Terzo Settore page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from the Terzo Settore page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on the Terzo Settore page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from the Terzo Settore page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from the guest login form on the Terzo Settore page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact the bank using 'Parla con noi' on the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact the bank",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page or chat is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Business section from the parent page and access the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu to go to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Home' link in the breadcrumb to return to the Business section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Business section page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access SoftPOS promotion details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI LA PROMOZIONE' link to view SoftPOS promotion details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SoftPOS promotion page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Crescita Impresa financing details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Crescita Impresa to view financing details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Crescita Impresa financing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access S-Loan Progetti Green financing details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for S-Loan Progetti Green to view financing details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan Progetti Green financing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access S-Loan financing details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for S-Loan to view financing details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan financing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access D-loan financing details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for D-loan to view financing details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the D-loan financing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Finanziamento Enti Religiosi details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Finanziamento Enti Religiosi to view financing details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanziamento Enti Religiosi page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Intesa Sanpaolo per il PNRR details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Intesa Sanpaolo per il PNRR to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo per il PNRR page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Comunit\u00e0 Energetiche Rinnovabili (CER) details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Comunit\u00e0 Energetiche Rinnovabili (CER) to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Comunit\u00e0 Energetiche Rinnovabili (CER) page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access BusinessInsieme account conventions from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI LE CONVENZIONI DI CONTO BUSINESSINSIEME' link to view account conventions",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the BusinessInsieme account conventions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Credit product details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'CARTA CREDIT' link to view product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Credit product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Prepaid product details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'CARTA PREPAID' link to view product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Prepaid product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Debit Plus product details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'CARTA DEBIT PLUS' link to view product details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Debit Plus product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz portal from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'INBIZ' link to access the Inbiz portal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz portal page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Key Business service from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'MY KEY BUSINESS' link to access the service",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Key Business service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access POS solutions from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONI POS' link to view POS solutions",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS solutions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access social impact evaluation project from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'IL PROGETTO E IL METODO' link to view the social impact evaluation project",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the social impact evaluation project page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access social impact evaluation report from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'VAI AL REPORT DI VALUTAZIONE DELL'IMPATTO' link to view the report",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the social impact evaluation report page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access PASS initiative details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for the PASS initiative to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PASS initiative page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Bando Autoambulanze 2024 details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Bando Autoambulanze 2024 to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bando Autoambulanze 2024 page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Futuro aggiunto 2025 details from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Futuro aggiunto 2025 to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Futuro aggiunto 2025 page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Osservatorio su Finanza e Terzo Settore from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Osservatorio su Finanza e Terzo Settore to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Osservatorio su Finanza e Terzo Settore page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Osservatorio della Filantropia from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Osservatorio della Filantropia to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Osservatorio della Filantropia page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Questionario RIM ex-ante from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Questionario RIM ex-ante to view details",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Questionario RIM ex-ante page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access For Funding platform from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'VAI SU FOR FUNDING' link to access the For Funding platform",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the For Funding platform page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Return to the Business section from the Terzo Settore page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'www.intesasanpaolo.com' link to return to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

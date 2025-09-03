@@ -1,0 +1,720 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel via 'Accesso clienti' button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open menu panel via 'Menu' button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the menu panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel via 'Search' button",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for content using desktop search input",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for content using mobile search input",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest via desktop login form",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as guest",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new user via 'Registrati' link (desktop)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest via mobile login form",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button (mobile)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as guest",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new user via 'REGISTRATI' button (mobile)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking via 'ACCEDI ALLA TUA BANCA ONLINE' button (mobile)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login via 'ENTRA COME OSPITE' button (mobile)",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' page via header link",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri come fare' page for online security",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab in menu",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab in menu",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Settori' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab in menu",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Momenti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab in menu",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Offerte di benvenuto' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Offerte di benvenuto",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Offerte di benvenuto product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Carte' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Carte",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carte product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Conti correnti aziendali' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Conti correnti aziendali",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Conti correnti aziendali product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Incassi e pagamenti' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Incassi e pagamenti",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Incassi e pagamenti product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Pegno rotativo' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Pegno rotativo",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Pegno rotativo product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cambiale Agraria' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Cambiale Agraria",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cambiale Agraria product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Prestiti Agrari di Gestione' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Prestiti Agrari di Gestione",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prestiti Agrari di Gestione product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Copertura del rischio' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Copertura del rischio",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Copertura del rischio product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Programma Sviluppo Filiere' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Programma Sviluppo Filiere",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Programma Sviluppo Filiere product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Crescita Agri' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Crescita Agri",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Crescita Agri product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Noleggio operativo' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Noleggio operativo",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Noleggio operativo product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Prodotti e servizi per i mercati internazionali' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Prodotti e servizi per i mercati internazionali",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prodotti e servizi per i mercati internazionali product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Finanziamento S-Loan Progetti Green' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Finanziamento S-Loan Progetti Green",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanziamento S-Loan Progetti Green product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'S-Loan' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for S-Loan",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the S-Loan product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Nova+' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Nova+",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nova+ product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Offerta formativa Digit\u2019Ed' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Offerta formativa Digit\u2019Ed",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Offerta formativa Digit\u2019Ed product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Polizze tutela del tuo business' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Polizze tutela del tuo business",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizze tutela del tuo business product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Polizze salute dei lavoratori' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Polizze salute dei lavoratori",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizze salute dei lavoratori product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Polizza Cyber Protection Business' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Polizza Cyber Protection Business",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Cyber Protection Business product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Polizza RC Ambientale' product details",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Polizza RC Ambientale",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza RC Ambientale product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Monitor dei Distretti Agroalimentari' external page",
+    "references": "agribusiness.json",
+    "intents": [
+      {
+        "intent": "Click 'MONITOR DEI DISTRETTI AGROALIMENTARI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Monitor dei Distretti Agroalimentari page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

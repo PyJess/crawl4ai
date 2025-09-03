@@ -1,0 +1,612 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using 'Chiudi cookie banner' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu using 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login using 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using 'Cosa posso fare per te oggi?' input and 'Cerca (desktop)' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using 'Reset ricerca (desktop)' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using 'Cerca' input and 'Cerca (mobile)' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) with 'E-mail' and 'Password' fields",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) with 'Mantieni L'accesso' checkbox selected",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest (desktop) using 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (desktop) using 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (mobile) with 'E-mail' and 'Password' fields",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (mobile) using 'REGISTRATI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest (mobile) using 'Recupera password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to online banking login tab (mobile) using 'ACCEDI ALLA TUA BANCA ONLINE' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to guest login tab (mobile) using 'ENTRA COME OSPITE' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' page via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Sicurezza online' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz via 'ACCEDI' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Corporate' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Gruppo' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Careers' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'News' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Club Azionisti' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Finanza Insieme' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Quick Training' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Persone e Famiglie' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Business' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Business' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Exclusive' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Facebook profile via 'Facebook' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Youtube profile via 'Youtube' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Twitter profile via 'Twitter' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access LinkedIn profile via 'LinkedIn' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Instagram profile via 'Instagram' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-acf.html",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

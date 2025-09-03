@@ -1,0 +1,568 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'ACCONSENTO' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies and verify more options on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'PI\u00d9 OPZIONI' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user is redirected to the cookies options page on the Newsroom site",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with id 'js-cookie-banner-close' on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use accessibility skip to content on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Passa al Contenuto' button on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use accessibility skip to menu on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use accessibility skip to footer on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and use search on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'header-navbar-btn-search' to open search on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca' on the Newsroom page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' and data-name 'search-button' on the Newsroom page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Newsroom page",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Comunicati stampa' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Comunicati stampa' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Comunicati stampa' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Press Kit' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Press Kit' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Press Kit' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Tutte le news' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Tutte le news' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Tutte le news' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Video' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Video' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Video' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Economia reale' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Economia reale' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Economia reale' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Impatto sociale' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Impatto sociale' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Impatto sociale' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Ambiente' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Ambiente' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Ambiente' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Innovazione' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Innovazione' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Innovazione' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Cultura' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cultura' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cultura' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Studi e analisi' from Newsroom aside menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Studi e analisi' link in the aside menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Studi e analisi' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'header-navbar-btn-toggler' to open the mobile menu on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access featured news article from Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Risultati 1H 2025: dichiarazioni del CEO Carlo Messina' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the featured news article is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access ESG bond article from Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Protagonista nelle emissioni obbligazionarie ESG' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the ESG bond article is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access savings survey article from Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Indagine sul Risparmio con Centro Einaudi' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the savings survey article is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access sustainability-linked loan article from Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Nel Sustainability-linked Loan da \u20ac1mld a favore di FNM' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the sustainability-linked loan article is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access all news via mini card on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Scopri tutte le News di Intesa Sanpaolo' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Tutte le news' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access insights via mini card on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Approfondimenti' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Approfondimenti' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access CEO statements and interviews via mini card on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Dichiarazioni e interviste del CEO' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the CEO statements and interviews section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access video section via mini card on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Video' link with class 'minicard-title green-color underline-link-animated' on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the video section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access historical update article from Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Il valore dei territori nella storia del Gruppo Intesa Sanpaolo' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the historical update article is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cariplo and Raffaele Mattioli article from Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Alle \u201cradici\u201d di Intesa Sanpaolo, con Cariplo e Raffaele Mattioli' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cariplo and Raffaele Mattioli article is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more history via CTA on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Scopri di pi\u00f9...' link on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the history section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Comunicati stampa' via box CTA on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Comunicati stampa' link with class 'h5-copy underline-link-animated' on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Comunicati stampa' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Press kit' via box CTA on Newsroom page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Press kit' link with class 'h5-copy underline-link-animated' on the Newsroom page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Press Kit' section is displayed on the Newsroom page",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,604 @@
+[
+  {
+    "test_case_name": "Accept All Cookies and Explore Cookie Options on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Disconoscimento page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner and Access Online Security Information",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri come fare' on the Disconoscimento page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Formal Complaint Submission from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'inviare un reclamo formale' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the formal complaint submission page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQ from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Leggi le domande frequenti' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Desktop Search on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input field with placeholder 'Cosa posso fare per te oggi?' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button for 'Cerca (desktop)' on the Disconoscimento page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Mobile Search on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input field with placeholder 'Cerca' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button for 'Cerca (mobile)' on the Disconoscimento page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Card Blocking Information from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come bloccare la carta online' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card blocking information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Fraud Protection Content from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come difenderti dalle truffe online' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online fraud protection content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Use the Accessibility Skip to Content Feature on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main content is focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Use the Accessibility Skip to Menu Feature on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Use the Accessibility Skip to Footer Feature on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the footer is focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate External Link from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo External Link from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers External Link from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News External Link from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie Section from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business Section from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive Section from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu Using Desktop Button on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login for Clients Using Desktop Button on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Using Desktop Button on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Link on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu Using Mobile Button on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login for Clients Using Mobile Button on Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i Prodotti' Menu for Persone e Famiglie on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' menu for Persone e Famiglie is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i giorni' Menu for Persone e Famiglie on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' menu for Persone e Famiglie is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Momenti della Vita' Menu for Persone e Famiglie on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' menu for Persone e Famiglie is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i Prodotti' Menu for Business on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' menu for Business is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Settori' Menu for Business on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Settori' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' menu for Business is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Momenti' Menu for Business on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' menu for Business is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Servizi digitali' Menu for Business on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' menu for Business is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i Prodotti' Menu for Exclusive on Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' menu for Exclusive is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the input field with placeholder 'E-mail' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the input field with placeholder 'Password' on the Disconoscimento page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' on the Disconoscimento page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Disconoscimento page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password as Guest on Desktop from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Desktop from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Mobile from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password as Guest on Mobile from Disconoscimento Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the Disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

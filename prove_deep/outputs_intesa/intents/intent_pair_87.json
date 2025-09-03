@@ -1,0 +1,522 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open privacy options on Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view privacy and cookie policy",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content on Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to main content",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu on Exclusive landing page (desktop) after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Menu' to open the main menu (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search bar and perform a search on Exclusive landing page (desktop) after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search' to open the search bar (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search input on Exclusive landing page (desktop) after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search' to open the search bar (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'btn-reset-search' button to reset the search input (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel and attempt guest login on Exclusive landing page (desktop) after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $password into the 'Password' input",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the user is logged in or receives an appropriate error message",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Attempt guest login with 'Mantieni L'accesso' selected on Exclusive landing page (desktop) after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $password into the 'Password' input",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "5"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form",
+        "intent_id": "6"
+      },
+      {
+        "intent": "And then check that the user is logged in with the session maintained or receives an appropriate error message",
+        "intent_id": "7"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery from guest login panel on Exclusive landing page (desktop) after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Recupera Password' to access password recovery",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration from guest login panel on Exclusive landing page (desktop) after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Registrati' to access the registration page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carta di credito Exclusive' from Exclusive landing page menu after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carta di credito Exclusive' in the menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Carta di credito Exclusive' product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutuo Exclusive' from Exclusive landing page menu after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Mutuo Exclusive' in the menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Mutuo Exclusive' product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestito Exclusive' from Exclusive landing page menu after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Prestito Exclusive' in the menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Prestito Exclusive' product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Valore Insieme Exclusive' from Exclusive landing page menu after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Valore Insieme Exclusive' in the menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Valore Insieme Exclusive' product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Servizi Exclusive' from Exclusive landing page menu after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Servizi Exclusive' in the menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Servizi Exclusive' product page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' link on Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Parla con noi' in the header",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' (viaggi) PDF from Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for viaggi",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF for viaggi insurance is opened or downloaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' (assicurazioni) PDF from Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for assicurazioni",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF for assicurazioni is opened or downloaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri For funding' from Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri For funding'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the For Funding project page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Mastercard Reserved Fast-Track info from Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Fast-Track aeroporti'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Mastercard Reserved Fast-Track page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access For Funding info from Exclusive landing page after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'For Funding'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the For Funding info page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Facebook profile from Exclusive landing page footer after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' in the footer",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Facebook page is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Youtube profile from Exclusive landing page footer after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' in the footer",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Youtube page is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Twitter profile from Exclusive landing page footer after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' in the footer",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Twitter page is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official LinkedIn profile from Exclusive landing page footer after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' in the footer",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official LinkedIn page is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Instagram profile from Exclusive landing page footer after navigating from main menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' in the footer",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the official Instagram page is opened",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

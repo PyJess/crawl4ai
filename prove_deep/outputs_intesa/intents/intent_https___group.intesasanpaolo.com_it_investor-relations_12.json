@@ -1,0 +1,540 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Cookie Banner",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCONSENTO' link to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject Cookies and View Cookie Options",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' link to view cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner Without Accepting or Rejecting",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click button with id 'js-cookie-banner-close' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed without accepting or rejecting cookies",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Submit a Search Query",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click button with class 'header-navbar-btn-search' to open the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click button with class 'btn-search' to submit the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Mobile Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click button with class 'header-navbar-btn-toggler' to open the mobile menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Language to English",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'EN' link to switch the language to English",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page content is displayed in English",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to IR Policy from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'IR Policy' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the IR Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Andamento titolo from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Andamento titolo' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Andamento titolo page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Teleborsa from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'News Teleborsa' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News Teleborsa page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Bilanci e Relazioni from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Bilanci e Relazioni' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bilanci e Relazioni page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Presentazioni from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Presentazioni' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Presentazioni page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Comunicati stampa from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Comunicati stampa' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Comunicati stampa page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Database cifre chiave from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Database cifre chiave' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Database cifre chiave page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to FAQ finanziarie from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'FAQ finanziarie' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ finanziarie page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Rating from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Rating' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Rating page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Azionariato from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Azionariato' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Azionariato page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Azioni e dividendi from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Azioni e dividendi' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Azioni e dividendi page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Guida dell'azionista from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Guida dell'azionista' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Guida dell'azionista page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Dialogo con gli investitori from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Dialogo con gli investitori' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Dialogo con gli investitori page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Prospetti from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Prospetti' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prospetti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Analyst coverage from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Analyst coverage' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Analyst coverage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Calendario finanziario from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Calendario finanziario' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Calendario finanziario page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to SEC Filings from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'SEC Filings' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SEC Filings page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Link from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Link' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Link page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Contatti from Aside Menu",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Contatti' link in the aside menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contatti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Tab to Bilanci e Relazioni",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'BILANCI E RELAZIONI' button in the tab section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bilanci e Relazioni tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Tab to Presentazioni",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'PRESENTAZIONI' button in the tab section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Presentazioni tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read All Comunicati Stampa from Tab",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Leggi tutti i comunicati stampa' link in the tab section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the full list of Comunicati stampa is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read All Bilanci e Relazioni from Tab",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Leggi tutti i bilanci e relazioni' link in the tab section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the full list of Bilanci e Relazioni is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read All Presentazioni from Tab",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Leggi tutte le presentazioni' link in the tab section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the full list of Presentazioni is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Il Gruppo Intesa Sanpaolo in sintesi Document",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Il Gruppo Intesa Sanpaolo in sintesi' link to download the document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the document is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Piano di Impresa 2022-2025 Document",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Piano di Impresa 2022-2025' link to view the document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Piano di Impresa 2022-2025 page or document is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Risultati 1sem.25 Highlight",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Risultati 1sem.25' link in the highlights section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Risultati 1sem.25 page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Assemblea degli Azionisti Highlight",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'Assemblea degli Azionisti' link in the highlights section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assemblea degli Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access User Area Dropdown and Select Contatti",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' button to open the user area dropdown",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contatti' link in the user area dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contatti page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login via User Area Dropdown",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' button to open the user area dropdown",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accedi' button in the user area dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the login page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Logout via User Area Dropdown",
+    "references": "investor-relations.json",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' button to open the user area dropdown",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Logout' button in the user area dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user is logged out and redirected appropriately",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "test_case_name": "Access FAQ Section from Cookie Policy Help Page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees Information from Cookie Policy Help Page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us Page from Cookie Policy Help Page Header",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie preferences' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General Terms & Conditions of Carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies Policy from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us Page from Cookie Policy Help Page Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

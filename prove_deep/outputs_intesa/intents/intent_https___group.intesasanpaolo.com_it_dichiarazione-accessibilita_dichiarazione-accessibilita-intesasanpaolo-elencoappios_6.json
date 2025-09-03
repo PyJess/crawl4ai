@@ -1,0 +1,564 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Cookie Banner",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'ACCONSENTO' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Cookie Banner",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' to view more cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner Without Accepting",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed without accepting cookies",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip Directly to Main Content",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip Directly to Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip Directly to Footer",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar from Header",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click the button described as 'Open search' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cerca' is displayed and focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a Search Using the Search Bar",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click the button described as 'Open search' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button described as 'Submit search'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Mobile Menu from Header",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click the button described as 'Open mobile menu' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Homepage via Breadcrumb",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Homepage' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Accessibility Statement for 'Mobile ISP' App",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Mobile ISP' to view the accessibility statement for the Mobile ISP app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the accessibility statement page for 'Mobile ISP' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Accessibility Statement for 'Assicurazioni' App",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' to view the accessibility statement for the Assicurazioni app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the accessibility statement page for 'Assicurazioni' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Accessibility Statement for 'Investo' App",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Investo' to view the accessibility statement for the Investo app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the accessibility statement page for 'Investo' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Accessibility Statement for 'Reward' App",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Reward' to view the accessibility statement for the Reward app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the accessibility statement page for 'Reward' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Accessibility Statement for 'Welfare Hub' App",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Welfare Hub' to view the accessibility statement for the Welfare Hub app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the accessibility statement page for 'Welfare Hub' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'CHI SIAMO' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'CHI SIAMO' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CHI SIAMO' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'INVESTOR RELATIONS' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'INVESTOR RELATIONS' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'INVESTOR RELATIONS' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'GOVERNANCE' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'GOVERNANCE' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'GOVERNANCE' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SOSTENIBILIT\u00c0' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'SOSTENIBILIT\u00c0' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SOSTENIBILIT\u00c0' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'NEWSROOM' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'NEWSROOM' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'NEWSROOM' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SOCIALE' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'SOCIALE' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SOCIALE' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'RESEARCH' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'RESEARCH' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'RESEARCH' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'CAREERS' Section from Header Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'CAREERS' in the header menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CAREERS' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Notifications from Header",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'NOTIFICHE' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the notifications panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open User Area Dropdown Menu",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' to open the user area dropdown menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the user area dropdown menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login from User Area Dropdown",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' to open the user area dropdown menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accedi' to initiate login",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the login form or authentication process is started",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Contatti' from User Area Dropdown (Logged Out)",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' to open the user area dropdown menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contatti' in the user area dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Contatti' page is loaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Logout from User Area Dropdown",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' to open the user area dropdown menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Logout' to log out of the user area",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user is logged out and the logout menu is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Contatti' from User Area Dropdown (Logged In)",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' to open the user area dropdown menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Logout' to log out of the user area",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Contatti' in the user area dropdown (logout)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Contatti' page is loaded",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Iniziative riservate' from User Area Dropdown (Logged In)",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' to open the user area dropdown menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Logout' to log out of the user area",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Iniziative riservate ' in the user area dropdown (logout)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Iniziative riservate' page is loaded",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Il mio profilo' from User Area Dropdown (Logged In)",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'AREA UTENTE' to open the user area dropdown menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Logout' to log out of the user area",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Il mio profilo' in the user area dropdown (logout)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Il mio profilo' page is loaded",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Language to English via Language Switcher",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'EN' in the language switcher",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the website language is switched to English",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open LinkedIn from Footer Social Links",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' in the footer social links",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo LinkedIn page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Instagram from Footer Social Links",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' in the footer social links",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Instagram page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Facebook from Footer Social Links",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' in the footer social links",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Facebook page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open YouTube from Footer Social Links",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'YouTube' in the footer social links",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo YouTube page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open X from Footer Social Links",
+    "references": "https://group.intesasanpaolo.com/it/dichiarazione-accessibilita/dichiarazione-accessibilita-intesasanpaolo-elencoappios",
+    "intents": [
+      {
+        "intent": "Click 'X' in the footer social links",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo X page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

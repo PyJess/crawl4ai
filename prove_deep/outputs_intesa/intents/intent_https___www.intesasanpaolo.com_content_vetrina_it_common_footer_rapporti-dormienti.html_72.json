@@ -1,0 +1,710 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options via 'Pi\u00f9 opzioni' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access panel via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel via 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access panel via 'ACCESSO CLIENTI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access panel is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile with 'Mantieni l'accesso' enabled",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent on mobile",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password via 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'REGISTRATI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login tab via 'ACCEDI ALLA TUA BANCA ONLINE' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login tab is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login tab via 'ENTRA COME OSPITE' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login tab is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' support page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri come fare' security information page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Rapporti dormienti - Regolamento' PDF for 2024",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' (2024)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2024 regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2024' PDF",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2024'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2024 dormant accounts PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Ministero dell\u2019Economia e delle Finanze' external link (2024)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' (2024)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the MEF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Consap' external link (2024)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Consap' (2024)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Consap website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Rapporti dormienti - Regolamento' PDF for 2023",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' (2023)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2023 regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2023' PDF",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2023'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2023 dormant accounts PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Ministero dell\u2019Economia e delle Finanze' external link (2023)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' (2023)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the MEF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Consap' external link (2023)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Consap' (2023)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Consap website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Rapporti dormienti - Regolamento' PDF for 2022",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' (2022)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2022 regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2022' PDF",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2022'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2022 dormant accounts PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Ministero dell\u2019Economia e delle Finanze' external link (2022)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' (2022)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the MEF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Consap' external link (2022)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Consap' (2022)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Consap website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Rapporti dormienti - Regolamento' PDF for 2021",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' (2021)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2021 regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2021' PDF",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2021'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2021 dormant accounts PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Ministero dell\u2019Economia e delle Finanze' external link (2021)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' (2021)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the MEF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Consap' external link (2021)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Consap' (2021)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Consap website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Rapporti dormienti - Regolamento' PDF for 2020",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' (2020)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2020 regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell'anno 2020' PDF",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell'anno 2020'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2020 dormant accounts PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Ministero dell'Economia e delle Finanze' external link (2020)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell'Economia e delle Finanze' (2020)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the MEF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Consap' external link (2020)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Consap' (2020)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Consap website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Rapporti dormienti - Regolamento' PDF for 2019",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' (2019)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2019 regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2019' PDF",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/rapporti-dormienti.html",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2019'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2019 dormant accounts PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

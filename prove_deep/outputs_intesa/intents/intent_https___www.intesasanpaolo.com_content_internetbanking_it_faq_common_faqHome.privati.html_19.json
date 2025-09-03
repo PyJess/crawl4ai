@@ -1,0 +1,514 @@
+[
+  {
+    "test_case_name": "Submit desktop search query using the 'Cosa posso fare per te oggi?' input",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Type '$name' into the 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Search' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input using the reset button",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Type '$name' into the 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Search' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search reset button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Cosa posso fare per te oggi?' input is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit mobile search query using the 'Cerca' input",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Type '$name' into the 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the mobile search submit button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest using 'E-mail' and 'Password' inputs",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Type '$email' into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type '$password' into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest and enable 'Mantieni L'accesso' option",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Type '$email' into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type '$password' into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and the session is set to be remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password using the 'Recupera Password' link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account using the 'Registrati' link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account using the 'REGISTRATI' button on mobile",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password using the 'Recupera password' link on mobile",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the FAQ section using the 'visita la sezione dedicata' link in the footer",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'visita la sezione dedicata' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the dedicated FAQ section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the FAQ section using the 'Domande frequenti' breadcrumb link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Domande frequenti' link in the breadcrumb",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ section or homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the floating help panel using the 'Parla con noi' link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link with class 'js-open-faq'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the floating help or FAQ panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the floating help panel using the 'Domande frequenti' label link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Domande frequenti' label link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the floating help or FAQ panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the floating phone panel using the 'Parla con noi' phone link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link with class 'js-open-phone'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the floating phone panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Scopri il conto' page using the header CTA link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the online security information using the 'Scopri come fare' link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is displayed or expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the login panel using the 'Accesso clienti' button",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search panel using the 'Search' button",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Corporate' external site",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Gruppo' external site",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Careers' external site",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'News' external site",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Club Azionisti' section",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Finanza Insieme' external site",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Quick Training' section",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Persone e Famiglie' section using the main navigation",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Business' section using the main navigation",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Exclusive' section using the main navigation",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the digital branch guide using the 'Scopri la filiale digitale' footer link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri la filiale digitale' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital branch guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the online security guide using the 'SICUREZZA' footer link",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'SICUREZZA' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using the 'Passa al Contenuto' button",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using the 'Passa al Men\u00f9' button",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "faqHome.privati.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

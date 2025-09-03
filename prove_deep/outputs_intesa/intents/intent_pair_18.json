@@ -1,0 +1,514 @@
+[
+  {
+    "test_case_name": "Search for information using the desktop search bar on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search on the FAQ page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search input on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-reset-search' button to clear the search input on the FAQ page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the mobile search bar on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search on the FAQ page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the mobile search input on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-reset-search' button to clear the search input on the FAQ page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on the FAQ page with remember me option",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field on the FAQ page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the FAQ page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form on the FAQ page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and the session is maintained",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on the FAQ page without remember me option",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field on the FAQ page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form on the FAQ page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in without the session being maintained",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from the FAQ page using the desktop link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from the FAQ page using the mobile link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user from the FAQ page using the desktop link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user from the FAQ page using the mobile button",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the digital branch guide from the FAQ page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri la filiale digitale' link in the footer on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital branch guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from the FAQ page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SICUREZZA' link in the footer on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the floating FAQ help panel from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link with class 'js-open-faq' on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the floating FAQ help panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the floating phone help panel from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link with id 'vt-galopenphone' on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the floating phone help panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the FAQ section from the footer link on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'visita la sezione dedicata' link in the footer on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the dedicated FAQ section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the FAQ section from the breadcrumb on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Domande frequenti' link in the breadcrumb on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the online security information from the header CTA on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link in the header on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the current account comparison page from the header CTA on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the current account comparison page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the login panel using the 'Accesso clienti' button on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search panel using the 'Search' button on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using the accessibility button on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using the accessibility button on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using the accessibility button on the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Corporate external site from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Gruppo external site from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Careers external site from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the News external site from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'News' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Club Azionisti section from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Finanza Insieme external site from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Quick Training section from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Persone e Famiglie' section from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Business' section from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Exclusive' section from the FAQ page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link on the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

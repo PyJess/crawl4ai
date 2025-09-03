@@ -1,0 +1,552 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Child Page Banner",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to open the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Child Page Banner (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' in the desktop cookie banner to open the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on Child Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' in the desktop cookie banner to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate Site from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo Site from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers Site from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Site from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'News' to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' to navigate to the Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' to switch to the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' to switch to the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' to switch to the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti e salvadanai' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Conti e salvadanai' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutui' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Mutui' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e Risparmio' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Investimenti e Risparmio' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Assicurazioni' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Consulenza Evoluta' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Consulenza Evoluta' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Pagamenti digitali' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pagamenti digitali' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Previdenza' from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Previdenza' to navigate to the relevant product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Query on Child Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on Child Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button to reset the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' to access the support page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Child Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Child Page Header",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' to view account information from the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Access on Child Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the client access section (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Product Catalog from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Vai a tutti i prodotti' to access the product catalog",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product catalog page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Buying a House from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to learn more about buying a house",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the buying a house information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Selling a House from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to learn more about selling a house",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the selling a house information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Renovating a House from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' to learn more about renovating a house",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the renovating a house information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Parent to Child Page via 'Persone e Famiglie' Menu",
+    "references": "parent,child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page 'Consigli per la compravendita della casa, trasloco e ristrutturazioni - Intesa Sanpaolo' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

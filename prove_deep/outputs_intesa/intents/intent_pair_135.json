@@ -1,0 +1,558 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject Cookies and View Cookie Policy on App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu on App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar and Search for a Query on App Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar and Search for a Query on App Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on App Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-reset-search' button to reset the search field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on App Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-reset-search' button to reset the search field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Client Login Panel from App Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Client Login Panel from App Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' to open the login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on App Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable remember me",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the login form",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on App Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable remember me",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the login form",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' to start password recovery",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera password' to start password recovery",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' to start the registration process",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'REGISTRATI' to start the registration process",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Link on App Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Link on App Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Account Offer via 'Scopri il conto' Link on App Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account offer page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Account Offer via 'Scopri il conto' Link on App Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' in the mobile section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account offer page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile App from Main CTA",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE' at the top of the page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the app download page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile App from Bottom CTA",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE' at the bottom of the page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the app download page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Hub via 'PROVA A VINCERE' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'PROVA A VINCERE' to access the reward hub",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the reward hub page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information via 'Scopri di pi\u00f9' (Grafica Esigenze)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for grafica esigenze",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal or page with more information on grafica esigenze is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information via 'Scopri di pi\u00f9' (Sotto Controllo)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for sotto controllo",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal or page with more information on sotto controllo is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View More Information via 'Scopri di pi\u00f9' (Tanti Servizi)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for tanti servizi",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal or page with more information on tanti servizi is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Smart Save Service",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri Smart Save' to learn about the Smart Save service",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smart Save service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover SpensieRata Service",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri SpensieRata' to learn about the SpensieRata service",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SpensieRata service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover XME Prestito Diretto Service",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri XME Prestito Diretto' to learn about the XME Prestito Diretto service",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Diretto service page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Investo App",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'app' to learn about the Investo app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Investo app page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Assicurazioni App",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'app' to learn about the Assicurazioni app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assicurazioni app page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View All Recognitions via 'SCOPRI TUTTI I RICONOSCIMENTI'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI I RICONOSCIMENTI' to view all recognitions",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the recognitions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

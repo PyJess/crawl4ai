@@ -1,0 +1,460 @@
+[
+  {
+    "test_case_name": "Accept Cookies on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' link on the child page to accept cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed on the Research Department page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' link on the child page to view cookie options",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with id 'js-cookie-banner-close' on the child page to close the cookie banner",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the Research Department page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Search on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'header-navbar-btn-search' and data-name 'search-open' on the child page to open the search bar",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca' on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' and data-name 'search-button' on the child page to submit the search",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to ESG Papers Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ESG Papers' link on the child page to access the ESG Papers section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the ESG Papers section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Advanced Economies Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Advanced Economies' link on the child page to access the Advanced Economies section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Advanced Economies section or disclaimer is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Commodities, FX and Rates Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Commodities, FX and Rates' link on the child page to access the Commodities, FX and Rates section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Commodities, FX and Rates section or disclaimer is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Banking Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Banking' link on the child page to access the Banking section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Banking section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Industry & Local Economies Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Industry & Local Economies' link on the child page to access the Industry & Local Economies section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Industry & Local Economies section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Equity & Credit Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Equity & Credit' link on the child page to access the Equity & Credit section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Equity & Credit section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Emerging Countries Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Emerging Countries' link on the child page to access the Emerging Countries section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Emerging Countries section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Investitori Privati Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Investitori Privati' link on the child page to access the Investitori Privati section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Investitori Privati section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Indici Comit Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Indici Comit' link on the child page to access the Indici Comit section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Indici Comit section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Regulatory Disclosures Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Regulatory Disclosures' link on the child page to access the Regulatory Disclosures section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Regulatory Disclosures section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Area Media Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Area Media' link on the child page to access the Area Media section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Area Media section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Ricerche Comportamentali Section via Parent and Child Pages",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Ricerche Comportamentali' link on the child page to access the Ricerche Comportamentali section",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Ricerche Comportamentali section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carousel CTA 1 on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' button (Carousel CTA 1) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the thematic research page for 'Indagine sul risparmio e sulle scelte finanziarie degli italiani' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carousel CTA 2 on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' button (Carousel CTA 2) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the thematic research page for '11\u00b0 rapporto la bioeconomia in Europa' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carousel CTA 3 on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' button (Carousel CTA 3) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the research page for '17\u00b0 rapporto economia e finanza dei distretti industriali' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carousel CTA 4 on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' button (Carousel CTA 4) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the research page for '107\u00b0 rapporto analisi dei settori industriali' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carousel CTA 5 on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' button (Carousel CTA 5) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the research page for 'Osservatorio sul settore idrico' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carousel CTA 6 on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' button (Carousel CTA 6) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Economind' insights page on IMI Intesa Sanpaolo is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate Carousel Slides on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'swiper-button-next' on the child page to move to the next carousel slide",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the next carousel slide is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Return to Previous Carousel Slide on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'swiper-button-prev' on the child page to move to the previous carousel slide",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the previous carousel slide is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle Carousel Play/Pause on Research Department Page via Parent Navigation",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the parent page to navigate to the Research Department site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'hero-carousel__player-button' on the child page to toggle play or pause of the carousel",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the carousel play/pause state changes accordingly",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

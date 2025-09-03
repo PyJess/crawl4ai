@@ -1,0 +1,370 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify banner closure on Guida ai servizi",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options from parent to child page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the user is redirected to the cookie policy page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from parent to Guida ai servizi via footer and download Consumatore guide",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Guida ai servizi' link in the footer of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scarica il file' for Consumatore on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Consumatore guide PDF is downloaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from parent to Guida ai servizi via footer and download Business guide",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Guida ai servizi' link in the footer of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scarica il file' for Business on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Business guide PDF is downloaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on Guida ai servizi desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field on the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the 'Guida ai servizi' page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on Guida ai servizi mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search field on the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the 'Guida ai servizi' page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Guida ai servizi desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' field on the guest login form of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' field on the guest login form of the 'Guida ai servizi' page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form on the 'Guida ai servizi' page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the 'Guida ai servizi' page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Guida ai servizi mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' field on the guest login form of the 'Guida ai servizi' page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' field on the guest login form of the 'Guida ai servizi' page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form on the 'Guida ai servizi' page (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on the 'Guida ai servizi' page (mobile)",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest from Guida ai servizi desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the guest login form of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest from Guida ai servizi mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button on the guest login form of the 'Guida ai servizi' page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on the 'Guida ai servizi' page (mobile)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from Guida ai servizi desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the guest login form of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery form is displayed on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from Guida ai servizi mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the guest login form of the 'Guida ai servizi' page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery form is displayed on the 'Guida ai servizi' page (mobile)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Maintain guest login session on Guida ai servizi",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the guest login form of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled on the 'Guida ai servizi' page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' from Guida ai servizi header",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' from Guida ai servizi mobile section",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the mobile section of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Inbiz login from Guida ai servizi desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' in the Inbiz login section of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Inbiz login from Guida ai servizi mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' in the Inbiz login section of the 'Guida ai servizi' page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from Guida ai servizi",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' in the online security section of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' from Guida ai servizi breadcrumb",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb navigation of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the user is redirected to the home page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Facebook profile from Guida ai servizi footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' in the footer of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Youtube profile from Guida ai servizi footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' in the footer of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Twitter profile from Guida ai servizi footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' in the footer of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access LinkedIn profile from Guida ai servizi footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' in the footer of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Instagram profile from Guida ai servizi footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' in the footer of the 'Guida ai servizi' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

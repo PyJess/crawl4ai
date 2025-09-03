@@ -1,0 +1,388 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Search' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the desktop search on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (desktop) on the investments page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search field on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to reset the search (desktop) on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the mobile search on the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (mobile) on the investments page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply filters to products on the investments page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'APPLICA FILTRI' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the filters are applied to the product list",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Fondi per le imprese' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Fondi per le imprese on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fondi per le imprese details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Eurizon Next 2.0' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Eurizon Next 2.0 on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Eurizon Next 2.0 details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Eurizon GP Collection' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Eurizon GP Collection on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Eurizon GP Collection details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'GP Linea Dedicata' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for GP Linea Dedicata on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the GP Linea Dedicata details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Patrimonio Aziende Insurance' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Patrimonio Aziende Insurance on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Patrimonio Aziende Insurance details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Certificates' from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Certificates on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Certificates details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View all market updates from the investments page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI GLI AGGIORNAMENTI' on the investments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

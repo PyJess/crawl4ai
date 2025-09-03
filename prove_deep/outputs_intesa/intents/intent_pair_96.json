@@ -1,0 +1,586 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy - Cookie policy from cookie banner (mobile) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy - Cookie policy from cookie banner (desktop) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the desktop cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies (desktop) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the desktop cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the desktop cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using accessibility button on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate external site from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' in the external links menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo external site from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' in the external links menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers external site from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' in the external links menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News external site from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' in the external links menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' in the external links menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme external site from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' in the external links menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external site opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' in the external links menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie section from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business section from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive section from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using burger button on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer login from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the customer login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search bar from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access account comparison via 'Scopri il conto' from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account comparison page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request Exclusive Credit Card using main CTA",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'RICHIEDI LA TUA CARTA' in the hero section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the credit card request process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request Exclusive Credit Card using sticky CTA",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'RICHIEDI LA TUA CARTA' in the sticky section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the credit card request process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access all Exclusive services from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI I SERVIZI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive services landing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search for a service on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search for a service on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user (desktop) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest user (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login (desktop) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login (desktop) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' in the guest login form (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user (desktop) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' in the guest login form (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process for a new guest user is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user (mobile) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest user (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user (mobile) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' in the guest login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process for a new guest user is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login (mobile) on Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' in the guest login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' in the security section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate using breadcrumb to Home from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate using breadcrumb to Carte from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carte page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate using breadcrumb to Carte di Credito from Carta di Credito Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carte di Credito' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carte di Credito page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

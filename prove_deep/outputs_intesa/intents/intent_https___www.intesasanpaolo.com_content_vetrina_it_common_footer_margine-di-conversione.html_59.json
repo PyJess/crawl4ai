@@ -1,0 +1,584 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and all cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and all cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to go to the cookie options page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login using 'Accesso clienti' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the client login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) with 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to open the guest login tab (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into input with placeholder 'E-mail' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into input with placeholder 'Password' (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click checkbox 'Mantieni L'accesso' to enable keep me logged in (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login (desktop)",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (desktop) without 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to open the guest login tab (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into input with placeholder 'E-mail' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into input with placeholder 'Password' (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to open the guest login tab (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' link to start password recovery (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to open the guest login tab (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' link to start guest registration (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to open the guest login tab (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into input with placeholder 'E-mail' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into input with placeholder 'Password' (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login (mobile)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to open the guest login tab (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera password' link to start password recovery (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to open the guest login tab (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'REGISTRATI' button to start guest registration (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search bar",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Type $name into input with placeholder 'Cosa posso fare per te oggi?' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with class 'btn-search' to submit the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field using desktop reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click button with class 'btn-reset-search' to clear the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is empty",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search bar",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Type $name into input with placeholder 'Cerca' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with class 'btn-search' to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' contact module",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link to open the contact module",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact module is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request a call back using 'TI RICHIAMIAMO NOI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'TI RICHIAMIAMO NOI' button to request a call back",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the call back request form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Continue call back request using 'CONTINUA' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'CONTINUA' button to proceed with the call back request",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the call back request is submitted or the next step is shown",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Cancel call back request using 'ANNULLA' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'ANNULLA' button to cancel the call back request",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the call back request is cancelled and the form is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access security information via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to view security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link to navigate to the Persone e Famiglie page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Business' link to navigate to the Business page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link to navigate to the Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access extended cookie policy via 'Privacy - Cookie policy' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Privacy - Cookie policy' link to view the extended cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the extended cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' link in the footer to open the official Facebook profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' link in the footer to open the official Youtube profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' link in the footer to open the official Twitter profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' link in the footer to open the official LinkedIn profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile via footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/margine-di-conversione.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' link in the footer to open the official Instagram profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram profile page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

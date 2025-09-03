@@ -1,0 +1,472 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to navigate to the Privacy - Cookie policy page (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to navigate to the Privacy - Cookie policy page (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Corporate' link",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to open the external Corporate page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Gruppo' link",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to open the external Gruppo page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Careers' link",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to open the external Careers page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'News' link",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to open the external News page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Club Azionisti' page",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to open the Club Azionisti page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Finanza Insieme' link",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to open the external Finanza Insieme page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Quick Training' page",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to open the Quick Training page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search field (desktop) and perform a search",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Search' to open the search field (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search (desktop).",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field (desktop) after entering a query",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search field (desktop).",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared and no results are displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the mobile search field",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cerca'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search (mobile).",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the menu burger (desktop)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the menu burger (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login panel (desktop)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login panel (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user with 'ENTRA' button",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user and enable 'Mantieni L'accesso' option",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable the keep me logged in option.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user.",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login panel",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to initiate password recovery.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the recovery page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new guest user from login panel",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the guest user registration process.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' link (header)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header to contact support.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' link (mobile menu)",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the mobile menu to contact support.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Tutti i Prodotti' menu on mobile",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to open the mobile menu for all products.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the list of all products is displayed in the mobile menu.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Settori' menu on mobile",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Settori' button to open the mobile menu for sectors.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the list of sectors is displayed in the mobile menu.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Momenti' menu on mobile",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti' button to open the mobile menu for moments.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the list of moments is displayed in the mobile menu.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Servizi digitali' menu on mobile",
+    "references": "operazioni-cessione.json",
+    "intents": [
+      {
+        "intent": "Click the 'Servizi digitali' button to open the mobile menu for digital services.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the list of digital services is displayed in the mobile menu.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

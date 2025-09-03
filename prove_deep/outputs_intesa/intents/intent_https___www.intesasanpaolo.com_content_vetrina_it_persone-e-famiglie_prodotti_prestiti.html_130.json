@@ -1,0 +1,582 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search field and perform a search (desktop)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to submit the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field (desktop)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the mobile search field",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on desktop",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on desktop",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login (desktop)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable keep me logged in",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login (desktop)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to initiate password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user (desktop)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the registration process (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on mobile",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest user (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user (mobile)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login (mobile)",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to initiate password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply 'RICHIEDI ONLINE' filter for products",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI ONLINE' checkbox to apply the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that only products available for online request are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply 'UNDER 35' filter for products",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'UNDER 35' checkbox to apply the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that only products for users under 35 are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply 'SOLUZIONE DOMANI' filter for products",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONE DOMANI' checkbox to apply the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that only products related to 'SOLUZIONE DOMANI' are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply filters and confirm on mobile",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI ONLINE' checkbox to apply the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to confirm the filters on mobile",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the filtered product list is displayed on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Prestito' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Prestito",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Obiettivo Pensione' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Obiettivo Pensione",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Obiettivo Pensione details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'PerTe Prestito Exclusive' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for PerTe Prestito Exclusive",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PerTe Prestito Exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'per Merito' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for per Merito",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the per Merito details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'per Esempio' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for per Esempio",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the per Esempio details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Prestito Cessione del Quinto' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Prestito Cessione del Quinto",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Cessione del Quinto details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Prestito Pensionati INPS' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Prestito Pensionati INPS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Pensionati INPS details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Anticipo TFS' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Anticipo TFS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Anticipo TFS details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'SpensieRata' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for SpensieRata",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SpensieRata details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Prestito Diretto' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Prestito Diretto",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Diretto details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'mamma@work' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for mamma@work",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mamma@work details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'per avere Cura' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for per avere Cura",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the per avere Cura details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'per Crescere' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for per Crescere",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the per Crescere details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Prestito MotoConMe' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Prestito MotoConMe",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prestito MotoConMe details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Prestito ViaggiaConMe' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Prestito ViaggiaConMe",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prestito ViaggiaConMe details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'XME Prestito Facile Monorata' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for XME Prestito Facile Monorata",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Facile Monorata details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access details for 'Soluzione Domani' via 'SCOPRI DI PI\u00d9' link",
+    "references": "prestiti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Soluzione Domani",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Soluzione Domani details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

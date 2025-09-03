@@ -1,0 +1,540 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options page via 'Pi\u00f9 opzioni' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options page via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search field and perform a search (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat via 'Parla con noi' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat or contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz via 'ACCEDI' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest with 'Mantieni l'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest without 'Mantieni l'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in without session persistence",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password via 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login tab on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login tab on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password on mobile via 'Recupera password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile via 'REGISTRATI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri come fare' security information page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri la filiale digitale' page from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI LA FILIALE DIGITALE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital branch information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Corporate Information Atoka' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate Information Atoka'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate Information Atoka product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI DI PI\u00d9' CTA for Corporate Information Atoka",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate Information Atoka product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Greentrade' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Greentrade'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Greentrade product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'VAI SU INBIZ' CTA for Greentrade",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'VAI SU INBIZ'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Greentrade product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/piattaforme-digitali-per-sviluppo-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

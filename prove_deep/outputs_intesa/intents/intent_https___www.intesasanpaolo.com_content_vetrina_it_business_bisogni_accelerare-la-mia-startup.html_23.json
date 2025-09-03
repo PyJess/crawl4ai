@@ -1,0 +1,614 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies from the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and all cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop version).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and all cookies are accepted on desktop.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page from the banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page from the desktop banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to navigate to the external Corporate page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the external Gruppo page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to navigate to the external Careers page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to navigate to the external News page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to navigate to the Club Azionisti page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to navigate to the external Finanza Insieme page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme page is opened in a new tab or window.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to navigate to the Quick Training page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to switch to the corresponding tab.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Settori' button to switch to the corresponding tab.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti' button to switch to the corresponding tab.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Servizi digitali' button to switch to the corresponding tab.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search using the search input and button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search (desktop).",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using the reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' page via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header to access the contact page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login using the 'Accesso clienti' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login form (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search using the search input and button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cerca'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search (mobile).",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login using the 'ACCESSO CLIENTI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button to open the client login form (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop with email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest (desktop).",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni l'accesso' option during guest login (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable the keep me logged in option.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni l'accesso' option is enabled.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login form (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to initiate password recovery from the guest login form (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the recovery page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from desktop login form",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the registration process from the guest login form (desktop).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile with email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest (mobile).",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page on mobile.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from mobile login form",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the registration process from the guest login form (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login form (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to initiate password recovery from the guest login form (mobile).",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the recovery page is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access startup offer via 'APPROFITTA DELL\u2019OFFERTA' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'APPROFITTA DELL\u2019OFFERTA' link to access the startup offer page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the startup offer page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Convertibile Impresa' information via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access information about Convertibile Impresa.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Convertibile Impresa information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Startup Initiative' information via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access information about Startup Initiative.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Startup Initiative information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Forvalue match-making' information via 'Scopri di pi\u00f9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link to access information about Forvalue match-making.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Forvalue match-making information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Neoimpresa' information via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access information about Neoimpresa.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Neoimpresa information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Carta Prepaid' information via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Carta Prepaid' link to access information about Carta Prepaid.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Prepaid information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Polizza Business Sempre' information via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Polizza Business Sempre' link to access information about Polizza Business Sempre.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Business Sempre information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Conto BusinessInsieme' information via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/accelerare-la-mia-startup.html",
+    "intents": [
+      {
+        "intent": "Click the 'Conto BusinessInsieme' link to access information about Conto BusinessInsieme.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Conto BusinessInsieme information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

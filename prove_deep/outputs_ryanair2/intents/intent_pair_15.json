@@ -1,0 +1,508 @@
+[
+  {
+    "test_case_name": "Access Ryanair Homepage from Cookie Policy and Search for Flights",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Ryanair logo' on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the flight search results are displayed based on the entered departure and destination.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Cookie Preferences from Cookie Policy and Adjust Settings on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Cookie preferences' button on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'View cookie settings' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie settings modal or page is displayed for user interaction.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQs from Cookie Policy and Verify FAQ Page on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'FAQ' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'FAQs' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the FAQ section or page is displayed to the user.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Cookie Policy and Verify Assistance on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Assistance' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the assistance or contact information is displayed to the user.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees from Cookie Policy and Explore My Bookings on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Fees' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'My Bookings' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the My Bookings section or login prompt is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access www.ryanair.com from Cookie Policy and Apply Promo Code on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Apply promo code' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the promo code application process is initiated or a prompt for the code is displayed.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access help.ryanair.com from Cookie Policy and Log In on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'help.ryanair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Log in' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the login form or portal is displayed for user authentication.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access careers.ryanair.com from Cookie Policy and Subscribe to Newsletter on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into 'Email address' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Sign me up!' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that a subscription confirmation or success message is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access corporate.ryanair.com from Cookie Policy and Open Market Switcher on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Open market switcher' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the market switcher interface is displayed for selection.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access investor.ryanair.com from Cookie Policy and Open myRyanair Portal on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'investor.ryanair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'myRyanair Portal' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal is displayed for user interaction.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access buzzair.com from Cookie Policy and Select One Way Trip on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'One way' radio button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the trip type is set to 'One way'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access onlineform.buzzair.com from Cookie Policy and Select Return Trip on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.buzzair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Return trip' radio button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the trip type is set to 'Return trip'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access onlineform.ryanair.com from Cookie Policy and Explore Price Range Filter on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'onlineform.ryanair.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Price range' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the price range filter is activated or a message is shown if disabled.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access warsawaviation.com from Cookie Policy and Explore Times Filter on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Times' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the times filter is activated or a message is shown if disabled.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access b737trassessments.com from Cookie Policy and Open Previous Notification on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'b737trassessments.com' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Open previous notification' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the previous notification is displayed to the user.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookiepedia from Cookie Policy and Read More on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'http://www.cookiepedia.co.uk/index.php?title=How_to_Manage_Cookies' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Read more' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the linked article or information is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access AboutCookies.org from Cookie Policy and Open Next Notification on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'http://www.aboutcookies.org/' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Open next notification' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the next notification is displayed to the user.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Mozilla Firefox\u00ae Support from Cookie Policy and Explore Ryanair Prime on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Mozilla Firefox\u00ae' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'INTRODUCING RYANAIR PRIME' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Ryanair Prime membership information is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Microsoft\u00ae Internet Explorer Support from Cookie Policy and Explore Car Hire on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Microsoft\u00ae Internet Explorer' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'CAR HIRE' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the car hire booking page is opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Google Chrome\u2122 Support from Cookie Policy and Explore Gift Cards on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Google Chrome\u2122' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'GIFT CARDS' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the gift cards information or purchase page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Safari\u00ae Support from Cookie Policy and Explore Ryanair Rooms on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Safari\u00ae' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'RYANAIR ROOMS' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Ryanair Rooms booking page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access YourOnlineChoices.eu from Cookie Policy and Check Travel Updates on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'http://www.youronlinechoices.eu/' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Travel Updates' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the travel updates page or section is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions from Cookie Policy and Explore Route Map on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Route Map' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the route map is displayed for the user.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from Cookie Policy and Explore Group Travel on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Group Travel' link on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the group travel booking or information page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from Cookie Policy and Swipe Carousel Forward on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Swipe carousel forward' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the carousel moves forward to the next item.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies from Cookie Policy and Swipe Carousel Back on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Swipe carousel back' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the carousel moves back to the previous item.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Cookie Policy Footer and Decline Cookie Popup on Homepage",
+    "references": "ryanair_cookie_policy_and_homepage.json",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the footer on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'No, thanks' button on the homepage",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent popup is dismissed and the homepage is accessible.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

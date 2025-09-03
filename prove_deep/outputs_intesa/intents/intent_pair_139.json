@@ -1,0 +1,236 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' on the child page to accept all cookies.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy Options from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the child page to view cookie policy options.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie policy options or privacy settings are displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Download Intesa Sanpaolo Mobile App",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE' on the child page to start the app download process.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the download page for the Intesa Sanpaolo Mobile app is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Reward Program from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PROVA A VINCERE' on the child page to access the reward program.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the reward program hub page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Smart Save Information from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri Smart Save' on the child page to view Smart Save details.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Smart Save information page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access SpensieRata Loan Information from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri SpensieRata' on the child page to view SpensieRata loan details.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the SpensieRata loan information page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View XME Prestito Diretto Loan Details from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri XME Prestito Diretto' on the child page to view XME Prestito Diretto loan details.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the XME Prestito Diretto loan information page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Investo App from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri l'app' (Investo) on the child page to view Investo app details.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Investo app information page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Assicurazioni App from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri l'app' (Assicurazioni) on the child page to view Assicurazioni app details.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Assicurazioni app information page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View All Recognitions from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI TUTTI I RICONOSCIMENTI' on the child page to view all recognitions.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the recognitions landing page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' Modal for Esigenze from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' (grafica esigenze) on the child page to open the modal for esigenze.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the modal with information about esigenze is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' Modal for Sotto Controllo from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' (sotto controllo) on the child page to open the modal for sotto controllo.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the modal with information about sotto controllo is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' Modal for Tanti Servizi from Mobile App Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the parent page to access the Intesa Sanpaolo Mobile app section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' (tanti servizi) on the child page to open the modal for tanti servizi.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the modal with information about tanti servizi is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

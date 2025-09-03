@@ -1,0 +1,448 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify banner closure on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy options from cookie banner and verify navigation on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner and verify disappearance on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from header and verify contact page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from header and verify account information page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account comparison page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search field and verify results on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field and verify field is cleared on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is empty",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search field and verify results on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset mobile search field and verify field is cleared on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is empty",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open guest login form and perform login on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the checkbox 'Mantieni L'accesso'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login form on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' in the guest login form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from login form on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' to open the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' in the guest login form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user using mobile registration button on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to open the guest registration form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password using mobile recovery link on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' in the mobile guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login page from investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Entra nella banca online' to access the online banking login page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri come fare' and verify security information page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' to access security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' using breadcrumb and verify homepage is displayed on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from footer and verify contact page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'CERCA FILIALI, ATM E PUNTI VENDITA ABILITATI MOONEY' and verify branch search page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'CERCA FILIALI, ATM E PUNTI VENDITA ABILITATI MOONEY' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch and ATM search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'GUIDA AI SERVIZI' and verify services guide page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'GUIDA AI SERVIZI' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the services guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'DOMANDE FREQUENTI' and verify FAQ page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'DOMANDE FREQUENTI' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'BLOCCA LA TUA CARTA' and verify card blocking page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'BLOCCA LA TUA CARTA' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card blocking page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'DISCONOSCIMENTO' and verify dispute page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'DISCONOSCIMENTO' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the dispute page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI LA FILIALE DIGITALE' and verify digital branch guide page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI LA FILIALE DIGITALE' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital branch guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SICUREZZA' and verify online security page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SICUREZZA' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SUCCESSIONI' and verify inheritance services page on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SUCCESSIONI' in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the inheritance services page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab and verify content on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' tab and verify content on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' tab and verify content on investment services page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

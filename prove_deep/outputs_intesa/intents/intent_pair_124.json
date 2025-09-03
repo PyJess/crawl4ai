@@ -1,0 +1,332 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the complaint submission form from the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scrivi ed invia il reclamo' link to open the complaint submission form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the complaint submission form page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 2023 complaint management report from the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Intesa Sanpaolo -\u00a0Rendiconto attivit\u00e0 di gestione dei reclami 2023' link to download the report",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file for the 2023 complaint management report is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the conciliation procedure access form from the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Compila e inoltra la domanda di accesso alla procedura di conciliazione' link to download the form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file for the conciliation procedure access form is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the privacy and cookie policy from the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy - Cookie policy' link to access the privacy and cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results relevant to $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search field on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to perform the mobile search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results relevant to $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the chat support from the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to open the chat support page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu from the 'Reclami e risoluzione delle controversie' page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login from the 'Reclami e risoluzione delle controversie' page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Scopri il conto' page from the header on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header to access the account discovery page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account discovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Scopri il conto' page from the header on the 'Reclami e risoluzione delle controversie' page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header (mobile) to access the account discovery page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account discovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login from the 'Reclami e risoluzione delle controversie' page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button to open the client login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to switch to the 'Tutti i Prodotti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' tab on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i giorni' button to switch to the 'Tutti i giorni' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' tab on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti della Vita' button to switch to the 'Momenti della Vita' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the home page using the breadcrumb on the 'Reclami e risoluzione delle controversie' page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb to navigate to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,424 @@
+[
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button in the cookie banner",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button for all cookies",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more cookie options via the 'Pi\u00f9 opzioni' link",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more cookie options via the 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link (desktop) to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies using the 'Acconsento' button (desktop)",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button (desktop) to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using the 'Passa al Contenuto' button",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using the 'Passa al Men\u00f9' button",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar using the 'Search' button",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search bar is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access customer login using the 'Accesso clienti' button",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to access the customer login page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat support using the 'Parla con noi' link",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to open chat support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'IN PROMOZIONE' and apply filters",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'IN PROMOZIONE' checkbox to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products with the 'IN PROMOZIONE' label are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'UNDER 36' and apply filters",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'UNDER 36' checkbox to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products with the 'UNDER 36' label are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'SOLUZIONE DOMANI' and apply filters",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONE DOMANI' checkbox to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products with the 'SOLUZIONE DOMANI' label are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Filter products by 'RICHIEDI UN PREVENTIVO' and apply filters",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI UN PREVENTIVO' checkbox to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products with the 'RICHIEDI UN PREVENTIVO' label are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Fondo di Garanzia Prima Casa Consap' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Fondo di Garanzia Prima Casa Consap'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Fondo di Garanzia Prima Casa Consap' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo in Tasca' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo in Tasca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo in Tasca' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Offerta Green Mutuo Domus' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Offerta Green Mutuo Domus'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Offerta Green Mutuo Domus' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per acquistare casa' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per acquistare casa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per acquistare casa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'MutuoUp per acquistare casa' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'MutuoUp per acquistare casa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'MutuoUp per acquistare casa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per ristrutturare casa' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per ristrutturare casa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per ristrutturare casa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Giovani' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Giovani'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Giovani' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per la surroga' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per la surroga'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per la surroga' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per il rifinanziamento' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per il rifinanziamento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per il rifinanziamento' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Mutuo Domus per le spese e gli investimenti' product",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Mutuo Domus per le spese e gli investimenti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Mutuo Domus per le spese e gli investimenti' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Soluzione Domani' offer",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Soluzione Domani'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the offer details page for 'Soluzione Domani' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View details of 'Iniziativa ABI' offer",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI COME' link for 'Iniziativa ABI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the offer details page for 'Iniziativa ABI' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover current account options using the 'Scopri il conto' link",
+    "references": "mutui.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to view current account options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the current account comparison page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

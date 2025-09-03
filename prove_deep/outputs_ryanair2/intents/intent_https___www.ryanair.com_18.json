@@ -1,0 +1,524 @@
+[
+  {
+    "test_case_name": "Search for a one-way flight with promo code",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'One way' radio button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination' input",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Apply promo code' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the search results for a one-way flight with the applied promo code are displayed",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a return trip flight without promo code",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Return trip' radio button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination' input",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for a return trip flight are displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Subscribe to the newsletter with email address",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Type $email into 'Email address' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sign me up!' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that a subscription confirmation message is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings via link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'My Bookings' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Bookings page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Travel Updates page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Travel Updates' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Travel Updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Route Map page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Route Map' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Route Map page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Group Travel booking form",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Group Travel' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the group booking form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and interact with cookie settings",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'View cookie settings' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie settings modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies via cookie popup",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'No, thanks' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie popup is dismissed and cookies are not accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept cookies via cookie popup",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Yes, I agree' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie popup is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch market or language",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Open market switcher' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market or language selection modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to FAQs page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'FAQs' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Assistance page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Assistance' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assistance page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'myRyanair Portal' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open next notification in carousel",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Open next notification' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the next notification is displayed in the carousel",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open previous notification in carousel",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Open previous notification' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the previous notification is displayed in the carousel",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Swipe carousel forward",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Swipe carousel forward' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the carousel advances to the next item",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read more about ATC ruined our holiday",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Read more' link with href 'https://www.atcruinedourholiday.com/'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the ATC ruined our holiday page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read more about bag sizers and gate bag fees",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Read more' link with href 'https://www.ryanair.com/ie/en/lp/travel-extras/bag-sizers-and-gate-bag-fees-explained'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the bag sizers and gate bag fees page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Ryanair Prime membership page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'RYANAIR PRIME' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Ryanair Prime membership page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access car hire booking page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'CAR HIRE' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the car hire booking page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access gift cards page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'GIFT CARDS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the gift cards page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Ryanair Rooms page",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'RYANAIR ROOMS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Ryanair Rooms page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Southern Sardinia via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Discover Southern Sardinia' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Southern Sardinia tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Milan and Bergamo via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Milan and Bergamo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Milan and Bergamo tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Bergamo\u2019s Citt\u00e0 Alta via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Explore Bergamo\u2019s Citt\u00e0 Alta' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bergamo\u2019s Citt\u00e0 Alta tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Experience winter in Prague via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Experience winter in Prague' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the winter in Prague guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Visit Beziers Cap d\u2019Agde South of France via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Visit Beziers Cap d\u2019Agde South of France' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Beziers Cap d\u2019Agde tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Our guide to Gdansk via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Our guide to Gdansk' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gdansk guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Bergamo and more via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Discover Bergamo and more' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bergamo airport information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Pyrenees & Lourdes via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Pyrenees & Lourdes' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Pyrenees & Lourdes tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Travel to sunny Carcassonne, France via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Travel to sunny Carcassonne, France' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carcassonne tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Welcome to southwestern France via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Welcome to southwestern France' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Toulouse airport tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Welcome to the Loire Valley via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Welcome to the Loire Valley!' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Loire Valley tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore Provence via card link",
+    "references": "https://www.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click 'Provence, where the sun shines 300 days a year' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Provence tourism page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

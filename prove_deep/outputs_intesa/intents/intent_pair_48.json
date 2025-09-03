@@ -1,0 +1,30 @@
+[
+  {
+    "test_case_name": "Verify navigation to the disclaimer page via 'Club Azionisti' link",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the disclaimer page at '/content/vetrina/it/common/disclaimer/home/box-11.html' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify navigation to the disclaimer page via 'Quick Training' link",
+    "references": "parent-child.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the disclaimer page at '/content/vetrina/it/common/disclaimer/home/box-11.html' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "test_case_name": "Accept All Cookies and Navigate to Social Responsibility Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' on the cookie banner of the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the social responsibility page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy Options from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link on the parent page cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' link on the child page cookie banner",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie policy options are displayed on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Content on Both Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main content of the child page is focused",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Use Search Functionality on Child Page After Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to open search on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search input on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Iniziative per Universit\u00e0 e Scuola' from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Iniziative per Universit\u00e0 e Scuola ' link in the aside menu on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Iniziative per Universit\u00e0 e Scuola' section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Fondo di Beneficenza' Section from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Fondo di Beneficenza' link in the aside menu on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Fondo di Beneficenza' section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Child Page After Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to open/close main menu (hamburger) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Nessuno escluso' Hero Link from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Nessuno escluso' hero link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Nessuno escluso' initiative page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' Hero CTA from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the detailed information for 'Nessuno escluso' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'The Way Out' Hero Link from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'The Way Out' hero link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that 'The Way Out' initiative page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri tutti gli episodi' Hero CTA from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri tutti gli episodi' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all episodes for 'The Way Out' are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Finanza e Mercati Digitali e Sostenibili' News Overlay Card from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Finanza e Mercati Digitali e Sostenibili' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the news overlay for 'Finanza e Mercati Digitali e Sostenibili' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SROI: misurare il valore sociale' Article from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SROI: misurare il valore sociale' article link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the article 'SROI: misurare il valore sociale' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Aiutare chi Aiuta: un sostegno alle nuove fragilit\u00e0' Article from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Aiutare chi Aiuta: un sostegno alle nuove fragilit\u00e0' article link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the article 'Aiutare chi Aiuta: un sostegno alle nuove fragilit\u00e0' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Dispersione Scolastica: progetto di ricerca congiunto' Article from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Dispersione Scolastica: progetto di ricerca congiunto' article link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the article 'Dispersione Scolastica: progetto di ricerca congiunto' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

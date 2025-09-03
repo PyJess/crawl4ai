@@ -1,0 +1,44 @@
+[
+  {
+    "test_case_name": "Access child page via 'Club Azionisti' link and verify presence of 'www\u2024eurizoncapital.com' link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'www\u2024eurizoncapital.com' link is present on the child page.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access child page via 'Quick Training' link and verify presence of 'www.intesasanpaoloprotezione.com' link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'www.intesasanpaoloprotezione.com' link is present on the child page.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access child page via 'Club Azionisti' link and verify presence of 'www\u2024eurizoncapital.com' (third occurrence) link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the third 'www\u2024eurizoncapital.com' link is present on the child page.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

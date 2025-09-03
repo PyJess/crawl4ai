@@ -1,0 +1,214 @@
+[
+  {
+    "test_case_name": "Accept Cookies on Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the parent page to accept all cookies.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' on the child page to accept all cookies.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that cookies are accepted on both the parent and child pages.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject Cookies via More Options on Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link on the parent page to access cookie options.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' link on the child page to access more cookie options.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click button with id 'cookie-chiudi' on the parent page to close the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click button with id 'js-cookie-banner-close' on the child page to close the cookie banner.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie banners are closed on both the parent and child pages.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use Accessibility Skip Links on Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button on the parent page to skip to main content.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto' button on the child page to skip to main content.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Search on Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click button with class 'btn-search' to submit the search on the parent page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click button with class 'header-navbar-btn-search' on the child page to open the search input.",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search input on the child page.",
+        "intent_id": "5"
+      },
+      {
+        "intent": "Click button with class 'btn-search' to submit the search on the child page.",
+        "intent_id": "6"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the child page.",
+        "intent_id": "7"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Presentation from Child Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCARICA LA PRESENTAZIONE' link on the child page to download the presentation.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the presentation PDF is downloaded successfully.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Investor Relations Results from Child Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Risultati 1sem.25' link on the child page to view investor relations results.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the investor relations results page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Shareholders\u2019 Meeting Information from Child Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Assemblea degli Azionisti' link on the child page to view shareholders\u2019 meeting information.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the shareholders\u2019 meeting information page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Statute Document from Child Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Statuto al 30 ottobre 2024' link on the child page to view the statute document.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the statute PDF is downloaded or displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Business Plan Document from Child Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Piano di Impresa 2022-2025' link on the child page to view the business plan document.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the business plan page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

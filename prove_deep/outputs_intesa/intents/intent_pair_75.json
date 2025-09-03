@@ -1,0 +1,420 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner of the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the Transparency page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner of the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the close button on the cookie banner of the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the Transparency page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate Site from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://imi.intesasanpaolo.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo Site from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers Site from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/it/careers'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Site from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/it/sala-stampa'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/content/vetrina/it/common/landing/club-azionisti.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.finanzainsieme.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/content/vetrina/it/common/landing/quick-training-banca-digitale.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie Section from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/content/vetrina/it/persone-e-famiglie.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business Section from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/content/vetrina/it/business.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive Section from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/content/vetrina/it/exclusive.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Access Panel from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for desktop on the Transparency page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the reset search button for desktop on the Transparency page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for mobile on the Transparency page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Document Type for Online Calculator",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Select 'PRIVATI' from the document type dropdown on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that 'PRIVATI' is selected in the dropdown",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Online Calculator Excel File",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Calcola' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Excel file for the online calculator is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF of Operational Profiles",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Leggi' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file of operational profiles is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb on Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/content/vetrina/it/business.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Official Facebook Profile from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.facebook.com/intesasanpaolo/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Official Youtube Profile from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.youtube.com/user/intesasanpaolo'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Official Twitter Profile from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://twitter.com/intesasanpaolo'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Official LinkedIn Profile from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.linkedin.com/company/intesa-sanpaolo/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Official Instagram Profile from Transparency Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link on the Transparency page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.instagram.com/intesasanpaolo/'",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

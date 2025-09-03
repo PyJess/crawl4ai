@@ -1,0 +1,492 @@
+[
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and accept cookies",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCONSENTO'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and open search",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' (Open search)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and perform a search",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' (Open search)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Cerca'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click '' (Submit search)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the child page.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access user area dropdown",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the user area dropdown is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and switch language to English",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'EN'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the page is displayed in English on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'Il mio profilo' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Il mio profilo'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the profile page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and open main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' (Open/close main menu)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'PRODOTTI E SERVIZI' menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PRODOTTI E SERVIZI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'PRODOTTI E SERVIZI' menu is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'Contatti' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Contatti'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the contacts page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and reject cookies via 'PI\u00d9 OPZIONI'",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and close cookie banner",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' (Chiudi cookie banner)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'Iniziative riservate ' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Iniziative riservate '",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the reserved initiatives page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'Persone e Famiglie' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'Business' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Business' page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'Corporate' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Corporate' page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'Presenza Internazionale' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Presenza Internazionale'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the 'Presenza Internazionale' page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'App Intesa Sanpaolo Mobile' from user area",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'App Intesa Sanpaolo Mobile'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the app download page is displayed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'CHI SIAMO' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'CHI SIAMO'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'CHI SIAMO' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'INVESTOR RELATIONS' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'INVESTOR RELATIONS'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'INVESTOR RELATIONS' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'GOVERNANCE' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'GOVERNANCE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'GOVERNANCE' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'SOSTENIBILIT\u00c0' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SOSTENIBILIT\u00c0'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'SOSTENIBILIT\u00c0' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'NEWSROOM' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'NEWSROOM'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'NEWSROOM' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'SOCIALE' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SOCIALE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'SOCIALE' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'RESEARCH' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'RESEARCH'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'RESEARCH' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Gruppo' link to child page and access 'CAREERS' from main menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'CAREERS'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'CAREERS' page is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the child page to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the child page to view cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' Tab on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Settori' on the child page to view sector-specific content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' Tab on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti' on the child page to view moments content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' Tab on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali' on the child page to view digital services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Desktop Search on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Mobile Search on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the child page to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the child page to open the customer login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login (Mobile) from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' on the child page to open the customer login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form for mobile is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Startup Acceleration Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the child page to log in as a guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the child page to log in as a guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login Form (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the child page from the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login Form (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the child page from the guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Startup Acceleration Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the child page to log in as a guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User from Guest Login Form (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the child page from the guest login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed for mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login Form (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the child page from the guest login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated for mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the child page to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Startup Innovative Offer from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'APPROFITTA DELL\u2019OFFERTA' on the child page to view the startup innovative offer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the startup innovative offer page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Convertibile Impresa Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Convertibile Impresa) on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Convertibile Impresa information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Startup Initiative Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Startup Initiative) on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Startup Initiative information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Forvalue Match-Making Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' (Forvalue match-making) on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Forvalue match-making information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Neoimpresa Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Neoimpresa) on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Neoimpresa information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Carta Prepaid Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carta Prepaid' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Carta Prepaid information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Business Sempre Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Polizza Business Sempre' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Business Sempre information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Conto BusinessInsieme Information from Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Conto BusinessInsieme' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Conto BusinessInsieme information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Link on Startup Acceleration Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the child page to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

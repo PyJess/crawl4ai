@@ -1,0 +1,206 @@
+[
+  {
+    "test_case_name": "Accept Cookies on Parent and Child Pages",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the parent page to accept all cookies.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' on the child page to accept cookies.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that both cookie banners are dismissed and cookies are accepted on both pages.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Sustainability Section from Parent and Accept Cookies",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' on the child page to accept cookies.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and the sustainability news are visible on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Both Parent and Child Pages",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field on the parent page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button on the parent page to submit the search.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'Open search' button on the child page to open the search field.",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' search field on the child page.",
+        "intent_id": "5"
+      },
+      {
+        "intent": "Click the 'Submit search' button on the child page to submit the search.",
+        "intent_id": "6"
+      },
+      {
+        "intent": "And then check that relevant search results are displayed on both pages.",
+        "intent_id": "7"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Sustainability Policy from Parent to Child",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Policy di sostenibilit\u00e0' in the aside menu on the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the sustainability policy page is displayed on the child site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Language to English on Child Page After Navigation",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'EN' in the language selector on the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the child page is displayed in English.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access User Area and Logout on Child Page After Navigation",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE' button on the child page to open the user area dropdown.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Logout' button on the child page to log out.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged out and redirected appropriately on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Child Page After Navigation",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Open main menu' button on the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Sustainability News from Parent to Child",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri tutte le news di sostenibilit\u00e0' on the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the sustainability news section is displayed on the child page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Sustainability Reporting from Parent to Child",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Reporting di sostenibilit\u00e0' in the aside menu on the child page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the sustainability reporting page is displayed on the child site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Cancel Search on Child Page After Navigation",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the parent page to navigate to the child page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Open search' button on the child page to open the search field.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cancel search' button on the child page to close the search field.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is closed on the child page.",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

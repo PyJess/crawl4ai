@@ -1,0 +1,262 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login area from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search on Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on the Samsung financing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search on Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on the Samsung financing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Click 'acquista online' CTA on Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with text 'acquista online' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online purchase process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Click second 'Acquista online' CTA on Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with text 'Acquista online' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online purchase process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover XME Prestito Diretto from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI XME PRESTITO DIRETTO' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Diretto information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Samsung Galaxy S25 product details from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Samsung Galaxy S25\n256 GB\n Navy' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Samsung Galaxy S25 product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Samsung Galaxy S25+ product details from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Samsung Galaxy S25+ 512 GB\nNavy' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Samsung Galaxy S25+ product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Samsung Galaxy S25 Ultra product details from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Samsung Galaxy S25 Ultra 512 GB\nTitanium Black' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Samsung Galaxy S25 Ultra product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Return to Intesa Sanpaolo homepage from Samsung financing page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaolo.com' on the Samsung financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

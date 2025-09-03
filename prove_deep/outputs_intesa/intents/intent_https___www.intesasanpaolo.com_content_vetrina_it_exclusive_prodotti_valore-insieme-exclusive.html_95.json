@@ -1,0 +1,574 @@
+[
+  {
+    "test_case_name": "Accept cookie consent on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button for cookie consent (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept cookie consent on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button for cookie consent (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link for cookie options (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link for cookie options (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept cookie consent from cookie options on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button for cookie consent (desktop) from cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to content using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open burger menu on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open burger menu on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access client login on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access client login on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform search on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search submit button (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search input on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search reset button (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform search on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search submit button (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat or contact page on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact or chat page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat or contact page on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact or chat page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' page from desktop CTA",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' page from mobile CTA",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' on guest login (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open guest registration page on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open guest registration page on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open online security information page (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open online security information page (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open sticky bar mobile menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i prodotti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the sticky bar menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply sticky bar filter for 'SOLUZIONE DOMANI'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SOLUZIONE DOMANI' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the filter is applied and relevant products are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'GP Linea Dedicata'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'GP Linea Dedicata'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'GP Linea Dedicata' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Portafogli Investimenti Fondi Valore Insieme'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Portafogli Investimenti Fondi Valore Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Portafogli Investimenti Fondi Valore Insieme' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Investimento Assicurativo Patrimonio Pro Dublin Branch'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Investimento Assicurativo Patrimonio Pro Dublin Branch'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Investimento Assicurativo Patrimonio Pro Dublin Branch' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Fondi Comuni Eurizon Multimanager'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Fondi Comuni Eurizon Multimanager'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Fondi Comuni Eurizon Multimanager' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'GP Eurizon Multimanager Exclusive'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'GP Eurizon Multimanager Exclusive'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'GP Eurizon Multimanager Exclusive' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start guide",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCARICA QUICK START' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Start PDF is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Soluzione Domani details from sticky bar",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Soluzione Domani'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Soluzione Domani' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close modal using generic close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/exclusive/prodotti/valore-insieme-exclusive.html",
+    "intents": [
+      {
+        "intent": "Click the 'Close' button on the modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

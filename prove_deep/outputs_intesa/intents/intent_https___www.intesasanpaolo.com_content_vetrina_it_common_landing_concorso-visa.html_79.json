@@ -1,0 +1,396 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via 'Acconsento' Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies via 'Acconsento' Button (Desktop)",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button (desktop) to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner Using Close Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Cookie Options via 'Pi\u00f9 opzioni' Link",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Cookie Options via 'Pi\u00f9 opzioni' Link (Desktop)",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link (desktop) to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using 'Passa al Contenuto' Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu Using 'Passa al Men\u00f9' Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using 'Passa al Pi\u00e8 di pagina' Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Panel via 'Accesso clienti' Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu via 'Menu' Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel via 'Search' Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' Page",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to navigate to the support page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request Card via 'RICHIEDI LA CARTA' Main CTA",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI LA CARTA' link (main CTA) to request a card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card request modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register for Initiative via 'REGISTRATI ALL\u2019INIZIATIVA' Main CTA",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI ALL\u2019INIZIATIVA' link (main CTA) to register for the initiative",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the initiative registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Regulation via 'SCARICA IL REGOLAMENTO' Main Link",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCARICA IL REGOLAMENTO' link (main) to download the regulation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Regulation via 'SCARICA IL REGOLAMENTO' Strip-CTA Link",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCARICA IL REGOLAMENTO' link (strip-cta) to download the regulation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the regulation PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request Card via 'RICHIEDI LA CARTA' Strip-CTA",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI LA CARTA' link (strip-cta) to request a card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card request modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register for Initiative via 'REGISTRATI ALL\u2019INIZIATIVA' Strip-CTA",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI ALL\u2019INIZIATIVA' link (strip-cta) to register for the initiative",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the initiative registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request XME Credit Card via Modal Link",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI XME CREDIT CARD' link (modal) to request the XME Credit Card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Credit Card product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request XME Credit Icon via Modal Link",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI XME CREDIT ICON' link (modal) to request the XME Credit Icon",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Credit Icon product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search Using Search Input and Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' in the desktop search form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Using Reset Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the reset button with class 'btn-reset-search' to clear the desktop search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search Using Search Input and Button",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' in the mobile search form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest Using Email and Password",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as a guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password via 'Recupera Password' Link",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni l'accesso' Checkbox During Guest Login",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable 'Mantieni l'accesso'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni l'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest via 'Registrati' Link",
+    "references": "concorso-visa.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

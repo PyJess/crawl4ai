@@ -1,0 +1,206 @@
+[
+  {
+    "test_case_name": "Navigate to Accessibility Statement via 'Gruppo' Link and Interact with Cookie Banner",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCONSENTO' on the cookie banner",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the accessibility statement page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI' on the cookie banner",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on the accessibility statement page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Content on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section on the accessibility statement page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Submit Search on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'header-navbar-btn-search' to open search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' and data-name 'search-button'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on the accessibility statement page.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Mobile ISP' App Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Mobile ISP'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the accessibility statement for the 'Mobile ISP' app is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Language to English on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'EN'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the accessibility statement page is displayed in English.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access User Area and Logout on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Logout'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged out and the logout menu is displayed on the accessibility statement page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Il mio profilo' from User Area on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Il mio profilo'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user profile page is displayed within the user area on the accessibility statement page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Contatti' from User Area on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Contatti'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the contacts page is displayed from the user area on the accessibility statement page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Iniziative riservate' from User Area on Accessibility Statement via 'Gruppo' Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'AREA UTENTE'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Iniziative riservate '",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the reserved initiatives page is displayed from the user area on the accessibility statement page.",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

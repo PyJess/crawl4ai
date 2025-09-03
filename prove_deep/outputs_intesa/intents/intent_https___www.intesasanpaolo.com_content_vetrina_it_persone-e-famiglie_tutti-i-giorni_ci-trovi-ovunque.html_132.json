@@ -1,0 +1,698 @@
+[
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button (Banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept cookies from the banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept cookies on desktop",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options via 'Pi\u00f9 opzioni' Link (Banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to access cookie options from the banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options via 'Pi\u00f9 opzioni' Link (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to access cookie options on desktop",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner via Close Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click '' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content via 'Passa al Contenuto' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu via 'Passa al Men\u00f9' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer via 'Passa al Pi\u00e8 di pagina' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu via 'Menu' Button (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu on desktop",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu via 'Menu' Button (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login via 'Accesso clienti' Button (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the customer login form on desktop",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login via 'ACCESSO CLIENTI' Button (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button to open the customer login form on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Online Banking Login Accordion via 'ACCEDI ALLA TUA BANCA ONLINE' Button (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button to expand the online banking login section on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login section is expanded on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Guest Login Accordion via 'ENTRA COME OSPITE' Button (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button to expand the guest login section on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login section is expanded on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Guest Login (Desktop) with Email and Password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field for guest login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input field for guest login (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Guest Login (Mobile) with Email and Password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field for guest login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input field for guest login (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle 'Mantieni L'accesso' Checkbox for Guest Login (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to enable or disable session persistence for guest login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the checkbox state is updated accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password via 'Recupera Password' Link (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to initiate password recovery for guest login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the appropriate page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password via 'Recupera password' Link (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to initiate password recovery for guest login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started or the appropriate page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest via 'Registrati' Link (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to start guest registration (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page or form is displayed (desktop)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest via 'REGISTRATI' Button (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to start guest registration (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page or form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search via 'Search' Button (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search input on desktop",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Search on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field for search (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' button to submit the search query (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on desktop",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click '' button to reset the search input field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Search on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field for search (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' button to submit the search query (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header to access the contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' via Header Link (Desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link in the header to access account information (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed (desktop)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' via Header Link (Mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' button in the header to access account information (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' via CTA Block Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the CTA block to access the contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Ricerca' for Branch/ATM Search",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Ricerca' link to access the branch or ATM search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch or ATM search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' via External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to access the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' via External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to access the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' via External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to access the Corporate external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' via External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to access the Gruppo external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' via External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to access the Careers external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' via External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link to access the News external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' via External Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to access the Finanza Insieme external site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' via Menu Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link in the menu to access the relevant section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' via Menu Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Business' link in the menu to access the relevant section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' via Menu Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link in the menu to access the relevant section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' button to switch to the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' button to switch to the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' button to switch to the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Facebook via Footer Social Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link in the footer to open the Facebook page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Youtube via Footer Social Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link in the footer to open the Youtube page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Twitter via Footer Social Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link in the footer to open the Twitter page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to LinkedIn via Footer Social Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link in the footer to open the LinkedIn page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Instagram via Footer Social Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/ci-trovi-ovunque.html",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link in the footer to open the Instagram page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

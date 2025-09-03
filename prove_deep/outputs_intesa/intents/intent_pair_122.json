@@ -1,0 +1,454 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options on Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to view cookie options on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Conti e salvadanai' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Conti e salvadanai' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Mutui' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mutui' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investimenti e Risparmio' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Investimenti e Risparmio' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Assicurazioni' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Consulenza Evoluta' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Consulenza Evoluta' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Pagamenti digitali' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pagamenti digitali' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Previdenza' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Previdenza' link in the menu on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' product page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' button to switch to the corresponding tab on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' button to switch to the corresponding tab on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' button to switch to the corresponding tab on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar and Search for a Query on Investment Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search bar on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on desktop.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search submit button to perform the search on desktop.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar and Search for a Query on Investment Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search bar on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' input field on mobile.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search submit button to perform the search on mobile.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Investment Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field for guest login on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field for guest login on desktop.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit guest login on desktop.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on the investment page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Investment Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field for guest login on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field for guest login on mobile.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit guest login on mobile.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on the investment page.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Investment Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to start guest registration on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form or process is displayed on desktop.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Investment Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to start guest registration on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form or process is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Investment Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to start password recovery on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or form is displayed on desktop.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Investment Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to start password recovery on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or form is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle 'Mantieni L'accesso' Checkbox on Investment Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to toggle the option on desktop.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is selected or deselected as expected.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Investment Page (Header)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link in the header on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Investment Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link in the mobile section on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'PARLA CON NOI' from Investment Page (Header)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'PARLA CON NOI' from Investment Page (CTA)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'PARLA CON NOI' link in the CTA section on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI COME' from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI COME' link in the CTA section on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SCOPRI COME' information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI DI PI\u00d9' for Insurance Products from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for insurance products on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the insurance products information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SCOPRI DI PI\u00d9' for Soluzione Domani from Investment Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for Soluzione Domani on the investment page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Soluzione Domani information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'ACCONSENTO' link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'ACCONSENTO'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options via 'PI\u00d9 OPZIONI' link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d.'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to content using 'Passa al Contenuto' button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar using the search button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Open search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the search input and submit button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Open search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Submit search'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to homepage using 'Homepage' link in breadcrumbs",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Homepage'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'In Primo Piano' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'In Primo Piano'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'In Primo Piano' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'ESG Papers' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'ESG Papers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'ESG Papers' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Advanced Economies' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Advanced Economies'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Advanced Economies' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Commodities, FX and Rates' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Commodities, FX and Rates'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Commodities, FX and Rates' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Banking' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Banking'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Banking' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Industry & Local Economies' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Industry & Local Economies'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Industry & Local Economies' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Equity & Credit' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Equity & Credit'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Equity & Credit' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Emerging Countries' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Emerging Countries'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Emerging Countries' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Investitori Privati' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Investitori Privati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investitori Privati' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Indici Comit' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Indici Comit'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Indici Comit' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Regulatory Disclosures' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Regulatory Disclosures'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Regulatory Disclosures' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Area Media' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Area Media'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Area Media' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Ricerche Comportamentali' section using aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Ricerche Comportamentali'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Ricerche Comportamentali' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu using the menu toggle button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Open mobile menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to next carousel item using 'Carousel next' button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Carousel next'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the next carousel item is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to previous carousel item using 'Carousel prev' button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Carousel prev'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the previous carousel item is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle carousel play/pause using 'Carousel play/pause' button",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Carousel play/pause'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the carousel playback state is toggled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' link for 'Indagine sul risparmio e sulle scelte finanziarie degli italiani'",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Indagine sul risparmio e sulle scelte finanziarie degli italiani'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corresponding research page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' link for '11\u00b0 Rapporto La Bioeconomia in Europa'",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for '11\u00b0 Rapporto La Bioeconomia in Europa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corresponding research page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' link for '17\u00b0 Rapporto Economia e Finanza dei Distretti Industriali'",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for '17\u00b0 Rapporto Economia e Finanza dei Distretti Industriali'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corresponding research page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' link for '107\u00b0 Rapporto Analisi dei Settori Industriali'",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for '107\u00b0 Rapporto Analisi dei Settori Industriali'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corresponding research page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' link for 'Osservatorio sul settore idrico'",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Osservatorio sul settore idrico'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corresponding research page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' link for 'Economind'",
+    "references": "https://group.intesasanpaolo.com/it/research",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for 'Economind'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corresponding research page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "test_case_name": "Access the FAQ page from the Cookie Policy and verify navigation",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Fees page from the Cookie Policy and verify navigation",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Contact us page from the Cookie Policy and verify navigation",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

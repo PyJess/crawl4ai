@@ -1,0 +1,194 @@
+[
+  {
+    "test_case_name": "Search for flights and verify Privacy Policy access",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Type $name into 'Departure'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Destination'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Subscribe to newsletter and review Privacy Policy",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Type $email into 'Email address'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sign me up!'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply promo code and verify Privacy Policy",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Apply promo code'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'One way' trip and access Privacy Policy",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'One way'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQs from Privacy Policy page",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'FAQs'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the FAQs page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand 'What personal data we collect' section in Privacy Policy",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'What personal data we collect'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'What personal data we collect' section is expanded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Cookies and site tracking' section in Privacy Policy",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies and site tracking'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookies and site tracking' section is expanded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Contact us' from Privacy Policy page",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Cookie preferences' from Privacy Policy page",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences dialog or page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand 'Your Data Protection Rights' section in Privacy Policy",
+    "references": "ryanair.com parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Your Data Protection Rights'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Your Data Protection Rights' section is expanded",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

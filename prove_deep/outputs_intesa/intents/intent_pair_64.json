@@ -1,0 +1,342 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to access cookie options on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate site from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo site from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers site from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News site from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie section from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business section from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive section from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access panel from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select company from dropdown on Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the dropdown labeled 'Selezionare un'azienda' on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Intesa Sanpaolo' option in the dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the company information for 'Intesa Sanpaolo' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via breadcrumb on Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile from Dati Societari page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link on the Dati Societari page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

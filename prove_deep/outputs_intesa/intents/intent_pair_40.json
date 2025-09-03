@@ -1,0 +1,1016 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view the Privacy - Cookie policy",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Corporate External Link from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Corporate' external link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Corporate external website is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Gruppo External Link from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Gruppo' external link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Gruppo external website is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Careers External Link from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Careers' external link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Careers external website is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open News External Link from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'News' external link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the News external website is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Club Azionisti Link from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Club Azionisti' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Finanza Insieme External Link from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Finanza Insieme' external link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external website is opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Quick Training Link from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Quick Training' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie Section from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive Section from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Exclusive' in the main menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu Panel from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Menu' to open the main menu panel",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu panel is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search' to open the search panel",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via Parla con noi from Agribusiness Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Parla con noi' to contact support",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Parla con noi page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Agribusiness Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on Agribusiness Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Agribusiness Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on Agribusiness Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Agribusiness Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Password' field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option on Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New Guest User (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Agribusiness Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Password' field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New Guest User (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'REGISTRATI' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera password' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Sicurezza - Scopri come fare Section",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri come fare' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Sicurezza - Scopri come fare page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Tab Menu - Tutti i Prodotti",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Tutti i Prodotti' tab menu button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Tab Menu - Settori",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Settori' tab menu button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Tab Menu - Momenti",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Momenti' tab menu button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Tab Menu - Servizi digitali",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Servizi digitali' tab menu button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Offerte di Benvenuto Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Offerte di benvenuto",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Offerte di benvenuto product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Carte Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Carte",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Carte product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Conti Correnti Aziendali Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Conti correnti aziendali",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Conti correnti aziendali product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Incassi e Pagamenti Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Incassi e pagamenti",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Incassi e pagamenti product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Pegno Rotativo Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Pegno rotativo",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Pegno rotativo product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Cambiale Agraria Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Cambiale Agraria",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cambiale Agraria product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Prestiti Agrari di Gestione Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Prestiti Agrari di Gestione",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Prestiti Agrari di Gestione product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Copertura del Rischio Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Copertura del rischio",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Copertura del rischio product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Programma Sviluppo Filiere Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Programma Sviluppo Filiere",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Programma Sviluppo Filiere product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Crescita Agri Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Crescita Agri",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Crescita Agri product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Noleggio Operativo Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Noleggio operativo",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Noleggio operativo product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Prodotti e Servizi per i Mercati Internazionali Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Prodotti e servizi per i mercati internazionali",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Prodotti e servizi per i mercati internazionali product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Finanziamento S-Loan Progetti Green Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Finanziamento S-Loan Progetti Green",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Finanziamento S-Loan Progetti Green product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View S-Loan Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for S-Loan",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the S-Loan product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Nova+ Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Nova+",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Nova+ product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Offerta Formativa Digit\u2019Ed Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Offerta formativa Digit\u2019Ed",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Offerta formativa Digit\u2019Ed product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Polizze Tutela del Tuo Business Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizze tutela del tuo business",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Polizze tutela del tuo business product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Polizze Salute dei Lavoratori Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizze salute dei lavoratori",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Polizze salute dei lavoratori product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Polizza Cyber Protection Business Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizza Cyber Protection Business",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Polizza Cyber Protection Business product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Polizza RC Ambientale Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizza RC Ambientale",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Polizza RC Ambientale product details page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Monitor dei Distretti Agroalimentari Link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'MONITOR DEI DISTRETTI AGROALIMENTARI' link",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Monitor dei Distretti Agroalimentari page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

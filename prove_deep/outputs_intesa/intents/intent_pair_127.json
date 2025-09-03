@@ -1,0 +1,354 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri i prodotti di Protezione Assicurativa' from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri i prodotti di Protezione Assicurativa' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Protezione Assicurativa products page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri i prodotti di investimento Assicurativi e la Consulenza Evoluta' from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri i prodotti di investimento Assicurativi e la Consulenza Evoluta' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Consulenza Evoluta page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri i finanziamenti' from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri i finanziamenti' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the financing information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact the nearest branch from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Contatta\u00a0la filiale pi\u00f9 vicina' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search on Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' field on the Agevolazioni over 65 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the search button on the Agevolazioni over 65 page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field on Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' field on the Agevolazioni over 65 page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the reset search button on the Agevolazioni over 65 page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via breadcrumb from Agevolazioni over 65 page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' on the Agevolazioni over 65 page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

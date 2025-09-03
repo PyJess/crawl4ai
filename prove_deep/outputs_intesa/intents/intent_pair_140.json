@@ -1,0 +1,528 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options (Desktop) from Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (desktop) on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies (Desktop) on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop) on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Content on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use Desktop Search on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on the Reward Hub page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use Mobile Search on Reward Hub Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search on the Reward Hub page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile App from Main CTA",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP\nINTESA SANPAOLO MOBILE' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the app download modal or relevant section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' Contest Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contest details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri le iniziative' Reward Initiatives",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI LE INIZIATIVE' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the initiatives page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri in offerta' Special Offers",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI IN OFFERTA' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the special offers page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Android App from Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP ANDROID' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Google Play Store page for the app is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download iOS App from Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP IOS' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apple App Store page for the app is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Facebook Profile from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile page is opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Youtube Profile from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile page is opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Twitter Profile from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile page is opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official LinkedIn Profile from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile page is opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Official Instagram Profile from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile page is opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Contest Rules",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'reward.intesasanpaolo.com' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contest rules page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Return to Main Site from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaolo.com' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main Intesa Sanpaolo site is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' from Reward Hub",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Reward Hub page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

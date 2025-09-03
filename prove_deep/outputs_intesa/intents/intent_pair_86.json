@@ -1,0 +1,484 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify banner closure on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy - Cookie policy via 'Pi\u00f9 opzioni' link on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external Corporate site from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external Gruppo site from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external Careers site from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external News site from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Club Azionisti page from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Finanza Insieme site from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Quick Training page from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login area using 'Accesso clienti' button on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' on the Superbonus 110% page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Superbonus 110% page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest area is accessed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest and enable 'Mantieni L'accesso' on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' on the Superbonus 110% page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' on the Superbonus 110% page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Superbonus 110% page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest area is accessed and the session is remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new guest user from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Upload documents to Intesa Sanpaolo from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carica i documenti' (Intesa Sanpaolo) on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo document upload page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Upload documents to Deloitte from Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carica i documenti' (Deloitte) on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Deloitte document upload page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View important communication details on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the important communication section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View all eligible interventions for Superbonus 110%",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri tutti gli interventi' on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the interventions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View offer for privati/condomini/enti on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'offerta' (privati/condomini/enti) on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the offer page for privati/condomini/enti is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View offer for aziende on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'offerta' (aziende) on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the offer page for aziende is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF of specifiche privati/condomini/enti on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scarica le specifiche complete di chi pu\u00f2 usufruirne' (privati/condomini/enti) on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF for privati/condomini/enti is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF of specifiche aziende on Superbonus 110% page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scarica le specifiche complete di chi pu\u00f2 usufruirne' (aziende) on the Superbonus 110% page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF for aziende is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,828 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the 'Rapporti Dormienti' page to accept all cookies.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the 'Rapporti Dormienti' page to view cookie options.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the 'Rapporti Dormienti' page to close the cookie banner.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate Site from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://imi.intesasanpaolo.com/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo Site from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers Site from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/it/careers'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Site from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'News' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/it/sala-stampa'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/common/landing/club-azionisti.html'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.finanzainsieme.com/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/common/landing/quick-training-banca-digitale.html'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Persone e Famiglie Section from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/persone-e-famiglie.html'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Business Section from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Business' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/business.html'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Exclusive Section from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/exclusive.html'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login Panel from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login panel is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support or contact page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button on the 'Rapporti Dormienti' page to open the search panel.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button on the 'Rapporti Dormienti' page to open the search panel.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input field is cleared.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cerca'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the mobile search.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login Panel on Mobile from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login panel is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Mobile Menu from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button on the 'Rapporti Dormienti' page to open the mobile menu.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Online Banking Login Tab on Mobile",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Guest Login Tab on Mobile",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Rapporti Dormienti Page (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to attempt guest login.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives a login response.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option During Guest Login (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable the remember me option.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to attempt guest login.",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is set to be remembered.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login Form (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link on the guest login form.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Login Form (Desktop)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link on the guest login form.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process or page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Rapporti Dormienti Page (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to attempt guest login on mobile.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives a login response on mobile.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option During Guest Login (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail'.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input field with placeholder 'Password'.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable the remember me option.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to attempt guest login on mobile.",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is set to be remembered on mobile.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login Form (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link on the guest login form on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process or page is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Login Form (Mobile)",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button on the guest login form on mobile.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process or page is displayed on mobile.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security Information from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2024 Dormant Accounts Regulation PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' link for 2024 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2024 regulation PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2024 Dormant Accounts List PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2024' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2024 dormant accounts PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access MEF 2024 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' link for 2024 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.mef.gov.it'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Consap 2024 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Consap' link for 2024 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.consap.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2023 Dormant Accounts Regulation PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' link for 2023 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2023 regulation PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2023 Dormant Accounts List PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2023' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2023 dormant accounts PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access MEF 2023 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' link for 2023 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'http://www.mef.gov.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Consap 2023 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Consap' link for 2023 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.consap.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2022 Dormant Accounts Regulation PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' link for 2022 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2022 regulation PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2022 Dormant Accounts List PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2022' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2022 dormant accounts PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access MEF 2022 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' link for 2022 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'http://www.mef.gov.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Consap 2022 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Consap' link for 2022 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.consap.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2021 Dormant Accounts Regulation PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' link for 2021 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2021 regulation PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2021 Dormant Accounts List PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2021' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2021 dormant accounts PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access MEF 2021 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell\u2019Economia e delle Finanze' link for 2021 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'http://www.mef.gov.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Consap 2021 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Consap' link for 2021 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.consap.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2020 Dormant Accounts Regulation PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' link for 2020 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2020 regulation PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2020 Dormant Accounts List PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell'anno 2020' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2020 dormant accounts PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access MEF 2020 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Ministero dell'Economia e delle Finanze' link for 2020 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.mef.gov.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Consap 2020 from Rapporti Dormienti Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Consap' link for 2020 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.consap.it/'.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2019 Dormant Accounts Regulation PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Rapporti dormienti - Regolamento' link for 2019 on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2019 regulation PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 2019 Dormant Accounts List PDF",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Banca Intesa Sanpaolo - Rapporti dormienti maturati nell\u2019anno 2019' link on the 'Rapporti Dormienti' page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 2019 dormant accounts PDF is downloaded or opened.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

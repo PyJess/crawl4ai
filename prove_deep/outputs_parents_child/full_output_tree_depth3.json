@@ -1,0 +1,1227 @@
+[
+  {
+    "url": "https://www.ryanair.com/en/en",
+    "depth": 0,
+    "children": [
+      {
+        "url": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+        "depth": 1,
+        "children": [
+          {
+            "url": "http://www.ryanair.com/ie/en/r/help",
+            "depth": 2,
+            "children": [
+              {
+                "url": "https://help.ryanair.com/hc/change_language/bg?return_to=%2Fhc%2Fbg",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/ca?return_to=%2Fhc%2Fca",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/da?return_to=%2Fhc%2Fda",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/de-at?return_to=%2Fhc%2Fde-at",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/cs?return_to=%2Fhc%2Fcs",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/de?return_to=%2Fhc%2Fde",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/el?return_to=%2Fhc%2Fel",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-ba?return_to=%2Fhc%2Fen-ba",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-cy?return_to=%2Fhc%2Fen-cy",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-gb?return_to=%2Fhc%2Fen-gb",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-ee?return_to=%2Fhc%2Fen-ee",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-fi?return_to=%2Fhc%2Fen-fi",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-hr?return_to=%2Fhc%2Fen-hr",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-lv?return_to=%2Fhc%2Fen-lv",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-me?return_to=%2Fhc%2Fen-me",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-mt?return_to=%2Fhc%2Fen-mt",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-tr?return_to=%2Fhc%2Fen-tr",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-rs?return_to=%2Fhc%2Fen-rs",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-sk?return_to=%2Fhc%2Fen-sk",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/es-es?return_to=%2Fhc%2Fes-es",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-be?return_to=%2Fhc%2Ffr-be",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-lu?return_to=%2Fhc%2Ffr-lu",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-fr?return_to=%2Fhc%2Ffr-fr",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-ma?return_to=%2Fhc%2Ffr-ma",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/hu?return_to=%2Fhc%2Fhu",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/it?return_to=%2Fhc%2Fit",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/lv?return_to=%2Fhc%2Flv",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/lt?return_to=%2Fhc%2Flt",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/no?return_to=%2Fhc%2Fno",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/nl-be?return_to=%2Fhc%2Fnl-be",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/nl?return_to=%2Fhc%2Fnl",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/ro?return_to=%2Fhc%2Fro",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/pl?return_to=%2Fhc%2Fpl",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/pt?return_to=%2Fhc%2Fpt",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/sv?return_to=%2Fhc%2Fsv",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/uk?return_to=%2Fhc%2Fuk",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/zh-cn?return_to=%2Fhc%2Fzh-cn",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12890911974289",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12892354434065",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12488030693649-Refunds",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12488242270609-Cancelled-Delayed-and-Rescheduled-Flights",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12488669481233-Booking-Changes",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12489466690833-Special-Assistance",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12502321260433-myRyanair-Account",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12489305702289-Seat-Rules",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12502415261969-At-Airport-On-Board",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12489248662673-Travel-Agent-Bookings",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12489112419089-Bag-Rules",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12488813755537-Check-In-Travel-Documents",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12489699889681-Other-Questions",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12489904618513-Travel-Extras",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12502999419409-Permitted-Items-On-Board",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12503095332497-Travelling-With-Children",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12503071460881-Gift-Cards",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12503574130961-Fees",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/25436651347857-Customer-Testimonials",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12503197676561-Terms-and-Conditions",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12504593426961-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/12503606901521-Helpful-Links",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/32058073533457-Data-Protection",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/categories/33594852057745-Ryanair-Prime",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/signin?return_to=https%3A%2F%2Fhelp.ryanair.com%2Fhc%2Fen-ie",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/corporate/privacy-policy",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/corporate/cookies",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/myryanair/cases",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/myryanair/home",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/myryanair/personal-info",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/myryanair/wallet",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/help/special-assistance",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/trip/manage",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/help/contact-us",
+            "depth": 2,
+            "children": [
+              {
+                "url": "https://help.ryanair.com/hc/change_language/bg?return_to=%2Fhc%2Fbg%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/ca?return_to=%2Fhc%2Fca%2Fsections%2F12504616835857-Contacta-amb-nosaltres",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/cs?return_to=%2Fhc%2Fcs%2Fsections%2F12504616835857-Kontaktujte-n%25C3%25A1s",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/de-at?return_to=%2Fhc%2Fde-at%2Fsections%2F12504616835857-Kontaktieren-Sie-uns",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/da?return_to=%2Fhc%2Fda%2Fsections%2F12504616835857-Kontakt-os",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/el?return_to=%2Fhc%2Fel%2Fsections%2F12504616835857-%25CE%2595%25CF%2580%25CE%25B9%25CE%25BA%25CE%25BF%25CE%25B9%25CE%25BD%25CF%2589%25CE%25BD%25CE%25AE%25CF%2583%25CF%2584%25CE%25B5-%25CE%25BC%25CE%25B1%25CE%25B6%25CE%25AF-%25CE%25BC%25CE%25B1%25CF%2582",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/de?return_to=%2Fhc%2Fde%2Fsections%2F12504616835857-Kontaktieren-Sie-uns",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-ba?return_to=%2Fhc%2Fen-ba%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-fi?return_to=%2Fhc%2Fen-fi%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-cy?return_to=%2Fhc%2Fen-cy%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-ee?return_to=%2Fhc%2Fen-ee%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-gb?return_to=%2Fhc%2Fen-gb%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-hr?return_to=%2Fhc%2Fen-hr%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-me?return_to=%2Fhc%2Fen-me%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-lv?return_to=%2Fhc%2Fen-lv%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-sk?return_to=%2Fhc%2Fen-sk%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-rs?return_to=%2Fhc%2Fen-rs%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-mt?return_to=%2Fhc%2Fen-mt%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-tr?return_to=%2Fhc%2Fen-tr%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/es-es?return_to=%2Fhc%2Fes-es%2Fsections%2F12504616835857-Contacto",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-be?return_to=%2Fhc%2Ffr-be%2Fsections%2F12504616835857-Nous-contacter",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-lu?return_to=%2Fhc%2Ffr-lu%2Fsections%2F12504616835857-Nous-contacter",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-fr?return_to=%2Fhc%2Ffr-fr%2Fsections%2F12504616835857-Nous-contacter",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-ma?return_to=%2Fhc%2Ffr-ma%2Fsections%2F12504616835857-Nous-contacter",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/hu?return_to=%2Fhc%2Fhu%2Fsections%2F12504616835857-Kapcsolattart%25C3%25A1s",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/it?return_to=%2Fhc%2Fit%2Fsections%2F12504616835857-Contattaci",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/lt?return_to=%2Fhc%2Flt%2Fsections%2F12504616835857-Susisiekite-su-mumis",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/nl-be?return_to=%2Fhc%2Fnl-be%2Fsections%2F12504616835857-Contact",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/nl?return_to=%2Fhc%2Fnl%2Fsections%2F12504616835857-Contact",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/lv?return_to=%2Fhc%2Flv%2Fsections%2F12504616835857-Sazinieties-ar-mums",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/no?return_to=%2Fhc%2Fno%2Fsections%2F12504616835857-Kontakt-oss",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/pt?return_to=%2Fhc%2Fpt%2Fsections%2F12504616835857-Contacta-nos",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/pl?return_to=%2Fhc%2Fpl%2Fsections%2F12504616835857-Kontakt",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/ro?return_to=%2Fhc%2Fro%2Fsections%2F12504616835857-Contacteaz%25C4%2583-ne",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/sv?return_to=%2Fhc%2Fsv%2Fsections%2F12504616835857-Kontakta-oss",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/zh-cn?return_to=%2Fhc%2Fzh-cn%2Fsections%2F12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/uk?return_to=%2Fhc%2Fuk%2Fsections%2F12504616835857-%25D0%2597%25D0%25B2-%25D1%258F%25D0%25B6%25D1%2596%25D1%2582%25D1%258C%25D1%2581%25D1%258F-%25D0%25B7-%25D0%25BD%25D0%25B0%25D0%25BC%25D0%25B8",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12892354434065-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12892454290321",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/13229005889297-Call-Us-International-English",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/13263255371537-Call-Us-International",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12893304387217-Queries-Feedback",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12893304387217",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/13229005889297",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12893510195345",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/13131744796561",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/sections/12504616835857",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/sections/12504616835857-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/fr-fr/articles/13229005889297",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/es-es/articles/13229005889297",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/signin?return_to=https%3A%2F%2Fhelp.ryanair.com%2Fhc%2Fen-ie%2Fsections%2F12504616835857",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/it/articles/13229005889297",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/pt/articles/13229005889297",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/chat",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/myryanair/feedback",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+            "depth": 2,
+            "children": [
+              {
+                "url": "https://carhire.ryanair.com?adplat=633558&cor=ie&preflang=en",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/terms-of-use",
+            "depth": 2,
+            "children": [
+              {
+                "url": "http://investor.ryanair.com",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://careers.ryanair.com",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "http://corporate.ryanair.com",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://carhire.ryanair.com?adplat=664430&cor=ie&preflang=en",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://corporate.ryanair.com/charities-partners",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://corporate.ryanair.com/environment",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://corporate.ryanair.com/press-releases?market=en",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://helpcentre.ryanair.com/hc/en-ie/articles/9680848411665",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://helpcentre.ryanair.com/hc/en-ie/categories/9945335083025-Contact-Us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/content/dam/ryanair/2018/customerservicefaq/legal2019/Licence%20Agreement%20July%202019.pdf",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-birmingham",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-amsterdam",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-alicante",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-lanzarote",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-malaga",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-paris",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-liverpool",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-tenerife",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/check-in",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/corporate/check-in",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/corporate/registered-address",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/corporate/www.ryanair.com/ie/en/r/help",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/header/plan-trip",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/header/useful-links",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/header/markets",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/travel-updates",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-cookies",
+            "depth": 2,
+            "children": [
+              {
+                "url": "https://www.ryanair.com/ie/en/cookie-policy",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+            "depth": 2,
+            "children": [
+              {
+                "url": "https://help.ryanair.com/hc/change_language/ca?return_to=%2Fhc%2Fca%2Farticles%2F12890911974289-Termes-i-condicions-generals-de-transport",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/bg?return_to=%2Fhc%2Fbg%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/da?return_to=%2Fhc%2Fda%2Farticles%2F12890911974289-Generelle-vilk%25C3%25A5r-og-betingelser-for-befordring",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/cs?return_to=%2Fhc%2Fcs%2Farticles%2F12890911974289-V%25C5%25A1eobecn%25C3%25A9-podm%25C3%25ADnky-p%25C5%2599epravy",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/de-at?return_to=%2Fhc%2Fde-at%2Farticles%2F12890911974289-Allgemeine-Bef%25C3%25B6rderungsbedingungen",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/de?return_to=%2Fhc%2Fde%2Farticles%2F12890911974289-Allgemeine-Bef%25C3%25B6rderungsbedingungen",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-ba?return_to=%2Fhc%2Fen-ba%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/el?return_to=%2Fhc%2Fel%2Farticles%2F12890911974289-%25CE%2593%25CE%25B5%25CE%25BD%25CE%25B9%25CE%25BA%25CE%25BF%25CE%25AF-%25CF%258C%25CF%2581%25CE%25BF%25CE%25B9-%25CE%25BA%25CE%25B1%25CE%25B9-%25CF%2580%25CF%2581%25CE%25BF%25CF%258B%25CF%2580%25CE%25BF%25CE%25B8%25CE%25AD%25CF%2583%25CE%25B5%25CE%25B9%25CF%2582-%25CE%25B1%25CE%25B5%25CF%2581%25CE%25BF%25CE%25BC%25CE%25B5%25CF%2584%25CE%25B1%25CF%2586%25CE%25BF%25CF%2581%25CE%25AC%25CF%2582",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-cy?return_to=%2Fhc%2Fen-cy%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-ee?return_to=%2Fhc%2Fen-ee%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-fi?return_to=%2Fhc%2Fen-fi%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-gb?return_to=%2Fhc%2Fen-gb%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-lv?return_to=%2Fhc%2Fen-lv%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-hr?return_to=%2Fhc%2Fen-hr%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-me?return_to=%2Fhc%2Fen-me%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-sk?return_to=%2Fhc%2Fen-sk%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-rs?return_to=%2Fhc%2Fen-rs%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-mt?return_to=%2Fhc%2Fen-mt%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-tr?return_to=%2Fhc%2Fen-tr%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-be?return_to=%2Fhc%2Ffr-be%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/es-es?return_to=%2Fhc%2Fes-es%2Farticles%2F12890911974289-T%25C3%25A9rminos-y-condiciones-generales-de-transporte",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-ma?return_to=%2Fhc%2Ffr-ma%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-lu?return_to=%2Fhc%2Ffr-lu%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/fr-fr?return_to=%2Fhc%2Ffr-fr%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/hu?return_to=%2Fhc%2Fhu%2Farticles%2F12890911974289-%25C3%2581ltal%25C3%25A1nos-sz%25C3%25A1ll%25C3%25ADt%25C3%25A1si-felt%25C3%25A9telek",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/it?return_to=%2Fhc%2Fit%2Farticles%2F12890911974289-Termini-e-condizioni-di-trasporto-generali",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/lt?return_to=%2Fhc%2Flt%2Farticles%2F12890911974289-Bendrosios-ve%25C5%25BEimo-taisykl%25C4%2597s-ir-s%25C4%2585lygos",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/lv?return_to=%2Fhc%2Flv%2Farticles%2F12890911974289-Visp%25C4%2581r%25C4%25ABgie-p%25C4%2581rvad%25C4%2581%25C5%25A1anas-noteikumi-un-nosac%25C4%25ABjumi",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/no?return_to=%2Fhc%2Fno%2Farticles%2F12890911974289-Generelle-vilk%25C3%25A5r-og-betingelser-for-transport",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/nl?return_to=%2Fhc%2Fnl%2Farticles%2F12890911974289-Algemene-vervoersvoorwaarden",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/nl-be?return_to=%2Fhc%2Fnl-be%2Farticles%2F12890911974289-Algemene-vervoersvoorwaarden",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/ro?return_to=%2Fhc%2Fro%2Farticles%2F12890911974289-Termeni-%25C5%259Fi-condi%25C5%25A3ii-generale-privind-transportul",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/pt?return_to=%2Fhc%2Fpt%2Farticles%2F12890911974289-Termos-e-Condi%25C3%25A7%25C3%25B5es-de-Transporte-Gerais",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/pl?return_to=%2Fhc%2Fpl%2Farticles%2F12890911974289-Og%25C3%25B3lne-warunki-przewozu",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/sv?return_to=%2Fhc%2Fsv%2Farticles%2F12890911974289-Allm%25C3%25A4nna-villkor-och-transportvillkor",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/uk?return_to=%2Fhc%2Fuk%2Farticles%2F12890911974289-%25D0%2597%25D0%25B0%25D0%25B3%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D1%2596-%25D0%25BF%25D1%2580%25D0%25B0%25D0%25B2%25D0%25B8%25D0%25BB%25D0%25B0-%25D0%25B9-%25D1%2583%25D0%25BC%25D0%25BE%25D0%25B2%25D0%25B8-%25D0%25BF%25D0%25B5%25D1%2580%25D0%25B5%25D0%25B2%25D0%25B5%25D0%25B7%25D0%25B5%25D0%25BD%25D0%25BD%25D1%258F",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/change_language/zh-cn?return_to=%2Fhc%2Fzh-cn%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/articles/12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/sections/12503507078801-Terms-and-Conditions",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://help.ryanair.com/hc/en-ie/signin?return_to=https%3A%2F%2Fhelp.ryanair.com%2Fhc%2Fen-ie%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/ryanair-uk-terms-and-conditions0",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/malta-air-terms-and-conditions",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/terms-and-conditions",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+            "depth": 2,
+            "children": [
+              {
+                "url": "https://carhire.ryanair.com?adplat=825165&cor=ie&prefcurrency=eur&preflang=en",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://corporate.ryanair.com/media-centre/our-news/en",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://corporate.ryanair.com?market=ie",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://ie.hotels.ryanair.com?mdpcid=Ryanair-IE.DPS.RyanairRooms.AngelCard-Launchlink.HOTEL",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-budapest",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/flights/ie/en/flights-to-gdansk",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/content/dam/ryanair3/2021/legal/DCC-class-action-publication-documents.pdf",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/cheap-flight-destinations",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/ie/en/r/help/refunds",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/ie/en/r/help/travel-agent-bookings",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/discounts-and-promos/flash-sale",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/check-in",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/explore/membership",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/travel-extras/corporate-gift-cards",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/explore/group-travel",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/travel-extras/bag-sizers-and-gate-bag-fees-explained",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/lp/travel-updates",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/help",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/online-form/group-booking",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/social/x",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/try-somewhere-new/ie/en/travel-guides/winter-in-prague",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+            "depth": 2,
+            "children": [
+              {
+                "url": "https://www.ryanair.com",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/%7B%7BaemMarket%7D%7D/r/help/general-terms-carriage",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/cookie-policy/ie/en/r/help",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/cookie-policy/ie/en/r/help/contact-us",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/cookie-policy-carhire",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/privacy-policy-expedia",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/privacy-policy-carhire",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/cookie-policy-expedia",
+                "depth": 3,
+                "children": []
+              },
+              {
+                "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/fees",
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-of-use",
+            "depth": 2,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

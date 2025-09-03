@@ -1,0 +1,69 @@
+{
+  "url": "https://www.intesasanpaolo.com/content/vetrina/it/common/disclaimer/home/emozionale-102.html",
+  "response": {
+    "page": {
+      "url": "https://www.intesasanpaolo.com/content/vetrina/it/common/disclaimer/home/emozionale-102.html",
+      "title": "",
+      "parent_url": "https://www.intesasanpaolo.com/",
+      "components": [
+        {
+          "type": "link",
+          "text": "www\u2024eurizoncapital.com",
+          "input_type": "",
+          "placeholder": "",
+          "id": "vt_1751537100830",
+          "description": "",
+          "class": "",
+          "name": "",
+          "xpath": "/html/body/main/div/div/div/div/div/div/div/div/div[2]/div/div/p/span/a[1]",
+          "enabled": true,
+          "visible": true,
+          "value": "",
+          "options": [],
+          "checked": false,
+          "label": "",
+          "href": "https://www.eurizoncapital.com/"
+        },
+        {
+          "type": "link",
+          "text": "www.intesasanpaoloprotezione.com",
+          "input_type": "",
+          "placeholder": "",
+          "id": "vt_1751537116572",
+          "description": "",
+          "class": "",
+          "name": "",
+          "xpath": "/html/body/main/div/div/div/div/div/div/div/div/div[2]/div/div/p/span/a[2]",
+          "enabled": true,
+          "visible": true,
+          "value": "",
+          "options": [],
+          "checked": false,
+          "label": "",
+          "href": "https://www.intesasanpaoloprotezione.com/"
+        },
+        {
+          "type": "link",
+          "text": "www\u2024eurizoncapital.com",
+          "input_type": "",
+          "placeholder": "",
+          "id": "vt_1751537123500",
+          "description": "",
+          "class": "",
+          "name": "",
+          "xpath": "/html/body/main/div/div/div/div/div/div/div/div/div[2]/div/div/p/span/a[3]",
+          "enabled": true,
+          "visible": true,
+          "value": "",
+          "options": [],
+          "checked": false,
+          "label": "",
+          "href": "https://www.eurizoncapital.com/"
+        }
+      ],
+      "depth": 1
+    }
+  },
+  "parent_url": "https://www.intesasanpaolo.com/",
+  "depth": 1
+}

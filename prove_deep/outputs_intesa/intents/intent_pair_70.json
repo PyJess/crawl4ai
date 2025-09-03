@@ -1,0 +1,502 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client access panel on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search panel on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate guest login on the successioni ereditarie online page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' on the successioni ereditarie online page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button on the successioni ereditarie online page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate guest login on the successioni ereditarie online page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' on the successioni ereditarie online page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button with class 'customBtn greenBackground col-sm-24 col-xs-24' on the successioni ereditarie online page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user from the successioni ereditarie online page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new user from the successioni ereditarie online page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from the successioni ereditarie online page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from the successioni ereditarie online page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the desktop search bar on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' on the successioni ereditarie online page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search bar on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the mobile search bar on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' inside the mobile search form on the successioni ereditarie online page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the mobile search bar on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the successioni guide from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCARICA LA GUIDA' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the successioni guide PDF is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Scopri come fare' security guide from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'In breve' section from the sticky anchor on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'In breve' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'In breve' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Come aprire la pratica' section from the sticky anchor on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Come aprire la pratica' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Come aprire la pratica' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Guida alle Successioni' section from the sticky anchor on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Guida alle Successioni' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Guida alle Successioni' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the successioni online CTA from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA' link with id 'vt03405cc277e1651cf4e494b854db755f07eb9f75e381dde4e4d715b290044572' on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the successioni online process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'APRI IL MY KEY' CTA from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'APRI IL MY KEY' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Key opening page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'PUOI APRIRLO ONLINE.' CTA from the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'PUOI APRIRLO ONLINE.' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online My Key opening page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the homepage from the successioni ereditarie online page using the breadcrumb",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the official Facebook profile from the footer on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Facebook' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the official Youtube profile from the footer on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Youtube' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the official Twitter profile from the footer on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Twitter' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the official LinkedIn profile from the footer on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale LinkedIn' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the official Instagram profile from the footer on the successioni ereditarie online page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Instagram' link on the successioni ereditarie online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

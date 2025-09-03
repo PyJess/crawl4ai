@@ -1,0 +1,542 @@
+[
+  {
+    "test_case_name": "Access Quick Training from Main Page Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training landing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on the Quick Training landing page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Contenuto' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Men\u00f9' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Menu' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field on the Quick Training landing page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)' button on the Quick Training landing page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field on the Quick Training landing page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Reset ricerca (desktop)' button on the Quick Training landing page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Cerca' input field on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)' button on the Quick Training landing page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into 'E-mail' input field on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Password' input field on the Quick Training landing page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button on the Quick Training landing page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option During Guest Login on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into 'E-mail' input field on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Password' input field on the Quick Training landing page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox on the Quick Training landing page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' button on the Quick Training landing page",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in with the 'Mantieni L'accesso' option enabled or receives an appropriate message",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest via Link on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest via Button on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'REGISTRATI' button on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' on Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Parla con noi' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri le basi per iniziare' from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri' link (id: vt20fe03fdd8325af90129d1d11fb8498c17e14f8a313b1e1c7dfe9387b2e2e52e) on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the page for learning the basics is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Watch Video on How to Obtain the App from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Guarda il video' link (id: vtc50cba91212c544a06e3dac56a0fa1c32ec79b3889440755e67f42eeaf12bf8a) on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the video modal for obtaining the app is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Watch Video on How to Access the App from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Guarda il video' link (id: vt78143653eddd80ef799fd06f0a3e8b8398c252d0ee234886528a62f5ea9b28a3) on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the video modal for accessing the app is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Watch Video on How to Access Internet Banking from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Come accedere all'internet banking' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the video modal for accessing internet banking is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Fraud Information from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri' link (id: vt4d3fdaf7c61b6208967aded69471de4b2dbfe06d03db05d9d8d2d62743364c41) on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the online fraud information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Phishing Information from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri' link (id: vtc92366d4dd9b3e92663314a23ae80ac07be7baad01842ff749b207ab9a2c2bcd) on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the phishing information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access How to Defend Against Online Fraud from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri' link (id: vte4b06632b329ff474d705ca608984dd45863097eb78f1006622a16b68d7bc931) on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the page on defending against online fraud is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Article on Phone Fraud from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Frodi telefoniche' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF article on phone fraud is displayed or downloaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Article on SMS Fraud from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Frodi via SMS' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF article on SMS fraud is displayed or downloaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Article on Email Fraud from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Frodi via e-mail' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF article on email fraud is displayed or downloaded",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Article on Fraudulent Websites from Quick Training Landing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the parent page main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Siti internet fraudolenti' link on the Quick Training landing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PDF article on fraudulent websites is displayed or downloaded",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

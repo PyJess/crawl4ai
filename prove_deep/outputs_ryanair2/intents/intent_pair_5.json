@@ -1,0 +1,110 @@
+[
+  {
+    "test_case_name": "Navigate from Cookie Policy to Warsaw Aviation Cookie Policy and verify Ryanair logo link",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Ryanair logo' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that clicking the 'Ryanair logo' link on the child page redirects to the homepage",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQ from Warsaw Aviation Cookie Policy page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'FAQ' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed after clicking the 'FAQ' link on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees information from Warsaw Aviation Cookie Policy page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Fees' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed after clicking the 'Fees' link on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Warsaw Aviation Cookie Policy page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed after clicking the 'Contact us' link on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify footer links on Warsaw Aviation Cookie Policy page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the first footer link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the first footer link redirects to 'https://www.ryanair.com/ie/en'",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify Cookie Preferences button on Warsaw Aviation Cookie Policy page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'warsawaviation.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the footer 'Cookie preferences' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookie Preferences modal or page is displayed after clicking the button on the child page",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

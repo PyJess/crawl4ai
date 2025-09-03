@@ -1,0 +1,242 @@
+[
+  {
+    "test_case_name": "Accept all cookies via the 'ACCONSENTO' button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'ACCONSENTO' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie preferences via the 'PI\u00d9 OPZIONI' link",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'PI\u00d9 OPZIONI' link to open cookie preferences",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d.' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use the 'Passa al Contenuto' accessibility button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use the 'Passa al Men\u00f9' accessibility button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use the 'Passa al Pi\u00e8 di pagina' accessibility button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the header search input using the header search open button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Header search open' button to display the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cerca' search input is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle the header menu using the header menu toggler button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Header menu toggler' button to open or close the main navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is expanded or collapsed accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the header search input and submit",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Header search open' button to display the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Header search submit' button to perform the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results page or section is displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Cancel a search using the header search cancel button",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Header search open' button to display the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Header search cancel' button to cancel the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search input is cleared or closed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the homepage using the 'Homepage' breadcrumb link",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Homepage' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the presentation using the 'SCARICA LA PRESENTAZIONE' link",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'SCARICA LA PRESENTAZIONE' link to download the presentation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the presentation PDF is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Risultati 1sem.25' from the In primo piano section",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Risultati 1sem.25' link in the In primo piano section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Risultati 1sem.25' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Assemblea degli Azionisti' from the In primo piano section",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Assemblea degli Azionisti' link in the In primo piano section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assemblea degli Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 'Statuto al 30 ottobre 2024' document",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Statuto al 30 ottobre 2024' link to download the document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Statuto PDF is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Piano di Impresa 2022-2025' document",
+    "references": "https://group.intesasanpaolo.com/it/chi-siamo",
+    "intents": [
+      {
+        "intent": "Click the 'Piano di Impresa 2022-2025' link to view the document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Piano di Impresa 2022-2025' page or document is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

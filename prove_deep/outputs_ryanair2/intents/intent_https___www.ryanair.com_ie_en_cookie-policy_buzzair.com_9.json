@@ -1,0 +1,142 @@
+[
+  {
+    "test_case_name": "Expand the 'Cookies used' panel and verify content is displayed",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the content of the 'Cookies used' panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the cookie preferences modal from the footer and verify modal is shown",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie preferences' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the FAQ page using the header link and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Fees page using the header link and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the Contact us page using the header link and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to General terms & conditions of carriage from the footer and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Terms of Use from the footer and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Privacy Policy from the footer and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Cookies policy from the footer and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Contact us from the footer and verify navigation",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

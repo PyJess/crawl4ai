@@ -1,0 +1,608 @@
+[
+  {
+    "test_case_name": "Accept all cookies on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open privacy and cookie policy from mobile banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open privacy and cookie policy from desktop banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click '' (Chiudi cookie banner)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external Corporate link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external Gruppo link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external Careers link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external News link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Club Azionisti page from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external Finanza Insieme link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Quick Training page from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Persone e Famiglie section from main menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Business section from main menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Exclusive section from main menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search field and perform a search on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click '' (Apri ricerca desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click '' (Cerca desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search field on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click '' (Apri ricerca desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' (Reset ricerca desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login page from business section",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni l'accesso' option during guest login",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni l'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest login password on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest login password on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest user on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest user on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open online security information page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' (Cerca mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open sticky bar product menu on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i prodotti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the sticky bar product menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply filters in sticky bar on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'APPLICA FILTRI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the filters are applied and the product list is updated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open My Key Business product details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (My Key Business)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Key Business product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Open Banking per aziende product details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Open Banking per aziende)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Open Banking per aziende product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Portale Inbiz product details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Portale Inbiz)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Portale Inbiz product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Inbiz Enti external page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'VAI SU INBIZ'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz Enti external page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile from footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/servizi-digitali/soluzioni-gestione-identita-digitale-impresa.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

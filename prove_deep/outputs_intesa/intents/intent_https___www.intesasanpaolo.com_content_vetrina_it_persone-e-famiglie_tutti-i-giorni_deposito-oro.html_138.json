@@ -1,0 +1,522 @@
+[
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies via 'Acconsento' Button (Desktop)",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options via 'Pi\u00f9 opzioni' Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie policy options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options via 'Pi\u00f9 opzioni' Link (Desktop)",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie policy options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner via Close Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Content Using 'Passa al Contenuto' Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using 'Passa al Men\u00f9' Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using 'Passa al Pi\u00e8 di pagina' Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' External Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' External Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' External Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' External Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'News' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' External Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button labeled 'Tutti i Prodotti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' CTA",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start PDF",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA QUICK START' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Start PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search Using Desktop Search Input",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search submit (desktop)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Input",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Search reset (desktop)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search Using Mobile Search Input",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search submit (mobile)' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest User",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password via 'Recupera Password' Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Checkbox",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Registration via 'Registrati' Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Registration via 'REGISTRATI' Button (Mobile)",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration is submitted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Account via 'Scopri il conto' CTA",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account discovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Client Area via 'Accesso clienti' Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' Header Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu via 'Menu' Burger Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button in burger menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search via 'Search' Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in breadcrumb",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Deposito oro' via Menu Link",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Deposito oro' link in menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Deposito oro' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Modal via 'Close' Button",
+    "references": "deposito-oro.json",
+    "intents": [
+      {
+        "intent": "Click 'Close' button in modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal is closed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

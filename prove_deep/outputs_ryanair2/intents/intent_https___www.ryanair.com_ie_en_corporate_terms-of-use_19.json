@@ -1,0 +1,394 @@
+[
+  {
+    "test_case_name": "Access the 'Sign up' page from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Sign up' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the sign up form or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Log in' page from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Log in' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the log in form or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Help' section from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Help' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Help section or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the 'Online check-in' page from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Online check-in' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Online check-in page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Travel Updates' page from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Travel Updates' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Travel Updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the 'Help Centre' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Help Centre' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Help Centre page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Inflight shopping receipts' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Inflight shopping receipts' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inflight shopping receipts page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View booking history from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'View booking history' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the booking history page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Advertise with us' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Advertise with us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Advertise with us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Careers' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Corporate website' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate website' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Media Centre' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Media Centre' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Media Centre page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Investor Relations' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Investor Relations' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Investor Relations page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Registered address' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registered address' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Registered address page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Charities' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Charities' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Charities page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Environment' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Environment' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Environment page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Amsterdam' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Amsterdam' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Amsterdam page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Lanzarote' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Lanzarote' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Lanzarote page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Malaga' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Malaga' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Malaga page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Liverpool' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Liverpool' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Liverpool page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Paris' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Paris' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Paris page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Alicante' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Alicante' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Alicante page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Birmingham' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Birmingham' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Birmingham page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Flights to Tenerife' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Flights to Tenerife' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Flights to Tenerife page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'General terms & conditions of carriage' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Privacy policy' from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy policy' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Cookies' policy from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Contact us' page from the Terms of Use page",
+    "references": "terms-of-use.json",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

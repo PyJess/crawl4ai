@@ -1,0 +1,608 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options from the Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button on Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using accessibility button on Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button on Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate external site from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo external site from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers external site from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News external site from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme external site from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using burger button on Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login area from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login area",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login area is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search bar from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' link from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover account offer from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to discover the account offer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account offer page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search on Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input on Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search on Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login area on mobile from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'ACCESSO CLIENTI' button to open the client login area on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login area is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover account offer on mobile from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' button to discover the account offer on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account offer page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login on desktop",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable the keep signed in option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login area on desktop",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new guest user from desktop login area",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to register as a new guest user",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as guest on mobile",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new guest user from mobile login area",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to register as a new guest user on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login area on mobile",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to start password recovery on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via breadcrumb from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to For Funding site from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'sito di For Funding' link to navigate to the For Funding site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the For Funding site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Facile.it from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri su Facile.it' link to navigate to Facile.it",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facile.it site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover XME Prestito Diretto offer from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri l'offerta' link to discover the XME Prestito Diretto offer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Diretto offer page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Facile.it info from Finanziamenti Green page",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Facile.it' link to access Facile.it info",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facile.it info page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Facebook profile from Finanziamenti Green page footer",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Facebook' link in the footer to access the Facebook profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Youtube profile from Finanziamenti Green page footer",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Youtube' link in the footer to access the Youtube profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Twitter profile from Finanziamenti Green page footer",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Twitter' link in the footer to access the Twitter profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access LinkedIn profile from Finanziamenti Green page footer",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale LinkedIn' link in the footer to access the LinkedIn profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Instagram profile from Finanziamenti Green page footer",
+    "references": "Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Profilo ufficiale Instagram' link in the footer to access the Instagram profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram profile is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from parent page to Finanziamenti Green page via main menu",
+    "references": "Banca Intesa Sanpaolo - Conto Corrente per Famiglie, Giovani e Aziende / Finanziamenti Green | Prestiti e Mutui - Intesa Sanpaolo",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Tutti i giorni' button in the tab menu on the parent page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Finanziamenti Green' link to access the Finanziamenti Green page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Finanziamenti Green page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy/cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy/cookie policy page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu using 'Menu' button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login using 'Accesso clienti' button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search using the search input and search button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using the reset button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search using the search input and search button",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' page from header link",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' on Ricoveri e Interventi",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Ricoveri e Interventi)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Ricoveri e Interventi details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' on Malattie Gravi+",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Malattie Gravi+)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Malattie Gravi+ details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' on Infortuni+",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Infortuni+)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Infortuni+ details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' on Copertura Casa Fabbricato+",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Copertura Casa Fabbricato+)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Copertura Casa Fabbricato+ details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI XME PROTEZIONE' details page",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI XME PROTEZIONE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Protezione details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'PAGINA DEDICATA DI XME PROTEZIONE' details page",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'PAGINA DEDICATA DI XME PROTEZIONE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the dedicated XME Protezione page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Intesa Sanpaolo Protezione external site",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaoloprotezione.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Protezione external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Intesa Sanpaolo main site from link",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaolo.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo main site is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via breadcrumb link",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Home'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Corporate' external site from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Gruppo' external site from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Careers' external site from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'News' external site from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Club Azionisti' page from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Finanza Insieme' external site from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme external site is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Quick Training' page from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Persone e Famiglie' menu from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie menu page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Business' menu from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business menu page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Exclusive' menu from navigation",
+    "references": "promozione-xme-protezione-valore.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive menu page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

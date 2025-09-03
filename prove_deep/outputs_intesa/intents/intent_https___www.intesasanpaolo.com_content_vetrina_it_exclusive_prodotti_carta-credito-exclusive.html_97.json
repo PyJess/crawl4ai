@@ -1,0 +1,432 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer login using 'Accesso clienti' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the customer login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support using 'Parla con noi' link",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Explore account options using 'Scopri il conto' link",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link to explore account options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account comparison page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request credit card using 'RICHIEDI LA TUA CARTA' link (hero)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI LA TUA CARTA' link (hero) to request a credit card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the credit card request page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request credit card using 'RICHIEDI LA TUA CARTA' link (sticky)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'RICHIEDI LA TUA CARTA' link (sticky) to request a credit card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the credit card request page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover exclusive services using 'SCOPRI TUTTI I SERVIZI' link",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI TUTTI I SERVIZI' link to discover exclusive services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the exclusive services landing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using search input and search button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using reset button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using search input and search button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop with 'ENTRA' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' checkbox during guest login (desktop)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable keep me logged in",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to recover the password",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link (desktop)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to register as a guest",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile with 'ENTRA' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest on mobile",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile with 'REGISTRATI' button",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to register as a guest on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to recover the password on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb link",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte' via breadcrumb link",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Carte' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cards overview page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Carte di Credito' via breadcrumb link",
+    "references": "carta-credito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click the 'Carte di Credito' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the credit cards overview page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

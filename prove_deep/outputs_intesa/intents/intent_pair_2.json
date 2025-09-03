@@ -1,0 +1,572 @@
+[
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'PRODOTTI E QUOTAZIONI'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'PRODOTTI E QUOTAZIONI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'PRODOTTI E QUOTAZIONI' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'MARKET HUB'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'MARKET HUB'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'MARKET HUB' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'INBIZ - REMOTE BANKING'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'INBIZ - REMOTE BANKING'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'INBIZ - REMOTE BANKING' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'CARDEA'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'CARDEA'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'CARDEA' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'SMARTHUB'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SMARTHUB'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'SMARTHUB' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'CAREERS'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'CAREERS'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'CAREERS' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'EVENTI'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'EVENTI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'EVENTI' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'NEWS'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'NEWS'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'NEWS' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'CONTATTI'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'CONTATTI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'CONTATTI' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and change language to English",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'IT'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'EN'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the IMI Intesa Sanpaolo site is displayed in English.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and perform a search for $name",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' (Ricerca dall'intestazione)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click '' (Ricerca)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Sostenibilit\u00e0' section",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sostenibilit\u00e0'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Sostenibilit\u00e0' section is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Insights' section",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Insights'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Insights' section is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and open 'Chi siamo' menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Chi siamo'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Chi siamo' menu is expanded on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and open 'Prodotti e Servizi' menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Prodotti e Servizi'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Prodotti e Servizi' menu is expanded on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and open 'Ricerche e Commenti' menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Ricerche e Commenti'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Ricerche e Commenti' menu is expanded on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and open 'Documentazione' menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Documentazione'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Documentazione' menu is expanded on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Scopri di pi\u00f9' on global presence",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the page about global presence is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'SCOPRI DI PIU'' on sustainability",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PIU'' (La sfida del business responsabile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the sustainability page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'SCOPRI DI PIU'' on PNRR",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PIU'' (PNRR)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the PNRR page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and view all news",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'VEDI TUTTE LE NEWS'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all news are displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and view all events",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'VEDI TUTTI GLI EVENTI'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all events are displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Note legali'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Note legali'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Note legali' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Dati societari'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Dati societari'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Dati societari' page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Privacy Policy'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Privacy Policy' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Cookie Policy'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie Policy'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookie Policy' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Disclaimer'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Disclaimer'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Disclaimer' page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Trasparenza'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Trasparenza'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Trasparenza' page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Regole europee default'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Regole europee default'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Regole europee default' page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Dichiarazione di Accessibilit\u00e0'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Dichiarazione di Accessibilit\u00e0'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Dichiarazione di Accessibilit\u00e0' page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from 'Corporate' link to IMI Intesa Sanpaolo and access 'Sitemap'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sitemap'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Sitemap' page is displayed on the IMI Intesa Sanpaolo site.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

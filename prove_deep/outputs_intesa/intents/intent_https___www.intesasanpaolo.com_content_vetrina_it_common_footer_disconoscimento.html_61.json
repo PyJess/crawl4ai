@@ -1,0 +1,434 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to access the cookie options page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to access the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click the close button to dismiss the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login via 'Accesso clienti' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the client login form (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search via 'Search' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is visible and focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for content using desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search input using reset button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the reset search button (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for content using mobile search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login via 'ACCESSO CLIENTI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button to open the client login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page via link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link to open the contact page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page via link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link to open the contact page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open guest login form via 'ENTRA' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button to open the guest login form (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' checkbox in guest login (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to enable keep me logged in (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera Password' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to start password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to start guest registration (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open guest login form via 'ENTRA' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button to open the guest login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'REGISTRATI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to start guest registration (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to start password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come difenderti dalle truffe online' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come difenderti dalle truffe online' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access card blocking information via 'Scopri come bloccare la carta online' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come bloccare la carta online' link to access card blocking information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card blocking information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access formal complaint page via 'inviare un reclamo formale' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'inviare un reclamo formale' link to access the formal complaint page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the formal complaint page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQ via 'Leggi le domande frequenti' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/disconoscimento.html",
+    "intents": [
+      {
+        "intent": "Click 'Leggi le domande frequenti' link to access the FAQ page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

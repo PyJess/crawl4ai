@@ -1,0 +1,648 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Settori'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Momenti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the button to reset the search (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' page from header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login using 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest using email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password using 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' checkbox during guest login",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest registration using 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login via 'ACCEDI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Crescita Impresa' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Crescita Impresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Crescita Impresa' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'S-Loan' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for S-Loan",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'S-Loan' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Riequilibrio Impresa' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Riequilibrio Impresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Riequilibrio Impresa' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Capitale Impresa' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Capitale Impresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Capitale Impresa' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Neoimpresa' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Neoimpresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Neoimpresa' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Finanziamento Business Gemma' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Finanziamento Business Gemma",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanziamento Business Gemma' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Microcredito' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Microcredito",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Microcredito' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Servizi per migliorare il posizionamento commerciale' using 'Scopri di pi\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for Servizi per migliorare il posizionamento commerciale",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi per migliorare il posizionamento commerciale' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Crescita Agri' using 'SCOPRI DI PI\u00d9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Crescita Agri",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Crescita Agri' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover all updates using 'SCOPRI TUTTI GLI AGGIORNAMENTI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI GLI AGGIORNAMENTI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Scenario e Mercati updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover 'Polizza Business Sempre' using button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Polizza Business Sempre'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Polizza Business Sempre' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover 'Programma Sviluppo Filiere' using button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Programma Sviluppo Filiere'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Programma Sviluppo Filiere' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for business property using 'Cerchi un immobile per la tua azienda?' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Cerchi un immobile per la tua azienda?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the business property search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Resto al Sud' initiative using button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Resto al Sud'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Resto al Sud' initiative page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover 'Finanziamenti BEI' using button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Sviluppare-il-mio-business.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanziamenti BEI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanziamenti BEI' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

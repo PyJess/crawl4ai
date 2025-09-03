@@ -1,0 +1,398 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Insurance Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options on Insurance Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy and cookie policy options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Insurance Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Polizza ViaggiaConMe' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizze ViaggiaConMe on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza ViaggiaConMe product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Polizza MotoConMe' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizza MotoConMe on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza MotoConMe product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'XME Protezione' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for XME Protezione on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Protezione product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Polizza Mi Curo dei Miei' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizza Mi Curo dei Miei on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Mi Curo dei Miei product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Polizza Incendio Mutui' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizza Incendio Mutui on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Incendio Mutui product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Polizza ProteggiMutuo Smart' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizza ProteggiMutuo Smart on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza ProteggiMutuo Smart product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Polizza ProteggiPrestito' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Polizza ProteggiPrestito on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza ProteggiPrestito product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Protezione Smartphone' Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Protezione Smartphone on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Protezione Smartphone product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply Online Request Filter and Confirm",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'RICHIEDI ONLINE' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'APPLICA FILTRI' on the insurance page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products available for online request are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply Promotion Filter and Confirm",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'IN PROMOZIONE' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'APPLICA FILTRI' on the insurance page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that only products currently in promotion are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on Insurance Page Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the input with placeholder 'E-mail' for guest login on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the input with placeholder 'Password' for guest login on the insurance page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' for guest login on the insurance page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on Insurance Page Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the input with placeholder 'E-mail' for guest login (mobile) on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the input with placeholder 'Password' for guest login (mobile) on the insurance page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' for guest login (mobile) on the insurance page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Maintain Guest Login Session on Insurance Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' for guest login on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the session is set to be maintained for the guest user",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Login Password on Insurance Page Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' for guest login on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Login Password on Insurance Page Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' for guest login (mobile) on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Insurance Page Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' for guest login on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Insurance Page Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' for guest login (mobile) on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Insurance Products on Insurance Page Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button for 'Cerca (desktop)' on the insurance page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for insurance products are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Insurance Products on Insurance Page Mobile",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button for 'Cerca (mobile)' on the insurance page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for insurance products are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Insurance Product Search on Insurance Page Desktop",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button for 'Reset ricerca (desktop)' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared and all insurance products are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Accessibility Skip to Content on Insurance Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Accessibility Skip to Menu on Insurance Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Accessibility Skip to Footer on Insurance Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the insurance page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

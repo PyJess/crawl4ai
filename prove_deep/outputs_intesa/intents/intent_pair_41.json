@@ -1,0 +1,640 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the business sector page to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy from Business Sector Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the business sector page to view the Cookie Policy (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy from Business Sector Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the business sector page to view the Cookie Policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on Business Sector Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the business sector page to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the business sector page to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the business sector page to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the business sector page to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Corporate External Link from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the business sector page to open the external Corporate link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Gruppo External Link from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the business sector page to open the external Gruppo link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Careers External Link from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the business sector page to open the external Careers link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open News External Link from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the business sector page to open the external News link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Club Azionisti Link from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the business sector page to open the Club Azionisti link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Finanza Insieme External Link from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the business sector page to open the external Finanza Insieme link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Quick Training Link from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the business sector page to open the Quick Training link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie Section from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the business sector page to navigate to the Persone e Famiglie section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business Section from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the business sector page to navigate to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive Section from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the business sector page to navigate to the Exclusive section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' button on the business sector page to open the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Chat from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the business sector page to open the chat or contact section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat or contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button on the business sector page to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login from Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button on the business sector page to open the client login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field on the business sector page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)' button on the business sector page to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)' button on the business sector page to clear the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Business Sector Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search field on the business sector page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)' button on the business sector page to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Business Sector Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button on the business sector page to open the guest login form (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Business Sector Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link on the business sector page to recover the guest password (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option on Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox on the business sector page to enable the remember me option (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the remember me option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Business Sector Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link on the business sector page to register as a guest (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Business Sector Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' button on the business sector page to open the guest login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Business Sector Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link on the business sector page to recover the guest password (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Business Sector Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button on the business sector page to register as a guest (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Banking Login Tab (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button on the business sector page to access the online banking login tab (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login Tab (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button on the business sector page to access the guest login tab (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Portal from Business Sector Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' button on the business sector page to access the Inbiz portal (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz portal is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Portal from Business Sector Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' button on the business sector page to access the Inbiz portal (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz portal is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security Information (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link on the business sector page to access online security information (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security Information (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link on the business sector page to access online security information (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About POS Solutions",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' link on the business sector page to learn more about POS solutions",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS solutions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Forvalue",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' link on the business sector page to learn more about Forvalue",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Forvalue website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover CresciBusiness Program",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Programma CresciBusiness' link on the business sector page to discover the CresciBusiness program",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the CresciBusiness program page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Additional POS Services",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Servizi aggiuntivi per i POS' link on the business sector page to discover additional POS services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the additional POS services page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Business Gemma Financing",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanziamento Business Gemma' link on the business sector page to discover Business Gemma financing",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business Gemma financing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Debit Plus Card",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carta Debit Plus' link on the business sector page to discover the Debit Plus card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Debit Plus card page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Credit Card",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carta Credit' link on the business sector page to discover the Credit card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Credit card page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Inbiz Portal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Portale Inbiz' link on the business sector page to discover the Inbiz portal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz portal page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

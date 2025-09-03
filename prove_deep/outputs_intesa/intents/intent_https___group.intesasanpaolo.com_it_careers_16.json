@@ -1,0 +1,500 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'ACCONSENTO' link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'ACCONSENTO' link to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options via 'PI\u00d9 OPZIONI' link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'PI\u00d9 OPZIONI' link to view more cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner via close button",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the button labeled 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d.' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to content using 'Passa al Contenuto' button",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar using the search button",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the button with description 'Open search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field with placeholder 'Cerca' is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the search input and submit button",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the button with description 'Open search' to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input field with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with description 'Submit search' to submit the search query",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the mobile menu using the menu toggle button",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the button with description 'Open mobile menu' to open the mobile navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Perch\u00e9 Intesa Sanpaolo' from sidebar menu",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Perch\u00e9 Intesa Sanpaolo' link in the sidebar menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Posizioni aperte' from sidebar menu",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Posizioni aperte' link in the sidebar menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Posizioni aperte' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'International Graduate Program' from sidebar menu",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'International Graduate Program' link in the sidebar menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'International Graduate Program' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Percorsi in evidenza' from sidebar menu",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Percorsi in evidenza' link in the sidebar menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Percorsi in evidenza' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'FAQ e contatti' from sidebar menu",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ e contatti' link in the sidebar menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'FAQ e contatti' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access highlighted career paths via 'Scopri i nostri percorsi' link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri i nostri percorsi' link in the hero carousel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Percorsi in evidenza' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply now via 'Candidati ora' link in hero carousel",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Candidati ora' link in the hero carousel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the application page for 'lavorare nella consulenza finanziaria' is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about Intesa Sanpaolo via 'Scopri di pi\u00f9' link in hero carousel",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link in the hero carousel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about welfare and benefits via 'Scopri di pi\u00f9' link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link related to 'welfare e benefit' in the hero carousel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Welfare e benefit' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access student and graduate positions via 'Students and Graduates' card link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Students and Graduates' link in the card section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Students and Graduates' positions page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access student and graduate positions via 'Scopri le posizioni aperte' CTA",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri le posizioni aperte' link in the Students and Graduates card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Students and Graduates' positions page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access experienced positions via 'Experienced' card link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Experienced' link in the card section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Experienced' positions page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access experienced positions via 'Scopri le posizioni aperte' CTA",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri le posizioni aperte' link in the Experienced card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Experienced' positions page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn about the selection process via 'SCOPRI COME CANDIDARTI' banner",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI COME CANDIDARTI' link in the banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the selection process page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about Intesa Sanpaolo via 'Perch\u00e9 Intesa Sanpaolo' card link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Perch\u00e9 Intesa Sanpaolo' link in the card section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about Intesa Sanpaolo via 'Approfondisci' CTA in card",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Approfondisci' link in the Perch\u00e9 Intesa Sanpaolo card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about welfare and benefits via 'Welfare e benefit' card link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Welfare e benefit' link in the card section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Welfare e benefit' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about welfare and benefits via 'Approfondisci' CTA in card",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Approfondisci' link in the Welfare e benefit card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Welfare e benefit' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access International Graduate Program via hero CTA",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'International Graduate Program' link in the hero section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'International Graduate Program' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about International Graduate Program via 'Approfondisci' CTA in hero",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Approfondisci' link in the International Graduate Program hero section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'International Graduate Program' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Bocconi Investment Banking Days event via event card link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Bocconi Investment Banking Days' link in the event card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Bocconi event page is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access LUISS Banking & Finance Days event via article link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'LUISS Banking & Finance Days' link in the event article",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LUISS event page is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Universidade Nova de Lisboa Career Fair via article link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Universidade Nova de Lisboa Career Fair' link in the event article",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Universidade Nova de Lisboa event page is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access HEC International Finance Fair via article link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'HEC International Finance Fair' link in the event article",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the HEC event page is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn more about international presence via 'Approfondisci' hero CTA",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Approfondisci' link in the hero section for international presence",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the international presence page is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover what makes the team special via 'Scopri cosa rende speciale il nostro team' link",
+    "references": "https://group.intesasanpaolo.com/it/careers",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri cosa rende speciale il nostro team' link in the Top Employer section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 Intesa Sanpaolo' page is loaded",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

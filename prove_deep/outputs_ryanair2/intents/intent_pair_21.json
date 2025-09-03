@@ -1,0 +1,398 @@
+[
+  {
+    "test_case_name": "Access Privacy Policy from Homepage and Expand Introduction Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Introduction' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Introduction' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Data Controller Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Data Controller' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Data Controller' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand What Personal Data We Collect Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'What personal data we collect' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'What personal data we collect' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand What We Use Your Personal Data For Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'What we use your personal data for' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'What we use your personal data for' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand How Long We Keep Your Data Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'How long we keep your data' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'How long we keep your data' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Security of Your Personal Data Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Security of your personal data' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Security of your personal data' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Sharing and Transferring Your Personal Data Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Sharing and transferring your personal data' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Sharing and transferring your personal data' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Cookies and Site Tracking Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies and site tracking' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookies and site tracking' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Data Protection Officer Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Data Protection Officer' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Data Protection Officer' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Your Data Protection Rights Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Your Data Protection Rights' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Your Data Protection Rights' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Changes to Privacy Policy Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Changes to Privacy Policy' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Changes to Privacy Policy' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy and Expand Contact Us Section",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact Us' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Contact Us' section expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQs from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'FAQs' link on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the FAQs page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use' link on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies Policy from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies' link on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookies Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Privacy Policy Page Footer",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences from Privacy Policy Page Footer",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Market Switcher from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Open market switcher' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the market switcher is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'myRyanair Portal' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'My bookings' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the My bookings page or section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Login from Privacy Policy Page",
+    "references": "ryanair.com_pages.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link on the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Log in' button on the Privacy Policy page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the login page or modal is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

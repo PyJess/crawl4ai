@@ -1,0 +1,146 @@
+[
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Expand Strictly Necessary Cookies Panel",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the first 'Cookies used' button (Expansion panel for Strictly Necessary Cookies) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Strictly Necessary Cookies panel expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Expand Performance Cookies Panel",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the second 'Cookies used' button (Expansion panel for Performance Cookies) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Performance Cookies panel expands and displays its content",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Open Cookie Preferences",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences' button in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Access General Terms & Conditions of Carriage",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page opens in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Access Terms of Use",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Terms of Use page opens in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Access Privacy Policy",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page opens in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Access Cookies Policy",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookies Policy page opens in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Careers Cookie Details and Access Contact Us Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'careers.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact us page opens in a new tab or window",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

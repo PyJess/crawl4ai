@@ -1,0 +1,492 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search bar using 'Search' button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open menu using 'Menu' button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer login using 'Accesso clienti' button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' page",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' page",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'PARLA CON NOI' page via anchor link",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'PARLA CON NOI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'In breve' section using anchor link",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'In breve'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'In breve' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Perch\u00e9 sceglierlo' section using anchor link",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Perch\u00e9 sceglierlo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Perch\u00e9 sceglierlo' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Home'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Prestiti' via breadcrumb",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using 'Cosa posso fare per te oggi?' input",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using reset button",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using 'Cerca' input",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as guest on desktop",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password on desktop",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on desktop",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as guest on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password on mobile",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Facebook profile from footer",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Youtube profile from footer",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Twitter profile from footer",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official LinkedIn profile from footer",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access official Instagram profile from footer",
+    "references": "prestito-exclusive.json",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

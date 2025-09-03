@@ -1,0 +1,244 @@
+[
+  {
+    "test_case_name": "Accept Cookie Consent on Reward Page After Navigating from Main Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button on the main page to accept cookies.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' button on the Reward page to accept cookies.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on the Reward page.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Open Game Info Modal for 'Tenta la fortuna'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI COME GIOCARE' link (Tenta la fortuna) on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the game info modal for 'Tenta la fortuna' is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Download Regulation PDF for 2026",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCARICA IL REGOLAMENTO DEL CONCORSO A PREMI \u201cINTESA SANPAOLO 2026\u201d' link on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the regulation PDF for 2026 is downloaded or opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Download Quick Start PDF",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCARICA QUICK START' link on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Quick Start PDF is downloaded or opened.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Open Reward Experience CTA",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'RIVIVI I MOMENTI UNICI' link on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Reward Experience page or modal is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Download Android App from Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCARICA L'APP\nINTESA SANPAOLO MOBILE' link to open the download modal on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCARICA L'APP ANDROID' link in the modal on the Reward page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Google Play Store page for the app is opened.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Download iOS App from Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCARICA L'APP\nINTESA SANPAOLO MOBILE' link to open the download modal on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCARICA L'APP IOS' link in the modal on the Reward page.",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Apple App Store page for the app is opened.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and View Initiatives Catalog",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI LE INIZIATIVE' link on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the initiatives catalog page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and View Special Offers Catalog",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI IN OFFERTA' link on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the special offers catalog page is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Open Game Info Modal for 'Carta Vincente'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI COME GIOCARE' link (Carta Vincente) on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the game info modal for 'Carta Vincente' is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Open Game Info Modal for 'Indovina la parola'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI COME GIOCARE' link (Indovina la parola) on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the game info modal for 'Indovina la parola' is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Open Game Info Modal for 'S\u00ec, la so!'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI COME GIOCARE' link (S\u00ec, la so!) on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the game info modal for 'S\u00ec, la so!' is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Reward Page and Open Game Info Modal for 'Trova la sequenza'",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link on the main page to navigate to the Reward page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI COME GIOCARE' link (Trova la sequenza) on the Reward page.",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the game info modal for 'Trova la sequenza' is displayed.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

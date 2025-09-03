@@ -1,0 +1,774 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Cookie Policy from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Corporate External Link from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Gruppo External Link from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Careers External Link from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open News External Link from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Club Azionisti Link from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Finanza Insieme Link from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Quick Training Link from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Persone e Famiglie Menu from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Business Menu from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Exclusive Menu from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Mobile Menu from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Security Information from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' input on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to submit search on the Sicurezza online page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to reset search on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' input on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to submit search on the Sicurezza online page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' input on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' input on the Sicurezza online page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Sicurezza online page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Sicurezza Online Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register New Account from Sicurezza Online Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register New Account from Sicurezza Online Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Sicurezza Online Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Us from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'COME CONTATTARCI' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Watch Security Video from Sicurezza Online Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA IL VIDEO' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security video modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Anti-Phishing PDF: Frode al telefono e via sms",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'La frode al telefono e via sms' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La frode al telefono e via sms' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Anti-Phishing PDF: Truffa degli investimenti online",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'La truffa degli investimenti online' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La truffa degli investimenti online' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Anti-Phishing PDF: Truffa sentimentale",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'La truffa sentimentale' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La truffa sentimentale' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Anti-Phishing PDF: Money Muling",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'La truffa del money muling' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La truffa del money muling' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Examples of Counterfeit Sites",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA GLI ESEMPI' for 'Siti contraffatti' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Siti contraffatti' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Examples of Phishing",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA GLI ESEMPI' for 'Phishing' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Phishing' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Example: Emergenza Familiare",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA L'ESEMPIO' for 'Emergenza Familiare' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Emergenza Familiare' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Example: Fondi da salvare",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA L'ESEMPIO' for 'Fondi da salvare' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Fondi da salvare' is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download English Version of Digital Security",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'QUI' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the English version PDF is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download English Version of Digital Security (Alternative Link)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENGLISH VERSION HERE' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the English version PDF is downloaded or displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Geocontrol",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Geocontrol' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Geocontrol information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About 3D Secure",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for '3d Secure' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 3d Secure information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Notification Management",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Gestione notifiche' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the notification management information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Social Netiquette Rules",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'LEGGI LE REGOLE' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the social netiquette rules page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Security FAQs",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'LEGGI I QUESITI SULLA SICUREZZA' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Corporate Fraud",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Le truffe alle aziende' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the corporate fraud information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Online Purchase Fraud",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Le truffe sugli acquisti online' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online purchase fraud information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About How to Defend Against Online Fraud",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Come difendersi dalle frodi online' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online fraud defense information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Check Password Entropy Tool",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Quanta entropia ha la tua password' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password entropy tool page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read More About Digital Security",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'APPROFONDISCI' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Cybersecurity Initiatives",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI LE INIZIATIVE' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Europol cybersecurity initiatives page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Safe Internet Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Cybersecurity navigare in sicurezza' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the safe internet navigation information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About Cybersicuri Initiative",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Cybersicuri impresa possibile' on the Sicurezza online page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cybersicuri initiative page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (banner)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies from the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies from the desktop cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options page from banner (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link in the cookie banner to open the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options page from banner (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link in the desktop cookie banner to open the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access panel via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client access panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel via 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using desktop search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the desktop search form to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input using reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the desktop search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using mobile search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' in the mobile search form to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop with remember me checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' and type 'text'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' and type 'password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox with id 'rememberMe2' labeled 'Mantieni L'accesso' to enable remember me",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop without remember me",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' and type 'text'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' and type 'password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in without session persistence",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login panel (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link in the guest login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new guest user from desktop login panel",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link in the guest login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' in the mobile guest login form",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' in the mobile guest login form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button in the mobile guest login form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new guest user from mobile login panel",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button in the mobile guest login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login panel (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link in the mobile guest login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login tab on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI ALLA TUA BANCA ONLINE' button in the mobile login tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login tab on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'ENTRA COME OSPITE' button in the mobile guest login tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page from header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page from mobile link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the mobile section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri come fare' page for online security",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link for online security",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open ABF website from news link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'www.arbitrobancariofinanziario.it' link in the news section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the ABF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile from footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Facebook' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile from footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Youtube' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile from footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Twitter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile from footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'LinkedIn' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile from footer link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/novembre/avviso-mancato-adempimento-decisione-abf-9176-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Instagram' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

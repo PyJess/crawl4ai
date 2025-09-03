@@ -1,0 +1,906 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Cookie Banner",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Banner",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies via Desktop Cookie Banner",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Options from Desktop Banner",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu Using Accessibility Button",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Content Using Desktop Search Field",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click the button to reset the search (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Content Using Mobile Search Field",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login (Desktop)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the client login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login (Mobile)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' to open the client login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu (Desktop)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu (Mobile)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Conti e salvadanai from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Conti e salvadanai' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Mutui from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Mutui' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Carte from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Carte' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Assicurazioni from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Consulenza Evoluta from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Consulenza Evoluta' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Prestiti from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Pagamenti digitali from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pagamenti digitali' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Previdenza from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Previdenza' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Investimenti e Risparmio from Menu",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Investimenti e Risparmio' in the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open External Link to Corporate",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' to open the external Corporate page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open External Link to Gruppo",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' to open the external Gruppo page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open External Link to Careers",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' to open the external Careers page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open External Link to News",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'News' to open the external News page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open External Link to Club Azionisti",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' to open the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open External Link to Finanza Insieme",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' to open the external Finanza Insieme page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open External Link to Quick Training",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' to open the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open CTA Scopri il conto (Desktop)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Confronta conti corrente' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open CTA Scopri il conto (Mobile)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Confronta conti corrente' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Parla con noi from Header",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Parla con noi from Mobile Section",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the mobile section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Tab Tutti i Prodotti",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Tab Tutti i giorni",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Tab Momenti della Vita",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover How to Invest (First Time)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI COME' to discover how to invest for the first time",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Contratto servizi investimento' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Smart Save",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Smart Save",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smart Save information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Doppio Centro Dublin Branch",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Doppio Centro Dublin Branch",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Doppio Centro Dublin Branch information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about PAC",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about PAC",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PAC information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Insieme per Domani",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Insieme per Domani",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Insieme per Domani information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Eurizon Market Selection",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Eurizon Market Selection",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Eurizon Market Selection information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Fondi Eurizon Investo Smart",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Fondi Eurizon Investo Smart",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fondi Eurizon Investo Smart information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Eurizon Next",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Eurizon Next",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Eurizon Next information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Servizio Target",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Servizio Target",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Servizio Target information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Fondi a Scadenza Eurizon",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Fondi a Scadenza Eurizon",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fondi a Scadenza Eurizon information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Fondi PIR di Eurizon",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Fondi PIR di Eurizon",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fondi PIR di Eurizon information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Fondi Tematici",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Fondi Tematici",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fondi Tematici information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Gestione di Portafogli di Eurizon",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Gestione di Portafogli di Eurizon",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gestione di Portafogli di Eurizon information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Eurizon GP Collection",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Eurizon GP Collection",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Eurizon GP Collection information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Patrimonio Garanzia",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Patrimonio Garanzia",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Patrimonio Garanzia information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Opportunit\u00e0 Dublin Branch",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Opportunit\u00e0 Dublin Branch",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Opportunit\u00e0 Dublin Branch information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Patrimonio Domani Plus",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Patrimonio Domani Plus",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Patrimonio Domani Plus information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Traguardo Sicuro 7 Plus",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Traguardo Sicuro 7 Plus",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Traguardo Sicuro 7 Plus information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Patrimonio Profilo Insurance",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Patrimonio Profilo Insurance",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Patrimonio Profilo Insurance information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Patrimonio Stabilit\u00e0 Insurance",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Patrimonio Stabilit\u00e0 Insurance",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Patrimonio Stabilit\u00e0 Insurance information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Prospettiva Dublin Branch",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Prospettiva Dublin Branch",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prospettiva Dublin Branch information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Patrimonio PerGiovani Insurance",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Patrimonio PerGiovani Insurance",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Patrimonio PerGiovani Insurance information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Certificates",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Certificates",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Certificates information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Valore Insieme (Consulenza Evoluta)",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI VALORE INSIEME' to discover Valore Insieme (consulenza evoluta)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Valore Insieme information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover All Market Updates",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI GLI AGGIORNAMENTI' to discover all market updates",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More about Soluzione Domani",
+    "references": "investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' to discover more about Soluzione Domani",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Soluzione Domani information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

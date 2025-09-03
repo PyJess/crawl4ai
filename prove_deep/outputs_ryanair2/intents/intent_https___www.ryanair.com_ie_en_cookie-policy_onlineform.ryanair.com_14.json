@@ -1,0 +1,142 @@
+[
+  {
+    "test_case_name": "Expand Strictly Necessary Cookies Panel",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the strictly necessary cookies panel expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQ from Cookie Policy Page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees Information from Cookie Policy Page",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Header",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms and Conditions of Carriage from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General Terms & Conditions of Carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies Policy from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Update Cookie Preferences from Footer",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie preferences' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

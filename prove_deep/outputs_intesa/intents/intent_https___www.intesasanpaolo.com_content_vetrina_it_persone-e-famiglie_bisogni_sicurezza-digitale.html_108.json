@@ -1,0 +1,556 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed (desktop)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search using the search input and search button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using the reset button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search using the search input and search button",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login on desktop with credentials",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on desktop",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login on desktop with 'Mantieni L'accesso' checked",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on desktop and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login desktop",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from desktop login",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login on mobile with credentials",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from mobile login",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login mobile",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' from header",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri il conto' from header",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' for digital security",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri come fare' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for phishing, vishing and smishing frauds",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Frodi online: phishing, vishing e smishing",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the phishing, vishing and smishing frauds page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for banking phishing defense",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Come difendersi dal phishing bancario",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the banking phishing defense page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for online fraud defense",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Come difendersi dalle frodi online",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online fraud defense page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for malware information",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Il Malware",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the malware information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for money mule information",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Il Muling",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the money mule information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for romantic scams",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Le truffe sentimentali",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the romantic scams page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for business scams",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Le truffe alle aziende",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the business scams page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for investment scam information",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - La truffa dell\u2019investimento",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the investment scam information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for online purchase scams",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Le truffe sugli acquisti online",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online purchase scams page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for cookie and data site information",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Non essere goloso dei cookie!",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie and data site information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for cyberbullying and social network information",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Social network: vittima o complice del cyberbullismo?",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cyberbullying and social network information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri di pi\u00f9' for password entropy information",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' - Quanta entropia ha la tua password",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password entropy information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Le iniziative della banca' for cyber security campaigns",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Le iniziative della banca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cyber security campaigns page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Watch the cyber security awareness video",
+    "references": "sicurezza-digitale.json",
+    "intents": [
+      {
+        "intent": "Click 'Guarda il video'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cyber security awareness video page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

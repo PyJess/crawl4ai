@@ -1,0 +1,716 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu using 'Menu' button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel using 'Accesso clienti' button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel using 'Search' button",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for content using desktop search input",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Submit search desktop' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Reset search desktop' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for content using mobile search input",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Submit search mobile' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on mobile",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access login tab 'ACCEDI ALLA TUA BANCA ONLINE' (mobile)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form for online banking is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest tab 'ENTRA COME OSPITE' (mobile)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest access form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login with email and password",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in and redirected to the dashboard",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login with 'Mantieni L'accesso' option enabled",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password using 'Recupera Password' link (desktop)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password using 'Recupera password' link (mobile)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account using 'Registrati' link (desktop)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account using 'REGISTRATI' button (mobile)",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' support page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' (Sicurezza) page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Sicurezza page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'COME CONTATTARCI' contact page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'COME CONTATTARCI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open video modal using 'GUARDA IL VIDEO' link",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA IL VIDEO' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the video modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'La frode al telefono e via sms' PDF",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (La frode al telefono e via sms)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La frode al telefono e via sms' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'La truffa degli investimenti online' PDF",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (La truffa degli investimenti online)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La truffa degli investimenti online' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'La truffa sentimentale' PDF",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (La truffa sentimentale)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La truffa sentimentale' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'La truffa del money muling' PDF",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (La truffa del money muling)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'La truffa del money muling' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Siti contraffatti' PDF examples",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA GLI ESEMPI' link (Siti contraffatti)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Siti contraffatti' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Phishing' PDF examples",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA GLI ESEMPI' link (Phishing)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Phishing' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Emergenza Familiare' PDF example",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA L'ESEMPIO' link (Emergenza Familiare)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Emergenza Familiare' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Fondi da salvare' PDF example",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA L'ESEMPIO' link (Fondi da salvare)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF document for 'Fondi da salvare' is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download English version PDF via 'QUI' link",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'QUI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the English version PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download English version PDF via 'ENGLISH VERSION HERE' link",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'ENGLISH VERSION HERE' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the English version PDF is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Geocontrol' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Geocontrol)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Geocontrol information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access '3d Secure' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (3d Secure)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 3d Secure information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Gestione notifiche' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Gestione notifiche)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gestione notifiche information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Netiquette social' rules page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'LEGGI LE REGOLE' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Netiquette social rules page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access security FAQ page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'LEGGI I QUESITI SULLA SICUREZZA' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Le truffe alle aziende' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Le truffe alle aziende)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the information page for 'Le truffe alle aziende' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Le truffe sugli acquisti online' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Le truffe sugli acquisti online)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the information page for 'Le truffe sugli acquisti online' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Come difendersi dalle frodi online' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Come difendersi dalle frodi online)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the information page for 'Come difendersi dalle frodi online' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Quanta entropia ha la tua password' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Quanta entropia ha la tua password)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the information page for 'Quanta entropia ha la tua password' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Sicurezza digitale' insights page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'APPROFONDISCI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Sicurezza digitale insights page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri le iniziative' Europol campaign page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI LE INIZIATIVE' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Europol campaign page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cybersecurity navigare in sicurezza' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Cybersecurity navigare in sicurezza)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the information page for 'Cybersecurity navigare in sicurezza' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Cybersicuri impresa possibile' information page",
+    "references": "sicurezza-online.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link (Cybersicuri impresa possibile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the information page for 'Cybersicuri impresa possibile' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

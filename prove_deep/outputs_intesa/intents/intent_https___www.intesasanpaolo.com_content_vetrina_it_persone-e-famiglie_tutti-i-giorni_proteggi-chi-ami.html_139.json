@@ -1,0 +1,514 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy/cookie policy via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the privacy/cookie policy (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy/cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy/cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to access the privacy/cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy/cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the close button to dismiss the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a desktop search using the search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using the reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the reset button to clear the desktop search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cosa posso fare per te oggi?' search input is empty",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a mobile search using the search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu using the 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access client login via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to access the client login page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' support page via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri il conto' page via header link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri il conto' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account discovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section via main menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section via main menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section via main menu link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Corporate' external link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link in the navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Gruppo' external link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link in the navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Careers' external link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link in the navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'News' external link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link in the navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Club Azionisti' page from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link in the navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Finanza Insieme' external link from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link in the navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Quick Training' page from navigation",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link in the navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on desktop with 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable keep me logged in",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as guest user (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on desktop without 'Mantieni L'accesso' checked",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as guest user (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in without session persistence",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery via 'Recupera Password' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to access password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration via 'Registrati' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to access the registration page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to log in as guest user (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest user on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to access the registration page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to access password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/proteggi-chi-ami.html",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

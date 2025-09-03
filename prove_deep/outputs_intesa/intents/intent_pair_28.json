@@ -1,0 +1,300 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Business Cards Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options from Business Cards Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Carta Credit Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Carta Credit",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Carta Credit product details page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Carta Prepaid Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Carta Prepaid",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Carta Prepaid product details page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Carta Debit Plus Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Carta Debit Plus",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Carta Debit Plus product details page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Carta Deposit Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for Carta Deposit",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Carta Deposit product details page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Term on Business Cards Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Term on Business Cards Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search Field on Business Cards Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search field is cleared.",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Parla con noi from Business Cards Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Parla con noi contact page is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Settori Tab on Business Cards Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Settori'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Settori tab content is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Momenti Tab on Business Cards Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Momenti'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Momenti tab content is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to Servizi digitali Tab on Business Cards Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Carte'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Servizi digitali'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the Servizi digitali tab content is displayed.",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the close button to dismiss the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options via 'Pi\u00f9 opzioni' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view additional cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view additional cookie options (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed (desktop)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external site",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external site",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external site",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external site",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login via 'ACCEDI' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI' link to access Inbiz login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View online security information via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the desktop search field",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search query",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search field",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the reset search button to clear the search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search via 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search interface",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search interface is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the privacy information PDF via 'SCARICA INFORMATIVA' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCARICA INFORMATIVA' link to download the privacy information PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy information PDF is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the home page via 'Home' breadcrumb link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb to navigate to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the privacy section via 'Privacy' breadcrumb link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/privacy/informativa-privacy-clienti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy' link in the breadcrumb to navigate to the privacy section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "test_case_name": "Accept All Cookies and Navigate to Investor Relations",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Investor Relations page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options on Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open cookie options on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'PI\u00d9 OPZIONI' link to open cookie options on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie options are displayed on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies on Both Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ACCONSENTO' link to accept cookies on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Parent and Child Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search input on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input on the parent page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the button with class 'header-navbar-btn-search' to open the search input on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search input on the child page",
+        "intent_id": "5"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' and data-name 'search-button' to submit the search on the child page",
+        "intent_id": "6"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the child page",
+        "intent_id": "7"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access User Area and Attempt Login on Investor Relations Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'AREA UTENTE' button to open the user area dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Accedi' button to attempt login",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the login form or authentication prompt is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch Language to English on Investor Relations Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'EN' link to switch the language to English",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Investor Relations page is displayed in English",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'IR Policy' from Parent to Child Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'IR Policy' link in the aside menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the IR Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and Close Cookie Banner on Both Pages",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with id 'js-cookie-banner-close' to close the cookie banner on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the child page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Comunicati stampa' Tab and View All Press Releases",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'COMUNICATI STAMPA' button to select the press releases tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Leggi tutti i comunicati stampa' link to view all press releases",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the full list of press releases is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Bilanci e Relazioni' Tab and View All Reports",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'BILANCI E RELAZIONI' button to select the reports tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Leggi tutti i bilanci e relazioni' link to view all reports",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the full list of reports is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Presentazioni' Tab and View All Presentations",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'PRESENTAZIONI' button to select the presentations tab",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Leggi tutte le presentazioni' link to view all presentations",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the full list of presentations is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Contatti' from User Area Dropdown",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the Investor Relations site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'AREA UTENTE' button to open the user area dropdown",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Contatti' link in the user area dropdown",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the contacts page is displayed",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

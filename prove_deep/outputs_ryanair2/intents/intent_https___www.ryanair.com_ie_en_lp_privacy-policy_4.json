@@ -1,0 +1,338 @@
+[
+  {
+    "test_case_name": "Expand Introduction Section in Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Introduction'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Introduction' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Data Controller Section in Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Data Controller'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Data Controller' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand What Personal Data We Collect Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'What personal data we collect'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'What personal data we collect' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand What We Use Your Personal Data For Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'What we use your personal data for'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'What we use your personal data for' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand How Long We Keep Your Data Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'How long we keep your data'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'How long we keep your data' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Security of Your Personal Data Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Security of your personal data'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Security of your personal data' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Sharing and Transferring Your Personal Data Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Sharing and transferring your personal data'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Sharing and transferring your personal data' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Cookies and Site Tracking Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Cookies and site tracking'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cookies and site tracking' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Data Protection Officer Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Data Protection Officer'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Data Protection Officer' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Your Data Protection Rights Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Your Data Protection Rights'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Your Data Protection Rights' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Changes to Privacy Policy Section",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Changes to Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Changes to Privacy Policy' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Contact Us Section in Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Contact Us'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Contact Us' section expands and displays its content",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open FAQs Page from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'FAQs'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page opens in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open General Terms & Conditions of Carriage from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Terms of Use from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Privacy Policy from Footer Link",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page reloads or remains visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookies Policy from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Cookies'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Contact Us Page from Privacy Policy Footer",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Contact us'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page opens",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences Dialog from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Cookie preferences'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie preferences dialog or page appears",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'My bookings'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My bookings page or dialog appears",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'myRyanair Portal'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal page or dialog appears",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Market Switcher from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Open market switcher'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market switcher dialog or menu appears",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate Login from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Log in'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login dialog or page appears",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content from Privacy Policy",
+    "references": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+    "intents": [
+      {
+        "intent": "Click 'Skip to main content'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

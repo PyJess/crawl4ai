@@ -1,0 +1,380 @@
+[
+  {
+    "test_case_name": "Accept all cookies on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Tutti i Prodotti' button to view all products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Settori' button to view sector-specific products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Momenti' button to view moments-related products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Servizi digitali' button to view digital services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the desktop search field on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search field on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using the mobile search field on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the client login panel from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Parla con noi' contact page from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to access the contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest and enable 'Mantieni L'accesso' on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable session persistence",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and session persistence is enabled",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from the guest login panel on the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to initiate password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Circolante Impresa' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Circolante Impresa",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Circolante Impresa product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Anticipo fatture Italia ed estero' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Anticipo fatture Italia ed estero",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo fatture Italia ed estero product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Apertura di Credito in Conto Corrente' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Apertura di Credito in Conto Corrente",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apertura di Credito in Conto Corrente product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Smobilizzo crediti di Portafoglio' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Smobilizzo crediti di Portafoglio",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smobilizzo crediti di Portafoglio product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Anticipo transato POS' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Anticipo transato POS",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo transato POS product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Recupero Crediti internazionali' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Recupero Crediti internazionali",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Recupero Crediti internazionali product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Cambiale agraria' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Cambiale agraria",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cambiale agraria product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover more about 'Anticipo prenotazioni alberghiere' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' button for Anticipo prenotazioni alberghiere",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo prenotazioni alberghiere product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover all updates in 'Scenario e Mercati' from the business liquidity improvement page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI TUTTI GLI AGGIORNAMENTI' button to view all updates",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Scenario e Mercati updates page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "test_case_name": "Navigate to Exclusive section from main menu and verify page load",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed on the child page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies on Exclusive page and verify banner closure",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the child page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options on Exclusive page and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to open cookie options on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content on Exclusive page and verify focus",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu on Exclusive page and verify focus",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer on Exclusive page and verify focus",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login panel on Exclusive page and verify panel display",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the client login panel on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu (burger) on Exclusive page and verify menu display",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search on Exclusive page and verify search field visibility",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search on Exclusive page and verify results",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search on Exclusive page and verify field is cleared",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search on Exclusive page and verify results",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Exclusive page and verify authentication",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is authenticated as a guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest with 'Mantieni L'accesso' checked on Exclusive page and verify persistent login",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email in the 'E-mail' field on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in the 'Password' field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is authenticated and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest on Exclusive page and verify recovery process",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on Exclusive page and verify registration process",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest using mobile button on Exclusive page and verify registration process",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking tab on Exclusive page and verify tab switch",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' button on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login tab is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest login tab on Exclusive page and verify tab switch",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' button on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login tab is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' for servizi exclusive and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for servizi exclusive on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the servizi exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' for carta di credito exclusive and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for carta di credito exclusive on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the carta di credito exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' for carta di debito exclusive and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for carta di debito exclusive on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the carta di debito exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' for valore insieme exclusive and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for valore insieme exclusive on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the valore insieme exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' for mutuo exclusive and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for mutuo exclusive on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mutuo exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' for prestito exclusive and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9' for prestito exclusive on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the prestito exclusive details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open FAQ section on Exclusive page and verify FAQ display",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Domande frequenti' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Request callback via 'TI RICHIAMIAMO NOI' on Exclusive page and verify callback form",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'TI RICHIAMIAMO NOI' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the callback request form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open online security information via 'Scopri come fare' on Exclusive page and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile from Exclusive page footer and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile from Exclusive page footer and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile from Exclusive page footer and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile from Exclusive page footer and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile from Exclusive page footer and verify navigation",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

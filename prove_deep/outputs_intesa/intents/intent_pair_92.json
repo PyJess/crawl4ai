@@ -1,0 +1,740 @@
+[
+  {
+    "test_case_name": "Accept all cookies on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options or privacy policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' external website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' tab on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' tab on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Conti e salvadanai' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Conti e salvadanai' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti e salvadanai' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Mutui' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mutui' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutui' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Investimenti e Risparmio' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Investimenti e Risparmio' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e Risparmio' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Carte' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Carte' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Assicurazioni' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Assicurazioni' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Assicurazioni' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Consulenza Evoluta' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Consulenza Evoluta' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Consulenza Evoluta' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Prestiti' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Prestiti' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prestiti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Pagamenti digitali' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pagamenti digitali' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Pagamenti digitali' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Previdenza' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Previdenza' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Previdenza' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open menu on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri come fare' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' input on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for desktop on the Mutuo Exclusive page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the reset search button for desktop on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' input on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button for mobile on the Mutuo Exclusive page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Mutuo Exclusive page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'E-mail' input on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Password' input on the Mutuo Exclusive page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Mutuo Exclusive page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives feedback",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' during guest login (desktop) on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest (desktop) on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (desktop) on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on Mutuo Exclusive page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the 'E-mail' input on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Password' input on the Mutuo Exclusive page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' on the Mutuo Exclusive page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives feedback",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest (mobile) on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest (mobile) on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' (mobile) from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the Mutuo Exclusive page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access (mobile) from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open accordion login for online banking (mobile) on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open accordion login as guest (mobile) on Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'PARLA CON NOI' CTA from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'PARLA CON NOI' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI PROTEGGIMUTUO SMART' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI PROTEGGIMUTUO SMART' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'ProteggiMutuo Smart' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI MUTUO IN TASCA' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI MUTUO IN TASCA' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mutuo in Tasca' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'MY KEY' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'MY KEY' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'My Key' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'WWW.INTESASANPAOLO.COM' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'WWW.INTESASANPAOLO.COM' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'www.intesasanpaoloprotezione.com' from Mutuo Exclusive page (first occurrence)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaoloprotezione.com' on the Mutuo Exclusive page (first occurrence)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Protezione website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'www.intesasanpaoloprotezione.com' from Mutuo Exclusive page (second occurrence)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaoloprotezione.com' on the Mutuo Exclusive page (second occurrence)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Protezione website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'www.intesasanpaoloassicurazioni.com' from Mutuo Exclusive page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.intesasanpaoloassicurazioni.com' on the Mutuo Exclusive page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Assicurazioni website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from parent to Mutuo Exclusive page via 'Exclusive' menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Mutuo Exclusive page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

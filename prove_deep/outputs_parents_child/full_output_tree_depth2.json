@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://www.ryanair.com/en/en",
+    "depth": 0,
+    "children": [
+      {
+        "url": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+        "depth": 1,
+        "children": [
+          {
+            "url": "http://www.ryanair.com/ie/en/r/help",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/terms-of-use",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/help/contact-us",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-of-use",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+            "depth": 2,
+            "children": []
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-cookies",
+            "depth": 2,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

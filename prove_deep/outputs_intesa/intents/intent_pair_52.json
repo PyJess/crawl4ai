@@ -1,0 +1,30 @@
+[
+  {
+    "test_case_name": "Verify navigation to the disclaimer page via 'Club Azionisti' link",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the disclaimer page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Verify navigation to the disclaimer page via 'Quick Training' link",
+    "references": "parent + child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the disclaimer page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

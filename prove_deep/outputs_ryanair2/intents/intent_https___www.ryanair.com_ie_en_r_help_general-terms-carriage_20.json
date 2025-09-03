@@ -1,0 +1,314 @@
+[
+  {
+    "test_case_name": "Search for Information Using the 'I am looking for\u2026' Field and Submit",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Type '$name' into the 'I am looking for\u2026' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Search' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the FAQs Page from the Navigation Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'FAQs' link in the navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Special Assistance Page from the Navigation Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Special Assistance' link in the navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Special Assistance page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the My Bookings Page from the Navigation Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'My Bookings' link in the navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My Bookings page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the Navigation Menu Using the 'Toggle navigation menu' Button",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Toggle navigation menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is expanded or visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the myRyanair Portal from the Header",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'myRyanair Portal' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Log in Page from the Header",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Log in' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the myRyanair Home Page from the Account Menu",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'myRyanair home' link in the account menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the My Account Page from the Account Menu",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'My account' link in the account menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My account page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the My Wallet Page from the Account Menu",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'My wallet' link in the account menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My wallet page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Manage My Bookings Page from the Account Menu",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Manage my bookings' link in the account menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Manage my bookings page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the My Support Cases Page from the Account Menu",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'My support cases' link in the account menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My support cases page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Help Centre from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Ryanair Help Centre' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Help Centre page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Terms and Conditions Category from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Terms and Conditions' link in the footer (category)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms and Conditions category page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Terms and Conditions Section from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Terms and Conditions' link in the footer (section)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms and Conditions section page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the General Terms & conditions of carriage Article from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'General Terms & conditions of carriage' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General Terms & conditions of carriage article is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Terms of Use Page from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Privacy Policy Page from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Cookies Page from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the Contact Us Page from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the Cookie Preferences Dialog from the Footer Link",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie Preferences' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Preferences dialog or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Change the Language Using the 'Ireland (English)' Button",
+    "references": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+    "intents": [
+      {
+        "intent": "Click the 'Ireland (English)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the language selection menu or options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

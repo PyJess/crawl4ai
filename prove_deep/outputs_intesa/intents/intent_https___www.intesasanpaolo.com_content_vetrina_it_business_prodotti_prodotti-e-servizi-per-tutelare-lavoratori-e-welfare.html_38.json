@@ -1,0 +1,534 @@
+[
+  {
+    "test_case_name": "Accept all cookies via banner button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via main cookie button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options from desktop banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via desktop cookie button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to content using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search bar from header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search bar is displayed and ready for input",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu from header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open login panel from header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search with query",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search with query",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the mobile search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for the entered query",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest with remember me option",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable remember me",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and the session is remembered",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest without remember me option",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the login form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in without the session being remembered",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from login panel",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration page from login panel",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to access the registration page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as new user from mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the mobile registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Collettiva Infortuni details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Collettiva Infortuni",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Collettiva Infortuni details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Piano Sanitario Rimborso Spese Mediche details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Piano Sanitario Rimborso Spese Mediche",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Piano Sanitario Rimborso Spese Mediche details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Collettiva Malattie Gravi details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Collettiva Malattie Gravi",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Collettiva Malattie Gravi details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Welfare Hub details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Welfare Hub",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Welfare Hub details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Infortuni details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Infortuni",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Infortuni details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Malattie Gravi Persone Giuridiche details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Malattie Gravi Persone Giuridiche",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Malattie Gravi Persone Giuridiche details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Protezione Catastrofi Naturali Business details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Protezione Catastrofi Naturali Business",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Protezione Catastrofi Naturali Business details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Tutela Business Commercio details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Tutela Business - Commercio",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Tutela Business - Commercio details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Tutela Business Manifattura details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Tutela Business - Manifattura",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Tutela Business - Manifattura details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Tutela Business Uffici e Studi details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Tutela Business - Uffici e Studi",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Tutela Business - Uffici e Studi details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Tutela Business Agricoltura details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Tutela Business - Agricoltura",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Tutela Business - Agricoltura details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Cyber Protection Business details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Cyber Protection Business",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Cyber Protection Business details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza RC Amministratori Sindaci e Dirigenti details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza RC Amministratori, Sindaci e Dirigenti",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza RC Amministratori, Sindaci e Dirigenti details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza RC Ambientale details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza RC Ambientale",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza RC Ambientale details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza BusinessSempre details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza BusinessSempre",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza BusinessSempre details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Polizza Business 5 details",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-e-servizi-per-tutelare-lavoratori-e-welfare.html",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for Polizza Business 5",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Polizza Business 5 details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

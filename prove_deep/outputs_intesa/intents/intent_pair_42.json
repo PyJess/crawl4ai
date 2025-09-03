@@ -1,0 +1,448 @@
+[
+  {
+    "test_case_name": "Apply 'FINANZA AGEVOLATA' Filter and Confirm Product List Update",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'FINANZA AGEVOLATA' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product list is updated according to the 'FINANZA AGEVOLATA' filter",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Sviluppo ZES e ZLS' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Sviluppo ZES e ZLS'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Sviluppo ZES e ZLS' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Crescita Impresa' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Crescita Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Crescita Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Finanziamenti con fondi BEI' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamenti con fondi BEI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamenti con fondi BEI' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Beni Strumentali \u2013 Nuova Sabatini' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Beni Strumentali \u2013 Nuova Sabatini'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Beni Strumentali \u2013 Nuova Sabatini' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Finanziamento Enti Religiosi' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Enti Religiosi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Enti Religiosi' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'S-Loan' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'S-Loan'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'S-Loan' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Energia Impresa' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Energia Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Energia Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'FRI Specializzazione Intelligente' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'FRI Specializzazione Intelligente'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'FRI Specializzazione Intelligente' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'FCS Green New Deal' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'FCS Green New Deal'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'FCS Green New Deal' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'S-Loan Progetti Green' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'S-Loan Progetti Green'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'S-Loan Progetti Green' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Solution-Loan Lavoro' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Solution-Loan Lavoro'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Solution-Loan Lavoro' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Finanziamento con garanzia SACE Growth' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento con garanzia SACE Growth'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento con garanzia SACE Growth' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Riequilibrio Impresa' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Riequilibrio Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Riequilibrio Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'D-loan' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'D-loan'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'D-loan' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Suite Loan' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Suite Loan'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Suite Loan' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Consulenza R&S e Finanziamenti Europei' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Consulenza R&S e Finanziamenti Europei'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Consulenza R&S e Finanziamenti Europei' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Nova +' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Nova +'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Nova +' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Capitale Impresa' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Capitale Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Capitale Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Finanziamento Microcredito Imprenditoriale' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Microcredito Imprenditoriale'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Microcredito Imprenditoriale' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Neoimpresa' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Neoimpresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Neoimpresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Convertibile Impresa' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Convertibile Impresa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Convertibile Impresa' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Finanziamento Business Gemma' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Business Gemma'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Business Gemma' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Crescita Agri' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Crescita Agri'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Crescita Agri' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details for 'Finanziamento Condominio' from Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link for 'Finanziamento Condominio'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Finanziamento Condominio' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Product Using Desktop Search Field on Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button for desktop search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a Product Using Mobile Search Field on Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $name in the 'Cerca' search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button for mobile search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field on Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'btn-reset-search' button for desktop search",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the desktop search field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options on Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to open cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Business Loans Page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'btn-close' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

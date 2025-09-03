@@ -1,0 +1,154 @@
+[
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage from Privacy Policy and verify trip type selection",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'One way' radio button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'One way' radio button is selected",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage and perform a flight search",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Departure' input field on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into 'Destination' input field on the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'Search' button on the child page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed based on the entered departure and destination",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage and apply a promo code",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Apply promo code' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the promo code input or confirmation is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage and view cookie settings",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'View cookie settings' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie settings panel is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage and accept cookies",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Yes, I agree' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent popup is dismissed and preferences are saved",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage and decline cookies",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'No, thanks' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent popup is dismissed and preferences are saved",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage and open next notification in carousel",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Open next notification' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the next notification is displayed in the carousel",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions of Carriage and open previous notification in carousel",
+    "references": "parent-child",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the 'Privacy Policy' page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Open previous notification' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the previous notification is displayed in the carousel",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

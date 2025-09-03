@@ -1,0 +1,290 @@
+[
+  {
+    "test_case_name": "Accept all cookies using the 'ACCONSENTO' link",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'ACCONSENTO' link to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more cookie options via the 'PI\u00d9 OPZIONI' link",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'PI\u00d9 OPZIONI' link to view more cookie settings",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d.' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the main content using the 'Passa al Contenuto' button",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the menu using the 'Passa al Men\u00f9' button",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the header search input using the header search open button",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Header search open' button to display the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cerca' is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using the header search input and submit button",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Header search open' button to display the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Header search submit' button to perform the search",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Etica del business' tab",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Etica del business' link to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Etica del business' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Investimenti e assicurazioni (SFDR*)' tab",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Investimenti e assicurazioni (SFDR*)' link to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Investimenti e assicurazioni (SFDR*)' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Credito e settori sensibili' tab",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Credito e settori sensibili' link to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Credito e settori sensibili' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Diritti Umani' tab",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Diritti Umani' link to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Diritti Umani' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Ambiente' tab",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Ambiente' link to open the corresponding tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Ambiente' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 'Codice Etico' PDF document",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'PDF' link to download the 'Codice Etico' document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Codice Etico' PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 'Codice Interno di Comportamento di Gruppo' PDF document",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'PDF' link to download the 'Codice Interno di Comportamento di Gruppo' document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Codice Interno di Comportamento di Gruppo' PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 'Linee Guida Anticorruzione' PDF document",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'PDF' link to download the 'Linee Guida Anticorruzione' document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Linee Guida Anticorruzione' PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 'Policy Salute e Sicurezza' PDF document",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'PDF' link to download the 'Policy Salute e Sicurezza' document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Policy Salute e Sicurezza' PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the 'Principi di Sicurezza dell' informazione' PDF document",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'PDF' link to download the 'Principi di Sicurezza dell' informazione' document",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Principi di Sicurezza dell' informazione' PDF file is downloaded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Contatti' page from the footer",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Contatti' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Contatti' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to the 'Newsletter' registration page from the footer",
+    "references": "policy-di-sostenibilita.json",
+    "intents": [
+      {
+        "intent": "Click the 'Newsletter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Newsletter' registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -22,7 +22,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 async def main():
     # Configurazione crawl
     run_config = CrawlerRunConfig(
-        deep_crawl_strategy=BFSDeepCrawlStrategy(max_depth=1, include_external=False),
+        deep_crawl_strategy=BFSDeepCrawlStrategy(max_depth=2, include_external=False),
         scraping_strategy=LXMLWebScrapingStrategy(),
         excluded_tags=["script", "style"],
         remove_forms=True,

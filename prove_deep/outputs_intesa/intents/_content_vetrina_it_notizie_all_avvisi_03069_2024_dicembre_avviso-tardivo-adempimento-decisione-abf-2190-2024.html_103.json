@@ -1,0 +1,552 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie preferences via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie preferences via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Dismiss cookie banner via close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-close' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' section from navigation menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Corporate' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' section from navigation menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gruppo' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' section from navigation menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Careers' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' section from navigation menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'News' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'News' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' section from navigation menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Club Azionisti' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' section from navigation menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza Insieme' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' section from navigation menu",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Quick Training' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' section from logo area",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' section from logo area",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' section from logo area",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' next to the desktop search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using mobile search input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' next to the mobile search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Parla con noi' page from chat section",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access client login via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login with email and password and maintain access",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in and access is maintained",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login with email and password without maintaining access",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in without maintaining access",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery via 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access registration via 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register a new account via 'REGISTRATI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access password recovery via 'Recupera password' link (lowercase)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'www.arbitrobancariofinanziario.it' external link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'www.arbitrobancariofinanziario.it' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the external website 'www.arbitrobancariofinanziario.it' is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Facebook' social media link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Facebook' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Youtube' social media link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Youtube' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Twitter' social media link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Twitter' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'LinkedIn' social media link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'LinkedIn' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Instagram' social media link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Instagram' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/notizie/all/avvisi/03069/2024/dicembre/avviso-tardivo-adempimento-decisione-abf-2190-2024.html",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

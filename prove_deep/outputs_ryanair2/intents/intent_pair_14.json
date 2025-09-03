@@ -1,0 +1,128 @@
+[
+  {
+    "test_case_name": "Navigate to 'corporate.ryanair.com' Cookie Policy and Expand 'Cookies used' Panel",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the 'Cookies used' expansion panel displays the list of strictly necessary cookies.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'corporate.ryanair.com' Cookie Policy and Open Cookie Preferences",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed for 'corporate.ryanair.com'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'corporate.ryanair.com' Cookie Policy and View Privacy Policy",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed for 'corporate.ryanair.com'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'corporate.ryanair.com' Cookie Policy and View Terms of Use",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed for 'corporate.ryanair.com'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'corporate.ryanair.com' Cookie Policy and View General Terms & Conditions of Carriage",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed for 'corporate.ryanair.com'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'corporate.ryanair.com' Cookie Policy and View Cookies Policy",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookies Policy page is displayed for 'corporate.ryanair.com'.",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'corporate.ryanair.com' Cookie Policy and View Contact Us Page",
+    "references": "ryanair_cookie_policy.json",
+    "intents": [
+      {
+        "intent": "Click 'corporate.ryanair.com'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed for 'corporate.ryanair.com'.",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

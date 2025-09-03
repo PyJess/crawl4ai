@@ -1,0 +1,514 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to close the cookie banner on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Cookie Policy from Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to access the Privacy - Cookie policy on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search bar on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is visible and ready for input",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Desktop Search Query on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to submit the search on the business financing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button to reset the search on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Mobile Search Query on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to submit the mobile search on the business financing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login from Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' to access Inbiz login from the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Business Financing Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input on the business financing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest on the business financing page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input on the business financing page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the business financing page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest on the business financing page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is set to be persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Business Financing Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Business Financing Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input on the business financing page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input on the business financing page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest on the business financing page (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from Business Financing Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the business financing page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' on the business financing page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Mobile Sticky Bar Menu on Business Financing Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i prodotti' to open the mobile sticky bar menu on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile sticky bar menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply Product Filters on Business Financing Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'APPLICA FILTRI' to apply product filters on the business financing page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product filters are applied and the filtered results are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Circolante Impresa Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Circolante Impresa' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Circolante Impresa product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Anticipo Fatture Italia ed Estero Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Anticipo fatture Italia ed estero' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo fatture Italia ed estero product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Smobilizzo Crediti di Portafoglio Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Smobilizzo crediti di Portafoglio' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smobilizzo crediti di Portafoglio product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Anticipo Transato POS Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Anticipo transato POS fisico e POS virtuale' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo transato POS fisico e POS virtuale product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Apertura di Credito in Conto Corrente Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Apertura di Credito in Conto Corrente' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apertura di Credito in Conto Corrente product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Tutto 5x1.000 Quote Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Tutto 5x1.000 Quote' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Tutto 5x1.000 Quote product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Tandem Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Tandem' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Tandem product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Finanziamento per Anticipo Contributi Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Finanziamento per anticipo contributi' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanziamento per anticipo contributi product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Apertura di Credito in Conto - Agricoltura Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Apertura di credito in conto - Agricoltura' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apertura di credito in conto - Agricoltura product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cambiale Agraria Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Cambiale agraria' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cambiale agraria product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Prestiti Agrari di Gestione Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Prestiti Agrari di Gestione' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Prestiti Agrari di Gestione product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Pegno Rotativo su Prodotti Agroalimentari e Vini Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Pegno rotativo su prodotti agroalimentari DOP e vini DOC o DOCG' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Pegno rotativo su prodotti agroalimentari DOP e vini DOC o DOCG product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Anticipo Prenotazioni Alberghiere Product Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Anticipo prenotazioni alberghiere' on the business financing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Anticipo prenotazioni alberghiere product details page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

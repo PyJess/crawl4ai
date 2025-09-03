@@ -1,0 +1,486 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and all cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and all cookies are accepted on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop) to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed (desktop)",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer access panel via 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the customer access panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer access panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel via 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Start chat via 'Parla con noi' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link to start a chat",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat page or chat window is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using 'Cosa posso fare per te oggi?' input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click the reset button with class 'btn-reset-search' to clear the search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using 'Cerca' input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button with class 'btn-search' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select document type 'PRIVATI' in online calculator",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click the select field with id 'docType' and choose 'PRIVATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that 'PRIVATI' is selected in the document type field",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Excel calculator via 'Calcola' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Calcola' link to download the Excel calculator file",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Excel file download is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download PDF of operational profiles via 'Leggi' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Leggi' link to download the PDF of operational profiles",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file download is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external site via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' page via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' menu via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link to open the Persone e Famiglie menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' menu via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Business' link to open the Business menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' menu via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link to open the Exclusive menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Facebook profile via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' link to open the official Facebook profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook profile is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Youtube profile via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' link to open the official Youtube profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube profile is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Twitter profile via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' link to open the official Twitter profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter profile is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official LinkedIn profile via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' link to open the official LinkedIn profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn profile is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open official Instagram profile via link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/footer/trasparenza.html",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' link to open the official Instagram profile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram profile is loaded in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

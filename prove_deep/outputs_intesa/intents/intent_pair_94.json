@@ -1,0 +1,318 @@
+[
+  {
+    "test_case_name": "Accept Cookie Consent on Exclusive Product Page After Navigation from Parent",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' button to accept cookies on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed on the Exclusive product page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on Exclusive Product Page via Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' button on the child page to open the guest login form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed on the Exclusive product page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Guest Login on Exclusive Product Page (Desktop) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' button on the child page to open the guest login form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' input field on the guest login form (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field on the guest login form (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit the guest login form (desktop)",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the user is logged in or receives a login response on the Exclusive product page",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Guest Login on Exclusive Product Page (Mobile) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button on the child page to open the guest login form (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' input field on the guest login form (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field on the guest login form (mobile)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit the guest login form (mobile)",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the user is logged in or receives a login response on the Exclusive product page (mobile)",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Exclusive Product Page (Desktop) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' button on the child page to open the guest login form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Recupera Password' link on the guest login form (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated or the recovery form is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Exclusive Product Page (Mobile) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button on the child page to open the guest login form (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Recupera password' link on the guest login form (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated or the recovery form is displayed (mobile)",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Exclusive Product Page (Desktop) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Accesso clienti' button on the child page to open the guest login form",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Registrati' link on the guest login form (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed (desktop)",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Exclusive Product Page (Mobile) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button on the child page to open the guest login form (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'REGISTRATI' button on the guest login form (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed (mobile)",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Exclusive Product Page (Desktop) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Search' button (desktop) on the child page to open the search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the search submit button (desktop) to perform the search",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Exclusive product page (desktop)",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Exclusive Product Page (Mobile) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Menu' button (mobile) on the child page to open the mobile menu",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' input field (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the search submit button (mobile) to perform the search",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Exclusive product page (mobile)",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply and Remove Filters in Sticky Bar on Exclusive Product Page (Mobile) After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Tutti i prodotti' button in the sticky bar (mobile) on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'SOLUZIONE DOMANI' checkbox to select the filter",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'APPLICA FILTRI' button to apply the selected filter",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'SOLUZIONE DOMANI' on the Exclusive product page (mobile)",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Product Details via 'SCOPRI DI PI\u00d9' on Exclusive Product Page After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for a product card on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product detail page is displayed for the selected product",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Quick Start Guide from Exclusive Product Page After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCARICA QUICK START' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Quick Start guide PDF is downloaded or opened",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Security Information from Exclusive Product Page After Parent Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link on the main navigation menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri come fare' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

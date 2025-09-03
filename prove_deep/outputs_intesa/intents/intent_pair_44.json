@@ -1,0 +1,246 @@
+[
+  {
+    "test_case_name": "Accept All Cookies and Access 'Servizi di Pagamento per gli Enti Pubblici' Details",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner in the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Servizi di Pagamento per gli Enti Pubblici' in the child page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the details page for 'Servizi di Pagamento per gli Enti Pubblici' is displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Enti Pubblici' and Search for a Service (Desktop)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cosa posso fare per te oggi?' search field in the child page (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search in the child page (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the entered query",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Enti Pubblici' and Search for a Service (Mobile)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in the 'Cerca' search field in the child page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button to submit the search in the child page (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed according to the entered query",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on 'Enti Pubblici' Page (Desktop)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field in the child page (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field in the child page (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button for guest login in the child page (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on 'Enti Pubblici' Page (Mobile)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the 'E-mail' input field in the child page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $name in the 'Password' input field in the child page (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button for guest login in the child page (mobile)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from 'Enti Pubblici' Page (Desktop)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' link for guest registration in the child page (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from 'Enti Pubblici' Page (Mobile)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'REGISTRATI' button for guest registration in the child page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password from 'Enti Pubblici' Page (Desktop)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' link for guest password recovery in the child page (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated or the recovery form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password from 'Enti Pubblici' Page (Mobile)",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera password' link for guest password recovery in the child page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated or the recovery form is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Servizi digitali per Enti Pubblici' Details from Main Menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Servizi digitali per Enti Pubblici' in the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the details page for 'Servizi digitali per Enti Pubblici' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Servizi accessori d\u2019incasso e rendicontazioni' Details from Main Menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Servizi accessori d\u2019incasso e rendicontazioni' in the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the details page for 'Servizi accessori d\u2019incasso e rendicontazioni' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Servizio di Tesoreria e Cassa' Details from Main Menu",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' in the main menu of the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' for 'Servizio di Tesoreria e Cassa' in the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the details page for 'Servizio di Tesoreria e Cassa' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access privacy and cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view the Privacy - Cookie policy (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login panel via 'Accesso clienti' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open navigation menu via 'Menu' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel via 'Search' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using desktop search input",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search input",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for information using mobile search input",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest using email and password",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable keep me logged in",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password via 'Recupera Password' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest registration via 'Registrati' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to access the guest registration page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest using 'REGISTRATI' button (mobile)",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start guest registration on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Start chat with digital assistant via 'Avvia chat' button",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Avvia chat' button to start a chat with the digital assistant",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat window with the digital assistant is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access branch opening hours via 'TIENITI AGGIORNATO' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'TIENITI AGGIORNATO' link to view branch opening hours",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch opening hours page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking login via 'Entra nella banca online' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Entra nella banca online' link to access the online banking login page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access #IORESTOACASA services via 'Scopri tutti i servizi che abbiamo pensato per te' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri tutti i servizi che abbiamo pensato per te' link to view #IORESTOACASA services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the #IORESTOACASA services page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access recognitions via 'SCOPRI TUTTI I RICONOSCIMENTI' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI TUTTI I RICONOSCIMENTI' link to view recognitions",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the recognitions page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access YouTube video guides via 'Guarda le video guide' link",
+    "references": "parla-con-noi.json",
+    "intents": [
+      {
+        "intent": "Click the 'Guarda le video guide' link to view YouTube video guides",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the YouTube playlist for video guides is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

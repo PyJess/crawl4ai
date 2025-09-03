@@ -1,0 +1,584 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify banner closure on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy - Cookie policy from cookie banner on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using accessibility button on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using accessibility button on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate site from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo site from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers site from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News site from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'News' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Persone e Famiglie section from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Business section from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Exclusive section from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open chat support from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open hamburger menu from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Scopri il conto page from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Scopri il conto page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login from Certificazioni e riconoscimenti page header",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button for desktop search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search field on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'btn-reset-search' button for desktop search",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'btn-search' button for mobile search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset mobile search field on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'btn-reset-search' button for mobile search",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button for guest login (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' during guest login on desktop from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' checkbox is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest on desktop from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link for guest login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on desktop from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link for guest login (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button for guest login (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button for guest login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest on mobile from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link for guest login (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information from Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link in the Sicurezza section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Sicurezza - Scopri come fare page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Facebook page from footer on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Facebook page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Youtube page from footer on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Youtube channel is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Twitter page from footer on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Twitter page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open LinkedIn page from footer on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo LinkedIn page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Instagram page from footer on Certificazioni e riconoscimenti page",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' link in the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Intesa Sanpaolo Instagram page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from parent to Certificazioni e riconoscimenti page and accept cookies",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' on the cookie banner on the Certificazioni e riconoscimenti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible on the Certificazioni e riconoscimenti page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from parent to Certificazioni e riconoscimenti page and perform desktop search",
+    "references": "parent_child.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link in the main menu on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input field on the Certificazioni e riconoscimenti page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'btn-search' button for desktop search on the Certificazioni e riconoscimenti page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed on the Certificazioni e riconoscimenti page",
+        "intent_id": "4"
+      }
+    ]
+  }
+]

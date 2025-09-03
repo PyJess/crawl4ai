@@ -1,0 +1,142 @@
+[
+  {
+    "test_case_name": "Access FAQ Section from Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees Information from Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Fees information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us Page from Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Homepage via Ryanair Logo from Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the 'Ryanair logo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Interact with First Footer Link on Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the first footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Interact with Second Footer Link on Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the second footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Interact with Third Footer Link on Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the third footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Interact with Fourth Footer Link on Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the fourth footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Interact with Fifth Footer Link on Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the fifth footer link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the linked page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Interact with Footer Button on Cookie Policy Subpage",
+    "references": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+    "intents": [
+      {
+        "intent": "Click the footer button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the expected footer button action is performed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

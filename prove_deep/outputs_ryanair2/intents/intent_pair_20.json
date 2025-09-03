@@ -1,0 +1,100 @@
+[
+  {
+    "test_case_name": "Navigate from Cookie Policy to Fees page and verify Fees breadcrumb",
+    "references": "cookie-policy+fees.json",
+    "intents": [
+      {
+        "intent": "Click 'Fees' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Fees' breadcrumb is visible on the Fees page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Help Centre from Cookie Policy and verify Help Centre breadcrumb",
+    "references": "cookie-policy+fees.json",
+    "intents": [
+      {
+        "intent": "Click 'FAQ' link in the header on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Help Centre' breadcrumb is visible on the Fees page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open General terms & conditions of carriage from Cookie Policy and verify legal link on Fees page",
+    "references": "cookie-policy+fees.json",
+    "intents": [
+      {
+        "intent": "Click 'General terms & conditions of carriage' link in the footer on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'General terms & conditions of carriage' legal link is visible in the footer on the Fees page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Terms of Use from Cookie Policy and verify Terms of Use link on Fees page",
+    "references": "cookie-policy+fees.json",
+    "intents": [
+      {
+        "intent": "Click 'Terms of Use' link in the footer on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Terms of Use' legal link is visible in the footer on the Fees page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Privacy Policy from Cookie Policy and verify Privacy policy link on Fees page",
+    "references": "cookie-policy+fees.json",
+    "intents": [
+      {
+        "intent": "Click 'Privacy Policy' link in the footer on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Privacy policy' legal link is visible in the footer on the Fees page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookies link from Cookie Policy and verify Cookies link on Fees page",
+    "references": "cookie-policy+fees.json",
+    "intents": [
+      {
+        "intent": "Click 'Cookies' link in the footer on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cookies' legal link is visible in the footer on the Fees page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Contact us from Cookie Policy and verify Contact us link on Fees page",
+    "references": "cookie-policy+fees.json",
+    "intents": [
+      {
+        "intent": "Click 'Contact us' link in the footer on the Cookie Policy page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Contact us' legal link is visible in the footer on the Fees page",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

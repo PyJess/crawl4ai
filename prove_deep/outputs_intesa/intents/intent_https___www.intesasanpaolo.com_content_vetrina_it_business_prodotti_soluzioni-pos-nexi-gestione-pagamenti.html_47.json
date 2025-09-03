@@ -1,0 +1,580 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using desktop search input",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search input",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for a term using mobile search input",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply product filters for 'RICHIEDI ONLINE' and 'IN PROMOZIONE'",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'RICHIEDI ONLINE' to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the checkbox labeled 'IN PROMOZIONE' to select the filter",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filters",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'RICHIEDI ONLINE' and 'IN PROMOZIONE'",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply product filter for 'RICHIEDI ONLINE' only",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'RICHIEDI ONLINE' to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filter",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'RICHIEDI ONLINE'",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply product filter for 'IN PROMOZIONE' only",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'IN PROMOZIONE' to select the filter",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'APPLICA FILTRI' button to apply the selected filter",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the product list is filtered by 'IN PROMOZIONE'",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the customer login panel",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the customer login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the main menu",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access the 'Parla con noi' page",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to access the contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login via 'ACCEDI' link",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI' link to access Inbiz login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to login as guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest user password",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable the option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access guest registration via 'Registrati' link",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to access guest registration",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI MICROPAGAMENTI' page",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI MICROPAGAMENTI' link to access the micropayments page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the micropayments page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for SoftPOS",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the SoftPOS page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SoftPOS product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for POS Mobile",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the POS Mobile page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Mobile product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Nexi SmartPOS Mini con stampante",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the Nexi SmartPOS Mini con stampante page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS Mini con stampante product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for POS Portatile",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the POS Portatile page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Portatile product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Nexi SmartPOS Mini Telefono",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the Nexi SmartPOS Mini Telefono page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS Mini Telefono product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Nexi SmartPOS",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the Nexi SmartPOS page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for Nexi SmartPOS Cassa +",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the Nexi SmartPOS Cassa + page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Nexi SmartPOS Cassa + product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for POS Cordless +",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the POS Cordless + page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Cordless + product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for POS Fisso con PIN Pad",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the POS Fisso con PIN Pad page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Fisso con PIN Pad product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'SCOPRI DI PI\u00d9' for POS Virtuale XPay Web",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PI\u00d9' link to access the POS Virtuale XPay Web page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS Virtuale XPay Web product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional POS services via 'SCOPRI I SERVIZI' link",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI I SERVIZI' link to access additional POS services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the additional POS services page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read more about POS tax credit via 'LEGGI DI PI\u00d9' link",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'LEGGI DI PI\u00d9' link to read more about POS tax credit",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the POS tax credit information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'QUICK START BANCOMAT PAY E-COMMERCE' PDF",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'QUICK START BANCOMAT PAY E-COMMERCE' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'QUICK START BANCOMAT PAY POS FISICI' PDF",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'QUICK START BANCOMAT PAY POS FISICI' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF file is downloaded or opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access branch search via 'PARLA CON NOI' link (footer)",
+    "references": "soluzioni-pos-nexi-gestione-pagamenti.json",
+    "intents": [
+      {
+        "intent": "Click the 'PARLA CON NOI' link to access the branch search page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

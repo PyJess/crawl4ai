@@ -1,0 +1,250 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Options on 404 Page via Main Menu Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view cookie options",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button to close the cookie banner",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Vai alla home' from 404 Page via Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Vai alla home' to return to the home page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the home page for 'Persone e Famiglie' is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button to search (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button to reset the search (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search field is cleared",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Cerca' search field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button to search (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login on 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password into the 'Password' field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate error message",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' Option During Guest Login on 404 Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email into the 'E-mail' field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password into the 'Password' field",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the checkbox 'Mantieni L'accesso'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the guest user is logged in with the 'Mantieni L'accesso' option enabled or receives an appropriate error message",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password from Guest Login on 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Recupera Password' to initiate password recovery",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the password recovery process is started",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest from 404 Page After Navigating from Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Registrati' to start the guest registration process",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the registration form or process is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Scopri come fare' Security Information from 404 Page via Main Menu",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' in the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Scopri come fare' to view security information",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "test_case_name": "Attempt to access the child disclaimer page directly",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/common/disclaimer/home/emozionale-77.html",
+    "intents": [
+      {
+        "intent": "Navigate to 'https://www.intesasanpaolo.com/content/vetrina/it/common/disclaimer/home/emozionale-77.html' directly in the browser address bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the disclaimer page loads successfully or displays the appropriate content",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

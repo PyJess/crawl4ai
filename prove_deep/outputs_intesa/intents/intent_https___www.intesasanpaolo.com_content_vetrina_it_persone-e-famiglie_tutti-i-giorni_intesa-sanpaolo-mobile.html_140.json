@@ -1,0 +1,422 @@
+[
+  {
+    "test_case_name": "Accept cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept cookies via 'Acconsento' button on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click button with id 'cookie-chiudi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options via 'Pi\u00f9 opzioni' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access additional cookie options via 'Pi\u00f9 opzioni' link on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate site via 'Corporate' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo site via 'Gruppo' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers via 'Careers' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News via 'News' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti via 'Club Azionisti' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme via 'Finanza Insieme' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training via 'Quick Training' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the app via 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE' link (top)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the app download page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access reward section via 'PROVA A VINCERE' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'PROVA A VINCERE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the reward hub page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' modal for grafica esigenze",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for grafica esigenze is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' modal for sotto controllo",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for sotto controllo is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri di pi\u00f9' modal for tanti servizi",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri di pi\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for tanti servizi is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Smart Save via 'Scopri Smart Save' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri Smart Save'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Smart Save page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover SpensieRata via 'Scopri SpensieRata' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri SpensieRata'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the SpensieRata page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover XME Prestito Diretto via 'Scopri XME Prestito Diretto' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri XME Prestito Diretto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the XME Prestito Diretto page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Investo app via 'Scopri l'app' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'app'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Investo app page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Assicurazioni app via 'Scopri l'app' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri l'app'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assicurazioni app page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download the app via 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE' link (bottom)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L\u2019APP INTESA SANPAOLO MOBILE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the app download page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover all recognitions via 'SCOPRI TUTTI I RICONOSCIMENTI' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/intesa-sanpaolo-mobile.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI TUTTI I RICONOSCIMENTI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the recognitions page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

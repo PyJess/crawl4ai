@@ -1,0 +1,530 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie consent banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access More Cookie Options on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view more cookie options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Content Using Accessibility Button on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using Accessibility Button on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to open the login panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Panel on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search panel",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the mobile search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Mobile Search on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the mobile search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Type $email into the input with placeholder 'E-mail' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the input with placeholder 'Password' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Desktop from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' to start the guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Mobile from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to start the guest registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Desktop from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Mobile from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' to start the password recovery process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Toggle Remember Me Checkbox on Desktop from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to toggle the remember me option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the remember me option is selected or deselected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Contact Us Page from Child Page Header",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header to open the contact us page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Contact Us Page from Mobile Menu on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the mobile menu to open the contact us page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login from Desktop on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' in the business login section to access Inbiz login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz Login from Mobile on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' in the mobile business login section to access Inbiz login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Security Information from Desktop on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' in the security section to access security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Security Information from Mobile on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' in the mobile security section to access security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open ABF External Link (First Notice) from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'www.arbitrobancariofinanziario.it' (first notice) to open the ABF external link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the ABF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open ABF External Link (Second Notice) from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'www.arbitrobancariofinanziario.it' (second notice) to open the ABF external link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the ABF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open ABF External Link (Third Notice) from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'www.arbitrobancariofinanziario.it' (third notice) to open the ABF external link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the ABF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open ABF External Link (Fourth Notice) from Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'www.arbitrobancariofinanziario.it' (fourth notice) to open the ABF external link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the ABF website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Facebook from Footer on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Facebook' in the footer to open the Facebook page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Facebook page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Youtube from Footer on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Youtube' in the footer to open the Youtube page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Youtube page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Twitter from Footer on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Twitter' in the footer to open the Twitter page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Twitter page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open LinkedIn from Footer on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'LinkedIn' in the footer to open the LinkedIn page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the LinkedIn page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Instagram from Footer on Child Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click 'Instagram' in the footer to open the Instagram page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Instagram page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Parent to Child Page via 'News' Link",
+    "references": "parent, child",
+    "intents": [
+      {
+        "intent": "Click 'News' in the parent page to navigate to the news section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page 'Avviso adempimento tardivo decisioni ABF' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

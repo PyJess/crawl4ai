@@ -1,0 +1,402 @@
+[
+  {
+    "test_case_name": "Accept all cookies via the 'ACCONSENTO' link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'ACCONSENTO' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies and view more options via the 'PI\u00d9 OPZIONI' link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'PI\u00d9 OPZIONI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences or options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d.' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the main content using the 'Passa al Contenuto' button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the menu using the 'Passa al Men\u00f9' button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip directly to the footer using the 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open the search bar using the search button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Open search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cerca' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the header search input and submit button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Open search' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Header search submit' button",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open and close the main menu using the hamburger button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Open/close main menu (hamburger)' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed or hidden accordingly",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Iniziative per Universit\u00e0 e Scuola' via the aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Iniziative per Universit\u00e0 e Scuola ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Iniziative per Universit\u00e0 e Scuola' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Iniziative per il sociale' via the aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Iniziative per il sociale' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Iniziative per il sociale' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Iniziative per l\u2019occupabilit\u00e0' via the aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Iniziative per l\u2019occupabilit\u00e0 ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Iniziative per l\u2019occupabilit\u00e0' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Fondo di Beneficenza' via the aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Fondo di Beneficenza' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Fondo di Beneficenza' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Enti non profit costituiti dalla Banca' via the aside menu link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Enti non profit costituiti dalla Banca' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Enti non profit costituiti dalla Banca' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'L\u2019Osservatorio di Intesa Sanpaolo per il sociale' via the card link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'L\u2019Osservatorio di Intesa Sanpaolo per il sociale' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'L\u2019Osservatorio di Intesa Sanpaolo per il sociale' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Youth Forum per il Sociale di Intesa Sanpaolo' via the card link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Youth Forum per il Sociale di Intesa Sanpaolo' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Youth Forum per il Sociale di Intesa Sanpaolo' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Iniziative per Universit\u00e0 e Scuola' via the card link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Iniziative per Universit\u00e0 e Scuola' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Iniziative per Universit\u00e0 e Scuola' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Iniziative per il Sociale' via the card link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Iniziative per il Sociale' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Iniziative per il Sociale' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Fondo di Beneficenza' via the card link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Fondo di Beneficenza' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Fondo di Beneficenza' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Enti non profit costituiti dalla Banca' via the card link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Enti non profit costituiti dalla Banca ' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Enti non profit costituiti dalla Banca' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Nessuno escluso' via the hero link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Nessuno escluso' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Nessuno escluso' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access 'Nessuno escluso' initiatives via the 'Scopri di pi\u00f9' button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Nessuno escluso' initiatives page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza e Mercati Digitali e Sostenibili' via the news overlay card link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza e Mercati Digitali e Sostenibili' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanza e Mercati Digitali e Sostenibili' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'SROI: misurare il valore sociale' via the article link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'SROI: misurare il valore sociale' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SROI: misurare il valore sociale' article is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Aiutare chi Aiuta: un sostegno alle nuove fragilit\u00e0' via the article link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Aiutare chi Aiuta: un sostegno alle nuove fragilit\u00e0' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Aiutare chi Aiuta: un sostegno alle nuove fragilit\u00e0' article is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Dispersione Scolastica: progetto di ricerca congiunto' via the article link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Dispersione Scolastica: progetto di ricerca congiunto' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Dispersione Scolastica: progetto di ricerca congiunto' article is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'The Way Out' via the hero link",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'The Way Out' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'The Way Out' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access all episodes of 'The Way Out' via the 'Scopri tutti gli episodi' button",
+    "references": "https://group.intesasanpaolo.com/it/sociale",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri tutti gli episodi' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all episodes of 'The Way Out' are displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

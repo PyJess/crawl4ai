@@ -1,0 +1,544 @@
+[
+  {
+    "test_case_name": "Accept Cookies Banner on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookies banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy Options from Child Page (Mobile)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to open cookie policy options (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie policy options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy Options from Child Page (Desktop)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to open cookie policy options (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie policy options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept Cookies Banner on Child Page (Desktop)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookies banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate Site from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo Site from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers Site from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Site from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'News' link to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to navigate to the Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Persone e Famiglie Section from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' link to navigate to the Persone e Famiglie section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Persone e Famiglie section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Business Section from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Business' link to navigate to the Business section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Business section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Exclusive Section from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' link to navigate to the Exclusive section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Exclusive section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Modal from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the client login modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed and focused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via Parla con noi from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link to access the support page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search button with class 'btn-search' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click reset button with class 'btn-reset-search' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click search button with class 'btn-search' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Child Page (Desktop)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input field (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to login as guest (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option on Guest Login (Desktop)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to enable remember me option (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the remember me option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Child Page (Desktop)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to initiate password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Child Page (Desktop)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to start guest registration (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Child Page (Mobile)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into 'Password' input field (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to login as guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Child Page (Mobile)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to start guest registration (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Guest Password on Child Page (Mobile)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to initiate password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is started",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Application from Hero Section on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'INVIA LA TUA CANDIDATURA' link in the hero section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the application submission page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Watch Video from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'GUARDA IL VIDEO' link to watch the video",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the video is played in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Submit Application from CTA Promo on Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'INVIA LA TUA CANDIDATURA' link in the CTA promo section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the application submission page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Listen to Podcast from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'Ascolta le loro voci' link to listen to the podcast",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the podcast page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Learn More About the Program from Child Page",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9 SUL PROGRAMMA' link to learn more about the program",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the program information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Client Login Modal from Child Page (Mobile)",
+    "references": "parent+child.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button to open the client login modal (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

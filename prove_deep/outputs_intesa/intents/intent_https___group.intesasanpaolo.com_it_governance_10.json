@@ -1,0 +1,430 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Cookie Banner",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'ACCONSENTO'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject Cookies and View More Options",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'PI\u00d9 OPZIONI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences or more options page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close Cookie Banner Without Accepting or Rejecting",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Per accettare tutti i cookie, clicca sul pulsante \u201cAcconsento\u201d.'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed without accepting or rejecting cookies.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip Directly to Main Content Using Accessibility Button",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section of the page.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip Directly to Menu Using Accessibility Button",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section of the page.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip Directly to Footer Using Accessibility Button",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section of the page.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Header Search Bar",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Header search open'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed and focused.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a Search Using Header Search Bar",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Header search open'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Header search submit'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results page is displayed for $name.",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Homepage via Breadcrumb Link",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Homepage'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Azionariato Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Azionariato'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Azionariato section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Assemblea degli Azionisti Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Assemblea degli Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assemblea degli Azionisti section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Consiglio di Amministrazione Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Consiglio di Amministrazione e Comitato per il Controllo sulla Gestione'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Consiglio di Amministrazione section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Comitati del Consiglio di Amministrazione Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Comitati del Consiglio di Amministrazione'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Comitati del Consiglio di Amministrazione section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Strutture Centrali Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Strutture Centrali'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Strutture Centrali section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Risk Management Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Risk Management'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Risk Management section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Revisione legale dei conti Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Revisione legale dei conti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Revisione legale dei conti section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Delibere consiliari Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Delibere consiliari'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Delibere consiliari section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Compensi e possessi azionari Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Compensi e possessi azionari'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Compensi e possessi azionari section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Internal Dealing Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Internal Dealing'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Internal Dealing section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Documenti societari Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Documenti societari'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Documenti societari section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to D.Lgs 231/2001 e Anticorruzione Section from Aside Menu",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'D.Lgs 231/2001 e Anticorruzione'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the D.Lgs 231/2001 e Anticorruzione section is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Approfondisci for Assemblea degli Azionisti",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'APPROFONDISCI' (CTA Approfondisci Assemblea degli Azionisti)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the detailed page for Assemblea degli Azionisti is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Approfondisci for Consiglio di Amministrazione",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'APPROFONDISCI' (CTA Approfondisci Consiglio di Amministrazione)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the detailed page for Consiglio di Amministrazione is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Read Biographies of Top Managers",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'LEGGI LA BIOGRAFIA'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the biographies of top managers are displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Assemblea degli Azionisti from In Primo Piano Link",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Assemblea degli Azionisti' (In primo piano link)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Assemblea degli Azionisti page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Statuto PDF Document",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Statuto al 27 maggio 2025'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Statuto PDF document is downloaded or opened in a new tab.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Relazione su Governo Societario e Assetti Proprietari PDF Document",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Relazione su Governo Societario e Assetti Proprietari'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Relazione su Governo Societario e Assetti Proprietari PDF document is downloaded or opened in a new tab.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Relazione sulla politica in materia di remunerazione e sui compensi corrisposti PDF Document",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Relazione sulla politica in materia di remunerazione e sui compensi corrisposti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Relazione sulla politica in materia di remunerazione e sui compensi corrisposti PDF document is downloaded or opened in a new tab.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Storico Governance di Banca Intesa",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Storico\n Governance di Banca Intesa'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Storico Governance di Banca Intesa page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Storico Governance di Sanpaolo IMI",
+    "references": "https://group.intesasanpaolo.com/it/governance",
+    "intents": [
+      {
+        "intent": "Click 'Storico\n Governance di Sanpaolo IMI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Storico Governance di Sanpaolo IMI page is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

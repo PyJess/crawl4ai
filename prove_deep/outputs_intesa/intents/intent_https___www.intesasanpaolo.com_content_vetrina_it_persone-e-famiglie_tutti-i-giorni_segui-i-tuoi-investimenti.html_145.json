@@ -1,0 +1,638 @@
+[
+  {
+    "test_case_name": "Accept All Cookies via Cookie Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookie Policy via 'Pi\u00f9 opzioni' Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' to view the Privacy - Cookie policy",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept All Cookies on Desktop via Cookie Banner",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Menu Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate Section via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' to navigate to the Corporate section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo Section via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' to navigate to the Gruppo section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers Section via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' to navigate to the Careers section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Section via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'News' to navigate to the News section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' to navigate to the Club Azionisti section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' to navigate to the Finanza Insieme section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training via Header Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' to navigate to the Quick Training section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' to view all products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' to view daily services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' to view life moments services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' CTA",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Banking Login Page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Entra nella banca online' to access the online banking login page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover Account Options via 'Scopri il conto' CTA",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' to discover account options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account comparison page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Customer Login via 'Accesso clienti' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' to access the customer login section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu via 'Menu' Button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' to open the main navigation menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main navigation menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search via 'Search' Button in Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Search' to open the search input in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed in the header",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' in Header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the header to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Desktop Search Input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (desktop)' button to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click the 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information Using Mobile Search Input",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the 'Cerca (mobile)' button to perform the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to stay logged in",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' to log in as a guest",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password via 'Recupera Password' Link on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' to start the password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User via 'Registrati' Link on Desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' to start the registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User via 'REGISTRATI' Button on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' to start the registration process on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password via 'Recupera password' Link on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' to start the password recovery process on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Banking Login via Accordion on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' to expand the online banking login section on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login section is expanded on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Guest Login via Accordion on Mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' to expand the guest login section on mobile",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login section is expanded on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security Information via 'Scopri come fare' Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' to view online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Home via Breadcrumb",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Home' in the breadcrumb to return to the home page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support via 'Parla con noi' in Footer",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' in the footer to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Branches, ATMs, and Mooney Points via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'CERCA FILIALI, ATM E PUNTI VENDITA ABILITATI MOONEY' to search for branches, ATMs, and Mooney points",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the branch and ATM search page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Service Guide via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'GUIDA AI SERVIZI' to access the service guide",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the service guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Frequently Asked Questions via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'DOMANDE FREQUENTI' to access the frequently asked questions",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Block Card via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'BLOCCA LA TUA CARTA' to block your card",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the card blocking page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Disconoscimento via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'DISCONOSCIMENTO' to access the disconoscimento page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the disconoscimento page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Digital Branch Guide via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI LA FILIALE DIGITALE' to access the digital branch guide",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the digital branch guide page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Online Security via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SICUREZZA' to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Succession Services via Footer Link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/tutti-i-giorni/segui-i-tuoi-investimenti.html",
+    "intents": [
+      {
+        "intent": "Click 'SUCCESSIONI' to access succession services",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the succession services page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

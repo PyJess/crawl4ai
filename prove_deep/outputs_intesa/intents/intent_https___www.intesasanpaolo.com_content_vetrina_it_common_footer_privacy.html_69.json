@@ -1,0 +1,836 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (mobile)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view more cookie options (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Pi\u00f9 opzioni' link to view more cookie options (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie Policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu using 'Menu' button",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the mobile menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login using 'Accesso clienti' button (desktop)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login form (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button (desktop)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login using 'Accesso clienti' button (mobile)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Accesso clienti' button to open the client login form (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login form is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open mobile menu using 'Menu' button (mobile)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Menu' button to open the mobile menu (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile menu is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search using 'Search' button (mobile)",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Search' button to open the search field (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cerca' is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the desktop search field",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset the desktop search field",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' to reset the search field (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input with placeholder 'Cosa posso fare per te oggi?' is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search using the mobile search field",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Type $name into the input field with placeholder 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop with 'Mantieni L'accesso' checked",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input field with placeholder 'Password' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' to enable keep me logged in",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form (desktop)",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and remains logged in",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop without 'Mantieni L'accesso' checked",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input field with placeholder 'Password' (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest without keep me logged in enabled",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest on desktop",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera Password' link to start the password recovery process (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on desktop",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrati' link to start the guest registration process (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Type $email into the input field with placeholder 'E-mail' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input field with placeholder 'Password' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the 'ENTRA' button to submit the guest login form (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password as guest on mobile",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Recupera password' link to start the password recovery process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'REGISTRATI' button to start the guest registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external site",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Corporate' link to navigate to the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external site",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Gruppo' link to navigate to the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external site",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Careers' link to navigate to the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external site",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'News' link to navigate to the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' page",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Club Azionisti' link to navigate to the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external site",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Finanza Insieme' link to navigate to the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme site is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' page",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Quick Training' link to navigate to the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' menu",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Persone e Famiglie' link to open the corresponding menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' menu or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' menu",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Business' link to open the corresponding menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' menu or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' menu",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Exclusive' link to open the corresponding menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' menu or page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Inbiz login via 'ACCEDI' button",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'ACCEDI' button to access Inbiz",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact support via 'Parla con noi' link",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Parla con noi' link to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the support contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Home' via breadcrumb link",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Home' link in the breadcrumb navigation",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Home page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View privacy information for clients via 'Scopri di pi\u00f9' link",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link to view privacy information for clients",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy information page for clients is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa e consensi per iniziative commerciali Clienti Prospect' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa e consensi per iniziative commerciali Clienti Prospect' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Control Room Sicurezza Fisica' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Control Room Sicurezza Fisica' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Codice di Condotta - Informativa' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Codice di Condotta - Informativa' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa firma grafometrica' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa firma grafometrica' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Focus: i tuoi diritti' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Focus: i tuoi diritti' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Modello esercizio diritti in materia di protezione dei dati personali' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Modello esercizio diritti in materia di protezione dei dati personali' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Anagrafe Unica Welfare' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Anagrafe Unica Welfare' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa sistemi di videosorveglianza' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa sistemi di videosorveglianza' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Privacy Information Notice video surveillance systems - English' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Information Notice video surveillance systems - English' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informationsschreiben zum schutz personenbezogener daten die \u00fcber videoger\u00e4te gesammelt wurden (video\u00fcberwachung) \u2013 De\u00fctsche version' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informationsschreiben zum schutz personenbezogener daten die \u00fcber videoger\u00e4te gesammelt wurden (video\u00fcberwachung) \u2013 De\u00fctsche version' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Operazione societaria tra Intesa Sanpaolo S.p.A. e Isybank S.p.A' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Operazione societaria tra Intesa Sanpaolo S.p.A. e Isybank S.p.A' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Registrazione delle comunicazioni nell\u2019ambito della prestazione di attivit\u00e0 e servizi di investimento' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Registrazione delle comunicazioni nell\u2019ambito della prestazione di attivit\u00e0 e servizi di investimento' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa privacy Careers' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa privacy Careers' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Privacy Information Notice Careers - English version' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Information Notice Careers - English version' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa privacy per i visitatori' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa privacy per i visitatori' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa sulla protezione dei dati personali per l\u2019utilizzo dell\u2019App' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa sulla protezione dei dati personali per l\u2019utilizzo dell\u2019App' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Personal data protection policy for the use of the App - English version' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Personal data protection policy for the use of the App - English version' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa sulla protezione dei dati personali di atleti con contratto di Testimonial/Ambassador' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa sulla protezione dei dati personali di atleti con contratto di Testimonial/Ambassador' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download 'Informativa sulla protezione dei dati personali di atleti e staff trattati in articoli, foto e video pubblicati sul sito internet Intesa Sanpaolo' PDF",
+    "references": "privacy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Informativa sulla protezione dei dati personali di atleti e staff trattati in articoli, foto e video pubblicati sul sito internet Intesa Sanpaolo' link to download the PDF",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the PDF is downloaded or opened in a new tab",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

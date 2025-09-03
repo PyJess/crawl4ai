@@ -1,0 +1,128 @@
+[
+  {
+    "test_case_name": "Navigate from Cookie Policy to Buzzair.com Cookie Details and Expand Cookies Used Panel",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookies used panel expands and displays the relevant information on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Buzzair.com Cookie Details and Open Cookie Preferences Modal",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences' button on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal is displayed on the child page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Buzzair.com Cookie Details and Access General Terms & Conditions of Carriage",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the general terms & conditions of carriage page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Buzzair.com Cookie Details and Access Terms of Use",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the terms of use page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Buzzair.com Cookie Details and Access Privacy Policy",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the privacy policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Buzzair.com Cookie Details and Access Cookies Policy",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies' link on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the cookies policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate from Cookie Policy to Buzzair.com Cookie Details and Access Contact Us Page from Footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'buzzair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the contact us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

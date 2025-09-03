@@ -1,0 +1,530 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using 'Chiudi cookie banner' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi cookie banner'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie policy via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login panel via 'Accesso clienti' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search panel via 'Search' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate search using desktop search input and button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Type $name in 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search using 'Reset ricerca (desktop)' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Reset ricerca (desktop)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate search using mobile search input and button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Type $name in 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login panel via 'Accesso clienti' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client login panel is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu via 'Menu' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' page via header link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Scopri il conto' page via header link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Scopri il conto' page is displayed on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Type $email in 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on desktop",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Type $email in 'E-mail' (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password in 'Password' (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in on mobile",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password on desktop",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password on mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated on desktop",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'REGISTRATI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration process is initiated on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply 'RICHIEDI ONLINE' filter",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'RICHIEDI ONLINE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'RICHIEDI ONLINE' filter is applied to the product list",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply 'IN PROMOZIONE' filter",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'IN PROMOZIONE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'IN PROMOZIONE' filter is applied to the product list",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Apply filters and confirm via 'APPLICA FILTRI' button (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'APPLICA FILTRI'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the selected filters are applied to the product list on mobile",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Polizze ViaggiaConMe' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Polizze ViaggiaConMe)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Polizze ViaggiaConMe' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Polizza MotoConMe' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Polizza MotoConMe)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Polizza MotoConMe' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'XME Protezione' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (XME Protezione)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'XME Protezione' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Polizza Mi Curo dei Miei' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Polizza Mi Curo dei Miei)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Polizza Mi Curo dei Miei' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Polizza Incendio Mutui' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Polizza Incendio Mutui)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Polizza Incendio Mutui' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Polizza ProteggiMutuo Smart' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Polizza ProteggiMutuo Smart)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Polizza ProteggiMutuo Smart' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Polizza ProteggiPrestito' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Polizza ProteggiPrestito)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Polizza ProteggiPrestito' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open product details for 'Protezione Smartphone' via 'SCOPRI DI PI\u00d9' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/persone-e-famiglie/prodotti/assicurazioni.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' (Protezione Smartphone)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the product details page for 'Protezione Smartphone' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

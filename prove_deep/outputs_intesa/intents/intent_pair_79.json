@@ -1,0 +1,474 @@
+[
+  {
+    "test_case_name": "Accept All Cookies and Verify on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences are saved and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Options and Verify Navigation on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to view cookie policy options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Privacy - Cookie policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using Accessibility Button on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate External Link from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to open the external corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'https://imi.intesasanpaolo.com/' page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo External Link from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to open the external group site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'https://group.intesasanpaolo.com/' page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers External Link from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to open the external careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'https://group.intesasanpaolo.com/it/careers' page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News External Link from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' link to open the external news site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'https://group.intesasanpaolo.com/it/sala-stampa' page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti External Link from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to open the Club Azionisti page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme External Link from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to open the Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'https://www.finanzainsieme.com/' page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training External Link from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to open the Quick Training page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Desktop Search and Verify Results on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search submit button (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Desktop Search Field on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the search reset button (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Mobile Search and Verify Results on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' search input (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search submit button (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu Using Desktop Button on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel Using Desktop Button on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the login panel (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Login Panel Using Mobile Button on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button to open the login panel (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login panel is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Desktop from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit the guest login (desktop)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as Guest on Mobile from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the 'Password' input (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit the guest login (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest and redirected to the appropriate page",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Desktop from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to start password recovery (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover Password on Mobile from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to start password recovery (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User on Desktop from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to start the registration process (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as New User on Mobile from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to start the registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable Remember Me Option During Desktop Login on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox to enable remember me (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the remember me option is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Sicurezza Info Link on Desktop from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to view online security information (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Sicurezza Info Link on Mobile from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to view online security information (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to In Breve Section Using Sticky Anchor on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'In breve' link to navigate to the In breve section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the In breve section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Scopri con Noi Section Using Sticky Anchor on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri con noi' link to navigate to the Scopri con noi section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page scrolls to the Scopri con noi section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Webinar Information from Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link to view webinar information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the webinar information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support Using Parla con Noi CTA on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'PARLA CON NOI' link to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact support page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Return to Home Using Breadcrumb on Filiale Digitale Guida Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Home' link in the breadcrumb to return to the homepage",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the homepage is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,606 @@
+[
+  {
+    "test_case_name": "Accept All Cookies on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the Tapster page to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access More Cookie Options on Tapster Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Tapster page to view more cookie options (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access More Cookie Options on Tapster Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the Tapster page to view more cookie options (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' on the Tapster page to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' on the Tapster page to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' on the Tapster page to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is on the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Corporate External Link from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' on the Tapster page to open the external Corporate site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Gruppo External Link from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' on the Tapster page to open the external Gruppo site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers External Link from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Careers' on the Tapster page to open the external Careers site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News External Link from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'News' on the Tapster page to open the external News site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Club Azionisti External Link from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' on the Tapster page to open the external Club Azionisti site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Finanza Insieme External Link from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' on the Tapster page to open the external Finanza Insieme site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme website is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Quick Training External Link from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' on the Tapster page to open the external Quick Training site",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training website is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' Tab on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' on the Tapster page to view all products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' Tab on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni' on the Tapster page to view daily products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i giorni' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' Tab on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita' on the Tapster page to view life moments products",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti della Vita' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' Main Menu from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie' on the Tapster page to access the main menu for individuals and families",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Persone e Famiglie' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' Main Menu from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Business' on the Tapster page to access the main menu for businesses",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Business' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' Main Menu from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive' on the Tapster page to access the main menu for exclusive clients",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Exclusive' section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Customer Login from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' on the Tapster page to open the customer login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Main Menu (Burger) from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Menu' on the Tapster page to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Search' on the Tapster page to open the search bar",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Contact Support from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the Tapster page to contact support",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page or chat is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover the Account from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the Tapster page to discover the account",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account discovery page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Tapster Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cosa posso fare per te oggi?' input on the Tapster page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search on the Tapster page (desktop)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset Search on Tapster Page (Desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the reset search button on the Tapster page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Search for Information on Tapster Page (Mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name into the 'Cerca' input on the Tapster page (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the search button to submit the search on the Tapster page (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accordion: Access Online Banking (Mobile) on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE' on the Tapster page to expand online banking access (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online banking login section is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accordion: Enter as Guest (Mobile) on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE' on the Tapster page to expand guest login section (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login section is expanded",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Guest Login on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $email into the 'E-mail' input on the Tapster page (guest login)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into the 'Password' input on the Tapster page (guest login)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' to submit the guest login form on the Tapster page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in or receives an appropriate message",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Forgot Password for Guest Login on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the Tapster page (guest login) to start password recovery",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Remember Me Option for Guest Login on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'Mantieni L'accesso' checkbox on the Tapster page (guest login)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Mantieni L'accesso' option is selected",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as Guest on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the Tapster page (guest login) to start registration",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Modal to Download Intesa Sanpaolo Mobile App from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP INTESA SANPAOLO MOBILE' on the Tapster page to open the download modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for downloading the Intesa Sanpaolo Mobile app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Modal to Download Tapster App from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP TAPSTER' on the Tapster page to open the download modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for downloading the Tapster app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Modal to Add Card from gotapster.com on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'AGGIUNGI CARTA DAL SITO GOTAPSTER.COM' on the Tapster page to open the add card modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for adding a card from gotapster.com is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Modal to Add Card from Tapster App on Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'AGGIUNGI CARTA DALL\u2019APP TAPSTER' on the Tapster page to open the add card modal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for adding a card from the Tapster app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile App for Android from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP ANDROID' on the Tapster page (Intesa Sanpaolo Mobile) to download the Android app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Google Play Store page for Intesa Sanpaolo Mobile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile App for iOS from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP IOS' on the Tapster page (Intesa Sanpaolo Mobile) to download the iOS app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apple App Store page for Intesa Sanpaolo Mobile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile App for Huawei from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP HUAWEI' on the Tapster page (Intesa Sanpaolo Mobile) to download the Huawei app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Huawei AppGallery page for Intesa Sanpaolo Mobile is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Tapster App for Android from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP ANDROID' on the Tapster page (Tapster) to download the Android app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Google Play Store page for Tapster is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Tapster App for iOS from Tapster Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP IOS' on the Tapster page (Tapster) to download the iOS app",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Apple App Store page for Tapster is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "test_case_name": "Accept cookies on mobile and verify banner closes",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (Accept cookies on mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more cookie options on mobile and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (More cookie options on mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page navigates to '/it/common/footer/cookies.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept cookies on desktop and verify banner closes",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (Accept cookies on desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access more cookie options on desktop and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' (More cookie options on desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page navigates to '/it/common/footer/cookies.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to content using accessibility button and verify focus",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using accessibility button and verify focus",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the menu area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using accessibility button and verify focus",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer area",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Corporate' external link and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Corporate'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://imi.intesasanpaolo.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Gruppo' external link and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Careers' external link and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Careers'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/it/careers'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'News' external link and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'News'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://group.intesasanpaolo.com/it/sala-stampa'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Club Azionisti' and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/common/landing/club-azionisti.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Finanza Insieme' external link and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://www.finanzainsieme.com/'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Quick Training' and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/common/landing/quick-training-banca-digitale.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab and verify content",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the content for 'Tutti i Prodotti' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i giorni' tab and verify content",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i giorni'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the content for 'Tutti i giorni' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti della Vita' tab and verify content",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Momenti della Vita'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the content for 'Momenti della Vita' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Persone e Famiglie' from main menu and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Persone e Famiglie'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/persone-e-famiglie.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Business' from main menu and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Business'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/business.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Exclusive' from main menu and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Exclusive'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/exclusive.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client login and verify login form is displayed",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using burger button and verify menu is displayed",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search and verify search input is displayed",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Search'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/common/parla-con-noi.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' and verify navigation",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to '/it/persone-e-famiglie/prodotti/conti-e-libretti/confronta-conti-corrente.html'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search and verify results",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Submit search (desktop)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search and verify input is cleared",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Reset search (desktop)'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search and verify results",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Submit search (mobile)'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking as user on mobile and verify login form",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI ALLA TUA BANCA ONLINE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the user login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online banking as guest on mobile and verify guest login form",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA COME OSPITE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest login form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest with remember me and verify authentication",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is authenticated and redirected appropriately",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest without remember me and verify authentication",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is authenticated and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest password and verify recovery process",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest and verify registration form",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration form is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open modal to download Intesa Sanpaolo Mobile app and verify modal is displayed",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP\nINTESA SANPAOLO MOBILE'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for downloading Intesa Sanpaolo Mobile app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open modal to download Tapster app and verify modal is displayed",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP\nTAPSTER'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for downloading Tapster app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open modal to add card from gotapster.com and verify modal is displayed",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'AGGIUNGI CARTA DAL SITO GOTAPSTER.COM'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for adding a card from gotapster.com is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open modal to add card from Tapster app and verify modal is displayed",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'AGGIUNGI CARTA DALL\u2019APP TAPSTER'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the modal for adding a card from the Tapster app is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile Android app and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP ANDROID' (Intesa Sanpaolo Mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://play.google.com/store/apps/details?id=com.latuabancaperandroid'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile iOS app and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP IOS' (Intesa Sanpaolo Mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://apps.apple.com/it/app/la-tua-banca-per-iphone/id597360475'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Intesa Sanpaolo Mobile Huawei app and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP HUAWEI' (Intesa Sanpaolo Mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://appgallery.huawei.com/#/app/C103405053'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Tapster Android app and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP ANDROID' (Tapster)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://play.google.com/store/apps/details?id=com.gotapster.app'",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Download Tapster iOS app and verify redirection",
+    "references": "pagamento-contactless-tapster.json",
+    "intents": [
+      {
+        "intent": "Click 'SCARICA L'APP IOS' (Tapster)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the browser navigates to 'https://apps.apple.com/gb/app/tapster-contactless-wearables/id6447680921'",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

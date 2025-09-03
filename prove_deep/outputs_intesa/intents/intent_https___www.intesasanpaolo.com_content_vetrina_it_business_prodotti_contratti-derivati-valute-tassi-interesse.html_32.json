@@ -1,0 +1,740 @@
+[
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner using close button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click '' button with id 'cookie-chiudi' to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is no longer visible",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to go to the cookie options page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access cookie options via 'Pi\u00f9 opzioni' link (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link to go to the cookie options page (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie options page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies via 'Acconsento' button (desktop)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' button to accept all cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed and cookies are accepted",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to the main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main menu using 'Passa al Men\u00f9' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the main menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus is moved to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Corporate' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Corporate' link to open the external Corporate page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Corporate page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Gruppo' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Gruppo' link to open the external Gruppo page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Gruppo page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Careers' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Careers' link to open the external Careers page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Careers page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'News' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'News' link to open the external News page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the News page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Club Azionisti' landing page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Club Azionisti' link to open the Club Azionisti landing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Club Azionisti landing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open external 'Finanza Insieme' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanza Insieme' link to open the external Finanza Insieme page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Finanza Insieme page is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Quick Training' landing page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Quick Training' link to open the Quick Training landing page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Quick Training landing page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Tutti i Prodotti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' button to switch to the 'Tutti i Prodotti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Settori' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Settori' button to switch to the 'Settori' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Momenti' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Momenti' button to switch to the 'Momenti' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Switch to 'Servizi digitali' tab",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali' button to switch to the 'Servizi digitali' tab",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Conti correnti aziendali' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Conti correnti aziendali' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Conti correnti aziendali' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Carte' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Carte' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Carte' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Incassi e pagamenti' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Incassi e pagamenti' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Incassi e pagamenti' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Protezione e welfare' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Protezione e welfare' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Protezione e welfare' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Finanziamenti per liquidit\u00e0' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanziamenti per liquidit\u00e0' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanziamenti per liquidit\u00e0' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Soluzioni POS' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Soluzioni POS' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Soluzioni POS' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Finanziamenti per investimenti' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Finanziamenti per investimenti' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Finanziamenti per investimenti' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Estero e internazionalizzazione' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Estero e internazionalizzazione' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Estero e internazionalizzazione' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Factoring e Confirming' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Factoring e Confirming' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Factoring e Confirming' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Leasing' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Leasing' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Leasing' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Gestione liquidit\u00e0 aziendale' product page",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Gestione liquidit\u00e0 aziendale' link to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Gestione liquidit\u00e0 aziendale' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page from header",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header to open the contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu using 'Menu' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open client access using 'Accesso clienti' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the client access section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the client access section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform desktop search using search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' button with class 'btn-search' to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search using reset button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click '' button with class 'btn-reset-search' to reset the search field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is cleared",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login via 'ACCEDI' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' link to access Inbiz login page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on desktop with email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to login as guest",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Enable 'Mantieni L'accesso' option during guest login",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to enable remember me option",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the remember me option is enabled",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password for guest login via 'Recupera Password' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link to start password recovery process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest via 'Registrati' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link to start guest registration process",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform mobile search using search input and search button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click '' button with class 'btn-search' to submit the search (mobile)",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest on mobile with email and password",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input field",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input field",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to login as guest (mobile)",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and redirected appropriately",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as guest on mobile via 'REGISTRATI' button",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' button to start guest registration process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password for guest login via 'Recupera password' link (mobile)",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Recupera password' link to start password recovery process (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' page from mobile",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link on mobile to open the contact page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Parla con noi' contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI DI PI\u00d9' product page for 'Prezzo Certo Acquisto e Vendita'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for 'Prezzo Certo Acquisto e Vendita' to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prezzo Certo Acquisto e Vendita' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI DI PI\u00d9' product page for 'Cambio Certo Plafond'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for 'Cambio Certo Plafond' to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cambio Certo Plafond' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI DI PI\u00d9' product page for 'Cambio a Termine'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for 'Cambio a Termine' to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cambio a Termine' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI DI PI\u00d9' product page for 'Tasso Certo (Interest Rate Swap)'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for 'Tasso Certo (Interest Rate Swap)' to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tasso Certo (Interest Rate Swap)' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'SCOPRI DI PI\u00d9' product page for 'Tasso Protetto - Premio Unico'",
+    "references": "https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/contratti-derivati-valute-tassi-interesse.html",
+    "intents": [
+      {
+        "intent": "Click 'SCOPRI DI PI\u00d9' link for 'Tasso Protetto - Premio Unico' to open the product page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tasso Protetto - Premio Unico' product page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

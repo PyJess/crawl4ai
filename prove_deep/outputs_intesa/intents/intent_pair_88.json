@@ -1,0 +1,390 @@
+[
+  {
+    "test_case_name": "Accept all cookies and verify on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject cookies and open privacy options on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy or cookie policy options are displayed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close cookie banner on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with id 'cookie-chiudi' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is closed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use desktop search on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cosa posso fare per te oggi?' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' on the sitemap page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on the sitemap page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset desktop search on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input is cleared on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Use mobile search on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Type $name in the input with placeholder 'Cerca' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click the button with class 'btn-search' inside the mobile search form on the sitemap page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results for $name are displayed on the sitemap page",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset mobile search on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the button with class 'btn-reset-search' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the mobile search input is cleared on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open guest login and perform login on sitemap page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ENTRA' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $email in the input with placeholder 'E-mail' on the sitemap page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Type $password in the input with placeholder 'Password' on the sitemap page",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click the checkbox labeled 'Mantieni L'accesso' on the sitemap page",
+        "intent_id": "4"
+      },
+      {
+        "intent": "Click 'ENTRA' on the sitemap page",
+        "intent_id": "5"
+      },
+      {
+        "intent": "And then check that the user is logged in as a guest on the sitemap page",
+        "intent_id": "6"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover password from guest login on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a guest user on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a guest user on sitemap page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'REGISTRATI' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the guest registration form is displayed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri come fare' from sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Parla con noi' from sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'Scopri il conto' from sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Scopri il conto' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the account information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open tab 'Tutti i Prodotti' on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Tutti i Prodotti' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Tutti i Prodotti' tab content is displayed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open tab 'Settori' on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Settori' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Settori' tab content is displayed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open tab 'Momenti' on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Momenti' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Momenti' tab content is displayed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open tab 'Servizi digitali' on sitemap page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Servizi digitali' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Servizi digitali' tab content is displayed on the sitemap page",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to 'MAPPA DEL SITO' from sitemap page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'MAPPA DEL SITO' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the sitemap page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Facebook profile from sitemap page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Facebook' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Facebook profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Youtube profile from sitemap page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Youtube' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Youtube profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Twitter profile from sitemap page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Twitter' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Twitter profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open LinkedIn profile from sitemap page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale LinkedIn' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official LinkedIn profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Instagram profile from sitemap page footer",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'Profilo ufficiale Instagram' on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the official Instagram profile page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from sitemap page (desktop)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' in the business login section on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz login from sitemap page (mobile)",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' in the mobile business login section on the sitemap page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz login page is opened",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

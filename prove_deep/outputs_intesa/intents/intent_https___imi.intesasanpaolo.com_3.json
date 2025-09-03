@@ -1,0 +1,640 @@
+[
+  {
+    "test_case_name": "Skip to Main Content Using Accessibility Button",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Contenuto' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Menu Using Accessibility Button",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Men\u00f9' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Footer Using Accessibility Button",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Passa al Pi\u00e8 di pagina' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Prodotti e Quotazioni Section",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'PRODOTTI E QUOTAZIONI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prodotti e Quotazioni' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Market Hub Section",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'MARKET HUB' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Market Hub' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to INBIZ - REMOTE BANKING Section",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'INBIZ - REMOTE BANKING' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'INBIZ - REMOTE BANKING' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to CARDEA Section",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'CARDEA' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CARDEA' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to SMARTHUB Section",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'SMARTHUB' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'SMARTHUB' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Careers Page",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'CAREERS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CAREERS' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Eventi Page",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'EVENTI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'EVENTI' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to News Page",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'NEWS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'NEWS' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Contatti Page",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'CONTATTI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'CONTATTI' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Change Language to Italian Using Button",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'IT' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the language selection menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Italian Language from Language Menu",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'IT' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page is displayed in Italian",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select English Language from Language Menu",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'EN' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the page is displayed in English",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Chi siamo Second Level Menu",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Chi siamo' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Chi siamo' second level menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Prodotti e Servizi Second Level Menu",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Prodotti e Servizi' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Prodotti e Servizi' second level menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Sostenibilit\u00e0 Section",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Sostenibilit\u00e0' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Sostenibilit\u00e0' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Insights Section",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Insights' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Insights' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Ricerche e Commenti Second Level Menu",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Ricerche e Commenti' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Ricerche e Commenti' second level menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Documentazione Second Level Menu",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Documentazione' button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Documentazione' second level menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Hamburger Menu",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Pulsante Hamburger per aprire il menu'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Search Bar from Header",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Ricerca dall'intestazione'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search input field is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform Search Using Header Search Bar",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Ricerca dall'intestazione'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $name into the input with placeholder 'Cerca'",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click the button with label 'Ricerca'",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Suggested Search 'Soluzioni Sostenibili'",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Ricerca  Soluzioni Sostenibili'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search results for 'Soluzioni Sostenibili' are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Suggested Search 'PNRR'",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Ricerca  PNRR'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search results for 'PNRR' are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Suggested Search 'Presenza internazionale'",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Ricerca  Presenza internazionale'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search results for 'Presenza internazionale' are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Suggested Search 'Prodotti di investimento'",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Ricerca  Prodotti di investimento'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search results for 'Prodotti di investimento' are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Select Suggested Search 'Ricerca macroeconomica'",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Ricerca  Ricerca macroeconomica'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search results for 'Ricerca macroeconomica' are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Pause Widget Using First Widget Button",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Pause' and id 'ds-widget-button-9c6bc0a1-1077-488e-9c22-596dc384d4e8'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the widget is paused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Pause Widget Using Second Widget Button",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the button with label 'Pause' and id 'ds-widget-button-39e570db-3e30-4644-8640-d69f4d28a997'",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the widget is paused",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More About Global Presence",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Scopri di pi\u00f9' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Presenza globale' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More About Responsible Business Challenge",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PIU'' link with label \"SCOPRI DI PIU' su La sfida del business responsabile\"",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Sostenibilit\u00e0' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Discover More About PNRR",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'SCOPRI DI PIU'' link with label \"SCOPRI DI PIU' su PNRR\"",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Next Generation EU and PNRR' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View All News",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'VEDI TUTTE LE NEWS' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the full news list is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View All Events",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'VEDI TUTTI GLI EVENTI' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the full events list is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Note legali Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Note legali' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Note legali' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Dati societari Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Dati societari' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Dati societari' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Privacy Policy Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Privacy Policy' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Policy Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie Policy' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Cookie Policy' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Disclaimer Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Disclaimer' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Disclaimer' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Trasparenza Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Trasparenza' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Trasparenza' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Regole europee default Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Regole europee default' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Regole europee default' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Dichiarazione di Accessibilit\u00e0 Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Dichiarazione di Accessibilit\u00e0' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Dichiarazione di Accessibilit\u00e0' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Sitemap Page from Footer",
+    "references": "https://imi.intesasanpaolo.com",
+    "intents": [
+      {
+        "intent": "Click the 'Sitemap' link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the 'Sitemap' page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

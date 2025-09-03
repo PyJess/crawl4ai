@@ -1,0 +1,308 @@
+[
+  {
+    "test_case_name": "Navigate to www.ryanair.com Cookie Policy Details and Expand Strictly Necessary Cookies Section",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button for Strictly Necessary Cookies on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Strictly Necessary Cookies section expands and displays relevant information",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Expedia.com Accommodation Cookie Details from Cookie Policy",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button for Expedia.com \u2013 accommodation via Ryanair Rooms on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Expedia.com accommodation cookies section expands and displays relevant information",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "View Car Hire Services Cookie Information via Cookie Policy Navigation",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button for Booking.com Transport Limited \u2013 car hire services on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the car hire services cookies section expands and displays relevant information",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Elavon Payment Services Cookie Section from Cookie Policy",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button for Elavon - Payment services on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Elavon payment services cookies section expands and displays relevant information",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Performance Cookies Section after Navigating to Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button for Performance Cookies on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Performance Cookies section expands and displays relevant information",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Functional Cookies Section from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button for Functional cookies on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Functional cookies section expands and displays relevant information",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Pixel Tracking Cookies Section from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies used' button for Pixel Tracking Cookies on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Pixel Tracking Cookies section expands and displays relevant information",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Expedia Privacy Policy from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy' link for Expedia on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Expedia Privacy Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Expedia Cookie Policy from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie Policy' link for Expedia on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Expedia Cookie Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Car Hire Privacy Policy from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy' link for Car Hire on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Car Hire Privacy Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Car Hire Cookie Policy from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie Policy' link for Car Hire on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Car Hire Cookie Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Footer General Terms & Conditions of Carriage from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'General terms & conditions of carriage' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Footer Terms of Use from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Terms of Use' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Footer Privacy Policy from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Privacy Policy' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Privacy Policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Footer Cookies Link from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookies' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Footer Contact Us from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Contact us' link in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Contact us page is displayed",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Footer Cookie Preferences Dialog from Cookie Policy Details",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click 'www.ryanair.com' link on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cookie preferences' button in the footer on the child page",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the Cookie preferences dialog or section is displayed",
+        "intent_id": "3"
+      }
+    ]
+  }
+]

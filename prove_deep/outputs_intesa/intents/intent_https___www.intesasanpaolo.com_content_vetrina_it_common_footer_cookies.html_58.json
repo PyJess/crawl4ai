@@ -1,0 +1,456 @@
+[
+  {
+    "test_case_name": "Accept all cookies on mobile",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (mobile) button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all cookies on desktop",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Acconsento' (desktop) button to accept all cookies",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that all cookies are accepted and the cookie banner is dismissed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Customize cookies on mobile via 'Pi\u00f9 opzioni' link",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (mobile) to open cookie customization options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie customization options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Customize cookies on desktop via 'Pi\u00f9 opzioni' link",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Pi\u00f9 opzioni' link (desktop) to open cookie customization options",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie customization options are displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject profiling cookies and confirm selection (desktop)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Non accetto' radio button for profiling cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Conferma' button to confirm the selection",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that profiling cookies are rejected and the selection is saved",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept profiling cookies and confirm selection (desktop)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Accetto' radio button for profiling cookies (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Conferma' button to confirm the selection",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that profiling cookies are accepted and the selection is saved",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reject all third-party cookies and confirm selection",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Nega il consenso a tutti i cookie di terze parti' radio button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Conferma' button to confirm the selection for third-party cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all third-party cookies are rejected and the selection is saved",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Accept all third-party cookies and confirm selection",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Accetta tutti i cookie di terze parti' radio button",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Conferma' button to confirm the selection for third-party cookies",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that all third-party cookies are accepted and the selection is saved",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Close the cookie banner using the close button",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Chiudi banner cookie' button to close the cookie banner",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie banner is dismissed without changing cookie preferences",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to main content using 'Passa al Contenuto' button",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Contenuto' button to skip to main content",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to menu using 'Passa al Men\u00f9' button",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Men\u00f9' button to skip to the menu",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the menu section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to footer using 'Passa al Pi\u00e8 di pagina' button",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Passa al Pi\u00e8 di pagina' button to skip to the footer",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the footer section",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on desktop",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (desktop)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Reset search on desktop",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cosa posso fare per te oggi?' search input (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Reset ricerca (desktop)' button to clear the search input",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search input is cleared",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Perform a search on mobile",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Type $name into 'Cerca' search input (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Click 'Cerca (mobile)' button to submit the search",
+        "intent_id": "2"
+      },
+      {
+        "intent": "And then check that the search results are displayed for $name",
+        "intent_id": "3"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer login modal (desktop)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Accesso clienti' button to open the customer login modal (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open customer login modal (mobile)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCESSO CLIENTI' button to open the customer login modal (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the customer login modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input for guest login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input for guest login",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login",
+        "intent_id": "3"
+      },
+      {
+        "intent": "And then check that the guest user is logged in successfully",
+        "intent_id": "4"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Login as guest user with 'Mantieni l'accesso' enabled",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Type $email into 'E-mail' input for guest login",
+        "intent_id": "1"
+      },
+      {
+        "intent": "Type $password into 'Password' input for guest login",
+        "intent_id": "2"
+      },
+      {
+        "intent": "Click 'Mantieni L'accesso' checkbox to enable stay signed in",
+        "intent_id": "3"
+      },
+      {
+        "intent": "Click 'ENTRA' button to submit guest login",
+        "intent_id": "4"
+      },
+      {
+        "intent": "And then check that the guest user is logged in and the session is persistent",
+        "intent_id": "5"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Recover guest user password",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Recupera Password' link in guest login section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the password recovery process is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Register as a new guest user",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Registrati' link in guest login section",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the registration process for a new guest user is initiated",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu (desktop)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open main menu (mobile)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Menu' button to open the main menu (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the main menu is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search modal (desktop)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search modal (desktop)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open search modal (mobile)",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Search' button to open the search modal (mobile)",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the search modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open 'Parla con noi' chat support",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Parla con noi' link in the header",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the chat support page or modal is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Inbiz portal via 'ACCEDI' link",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'ACCEDI' link to access the Inbiz portal",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Inbiz portal is opened in a new tab or window",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access online security information via 'Scopri come fare' link",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Scopri come fare' link to access online security information",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the online security information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to home via breadcrumb link",
+    "references": "cookies.json",
+    "intents": [
+      {
+        "intent": "Click 'Home' breadcrumb link",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the user is navigated to the home page",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,324 @@
+[
+  {
+    "test_case_name": "Expand Introduction Section in Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Introduction' button to expand the Introduction section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Introduction section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Data Controller Section in Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Data Controller' button to expand the Data Controller section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Data Controller section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand What Personal Data We Collect Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'What personal data we collect' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the What personal data we collect section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand What We Use Your Personal Data For Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'What we use your personal data for' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the What we use your personal data for section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand How Long We Keep Your Data Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'How long we keep your data' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the How long we keep your data section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Security of Your Personal Data Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Security of your personal data' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Security of your personal data section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Sharing and Transferring Your Personal Data Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Sharing and transferring your personal data' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Sharing and transferring your personal data section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Cookies and Site Tracking Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies and site tracking' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies and site tracking section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Data Protection Officer Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Data Protection Officer' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Data Protection Officer section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Your Data Protection Rights Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Your Data Protection Rights' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Your Data Protection Rights section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Changes to Privacy Policy Section",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Changes to Privacy Policy' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Changes to Privacy Policy section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Contact Us Section in Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Contact Us' button to expand the section.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact Us section content is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to FAQs from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'FAQs' link in the header.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQs page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to General Terms & Conditions of Carriage from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link in the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the General terms & conditions of carriage page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Terms of Use from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link in the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Terms of Use page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Cookies Policy from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link in the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookies policy page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Navigate to Contact Us from Privacy Policy Footer",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Contact us page is loaded.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences Dialog from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie preferences' button in the footer.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the Cookie preferences dialog is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Market Switcher from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Open market switcher' button in the header.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the market switcher options are displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access My Bookings from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'My bookings' button in the header.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the My bookings page or dialog is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access myRyanair Portal from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'myRyanair Portal' button in the header.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the myRyanair Portal page or dialog is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Initiate Login from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Log in' button in the header.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the login form or dialog is displayed.",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Skip to Main Content from Privacy Policy",
+    "references": "privacy-policy.json",
+    "intents": [
+      {
+        "intent": "Click the 'Skip to main content' link at the top of the page.",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the focus moves to the main content section.",
+        "intent_id": "2"
+      }
+    ]
+  }
+]
