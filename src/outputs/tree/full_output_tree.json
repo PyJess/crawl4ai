@@ -1,0 +1,167 @@
+[
+  {
+    "url": "https://www.ryanair.com/en/en",
+    "depth": 0,
+    "children": [
+      {
+        "url": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+        "depth": 1,
+        "children": [
+          {
+            "url": "http://www.ryanair.com/ie/en/r/help",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Customer Support & Help Center (Privacy Policy)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-cookies",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Cookie Policy and Legal Information"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Customer Support & Contact Information (Legal Footer)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Privacy Policy and Data Protection Statement (Legal Footer)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-of-use",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Website Terms of Use (Legal Footer)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Terms and Conditions of Carriage (Legal Footer)"
+          }
+        ],
+        "title": "Ryanair Ireland Privacy Policy and Data Protection Statement"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy",
+        "depth": 1,
+        "children": [
+          {
+            "url": "https://www.ryanair.com/%7B%7BaemMarket%7D%7D/r/help/general-terms-carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair General Terms of Carriage Policy (AEM Market)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Cookie Policy and Help Center Guide"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cookie Policy for B737TR Assessments"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cookie Policy for Buzzair.com Users"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Investor Website Cookie Policy"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.buzzair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cookie Policy for Buzz Air Online Form"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/careers.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Careers Cookie Policy Information"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/corporate.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Corporate Cookie Policy for Ireland"
+          },
+          {
+            "url": "https://www.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: Book Cheap Flights Across Europe"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cookie Policy Online Form (Cookie Policy)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Cookie Policy for WarsawAviation.com Users"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Cookie Policy and Data Usage Information (www_ryanair_com)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/ie/en/r/help/contact-us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Customer Support & Contact Information (IE/EN/R/Help/Contact-Us)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/ie/en/r/help",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Customer Support & Help Center (IE/EN/R/Help)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/help/contact-us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Customer Support & Contact Information (R/Help/Contact-Us)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/terms-of-use",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Website Terms of Use (Corporate)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: General Terms of Carriage for Passengers and Baggage (R/Help)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/fees",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Detailed Breakdown of Fees and Charges"
+          }
+        ],
+        "title": "Ryanair Ireland Cookie Policy and Data Usage Information"
+      }
+    ],
+    "title": "Ryanair Official Site: Book Cheap Flights & Manage Bookings Online"
+  }
+]

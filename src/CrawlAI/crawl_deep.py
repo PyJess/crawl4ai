@@ -14,28 +14,16 @@ from crawl4ai import (
     LXMLWebScrapingStrategy,
     BrowserConfig,
 )
-from crawl4ai.deep_crawling.filters import FilterChain, URLPatternFilter 
 
 # Imposta la directory corrente allo script
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+#profondità, url o piu url
 
 async def main():
-    # URL che vuoi includere nel crawl
-    parent_url = "https://www.ryanair.com/ie/en/lp/privacy-policy"
-    selected_child_url = "https://www.ryanair.com/ie/en/corporate/terms-of-use"
-
-    # filtro URL: solo questi due verranno accettati dal crawler
-    url_filter = URLPatternFilter(patterns=[parent_url, selected_child_url])
-    filter_chain = FilterChain([url_filter])
-
     # Configurazione crawl
     run_config = CrawlerRunConfig(
-        deep_crawl_strategy=BFSDeepCrawlStrategy(
-            max_depth=2,
-            include_external=False,
-            filter_chain=filter_chain  # filtro integrato qui
-        ),
+        deep_crawl_strategy=BFSDeepCrawlStrategy(max_depth=3, include_external=False),
         scraping_strategy=LXMLWebScrapingStrategy(),
         excluded_tags=["script", "style"],
         remove_forms=True,
@@ -59,7 +47,7 @@ async def main():
 
     # Crawl asincrono
     async with AsyncWebCrawler(config=BrowserConfig()) as crawler:
-        results = await crawler.arun(parent_url, config=run_config)  # punto di partenza = parent_url
+        results = await crawler.arun("https://www.ryanair.com/en/en", config=run_config)
         print(f"\nCrawled {len(results)} pages in total\n")
 
         nodes_map = {}

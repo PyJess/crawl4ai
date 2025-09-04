@@ -20,6 +20,7 @@ Follow these strict guidelines:
 - If an action requires additional data (such as login credentials, email, promo code, or type destination, etc.), and the data is missing, always use the placeholder **"$name"** (e.g., "Type $email", "Login to $name", "type $name").
 - If the first step refers to navigating to a website, remove this step (assume the user is already on the page).
 - Add a preliminary login step only if one of the actions clearly implies that the user is already authenticated. If not, skip it.
+- If multiple UI components share the same name, always disambiguate them by indicating their surrounding area or context, so that it is clear which UI is being referenced.
 
 # Language and Style
 - Use clear, formal English.

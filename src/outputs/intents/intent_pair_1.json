@@ -1,0 +1,156 @@
+[
+  {
+    "test_case_name": "Navigate to 'investor.ryanair.com' Cookie Policy from Parent Page",
+    "references": "parent+child",
+    "intents": [
+      {
+        "intent": "Click the 'investor.ryanair.com' link in the section with other domain links on the parent page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the child page for 'investor.ryanair.com' cookie policy is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Open Cookie Preferences on 'investor.ryanair.com' Cookie Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Cookie preferences' button in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookie preferences modal or section is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Expand Cookies Used Panel on 'investor.ryanair.com' Cookie Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies used' button in the cookies policy content area on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookies used panel expands to show additional information",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access General Terms & Conditions from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'General terms & conditions of carriage' link in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the general terms & conditions of carriage page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Terms of Use from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Terms of Use' link in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the terms of use page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Privacy Policy from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Privacy Policy' link in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the privacy policy page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Cookies Policy from 'investor.ryanair.com' Cookie Policy Page",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Cookies' link in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the cookies policy page for 'www_ryanair_com' is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from 'investor.ryanair.com' Cookie Policy Page Footer",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the footer on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access FAQ from 'investor.ryanair.com' Cookie Policy Page Header",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'FAQ' link in the header on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the FAQ page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Fees from 'investor.ryanair.com' Cookie Policy Page Header",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Fees' link in the header on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the fees information page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  },
+  {
+    "test_case_name": "Access Contact Us from 'investor.ryanair.com' Cookie Policy Page Header",
+    "references": "child",
+    "intents": [
+      {
+        "intent": "Click the 'Contact us' link in the header on the child page",
+        "intent_id": "1"
+      },
+      {
+        "intent": "And then check that the contact us page is displayed",
+        "intent_id": "2"
+      }
+    ]
+  }
+]

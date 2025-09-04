@@ -5,13 +5,17 @@ from collections import defaultdict
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
 from crawl4ai.deep_crawling import BestFirstCrawlingStrategy
+from langchain_openai import ChatOpenAI
+from pydantic import BaseModel
+from typing import Optional
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-async def run_advanced_crawler():
+
+async def run_advanced_crawler(start_url: str, max_depth: int):
     config = CrawlerRunConfig(
         deep_crawl_strategy=BestFirstCrawlingStrategy(
-            max_depth=3,
+            max_depth=max_depth,
             include_external=False
         ),
         scraping_strategy=LXMLWebScrapingStrategy(),
@@ -23,8 +27,11 @@ async def run_advanced_crawler():
     nodes_map = {}
     children_map = defaultdict(list)
 
+    async def a_invoke_model(gpt, msgs):
+        return await gpt.ainvoke(msgs)
+    
     async with AsyncWebCrawler() as crawler:
-        async for result in await crawler.arun("https://www.ryanair.com/en/en", config=config):
+        async for result in await crawler.arun(start_url, config=config):
             results.append(result)
             score = result.metadata.get("score", 0)
             depth = result.metadata.get("depth", 0)
@@ -48,10 +55,8 @@ async def run_advanced_crawler():
     for depth, count in sorted(depth_counts.items()):
         print(f"  Depth {depth}: {count} pages")
 
-    # Initialize root node
-    root_url = "https://www.ryanair.com/en/en"
-    if root_url not in nodes_map:
-        nodes_map[root_url] = {"url": root_url, "depth": 0}
+    if start_url not in nodes_map:
+        nodes_map[start_url] = {"url": start_url, "depth": 0}
 
     def build_tree(parent_url, visited=set()):
         result = []
@@ -66,15 +71,46 @@ async def run_advanced_crawler():
         return result
 
     # Build the full tree starting from the root
-    full_tree = [{"url": root_url, "depth": 0, "children": build_tree(root_url)}]
+    full_tree = [{"url": start_url, "depth": 0, "children": build_tree(start_url)}]
 
-    output_dir = "outputs"
-    os.makedirs(output_dir, exist_ok=True)
+    gpt = ChatOpenAI(model="gpt-4.1", temperature=0.1)
 
-    tree_file = os.path.join(output_dir, "full_output_tree.json")
-    with open(tree_file, "w", encoding="utf-8") as f:
-        json.dump(full_tree, f, indent=2)
-    print(f"Tree with depth and relationships saved in {tree_file}")
+    async def enrich_with_title(node, gpt):
+        url = node["url"]
+        messages = [
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": f"Generate a concise, unique, and meaningful title for this URL: {url}. The title should be as specific as possible to the url and not generic. Only return the title, nothing else."}
+        ]
+        try:
+            response = await a_invoke_model(gpt, messages)
+            node["title"] = response.content.strip()
+        except Exception as e:
+            print(f"⚠️ Could not get title for {url}: {e}")
+            node["title"] = None
+
+        tasks=[enrich_with_title(child, gpt) for child in node.get("children", [])]
+        if tasks:
+            await asyncio.gather(*tasks)
+
+    tasks=[enrich_with_title(node, gpt) for node in full_tree]
+    await asyncio.gather(*tasks)
+
+    messages = [
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": f"""
+You are given this JSON tree: {json.dumps(full_tree, ensure_ascii=False)}.
+
+Task:
+- Ensure that every 'title' is unique for each 'url'.
+- If duplicates exist, modify the titles to make them unique.
+- Return ONLY the full corrected JSON. Do not include explanations, text, or formatting.
+"""}
+        ]
+    response = await a_invoke_model(gpt, messages)
+    response = json.loads(response.content)
+
+    return response
+
 
 if __name__ == "__main__":
     asyncio.run(run_advanced_crawler())
