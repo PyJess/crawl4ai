@@ -386,25 +386,7 @@
         },
         {
           "type": "link",
-          "text": "GTCC",
-          "input_type": "",
-          "placeholder": "",
-          "id": "",
-          "description": "",
-          "class": "",
-          "name": "",
-          "xpath": "",
-          "enabled": true,
-          "visible": true,
-          "value": "",
-          "options": [],
-          "checked": false,
-          "label": "",
-          "href": "https://www.ryanair.com/{{aemMarket}}/r/help/general-terms-carriage"
-        },
-        {
-          "type": "link",
-          "text": "General terms & conditions of carriage",
+          "text": " General terms & conditions of carriage ",
           "input_type": "",
           "placeholder": "",
           "id": "",
@@ -422,7 +404,7 @@
         },
         {
           "type": "link",
-          "text": "Terms of Use",
+          "text": " Terms of Use ",
           "input_type": "",
           "placeholder": "",
           "id": "",
@@ -440,7 +422,7 @@
         },
         {
           "type": "link",
-          "text": "Privacy Policy",
+          "text": " Privacy Policy ",
           "input_type": "",
           "placeholder": "",
           "id": "",
@@ -458,7 +440,7 @@
         },
         {
           "type": "link",
-          "text": "Cookies",
+          "text": " Cookies ",
           "input_type": "",
           "placeholder": "",
           "id": "",
@@ -476,7 +458,7 @@
         },
         {
           "type": "link",
-          "text": "Contact us",
+          "text": " Contact us ",
           "input_type": "",
           "placeholder": "",
           "id": "",

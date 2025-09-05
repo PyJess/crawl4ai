@@ -71,12 +71,14 @@ def crawl_deep():
     try:
         data=request.get_json()
         urls=data.get("urls")
-        depth=int(data.get("max_depth", 2))
+        mode=data.get("mode")
+        #depth=int(data.get("max_depth", 2))
 
-        if not urls or not isinstance(urls, list):
+        if not urls or not isinstance(urls, list,):
             return jsonify({"error": "Field 'urls' must be a list of URLs"}), 400
         
-        asyncio.run(deep_crawl(urls, depth))
+        asyncio.run(deep_crawl(urls, mode))
+        #asyncio.run(deep_crawl(urls, depth))
 
         return jsonify({"message": "The tree successfully created."}), 200
 

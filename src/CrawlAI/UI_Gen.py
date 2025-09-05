@@ -39,12 +39,15 @@ def clear_folder(folder_path):
             print(f"Warning: impossible to delete {file_path}. Reason: {e}")
             traceback.print_exc()
 
-async def deep_crawl(url: list[str], depth: int):
+async def deep_crawl(url: list[str], mode: str):
+#async def deep_crawl(url: list[str]):
+    if len(url) != 1 and mode== "pair":
 
-    if len(url) != 1:
-
+        depth= 2
         parent_url = url[0]
+        print(f"Parent URL: {parent_url}")
         selected_child_urls = url[1:]
+        print(f"Selected Child URLs: {selected_child_urls}")
         # filtro URL: solo questi due verranno accettati dal crawler
         url_filter = URLPatternFilter(patterns=[parent_url] + selected_child_urls)
         filter_chain = FilterChain([url_filter])
@@ -62,8 +65,12 @@ async def deep_crawl(url: list[str], depth: int):
             keep_data_attributes=False,
             verbose=True
         )
-    else:
+    elif len(url) !=1 and mode== "single":
+        print("ciao")
+        # ....
+    elif len(url) == 1 and mode== "single":
         parent_url = url[0]
+        depth= 0
         run_config = CrawlerRunConfig(
         deep_crawl_strategy=BFSDeepCrawlStrategy(
             max_depth=depth, 
@@ -75,6 +82,8 @@ async def deep_crawl(url: list[str], depth: int):
         keep_data_attributes=False,
         verbose=True
     )
+    else:
+        raise ValueError("Per la modalità 'pair' fornire almeno due URL (uno parent e almeno uno child). Per la modalità 'single' fornire un solo URL.")
 
     # Funzione helper per chiamare GPT
     async def a_invoke_model(gpt, msgs):
@@ -213,4 +222,4 @@ async def deep_crawl(url: list[str], depth: int):
 
 
 if __name__ == "__main__":
-    asyncio.run(deep_crawl(["https://www.ryanair.com/ie/en/cookie-policy", "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com"], 2))
+    asyncio.run(deep_crawl(["https://www.ryanair.com/ie/en/cookie-policy"]))

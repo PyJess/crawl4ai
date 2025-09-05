@@ -1,167 +1,1018 @@
 [
   {
-    "url": "https://www.ryanair.com/en/en",
+    "url": "https://www.ryanair.com/ie/en/cookie-policy",
     "depth": 0,
     "children": [
       {
-        "url": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+        "url": "https://www.ryanair.com",
         "depth": 1,
         "children": [
           {
             "url": "http://www.ryanair.com/ie/en/r/help",
             "depth": 2,
             "children": [],
-            "title": "Ryanair Ireland Customer Support & Help Center (Privacy Policy)"
+            "title": "Ryanair Ireland Customer Support & Help Center (Home)"
           },
           {
-            "url": "https://www.ryanair.com/ie/enlegal-footer.link-cookies",
+            "url": "https://www.ryanair.com/ie/en",
             "depth": 2,
             "children": [],
-            "title": "Ryanair Ireland Cookie Policy and Legal Information"
+            "title": "Ryanair Ireland: Book Cheap Flights & Manage Bookings Online"
           },
           {
-            "url": "https://www.ryanair.com/ie/enlegal-footer.link-contact-us",
+            "url": "https://www.ryanair.com/ie/en/r/help/special-assistance",
             "depth": 2,
             "children": [],
-            "title": "Ryanair Ireland Customer Support & Contact Information (Legal Footer)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/enlegal-footer.link-privacy-policy",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Privacy Policy and Data Protection Statement (Legal Footer)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-of-use",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Website Terms of Use (Legal Footer)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/enlegal-footer.link-terms-and-conditions-of-carriage",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Terms and Conditions of Carriage (Legal Footer)"
+            "title": "Ryanair Special Assistance Services & Support Information"
           }
         ],
-        "title": "Ryanair Ireland Privacy Policy and Data Protection Statement"
+        "title": "Ryanair: Official Site for Cheap Flights in Europe"
       },
       {
-        "url": "https://www.ryanair.com/ie/en/cookie-policy",
+        "url": "https://www.ryanair.com/%7B%7BaemMarket%7D%7D/r/help/general-terms-carriage",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair General Terms of Carriage Policy"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/corporate.ryanair.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Corporate Cookie Policy for Ireland"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/careers.ryanair.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Careers Cookie Policy for Ireland"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Investor Site Cookie Policy"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.buzzair.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Cookie Policy for BuzzAir Online Form"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Cookie Policy for Buzz Air Users"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
         "depth": 1,
         "children": [
           {
-            "url": "https://www.ryanair.com/%7B%7BaemMarket%7D%7D/r/help/general-terms-carriage",
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/ie/en/r/help",
             "depth": 2,
             "children": [],
-            "title": "Ryanair General Terms of Carriage Policy (AEM Market)"
+            "title": "Ryanair Ireland Cookie Policy and Help Guide"
           },
           {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+            "url": "https://www.ryanair.com/ie/en/cookie-policy/ie/en/r/help/contact-us",
             "depth": 2,
             "children": [],
-            "title": "Ryanair Ireland Cookie Policy and Help Center Guide"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/b737trassessments.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Cookie Policy for B737TR Assessments"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/buzzair.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Cookie Policy for Buzzair.com Users"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/investor.ryanair.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Investor Website Cookie Policy"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.buzzair.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Cookie Policy for Buzz Air Online Form"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/careers.ryanair.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Careers Cookie Policy Information"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/corporate.ryanair.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Corporate Cookie Policy for Ireland"
-          },
-          {
-            "url": "https://www.ryanair.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair: Book Cheap Flights Across Europe"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Cookie Policy Online Form (Cookie Policy)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Cookie Policy for WarsawAviation.com Users"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Cookie Policy and Data Usage Information (www_ryanair_com)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/ie/en/r/help/contact-us",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Customer Support & Contact Information (IE/EN/R/Help/Contact-Us)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/ie/en/r/help",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Customer Support & Help Center (IE/EN/R/Help)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/r/help/contact-us",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Customer Support & Contact Information (R/Help/Contact-Us)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/corporate/terms-of-use",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland Website Terms of Use (Corporate)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland: General Terms of Carriage for Passengers and Baggage (R/Help)"
-          },
-          {
-            "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/fees",
-            "depth": 2,
-            "children": [],
-            "title": "Ryanair Ireland: Detailed Breakdown of Fees and Charges"
+            "title": "Ryanair Ireland Contact & Cookie Policy Information"
           }
         ],
-        "title": "Ryanair Ireland Cookie Policy and Data Usage Information"
+        "title": "Ryanair Cookie Policy for B737TR Assessments"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/help.ryanair.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Ireland Cookie Policy and Help Center Guide"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/onlineform.ryanair.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Cookie Policy and Online Form Information"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/ie/en/r/help/contact-us",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Ireland Customer Support & Contact Information (Main)"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/fees",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Fee Breakdown and Charges Guide"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/r/help/contact-us",
+        "depth": 1,
+        "children": [
+          {
+            "url": "https://help.ryanair.com/hc/change_language/bg?return_to=%2Fhc%2Fbg%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Bulgaria: Contact Us Support Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/cs?return_to=%2Fhc%2Fcs%2Fsections%2F12504616835857-Kontaktujte-n%25C3%25A1s",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Czech Support: Contact Us Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/da?return_to=%2Fhc%2Fda%2Fsections%2F12504616835857-Kontakt-os",
+            "depth": 2,
+            "children": [],
+            "title": "Change Language to Danish \u2013 Ryanair Contact Us Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/de-at?return_to=%2Fhc%2Fde-at%2Fsections%2F12504616835857-Kontaktieren-Sie-uns",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Hilfe: Sprache \u00e4ndern und Kontaktoptionen f\u00fcr \u00d6sterreich"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/ca?return_to=%2Fhc%2Fca%2Fsections%2F12504616835857-Contacta-amb-nosaltres",
+            "depth": 2,
+            "children": [],
+            "title": "Contacta amb Ryanair: Opcions d\u2019Atenci\u00f3 al Client en Catal\u00e0"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/de?return_to=%2Fhc%2Fde%2Fsections%2F12504616835857-Kontaktieren-Sie-uns",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Hilfe: Sprache \u00e4ndern f\u00fcr Kontaktaufnahme-Support (Deutsch)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-ba?return_to=%2Fhc%2Fen-ba%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Bosnia & Herzegovina: Contact Us Support Page"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-ee?return_to=%2Fhc%2Fen-ee%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Estonia: Contact Us Support Information"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-cy?return_to=%2Fhc%2Fen-cy%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cyprus: Contact Us Support & Language Settings"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/el?return_to=%2Fhc%2Fel%2Fsections%2F12504616835857-%25CE%2595%25CF%2580%25CE%25B9%25CE%25BA%25CE%25BF%25CE%25B9%25CE%25BD%25CF%2589%25CE%25BD%25CE%25AE%25CF%2583%25CF%2584%25CE%25B5-%25CE%25BC%25CE%25B1%25CE%25B6%25CE%25AF-%25CE%25BC%25CE%25B1%25CF%2582",
+            "depth": 2,
+            "children": [],
+            "title": "\u0395\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03ae\u03c3\u03c4\u03b5 \u03bc\u03b5 \u03c4\u03b7 Ryanair \u2013 \u0392\u03bf\u03ae\u03b8\u03b5\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03a5\u03c0\u03bf\u03c3\u03c4\u03ae\u03c1\u03b9\u03be\u03b7 (\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-fi?return_to=%2Fhc%2Fen-fi%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Finland: Contact Customer Support and Language Options"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-gb?return_to=%2Fhc%2Fen-gb%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Help Centre: Change Language for Contact Us Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-hr?return_to=%2Fhc%2Fen-hr%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Croatia: Contact Us Support Information"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-me?return_to=%2Fhc%2Fen-me%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Contact Us Support \u2013 English (Middle East)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-lv?return_to=%2Fhc%2Fen-lv%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Latvia: Customer Support Contact Information"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-mt?return_to=%2Fhc%2Fen-mt%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Change Language Settings for Ryanair Malta Contact Support"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-rs?return_to=%2Fhc%2Fen-rs%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Serbia: Contact Us Support and Language Options"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-sk?return_to=%2Fhc%2Fen-sk%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Slovakia: Contact Us Support Information"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-tr?return_to=%2Fhc%2Fen-tr%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Turkey: Contact Us Support Information"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Contact Us Support \u2013 Change Language Settings"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/es-es?return_to=%2Fhc%2Fes-es%2Fsections%2F12504616835857-Contacto",
+            "depth": 2,
+            "children": [],
+            "title": "Cambiar Idioma en la Secci\u00f3n de Contacto de Ayuda de Ryanair"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-be?return_to=%2Fhc%2Ffr-be%2Fsections%2F12504616835857-Nous-contacter",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Aide Belgique : Nous Contacter (Section d\u2019Assistance en Fran\u00e7ais)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-fr?return_to=%2Fhc%2Ffr-fr%2Fsections%2F12504616835857-Nous-contacter",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Aide : Nous Contacter \u2013 Assistance Client\u00e8le France"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-ma?return_to=%2Fhc%2Ffr-ma%2Fsections%2F12504616835857-Nous-contacter",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Maroc : Options de Contact et Assistance en Fran\u00e7ais"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-lu?return_to=%2Fhc%2Ffr-lu%2Fsections%2F12504616835857-Nous-contacter",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Aide Luxembourg : Changer la langue pour la section Nous contacter"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/hu?return_to=%2Fhc%2Fhu%2Fsections%2F12504616835857-Kapcsolattart%25C3%25A1s",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Magyar \u00dcgyf\u00e9lszolg\u00e1lat \u2013 Kapcsolattart\u00e1si Inform\u00e1ci\u00f3k"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/lv?return_to=%2Fhc%2Flv%2Fsections%2F12504616835857-Sazinieties-ar-mums",
+            "depth": 2,
+            "children": [],
+            "title": "Change Ryanair Help Center Language to Latvian for Contact Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/it?return_to=%2Fhc%2Fit%2Fsections%2F12504616835857-Contattaci",
+            "depth": 2,
+            "children": [],
+            "title": "Cambia Lingua per la Sezione Contattaci di Ryanair"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/lt?return_to=%2Fhc%2Flt%2Fsections%2F12504616835857-Susisiekite-su-mumis",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Lietuva: Susisiekite su Mumis Pagalbos Skiltyje"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/nl-be?return_to=%2Fhc%2Fnl-be%2Fsections%2F12504616835857-Contact",
+            "depth": 2,
+            "children": [],
+            "title": "Change Language Settings \u2013 Ryanair Belgium Contact Support"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/nl?return_to=%2Fhc%2Fnl%2Fsections%2F12504616835857-Contact",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Nederland: Contactinformatie en Klantenservice Sectie"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/pl?return_to=%2Fhc%2Fpl%2Fsections%2F12504616835857-Kontakt",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Poland: Change Language & Access Contact Support Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/ro?return_to=%2Fhc%2Fro%2Fsections%2F12504616835857-Contacteaz%25C4%2583-ne",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Rom\u00e2nia: Schimb\u0103 Limba \u0219i Contacteaz\u0103-ne"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/pt?return_to=%2Fhc%2Fpt%2Fsections%2F12504616835857-Contacta-nos",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Portuguese Support: Contacta-nos Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/no?return_to=%2Fhc%2Fno%2Fsections%2F12504616835857-Kontakt-oss",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Norwegian Support: Kontakt Oss Section"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/sv?return_to=%2Fhc%2Fsv%2Fsections%2F12504616835857-Kontakta-oss",
+            "depth": 2,
+            "children": [],
+            "title": "Kontakta Ryanair Kundtj\u00e4nst \u2013 Svensk Support och Kontaktinformation"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Help Centre: Customer Support & FAQs for Ireland"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/uk?return_to=%2Fhc%2Fuk%2Fsections%2F12504616835857-%25D0%2597%25D0%25B2-%25D1%258F%25D0%25B6%25D1%2596%25D1%2582%25D1%258C%25D1%2581%25D1%258F-%25D0%25B7-%25D0%25BD%25D0%25B0%25D0%25BC%25D0%25B8",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ukraine: \u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0438 \u0441\u043b\u0443\u0436\u0431\u0438 \u043f\u0456\u0434\u0442\u0440\u0438\u043c\u043a\u0438"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12890911974289",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (12890911974289)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/zh-cn?return_to=%2Fhc%2Fzh-cn%2Fsections%2F12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair \u4e2d\u6587\u5ba2\u6237\u670d\u52a1\u4e0e\u8054\u7cfb\u65b9\u5f0f\u9875\u9762"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12892354434065",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (12892354434065)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12893304387217-Queries-Feedback",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Customer Queries and Feedback Submission Guide"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12893304387217",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (12893304387217)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12892354434065-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Customer Support: How to Contact Us"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/13229005889297",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (13229005889297)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/13229005889297-Call-Us-International-English",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair International English Customer Service Contact Information"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12892454290321",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (12892454290321)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/13131744796561",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (13131744796561)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12893510195345",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (12893510195345)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/13263255371537-Call-Us-International",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair International Customer Service Contact Numbers"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/categories/12504593426961-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Customer Support Contact Options and Resources"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/sections/12504616835857",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Flight Disruptions: Delays, Cancellations, and Compensation Information"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/sections/12504616835857-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Customer Support: Contact Options and Assistance"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/es-es/articles/13229005889297",
+            "depth": 2,
+            "children": [],
+            "title": "\u00bfPuedo llevar mi propio asiento para ni\u00f1os en un vuelo de Ryanair? (es-es)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/fr-fr/articles/13229005889297",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair : Politique de remboursement pour les vols annul\u00e9s (fr-fr)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/signin?return_to=https%3A%2F%2Fhelp.ryanair.com%2Fhc%2Fen-ie%2Fsections%2F12504616835857",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Help Centre Login for Baggage Information Access"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/it/articles/13229005889297",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: Politica di Rimborso per Volo Cancellato (it)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/pt/articles/13229005889297",
+            "depth": 2,
+            "children": [],
+            "title": "Como Solicitar Reembolso de Voos Cancelados pela Ryanair (pt)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/cookies",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Corporate Cookie Policy and Usage Information"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/lp/chat",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Online Customer Support Chat"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/myryanair/cases",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Case Management Portal: Track and Manage Your Claims"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/myryanair/home",
+            "depth": 2,
+            "children": [],
+            "title": "MyRyanair Account Dashboard \u2013 Manage Bookings & Profile | Ryanair Ireland"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/myryanair/personal-info",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Manage Your Personal Information"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/myryanair/wallet",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair MyRyanair Wallet: Manage Travel Credits & Vouchers"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/trip/manage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Manage Your Booking Online"
+          }
+        ],
+        "title": "Ryanair Ireland Customer Support & Contact Information"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+        "depth": 1,
+        "children": [
+          {
+            "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/cookie-policy-carhire",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Car Hire Cookie Policy & Third-Party Cookies Information"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/privacy-policy-expedia",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Third-Party Cookie Policy for Expedia Users"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/privacy-policy-carhire",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Car Hire Third-Party Cookies & Privacy Policy"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/r/cookies/third-party/cookie-policy-expedia",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cookie Policy for Expedia Third-Party Integration"
+          }
+        ],
+        "title": "Ryanair Ireland Cookie Policy and Data Usage Information (www_ryanair_com)"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/lp/privacy-policy",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Ireland Privacy Policy and Data Protection Statement"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/cookie-policy/warsawaviation.com",
+        "depth": 1,
+        "children": [],
+        "title": "Ryanair Cookie Policy for WarsawAviation.com Users"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/r/help/general-terms-carriage",
+        "depth": 1,
+        "children": [
+          {
+            "url": "https://help.ryanair.com/hc/change_language/bg?return_to=%2Fhc%2Fbg%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Bulgaria: \u041e\u0431\u0449\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u0437\u0430 \u043f\u0440\u0435\u0432\u043e\u0437 (General Terms and Conditions of Carriage)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/da?return_to=%2Fhc%2Fda%2Farticles%2F12890911974289-Generelle-vilk%25C3%25A5r-og-betingelser-for-befordring",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Danmark: Generelle Vilk\u00e5r og Betingelser for Befordring"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/cs?return_to=%2Fhc%2Fcs%2Farticles%2F12890911974289-V%25C5%25A1eobecn%25C3%25A9-podm%25C3%25ADnky-p%25C5%2599epravy",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: V\u0161eobecn\u00e9 podm\u00ednky p\u0159epravy (\u010desky)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/de-at?return_to=%2Fhc%2Fde-at%2Farticles%2F12890911974289-Allgemeine-Bef%25C3%25B6rderungsbedingungen",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Deutschland: Allgemeine Bef\u00f6rderungsbedingungen \u2013 Hilfe & Informationen"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/de?return_to=%2Fhc%2Fde%2Farticles%2F12890911974289-Allgemeine-Bef%25C3%25B6rderungsbedingungen",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: Allgemeine Bef\u00f6rderungsbedingungen (AGB) \u2013 Deutsch"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/ca?return_to=%2Fhc%2Fca%2Farticles%2F12890911974289-Termes-i-condicions-generals-de-transport",
+            "depth": 2,
+            "children": [],
+            "title": "Termes i Condicions Generals de Transport de Ryanair (Catal\u00e0)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-fi?return_to=%2Fhc%2Fen-fi%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Finland: General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/el?return_to=%2Fhc%2Fel%2Farticles%2F12890911974289-%25CE%2593%25CE%25B5%25CE%25BD%25CE%25B9%25CE%25BA%25CE%BF%25CE%25AF-%25CF%258C%25CF%2581%25CE%25BF%25CE%25B9-%25CE%25BA%25CE%25B1%25CE%25B9-%25CF%2580%25CF%2581%25CE%BF%25CF%2585%25CF%2580%25CE%25BF%25CE%25B8%25CE%25AD%25CF%2583%25CE%25B5%25CE%25B9%25CF%2582-%25CE%25B1%25CE%25B5%25CF%2581%25CE%25BF%25CE%25BC%25CE%25B5%25CF%2584%25CE%25B1%25CF%2586%25CE%25BF%25CF%2581%25CE%25AC%25CF%2582",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Greece: \u0393\u03b5\u03bd\u03b9\u03ba\u03bf\u03af \u038c\u03c1\u03bf\u03b9 \u03ba\u03b1\u03b9 \u03a0\u03c1\u03bf\u03cb\u03c0\u03bf\u03b8\u03ad\u03c3\u03b5\u03b9\u03c2 \u0391\u03b5\u03c1\u03bf\u03bc\u03b5\u03c4\u03b1\u03c6\u03bf\u03c1\u03ac\u03c2"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-ee?return_to=%2Fhc%2Fen-ee%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair General Terms & Conditions of Carriage \u2013 Estonia (English)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-cy?return_to=%2Fhc%2Fen-cy%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cyprus: General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-ba?return_to=%2Fhc%2Fen-ba%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Bosnia and Herzegovina: General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-gb?return_to=%2Fhc%2Fen-gb%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair General Terms & Conditions of Carriage (English - UK)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-hr?return_to=%2Fhc%2Fen-hr%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair General Terms & Conditions of Carriage (English - Croatia)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-me?return_to=%2Fhc%2Fen-me%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair General Terms & Conditions of Carriage \u2013 English (Middle East)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-lv?return_to=%2Fhc%2Fen-lv%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Latvia: General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-mt?return_to=%2Fhc%2Fen-mt%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Malta: General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/es-es?return_to=%2Fhc%2Fes-es%2Farticles%2F12890911974289-T%25C3%25A9rminos-y-condiciones-generales-de-transporte",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: T\u00e9rminos y Condiciones Generales de Transporte (Espa\u00f1a)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-sk?return_to=%2Fhc%2Fen-sk%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Slovakia: General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: General Terms & Conditions of Carriage (English Language Version)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-tr?return_to=%2Fhc%2Fen-tr%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Turkey: General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/en-rs?return_to=%2Fhc%2Fen-rs%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair General Terms & Conditions of Carriage \u2013 English (Serbia)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-fr?return_to=%2Fhc%2Ffr-fr%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair France : Conditions G\u00e9n\u00e9rales de Transport"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/hu?return_to=%2Fhc%2Fhu%2Farticles%2F12890911974289-%25C3%2581ltal%25C3%25A1nos-sz%25C3%25A1ll%25C3%25ADt%25C3%25A1si-felt%25C3%25A9telek",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair \u00c1ltal\u00e1nos Sz\u00e1ll\u00edt\u00e1si Felt\u00e9telek \u2013 Magyar Nyelv\u0171 \u00datmutat\u00f3"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-be?return_to=%2Fhc%2Ffr-be%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Belgique : Conditions G\u00e9n\u00e9rales de Transport"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-lu?return_to=%2Fhc%2Ffr-lu%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Luxembourg: Conditions G\u00e9n\u00e9rales de Transport (Fran\u00e7ais)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/fr-ma?return_to=%2Fhc%2Ffr-ma%2Farticles%2F12890911974289-Conditions-g%25C3%25A9n%25C3%25A9rales-de-transport",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Maroc : Conditions G\u00e9n\u00e9rales de Transport (Fran\u00e7ais)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/nl?return_to=%2Fhc%2Fnl%2Farticles%2F12890911974289-Algemene-vervoersvoorwaarden",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Algemene Vervoersvoorwaarden \u2013 Nederlandse Klantenservice"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/it?return_to=%2Fhc%2Fit%2Farticles%2F12890911974289-Termini-e-condizioni-di-trasporto-generali",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: Termini e Condizioni Generali di Trasporto (Italiano)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/lv?return_to=%2Fhc%2Flv%2Farticles%2F12890911974289-Visp%25C4%2581r%25C4%25ABgie-p%25C4%2581rvad%25C4%2581%25C5%25A1anas-noteikumi-un-nosac%25C4%25ABjumi",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Visp\u0101r\u012bgie P\u0101rvad\u0101\u0161anas Noteikumi un Nosac\u012bjumi (Latvie\u0161u Valod\u0101)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/lt?return_to=%2Fhc%2Flt%2Farticles%2F12890911974289-Bendrosios-ve%25C5%25BEimo-taisykl%25C4%2597s-ir-s%25C4%2585lygos",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Lietuva: Bendrosios Ve\u017eimo Taisykl\u0117s ir S\u0105lygos"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/nl-be?return_to=%2Fhc%2Fnl-be%2Farticles%2F12890911974289-Algemene-vervoersvoorwaarden",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Algemene Vervoersvoorwaarden \u2013 Nederlandstalige Hulpsectie Belgi\u00eb"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/sv?return_to=%2Fhc%2Fsv%2Farticles%2F12890911974289-Allm%25C3%25A4nna-villkor-och-transportvillkor",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: Allm\u00e4nna Villkor och Transportvillkor (Svenska)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/pt?return_to=%2Fhc%2Fpt%2Farticles%2F12890911974289-Termos-e-Condi%25C3%25A7%25C3%25B5es-de-Transporte-Gerais",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Termos e Condi\u00e7\u00f5es Gerais de Transporte (Portugu\u00eas)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/pl?return_to=%2Fhc%2Fpl%2Farticles%2F12890911974289-Og%25C3%25B3lne-warunki-przewozu",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Poland: Og\u00f3lne Warunki Przewozu \u2013 Zmie\u0144 J\u0119zyk Pomocy"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/ro?return_to=%2Fhc%2Fro%2Farticles%2F12890911974289-Termeni-%25C5%259Fi-condi%25C5%25A3ii-generale-privind-transportul",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: Termeni \u0219i Condi\u021bii Generale de Transport (Rom\u00e2n\u0103)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/no?return_to=%2Fhc%2Fno%2Farticles%2F12890911974289-Generelle-vilk%25C3%25A5r-og-betingelser-for-transport",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Norge: Generelle Vilk\u00e5r og Betingelser for Transport"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/articles/12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair General Terms and Conditions of Carriage (en-ie)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/uk?return_to=%2Fhc%2Fuk%2Farticles%2F12890911974289-%25D0%2597%25D0%25B0%25D0%25B3%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D1%2596-%25D0%25BF%25D1%2580%25D0%25B0%25D0%25B2%25D0%25B8%25D0%25BB%25D0%25B0-%25D0%25B9-%25D1%2583%25D0%25BC%25D0%25BE%25D0%25B2%25D0%25B8-%25D0%25BF%25D0%25B5%25D1%2580%25D0%25B5%25D0%25B2%25D0%25B5%25D0%25B7%25D0%25B5%25D0%25BD%25D0%25BD%25D1%258F",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair: \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0456 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0439 \u0443\u043c\u043e\u0432\u0438 \u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f (\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e)"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/change_language/zh-cn?return_to=%2Fhc%2Fzh-cn%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair \u4e00\u822c\u8fd0\u8f93\u6761\u6b3e\u4e0e\u6761\u4ef6\uff08\u4e2d\u6587\u7248\uff09"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/categories/12503197676561-Terms-and-Conditions",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Passenger Terms and Conditions Resource Hub"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/sections/12503507078801-Terms-and-Conditions",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Passenger Terms and Conditions Documentation"
+          },
+          {
+            "url": "https://help.ryanair.com/hc/en-ie/signin?return_to=https%3A%2F%2Fhelp.ryanair.com%2Fhc%2Fen-ie%2Farticles%2F12890911974289-General-Terms-Conditions-of-Carriage",
+            "depth": 2,
+            "children": [],
+            "title": "Sign In to View Ryanair General Terms & Conditions of Carriage"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/malta-air-terms-and-conditions",
+            "depth": 2,
+            "children": [],
+            "title": "Malta Air Terms & Conditions \u2013 Ryanair Help Centre Ireland"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/ryanair-uk-terms-and-conditions0",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair UK: Terms and Conditions for Irish Customers"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/useful-info/help-centre/terms-and-conditions",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Detailed Terms and Conditions for Bookings and Services"
+          }
+        ],
+        "title": "Ryanair Ireland: General Terms of Carriage for Passengers and Baggage"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/corporate/terms-of-use",
+        "depth": 1,
+        "children": [
+          {
+            "url": "https://careers.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Careers Portal \u2013 Explore Airline Job Opportunities"
+          },
+          {
+            "url": "http://corporate.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Corporate Information & Investor Relations"
+          },
+          {
+            "url": "http://investor.ryanair.com",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Investor Relations Portal"
+          },
+          {
+            "url": "https://carhire.ryanair.com?adplat=664430&cor=ie&preflang=en",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Car Hire Booking \u2013 Ireland Offers & English Language Preferences"
+          },
+          {
+            "url": "https://corporate.ryanair.com/charities-partners",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Charitable Partnerships and Supported Causes"
+          },
+          {
+            "url": "https://corporate.ryanair.com/environment",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair\u2019s Environmental Sustainability Initiatives"
+          },
+          {
+            "url": "https://corporate.ryanair.com/press-releases?market=en",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Corporate Press Releases & Updates (English Market)"
+          },
+          {
+            "url": "https://helpcentre.ryanair.com/hc/en-ie/articles/9680848411665",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Cabin Bag Policy: Size, Allowance, and Fees Explained (helpcentre)"
+          },
+          {
+            "url": "https://helpcentre.ryanair.com/hc/en-ie/categories/9945335083025-Contact-Us",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Customer Support: Contact Options and Assistance (helpcentre)"
+          },
+          {
+            "url": "https://www.ryanair.com/content/dam/ryanair/2018/customerservicefaq/legal2019/Licence%20Agreement%20July%202019.pdf",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Customer Service FAQ Licence Agreement \u2013 July 2019"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-lanzarote",
+            "depth": 2,
+            "children": [],
+            "title": "Cheap Direct Flights from Ireland to Lanzarote | Ryanair Booking"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-birmingham",
+            "depth": 2,
+            "children": [],
+            "title": "Cheap Flights from Ireland to Birmingham | Ryanair Booking"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-alicante",
+            "depth": 2,
+            "children": [],
+            "title": "Cheap Flights from Ireland to Alicante | Ryanair Booking"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-amsterdam",
+            "depth": 2,
+            "children": [],
+            "title": "Book Cheap Flights from Ireland to Amsterdam with Ryanair"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-liverpool",
+            "depth": 2,
+            "children": [],
+            "title": "Cheap Direct Flights to Liverpool from Ireland | Ryanair Booking"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-malaga",
+            "depth": 2,
+            "children": [],
+            "title": "Cheap Flights from Ireland to Malaga | Ryanair"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-tenerife",
+            "depth": 2,
+            "children": [],
+            "title": "Cheap Direct Flights from Ireland to Tenerife | Ryanair"
+          },
+          {
+            "url": "https://www.ryanair.com/flights/ie/en/flights-to-paris",
+            "depth": 2,
+            "children": [],
+            "title": "Cheap Flights from Ireland to Paris | Ryanair Booking"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/check-in",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Online Check-In Portal"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/check-in",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Online Check-In Portal (Corporate)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/privacy-policy",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Corporate Privacy Policy"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/registered-address",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Corporate Registered Address Information"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/corporate/www.ryanair.com/ie/en/r/help",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Customer Support & Help Center (Corporate)"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/header/markets",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Market-Specific Offers and Regional Information"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/header/plan-trip",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Plan Your Trip and Book Flights Online"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/header/useful-links",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Essential Travel Links & Resources"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/travel-updates",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland: Latest Travel Updates & Flight Information"
+          }
+        ],
+        "title": "Ryanair Ireland Website Terms of Use"
+      },
+      {
+        "url": "https://www.ryanair.com/ie/en/ie/en/r/help",
+        "depth": 1,
+        "children": [
+          {
+            "url": "https://www.ryanair.com/ie/en/ie/en/r/check-in",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Online Flight Check-In Portal"
+          },
+          {
+            "url": "https://www.ryanair.com/ie/en/ie/en/r/www.ryanair.com/ie/en/r/help",
+            "depth": 2,
+            "children": [],
+            "title": "Ryanair Ireland Customer Support Portal"
+          }
+        ],
+        "title": "Ryanair Ireland Customer Support & Help Center"
       }
     ],
-    "title": "Ryanair Official Site: Book Cheap Flights & Manage Bookings Online"
+    "title": "Ryanair Ireland Cookie Policy and Data Usage Information"
   }
 ]

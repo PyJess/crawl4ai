@@ -13,7 +13,7 @@ Follow these strict guidelines:
 - Do not consider preconditions.
 - Always transform actions into clear, professional instructions for the end user. 
 - A single test case can involve multiple UI elements.
-- If both parent and child pages are provided, generate test cases that include interactions across both pages.
+- If both parent and child pages are provided, you must generate test cases that include interactions across both pages.
 - Do not generate test cases that involve only the parent page.
 - At the end of each test case, always add a final step that verifies the expected outcome of the last action, starting with:  
   **"And then check ..."**

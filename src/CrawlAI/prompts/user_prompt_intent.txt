@@ -2,3 +2,4 @@ Here you find the json with all the UIs of the analyzed page:
 {json}
 
 From this json, extract all the possible test cases.
+Remember that if both parent and child pages are provided, you must generate test cases that include interactions across both pages.
